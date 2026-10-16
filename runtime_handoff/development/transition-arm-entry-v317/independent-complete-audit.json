@@ -1,0 +1,192 @@
+{
+  "scope": "One candidate, logged full-chain development evidence; no release decision",
+  "candidate": "transition-arm-entry-v317",
+  "plan_sha256": "4753fa761aea0054cf98d6d720afcf553bb825b71a972a55d6d12084bce0b9e1",
+  "expected_starts": [
+    3701,
+    3702,
+    3703,
+    3704,
+    3705,
+    3706,
+    3707,
+    3708
+  ],
+  "counts": {
+    "success": 8,
+    "failure": 0,
+    "missing_terminal": 0,
+    "not_run": 0,
+    "invalid_evidence": 0
+  },
+  "runs": [
+    {
+      "seed": 3701,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "132ecafa51e0e2cb3e0dd94d64bfd9f4c3739d8a8a311b7ac42f3d0658f5808c",
+      "metrics": {
+        "minimum_clearance_m": 0.04931231215596199,
+        "max_torque_ratio": 0.9668014645576477,
+        "max_substep_arm_torque_ratio": 0.9668014645576477,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 39,
+        "max_abs_vz_m_s": 0.5523503422737122,
+        "max_single_foot_N": 198.52090454101562,
+        "max_sum_foot_force_norm_N": 310.8730773925781
+      },
+      "samples": 3021,
+      "end_time_s": 60.4,
+      "control_sha256": "5e5c2633222b3d39a80e492fc169716476d738d9ef4da4501cca0e0ca20c384e",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3702,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "3d97d1b1f806354fffc503765a139cefbc67c7678d043237ea187969dd0a447b",
+      "metrics": {
+        "minimum_clearance_m": 0.04978184774518013,
+        "max_torque_ratio": 0.9646166563034058,
+        "max_substep_arm_torque_ratio": 0.9646166563034058,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 26,
+        "max_abs_vz_m_s": 0.5507217049598694,
+        "max_single_foot_N": 190.0703582763672,
+        "max_sum_foot_force_norm_N": 313.2335510253906
+      },
+      "samples": 2960,
+      "end_time_s": 59.18,
+      "control_sha256": "9b70c950825c46abbc94dc8b0a79344bace52fb580a820e4237db6356d5bf0ea",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3703,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "0d7740e52e062fd10c2f24b5b8d3b3d1401f5b36c1d112d9da7abb8baa6cf323",
+      "metrics": {
+        "minimum_clearance_m": 0.04925789684057236,
+        "max_torque_ratio": 0.9624508023262024,
+        "max_substep_arm_torque_ratio": 0.9624508023262024,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 38,
+        "max_abs_vz_m_s": 0.5506646633148193,
+        "max_single_foot_N": 193.1339569091797,
+        "max_sum_foot_force_norm_N": 325.0986633300781
+      },
+      "samples": 2973,
+      "end_time_s": 59.44,
+      "control_sha256": "c8a52af544eb69ffb5c1ba6e3b4902012ffa34f246ce0dc0fbdfc787a27e56de",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3704,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "9ba182b17b24f3a73da1cccb24d940760cf726d5c3ccc8365c93f02045b982ce",
+      "metrics": {
+        "minimum_clearance_m": 0.04877152666449547,
+        "max_torque_ratio": 0.9680401682853699,
+        "max_substep_arm_torque_ratio": 0.970295786857605,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 1,
+        "under_three_support_samples": 36,
+        "max_abs_vz_m_s": 0.5568947196006775,
+        "max_single_foot_N": 212.57862854003906,
+        "max_sum_foot_force_norm_N": 350.46527099609375
+      },
+      "samples": 2917,
+      "end_time_s": 58.32,
+      "control_sha256": "ce97008ceba781d52aaf0c6162968eca1f64380bc94a4bb4e71b5b033de17877",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3705,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "d4a1f97b89326c57193b746c40ed7b2257a0c805dde0f6b2214d29168c50fd9a",
+      "metrics": {
+        "minimum_clearance_m": 0.04920317605137825,
+        "max_torque_ratio": 0.9536572694778442,
+        "max_substep_arm_torque_ratio": 0.9622114896774292,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 38,
+        "max_abs_vz_m_s": 0.549049437046051,
+        "max_single_foot_N": 284.481689453125,
+        "max_sum_foot_force_norm_N": 434.3141174316406
+      },
+      "samples": 2983,
+      "end_time_s": 59.64,
+      "control_sha256": "962dd295732d8dc2918a619e69b32c471b3acd1d5fbf14a50aa8a43e7572aea5",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3706,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "d5716bdbb1f8aeb51560cd4bc1f6cf487863c521d8740be91f2241fb0c35e7ef",
+      "metrics": {
+        "minimum_clearance_m": 0.04850830137729645,
+        "max_torque_ratio": 0.9792051315307617,
+        "max_substep_arm_torque_ratio": 0.9796748161315918,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 30,
+        "max_abs_vz_m_s": 0.5502256155014038,
+        "max_single_foot_N": 199.655029296875,
+        "max_sum_foot_force_norm_N": 311.8953552246094
+      },
+      "samples": 3045,
+      "end_time_s": 60.88,
+      "control_sha256": "e271f97c03a0e0a7684f4f92484453d5bb3e01cb02b0b25484b7d5fef5db1932",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3707,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "9a1428439954e685d29d945c1e6e99cf70e9702ef95370116a83970e79031cf1",
+      "metrics": {
+        "minimum_clearance_m": 0.04959059879183769,
+        "max_torque_ratio": 0.9576660990715027,
+        "max_substep_arm_torque_ratio": 0.962634265422821,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 2,
+        "under_three_support_samples": 31,
+        "max_abs_vz_m_s": 0.5441478490829468,
+        "max_single_foot_N": 200.5092315673828,
+        "max_sum_foot_force_norm_N": 310.82647705078125
+      },
+      "samples": 3056,
+      "end_time_s": 61.1,
+      "control_sha256": "255867ba4797e0e96c49e1ba6cad6dff0f5a120bcbfbfe413ff805e388d14560",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    },
+    {
+      "seed": 3708,
+      "outcome": "nav_push_stow_nav_target_stable",
+      "report_sha256": "7540be2413a0b1d3acaf0d507e610ed91b0a1a2366de265cef4e958a3c1428c5",
+      "metrics": {
+        "minimum_clearance_m": 0.049270451068878174,
+        "max_torque_ratio": 0.957859218120575,
+        "max_substep_arm_torque_ratio": 0.9615842700004578,
+        "effort_over_098_samples": 0,
+        "airborne_samples": 1,
+        "under_three_support_samples": 30,
+        "max_abs_vz_m_s": 0.5419713854789734,
+        "max_single_foot_N": 195.17059326171875,
+        "max_sum_foot_force_norm_N": 315.40252685546875
+      },
+      "samples": 2913,
+      "end_time_s": 58.24,
+      "control_sha256": "f997c916436cb0bbfce5e40997bc796e31cc9607be3c638ca61afcd035b50a30",
+      "final_ready_seconds": 0.5000000000000001,
+      "status": "success"
+    }
+  ]
+}

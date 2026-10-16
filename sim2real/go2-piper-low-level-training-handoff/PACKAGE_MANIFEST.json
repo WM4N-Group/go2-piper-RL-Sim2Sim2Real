@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "package": "go2-piper-low-level-training-handoff",
+  "created": "2026-09-21",
+  "scope": "PUSH and CLIMB low-level policy optimization, evaluation, and provenance only",
+  "source": {
+    "git_commit": "efa89ec5ab4366474eabf2cb4bb8bad605ae315e",
+    "source_branch": "feature/go2-piper-sim2real"
+  },
+  "training_skills": {
+    "PUSH": {
+      "task": "GO2-PIPER-Box-Push-Hybrid",
+      "checkpoint": "checkpoints/push/model_599.pt",
+      "checkpoint_sha256": "aaff6614b641238ab4579c11fff8329b566904163f04d5e20cc4dab6b1ec891a",
+      "actor_input_dimension": 226,
+      "actor_output_dimension": 12,
+      "arm_controller": "PushArmIK",
+      "native_validation": ["31/32 seed206", "30/32 seed207"],
+      "mujoco_validation_passed": false
+    },
+    "CLIMB": {
+      "task": "GO2-PIPER-Box-Climb",
+      "checkpoint": "checkpoints/climb/model_200.pt",
+      "checkpoint_sha256": "5cbdb0d8523a10b7f6a4870a3385afdd8289d5d87bc93408ac5c7b404ac7b548",
+      "actor_input_dimension": 253,
+      "actor_output_dimension": 18,
+      "native_validation": ["30/32 seed208", "32/32 seed209"],
+      "mujoco_validation_passed": false
+    }
+  },
+  "checkpoint_contract": {
+    "contains": ["actor_state_dict", "critic_state_dict", "optimizer_state_dict", "iter"],
+    "init_checkpoint": "loads actor and critic but resets optimizer and iteration",
+    "resume": "requires staging the checkpoint in logs/rsl_rl/<experiment>/<run>"
+  },
+  "acceptance_gate": {
+    "native": "two independent 32-episode groups, each at least 30 successful episodes",
+    "mujoco": "two independent 32-episode groups, each at least 30 successful episodes",
+    "hardware": "separate staged validation after both simulator gates pass"
+  }
+}

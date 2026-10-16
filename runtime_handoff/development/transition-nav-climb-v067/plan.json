@@ -1,0 +1,62 @@
+{
+  "scope": "Fixedv066controller prior-success regression onlyafterfullchainandsmoothreference audit",
+  "source_plan_sha256": "5652c8e4fb326000a4a98f07644790387b4a12f905a7ed3ade2064bce9511c51",
+  "files": {
+    "climb_handoff.py": "5a9dae85aee1790cd7fe393131f9f3fd7c752607f8e18868a6c3ef3d82a2c4c2",
+    "front_landing_reserve.py": "4e8de1dca39454196b518cc8be5f38396886385fdc3da9fe280127d9b1af3c38",
+    "frozen_stage_config.py": "0660bb51207026d349e7bb8f929cdf3abf7d1432e69953487ca2dd0b8697c453",
+    "ground_entry_guidance.py": "3dd261c8ffd6eae52feffbf2e13b9cb6cbb3553d8738c6147e92f95d59e7e330",
+    "native_arm_effort_guard.py": "c16a9e95fa9633256395dbba6908d0422c63d8848866494eb486f9b0772df93d",
+    "nav_arm_reference_guard.py": "2b9deb5ee43a17ce006cd28a4f5af121e10bd0b9b8a5d2792b46d4720afaad9e",
+    "nav_arrival_stop.py": "fe8d1691561b0af38443d34aad5ef54eeb47abd4311bcdfa3ab8bb91cccdb236",
+    "nav_progress_request.py": "141a71d63d475dfd2076eca370492b6eaabb907f510f8b5bf064ac2baefefa0b",
+    "nav_tracking_compensation.py": "ab72f45db72370bded3df2162c7ddc56a59102f06243f7abb16730246a8eb108",
+    "piper_climb_completion.py": "f6d0b5cc3646f9374996b28deadbf5b0e26c8ee9f7da7936729f4e97c1b1405e",
+    "piper_skill_transition_contract.py": "e7d548b8b6c93cff46b250b26a1b478a54a91a3f52851dbe87c78a792a33b5f0",
+    "platform_front_prepare.py": "386c019efb56189408e070631680aeacf9455f793517405d8ece2315cf709d6c",
+    "platform_nav_exit.py": "285341513a7f01d880fb2112e1b0863250a7fb013ed30f42b07ce3449c7e22b8",
+    "platform_nav_stance.py": "d9cbc20f8605bd1938832c412e53bb3cc2ee18737dbf0ad7a3f657801a6259ec",
+    "probe.py": "b85949625c9c4085aa6d515322a2f3b1c047bf1d6699650bd66e61d03f5bc5fb",
+    "run.py": "2fae1302e6917353fa25656ae5b750401f7f8502c1ca17e1248d0cd7e04ebd19",
+    "stance_wrench_fallback.py": "e7c5e5d8d84c4c49bf316165f966ab3635a5b80a983139b3edef25538af1d957",
+    "stance_wrench_math.py": "3d6dc98bc4b57d0a40f0d50ea17fa1fe663e5d2a06c49e8d36cb0d60b7da904d",
+    "supported_brake.py": "9749095b67fa2fc4c1227ca2dba1d52b47e4d8a97b2cf16242ebc4a93462dd54"
+  },
+  "seeds": [
+    3701,
+    3702
+  ],
+  "seconds": 420,
+  "nav_target": [
+    0.35,
+    0
+  ],
+  "no_stage_bank": true,
+  "no_reset_after_initial": true,
+  "climb_enabled": true,
+  "parent_plan_sha256": "50a191df893574cafa04cd0f7a8aa48c62e135df581981c49a71992c812d9eec",
+  "change": "Identicalphysicalcontroller tov066; conditionaltwo usedseedregression withbrakereference smoothness gate",
+  "exit_parent_plan_sha256": "d9014813a9b5c43a27f4027f52e9e95c5fafaf26baca22d803b83905cacb1340",
+  "climb_parent_plan_sha256": "6d53445540de55b162e3ffc7107f1d70d5efd0123a43bd7e71cb04123b1e142d",
+  "upstream_files": {
+    "climb_handoff.py": "5a9dae85aee1790cd7fe393131f9f3fd7c752607f8e18868a6c3ef3d82a2c4c2",
+    "front_landing_reserve.py": "4e8de1dca39454196b518cc8be5f38396886385fdc3da9fe280127d9b1af3c38",
+    "frozen_stage_config.py": "0660bb51207026d349e7bb8f929cdf3abf7d1432e69953487ca2dd0b8697c453",
+    "ground_entry_guidance.py": "3dd261c8ffd6eae52feffbf2e13b9cb6cbb3553d8738c6147e92f95d59e7e330",
+    "native_arm_effort_guard.py": "c16a9e95fa9633256395dbba6908d0422c63d8848866494eb486f9b0772df93d",
+    "nav_arm_reference_guard.py": "2b9deb5ee43a17ce006cd28a4f5af121e10bd0b9b8a5d2792b46d4720afaad9e",
+    "nav_arrival_stop.py": "fe8d1691561b0af38443d34aad5ef54eeb47abd4311bcdfa3ab8bb91cccdb236",
+    "nav_progress_request.py": "141a71d63d475dfd2076eca370492b6eaabb907f510f8b5bf064ac2baefefa0b",
+    "nav_tracking_compensation.py": "ab72f45db72370bded3df2162c7ddc56a59102f06243f7abb16730246a8eb108",
+    "piper_climb_completion.py": "f6d0b5cc3646f9374996b28deadbf5b0e26c8ee9f7da7936729f4e97c1b1405e",
+    "piper_skill_transition_contract.py": "e7d548b8b6c93cff46b250b26a1b478a54a91a3f52851dbe87c78a792a33b5f0",
+    "platform_front_prepare.py": "386c019efb56189408e070631680aeacf9455f793517405d8ece2315cf709d6c",
+    "platform_nav_exit.py": "285341513a7f01d880fb2112e1b0863250a7fb013ed30f42b07ce3449c7e22b8",
+    "platform_nav_stance.py": "d9cbc20f8605bd1938832c412e53bb3cc2ee18737dbf0ad7a3f657801a6259ec",
+    "probe.py": "b85949625c9c4085aa6d515322a2f3b1c047bf1d6699650bd66e61d03f5bc5fb",
+    "run.py": "1777e7baef0b703cf012e32c2250bdcb71a26f89d509646454b929f018d01c27",
+    "stance_wrench_fallback.py": "e7c5e5d8d84c4c49bf316165f966ab3635a5b80a983139b3edef25538af1d957",
+    "stance_wrench_math.py": "3d6dc98bc4b57d0a40f0d50ea17fa1fe663e5d2a06c49e8d36cb0d60b7da904d",
+    "supported_brake.py": "9749095b67fa2fc4c1227ca2dba1d52b47e4d8a97b2cf16242ebc4a93462dd54"
+  }
+}

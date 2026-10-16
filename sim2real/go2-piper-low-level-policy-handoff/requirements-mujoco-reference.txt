@@ -1,0 +1,7 @@
+# Historical smoke environment; current sim2sim diagnostics use the existing remote MuJoCo environment. See ../../docs/AGENT_HANDOFF_CN.md.
+# Versions used for the package smoke checks; this is not a hardware SDK list.
+mujoco==3.12.0
+numpy==2.4.6
+PyYAML==6.0.3
+scipy==1.17.1
+torch==2.7.0

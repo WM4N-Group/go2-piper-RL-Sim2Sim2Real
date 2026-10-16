@@ -1,0 +1,1138 @@
+{
+  "scope": "Same-candidate used-seed diagnostics; no held-out or NAV-exit acceptance",
+  "plan_sha256": "3f22a8fd47b4a83590b5adf3a43dede0ae1ce9339f67283a4a44ee3e34c83776",
+  "counts": {
+    "climb_complete": 2,
+    "full_chain_success": 2,
+    "failure": 0,
+    "missing_terminal": 0,
+    "invalid_evidence": 0,
+    "not_run": 0
+  },
+  "entries": [
+    {
+      "scope": "Original-reset continuous NAV to frozen iy CLIMB;420s extended diagnostic with real extra front steps for NAV stance",
+      "seed": 3701,
+      "physical_resets_after_initial": 0,
+      "outcome": "nav_climb_nav_platform_target_stable",
+      "termination": {},
+      "events": [
+        {
+          "event": "supported_braking_started_not_ready",
+          "time_s": 10.26
+        },
+        {
+          "event": "nav_parking_stable_arm_conversion_started",
+          "time_s": 11.76
+        },
+        {
+          "event": "original_climb_arm_reference_loaded_stable",
+          "time_s": 18.740000000000002,
+          "continuous_hold_s": 1.0000000000000004
+        },
+        {
+          "event": "continuous_iy_climb_controller_activated",
+          "time_s": 18.740000000000002
+        },
+        {
+          "event": "live_independent_climb_complete",
+          "time_s": 257.34000000000003
+        },
+        {
+          "event": "platform_body_preparation_requested",
+          "time_s": 257.34000000000003
+        },
+        {
+          "event": "original_task_success_predicate_observed_without_reset",
+          "time_s": 306.54
+        }
+      ],
+      "max_substep_arm_effort": 0.9393118023872375,
+      "max_substep_joint_effort": 0.9393118023872375,
+      "airborne_samples": 1,
+      "under_three_support_samples": 5,
+      "max_abs_vz": 0.501814603805542,
+      "max_foot_force": 209.1957550048828,
+      "max_sum_force": 375.118896484375,
+      "steps": 15475,
+      "source12_verified": true,
+      "native_climb_task_success_time_s": 306.54,
+      "valid_evidence": true,
+      "control_sha256": "d411c49e54fe53b55f00ee9d117c6445521a0d709fd444ff76531c3b4c210528",
+      "actual_history_error": 0.0,
+      "climb_actor_zero_samples": 11930,
+      "support_samples": {
+        "0": 1,
+        "1": 1,
+        "2": 3,
+        "3": 5228,
+        "4": 10242
+      },
+      "final_time_s": 309.5,
+      "last_climb": {
+        "feet_position": [
+          [
+            1.1608284711837769,
+            0.1506023406982422,
+            0.2233111709356308
+          ],
+          [
+            1.1675130128860474,
+            -0.2674541473388672,
+            0.22335118055343628
+          ],
+          [
+            0.832624077796936,
+            0.13248825073242188,
+            0.223752960562706
+          ],
+          [
+            0.838911235332489,
+            -0.2494182586669922,
+            0.22380900382995605
+          ]
+        ],
+        "foot_contact_force_z": [
+          35.715641021728516,
+          41.126251220703125,
+          77.32836151123047,
+          82.2520980834961
+        ],
+        "platform_final_goal": [
+          0.9463430643081665,
+          -0.06724166870117188,
+          0.5037587881088257
+        ],
+        "guidance_body_target": [
+          0.9463430643081665,
+          -0.06714725494384766,
+          0.5037587881088257
+        ],
+        "robot_position": [
+          0.9478631615638733,
+          -0.06712722778320312,
+          0.50423663854599
+        ],
+        "robot_velocity": [
+          2.1588357412838377e-05,
+          3.367600129422499e-06,
+          -0.00016751306247897446
+        ],
+        "robot_angular_velocity": [
+          -0.0005870568566024303,
+          0.0003504220803733915,
+          -0.002071916591376066
+        ],
+        "guidance_command_limit_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "guidance_reference_age": 6.019995212554932,
+        "platform_extension_completed": 2,
+        "platform_extension_moving": false,
+        "platform_final_started": true,
+        "platform_hold_active": true,
+        "configured_stride": 0.22,
+        "leg": 1,
+        "progress": 1.0,
+        "guidance_engaged": true,
+        "guidance_pose_feasible": true,
+        "guidance_support_loads": [
+          35.33446502685547,
+          40.751564025878906,
+          77.73236846923828,
+          82.65795135498047
+        ],
+        "guidance_reference_velocity": [
+          -0.0009052455425262451,
+          0.0005424022674560547,
+          0.0008642673492431641,
+          -0.0010125339031219482,
+          -0.0005155801773071289,
+          -0.00020265579223632812,
+          0.0001564621925354004,
+          0.0015497207641601562,
+          -0.0007033348083496094,
+          1.9371509552001953e-05,
+          -0.0010192394256591797,
+          0.0001728534698486328,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "landing_goal": [
+          1.161565899848938,
+          -0.26769542694091797,
+          0.22296693921089172
+        ],
+        "selected_foot_reference": [
+          1.161565899848938,
+          -0.26769542694091797,
+          0.22136694192886353
+        ],
+        "landing_probe_depth": 0.0016000003088265657,
+        "landing_touch_age": 20.940288543701172,
+        "landing_reload": 1.0,
+        "landing_loaded_age": 20.260272979736328,
+        "guidance_valid_legs": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "guidance_load_bias": [
+          [
+            -0.146947979927063,
+            0.043954670429229736,
+            0.15384125709533691
+          ],
+          [
+            0.16349394619464874,
+            0.050043582916259766,
+            0.18486154079437256
+          ],
+          [
+            -0.36492887139320374,
+            0.23267674446105957,
+            0.4862784147262573
+          ],
+          [
+            0.33461493253707886,
+            0.24636369943618774,
+            0.5336105823516846
+          ]
+        ]
+      },
+      "step_changes": [
+        {
+          "time_s": 18.76,
+          "leg": 0,
+          "goal": [
+            0.6000000238418579,
+            0.12733745574951172,
+            0.024000000208616257
+          ],
+          "previous_reload": null,
+          "previous_loaded_age": null,
+          "previous_selected_fz": null
+        },
+        {
+          "time_s": 30.02,
+          "leg": 1,
+          "goal": [
+            0.6000000238418579,
+            -0.2473430633544922,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 31.24471092224121
+        },
+        {
+          "time_s": 39.46,
+          "leg": 0,
+          "goal": [
+            0.8299999833106995,
+            0.1329803466796875,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 41.71195983886719
+        },
+        {
+          "time_s": 48.64,
+          "leg": 1,
+          "goal": [
+            0.8199999928474426,
+            -0.24971389770507812,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 30.123065948486328
+        },
+        {
+          "time_s": 57.28,
+          "leg": 2,
+          "goal": [
+            0.20844244956970215,
+            0.09317493438720703,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 47.719547271728516
+        },
+        {
+          "time_s": 65.24,
+          "leg": 3,
+          "goal": [
+            0.24294066429138184,
+            -0.21732330322265625,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 56.66267776489258
+        },
+        {
+          "time_s": 74.58,
+          "leg": 2,
+          "goal": [
+            0.33433210849761963,
+            0.10379791259765625,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 58.67799377441406
+        },
+        {
+          "time_s": 83.84,
+          "leg": 3,
+          "goal": [
+            0.367679238319397,
+            -0.2243824005126953,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 58.83265686035156
+        },
+        {
+          "time_s": 93.12,
+          "leg": 2,
+          "goal": [
+            0.45909249782562256,
+            0.10962772369384766,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 55.49419403076172
+        },
+        {
+          "time_s": 100.86,
+          "leg": 0,
+          "goal": [
+            1.064481496810913,
+            0.13541698455810547,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 58.7868766784668
+        },
+        {
+          "time_s": 109.8,
+          "leg": 1,
+          "goal": [
+            1.0590524673461914,
+            -0.25856971740722656,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 36.89979553222656
+        },
+        {
+          "time_s": 124.38000000000001,
+          "leg": 3,
+          "goal": [
+            0.4995393753051758,
+            -0.22235679626464844,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 36.71287155151367
+        },
+        {
+          "time_s": 132.14000000000001,
+          "leg": 2,
+          "goal": [
+            0.5859338045120239,
+            0.11581230163574219,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 52.493751525878906
+        },
+        {
+          "time_s": 141.36,
+          "leg": 3,
+          "goal": [
+            0.6238700747489929,
+            -0.2291707992553711,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 57.09174728393555
+        },
+        {
+          "time_s": 149.08,
+          "leg": 0,
+          "goal": [
+            1.100000023841858,
+            0.14013290405273438,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 56.788360595703125
+        },
+        {
+          "time_s": 157.4,
+          "leg": 1,
+          "goal": [
+            1.100000023841858,
+            -0.26555728912353516,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 36.53313064575195
+        },
+        {
+          "time_s": 165.72,
+          "leg": 2,
+          "goal": [
+            0.6899999976158142,
+            0.11626148223876953,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 45.41575241088867
+        },
+        {
+          "time_s": 173.5,
+          "leg": 3,
+          "goal": [
+            0.6899999976158142,
+            -0.2352313995361328,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 56.108741760253906
+        },
+        {
+          "time_s": 182.78,
+          "leg": 3,
+          "goal": [
+            0.8299999833106995,
+            -0.23501968383789062,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 51.27872085571289
+        },
+        {
+          "time_s": 191.54,
+          "leg": 2,
+          "goal": [
+            0.8299999833106995,
+            0.12811660766601562,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 42.837223052978516
+        },
+        {
+          "time_s": 210.9,
+          "leg": 0,
+          "goal": [
+            1.1606254577636719,
+            0.14226436614990234,
+            0.22297930717468262
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 5.239995956420898,
+          "previous_selected_fz": 39.89426803588867
+        },
+        {
+          "time_s": 224.94,
+          "leg": 1,
+          "goal": [
+            1.161565899848938,
+            -0.26769542694091797,
+            0.22296693921089172
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 3.2199976444244385,
+          "previous_selected_fz": 9.800607681274414
+        }
+      ],
+      "exit_samples": 2608,
+      "native_exit_samples": 0,
+      "rate_filtered_exit_samples": 251,
+      "filtered_command_peak_speed": 0.45000016689300537,
+      "filtered_command_peak_acceleration": 1.0000169277191162,
+      "exit_execution_scope": "explicitly rate-filtered NAV",
+      "first_exit_target_delta": 0.0,
+      "climb_endpoint_time_s": 257.34000000000003,
+      "last_platform_exit": {
+        "goal": [
+          1.2445237636566162,
+          -0.06828880310058594,
+          0.4796440005302429
+        ],
+        "elapsed_s": 52.15999999999997,
+        "goal_error_m": 0.021108834072947502,
+        "travel_m": 0.1098228320479393,
+        "phase": "platform_nav_arrival_brake",
+        "gates": {
+          "position": true,
+          "orientation": true,
+          "feet_before_edge": true,
+          "no_failure": true
+        },
+        "stopped": true,
+        "request_zero": true,
+        "capture": false,
+        "brake_precheck": {},
+        "stable_s": 1.0000000000000004,
+        "complete": true,
+        "native18_samples": 0,
+        "guarded_samples": 249
+      },
+      "brake_reference_smoothness": {
+        "samples": 70,
+        "arm_target_speed_max": 0.19149184226989746,
+        "arm_target_acceleration_max_including_boundary": 1.0004639625549316,
+        "passed": true,
+        "scope": "Actual issued arm references across NAV to supported brake, including first boundary"
+      }
+    },
+    {
+      "scope": "Original-reset continuous NAV to frozen iy CLIMB;420s extended diagnostic with real extra front steps for NAV stance",
+      "seed": 3702,
+      "physical_resets_after_initial": 0,
+      "outcome": "nav_climb_nav_platform_target_stable",
+      "termination": {},
+      "events": [
+        {
+          "event": "supported_braking_started_not_ready",
+          "time_s": 10.42
+        },
+        {
+          "event": "nav_parking_stable_arm_conversion_started",
+          "time_s": 11.96
+        },
+        {
+          "event": "original_climb_arm_reference_loaded_stable",
+          "time_s": 18.94,
+          "continuous_hold_s": 1.0000000000000004
+        },
+        {
+          "event": "continuous_iy_climb_controller_activated",
+          "time_s": 18.94
+        },
+        {
+          "event": "live_independent_climb_complete",
+          "time_s": 289.98
+        },
+        {
+          "event": "platform_body_preparation_requested",
+          "time_s": 289.98
+        },
+        {
+          "event": "original_task_success_predicate_observed_without_reset",
+          "time_s": 340.34000000000003
+        }
+      ],
+      "max_substep_arm_effort": 0.9029477834701538,
+      "max_substep_joint_effort": 0.9029477834701538,
+      "airborne_samples": 1,
+      "under_three_support_samples": 7,
+      "max_abs_vz": 0.37105289101600647,
+      "max_foot_force": 144.68255615234375,
+      "max_sum_force": 286.4603576660156,
+      "steps": 17401,
+      "source12_verified": true,
+      "native_climb_task_success_time_s": 340.34000000000003,
+      "valid_evidence": true,
+      "control_sha256": "3726454a6d833fc03ff20aa189c74ff4a8f53ec9c3114a4da37ab500fe34122d",
+      "actual_history_error": 0.0,
+      "climb_actor_zero_samples": 13552,
+      "support_samples": {
+        "0": 1,
+        "1": 0,
+        "2": 6,
+        "3": 6400,
+        "4": 10994
+      },
+      "final_time_s": 348.02,
+      "last_climb": {
+        "feet_position": [
+          [
+            1.1608576774597168,
+            0.16469955444335938,
+            0.2232775092124939
+          ],
+          [
+            1.170957088470459,
+            -0.21515560150146484,
+            0.22343477606773376
+          ],
+          [
+            0.8435993194580078,
+            0.16777801513671875,
+            0.22355526685714722
+          ],
+          [
+            0.8354225754737854,
+            -0.2275094985961914,
+            0.22361531853675842
+          ]
+        ],
+        "foot_contact_force_z": [
+          39.47872543334961,
+          46.511192321777344,
+          54.80820083618164,
+          62.945438385009766
+        ],
+        "platform_final_goal": [
+          0.9758794903755188,
+          -0.044017791748046875,
+          0.5037446022033691
+        ],
+        "guidance_body_target": [
+          0.9778183102607727,
+          -0.04395484924316406,
+          0.5037446022033691
+        ],
+        "robot_position": [
+          0.9792039394378662,
+          -0.043953895568847656,
+          0.5040626525878906
+        ],
+        "robot_velocity": [
+          9.317068179370835e-05,
+          1.092521779355593e-05,
+          -0.0001065793985617347
+        ],
+        "robot_angular_velocity": [
+          -0.0007312424131669104,
+          -0.0008613459067419171,
+          0.00044735975097864866
+        ],
+        "guidance_command_limit_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "guidance_reference_age": 6.019995212554932,
+        "platform_extension_completed": 2,
+        "platform_extension_moving": false,
+        "platform_final_started": true,
+        "platform_hold_active": true,
+        "configured_stride": 0.22,
+        "leg": 1,
+        "progress": 1.0,
+        "guidance_engaged": true,
+        "guidance_pose_feasible": true,
+        "guidance_support_loads": [
+          39.15011215209961,
+          46.05470275878906,
+          55.22686004638672,
+          63.3624267578125
+        ],
+        "guidance_reference_velocity": [
+          0.0004429370164871216,
+          9.238719940185547e-05,
+          -0.0017404556274414062,
+          0.00027045607566833496,
+          0.0004172325134277344,
+          -0.00019073486328125,
+          -0.0002980232238769531,
+          -0.0005036592483520508,
+          -0.0011026859283447266,
+          -0.0003680586814880371,
+          0.0006109476089477539,
+          -0.00057220458984375,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "landing_goal": [
+          1.1640156507492065,
+          -0.21544742584228516,
+          0.22288480401039124
+        ],
+        "selected_foot_reference": [
+          1.1640156507492065,
+          -0.21544742584228516,
+          0.2213648110628128
+        ],
+        "landing_probe_depth": 0.0015200002817437053,
+        "landing_touch_age": 19.400253295898438,
+        "landing_reload": 1.0,
+        "landing_loaded_age": 18.720237731933594,
+        "guidance_valid_legs": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "guidance_load_bias": [
+          [
+            -0.17050650715827942,
+            -0.0037941932678222656,
+            0.1719224452972412
+          ],
+          [
+            0.15177640318870544,
+            0.009312570095062256,
+            0.22885215282440186
+          ],
+          [
+            -0.2645791172981262,
+            0.1115770936012268,
+            0.2989898920059204
+          ],
+          [
+            0.25261759757995605,
+            0.11457818746566772,
+            0.3578979969024658
+          ]
+        ]
+      },
+      "step_changes": [
+        {
+          "time_s": 18.96,
+          "leg": 0,
+          "goal": [
+            0.5671265125274658,
+            0.14132976531982422,
+            0.024000000208616257
+          ],
+          "previous_reload": null,
+          "previous_loaded_age": null,
+          "previous_selected_fz": null
+        },
+        {
+          "time_s": 28.86,
+          "leg": 0,
+          "goal": [
+            0.6000000238418579,
+            0.14156150817871094,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 27.30855941772461
+        },
+        {
+          "time_s": 37.160000000000004,
+          "leg": 1,
+          "goal": [
+            0.5701124668121338,
+            -0.20626258850097656,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 24.370384216308594
+        },
+        {
+          "time_s": 45.300000000000004,
+          "leg": 1,
+          "goal": [
+            0.6012833118438721,
+            -0.20613574981689453,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 40.425453186035156
+        },
+        {
+          "time_s": 53.6,
+          "leg": 2,
+          "goal": [
+            0.13911151885986328,
+            0.1219167709350586,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 36.64632797241211
+        },
+        {
+          "time_s": 63.14,
+          "leg": 2,
+          "goal": [
+            0.16986072063446045,
+            0.12218189239501953,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 48.1279411315918
+        },
+        {
+          "time_s": 71.32000000000001,
+          "leg": 3,
+          "goal": [
+            0.1499999761581421,
+            -0.18453216552734375,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 47.70269775390625
+        },
+        {
+          "time_s": 82.14,
+          "leg": 0,
+          "goal": [
+            0.8299999833106995,
+            0.15332317352294922,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 40.18524169921875
+        },
+        {
+          "time_s": 91.46000000000001,
+          "leg": 1,
+          "goal": [
+            0.8320972919464111,
+            -0.20558834075927734,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 30.787982940673828
+        },
+        {
+          "time_s": 100.98,
+          "leg": 3,
+          "goal": [
+            0.26435816287994385,
+            -0.18697834014892578,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 13.672696113586426
+        },
+        {
+          "time_s": 110.3,
+          "leg": 2,
+          "goal": [
+            0.3042473793029785,
+            0.13717174530029297,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 48.413734436035156
+        },
+        {
+          "time_s": 121.10000000000001,
+          "leg": 3,
+          "goal": [
+            0.3908560276031494,
+            -0.1987600326538086,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 44.74831008911133
+        },
+        {
+          "time_s": 130.34,
+          "leg": 2,
+          "goal": [
+            0.4284243583679199,
+            0.14438438415527344,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 47.78789138793945
+        },
+        {
+          "time_s": 138.08,
+          "leg": 0,
+          "goal": [
+            1.0686171054840088,
+            0.1517467498779297,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 44.029502868652344
+        },
+        {
+          "time_s": 147.08,
+          "leg": 1,
+          "goal": [
+            1.0640485286712646,
+            -0.213836669921875,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 31.128406524658203
+        },
+        {
+          "time_s": 158.54,
+          "leg": 3,
+          "goal": [
+            0.5185869336128235,
+            -0.20016765594482422,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 38.45174789428711
+        },
+        {
+          "time_s": 166.3,
+          "leg": 2,
+          "goal": [
+            0.5578451156616211,
+            0.15065765380859375,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 45.33131408691406
+        },
+        {
+          "time_s": 175.6,
+          "leg": 3,
+          "goal": [
+            0.642530620098114,
+            -0.20695114135742188,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 43.29025650024414
+        },
+        {
+          "time_s": 183.32,
+          "leg": 0,
+          "goal": [
+            1.100000023841858,
+            0.1561746597290039,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 47.24889373779297
+        },
+        {
+          "time_s": 191.54,
+          "leg": 1,
+          "goal": [
+            1.100000023841858,
+            -0.2184925079345703,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 30.690139770507812
+        },
+        {
+          "time_s": 199.64000000000001,
+          "leg": 2,
+          "goal": [
+            0.6754494309425354,
+            0.15103530883789062,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 45.745758056640625
+        },
+        {
+          "time_s": 207.44,
+          "leg": 3,
+          "goal": [
+            0.6899999976158142,
+            -0.2125682830810547,
+            0.024000000208616257
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 44.635990142822266
+        },
+        {
+          "time_s": 216.74,
+          "leg": 2,
+          "goal": [
+            0.8299999833106995,
+            0.15741634368896484,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 42.13023376464844
+        },
+        {
+          "time_s": 228.42000000000002,
+          "leg": 3,
+          "goal": [
+            0.8299999833106995,
+            -0.21913433074951172,
+            0.22450000047683716
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 0.19999997317790985,
+          "previous_selected_fz": 38.5204963684082
+        },
+        {
+          "time_s": 251.88,
+          "leg": 0,
+          "goal": [
+            1.1592364311218262,
+            0.16311168670654297,
+            0.22290614247322083
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 9.280022621154785,
+          "previous_selected_fz": 31.634584426879883
+        },
+        {
+          "time_s": 263.98,
+          "leg": 1,
+          "goal": [
+            1.1640156507492065,
+            -0.21544742584228516,
+            0.22288480401039124
+          ],
+          "previous_reload": 1.0,
+          "previous_loaded_age": 3.2199976444244385,
+          "previous_selected_fz": 32.85228729248047
+        }
+      ],
+      "exit_samples": 2902,
+      "native_exit_samples": 0,
+      "rate_filtered_exit_samples": 759,
+      "filtered_command_peak_speed": 0.45000016689300537,
+      "filtered_command_peak_acceleration": 1.0000176429748535,
+      "exit_execution_scope": "explicitly rate-filtered NAV",
+      "first_exit_target_delta": 0.0,
+      "climb_endpoint_time_s": 289.98,
+      "last_platform_exit": {
+        "goal": [
+          1.2576756477355957,
+          -0.043158531188964844,
+          0.4867170453071594
+        ],
+        "elapsed_s": 58.039999999999964,
+        "goal_error_m": 0.019587667658925056,
+        "travel_m": 0.10230494290590286,
+        "phase": "platform_nav_arrival_brake",
+        "gates": {
+          "position": true,
+          "orientation": true,
+          "feet_before_edge": true,
+          "no_failure": true
+        },
+        "stopped": true,
+        "request_zero": true,
+        "capture": false,
+        "brake_precheck": {},
+        "stable_s": 1.0000000000000004,
+        "complete": true,
+        "native18_samples": 0,
+        "guarded_samples": 757
+      },
+      "brake_reference_smoothness": {
+        "samples": 75,
+        "arm_target_speed_max": 0.1929953694343567,
+        "arm_target_acceleration_max_including_boundary": 1.0004639625549316,
+        "passed": true,
+        "scope": "Actual issued arm references across NAV to supported brake, including first boundary"
+      }
+    }
+  ],
+  "prefix_preservation": [],
+  "reselection_audit": [
+    {
+      "seed": 3702,
+      "time_s": 53.58,
+      "verified_previous_landing": true,
+      "reference_delta": 0.0,
+      "selected_leg": 2
+    }
+  ],
+  "front_preparation_audit": [
+    {
+      "seed": 3701,
+      "completed": 2,
+      "landings": [
+        {
+          "time_s": 268.02,
+          "completed": 1,
+          "leg": 0,
+          "selected_fz": 28.53594970703125,
+          "reload": 1.0,
+          "loaded_age": 0.21999996900558472,
+          "valid": true
+        },
+        {
+          "time_s": 278.68,
+          "completed": 2,
+          "leg": 1,
+          "selected_fz": 34.79688262939453,
+          "reload": 1.0,
+          "loaded_age": 0.21999996900558472,
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "done": true,
+      "scope": "Additional NAV preparation only; original CLIMB endpoint kept separate"
+    },
+    {
+      "seed": 3702,
+      "completed": 2,
+      "landings": [
+        {
+          "time_s": 300.68,
+          "completed": 1,
+          "leg": 0,
+          "selected_fz": 34.80790710449219,
+          "reload": 1.0,
+          "loaded_age": 0.21999996900558472,
+          "valid": true
+        },
+        {
+          "time_s": 311.38,
+          "completed": 2,
+          "leg": 1,
+          "selected_fz": 39.22215270996094,
+          "reload": 1.0,
+          "loaded_age": 0.21999996900558472,
+          "valid": true
+        }
+      ],
+      "errors": [],
+      "done": true,
+      "scope": "Additional NAV preparation only; original CLIMB endpoint kept separate"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "task": "GO2-PIPER-Box-Climb-Play",
+  "diagnostic": false,
+  "native_validation_passed": true,
+  "mujoco_physical_validation_passed": false,
+  "robot_provenance": {
+    "robot": "go2_piper",
+    "assets_sha256": {
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_base.usd": "542208f7497fdb72515692ba70450bbf639997cb9e14ef7307ff93e998ce20b5",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_physics.usd": "961a2e3c4f8e039d3cb05844241346310703bc0f4d6fd8874446438ba503ef29",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_robot.usd": "400e409b680e1e50089e9ff50f9b570707154f51a57de28e412823d14c3cfe6f",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_sensor.usd": "5cc66a900471dc4380fd1691e290d5fbd7a1c02aaf60aea1b17a15216743b1af",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper.usd": "7096d6fe13922bb16678a7963eb5eef9a4e5fafc8de0cfc8b512f002f83dfc16",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py": "b4528af223a7ad9081a1dca7e3a47ca8f2a875672702613d9c73c146cc3549c5"
+    },
+    "joint_names": [
+      "FL_hip_joint",
+      "FR_hip_joint",
+      "RL_hip_joint",
+      "RR_hip_joint",
+      "FL_thigh_joint",
+      "FR_thigh_joint",
+      "RL_thigh_joint",
+      "RR_thigh_joint",
+      "joint1",
+      "FL_calf_joint",
+      "FR_calf_joint",
+      "RL_calf_joint",
+      "RR_calf_joint",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6"
+    ],
+    "effort_limits": [
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      20.0,
+      45.43000030517578,
+      45.43000030517578,
+      45.43000030517578,
+      45.43000030517578,
+      20.0,
+      15.0,
+      7.0,
+      5.0,
+      5.0
+    ],
+    "joint_defaults": [
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.800000011920929,
+      0.800000011920929,
+      1.0,
+      1.0,
+      0.0,
+      -1.5,
+      -1.5,
+      -1.5,
+      -1.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "controller_contract": null,
+    "preparation_seconds": 0.0
+  },
+  "checkpoint_sha256": "5cbdb0d8523a10b7f6a4870a3385afdd8289d5d87bc93408ac5c7b404ac7b548",
+  "policy_sha256": "6d25118145668e381de648eebbe57b5ffe7dd4eb781ede7d1bc341eb559ecc32",
+  "actor_input_dimension": 253,
+  "actor_output_dimension": 18,
+  "control_sha256": {
+    "box_climb.py": "c25d8816f76540fff99cb902cff475996247369eafb37de301392a20d23167be",
+    "box_rewards.py": "d46f5e077a29dade5d9fde3b9aebf0ea386ec915ef8568131e487d3da40e8f5d",
+    "box_terrain.py": "6cd058b846ca80db90a839df3985500a37cf256997646f8cddc0956bbd00de28"
+  },
+  "training_parameters_sha256": {
+    "env.yaml": "8fda9d5724edf2c07c6ef2ab251fe89b0ffdc8c688b63854963c78fffe78dba0",
+    "agent.yaml": "80b8fcb36386ad533d6cb1127c917792c1e07d83861aa07b6596180a119e7260"
+  },
+  "evaluations": [
+    {
+      "file": "climb-v6-200-eval208.json",
+      "sha256": "d7226debd19527c4035291f8162aa405865534843a28d6e169076010a4150b3d"
+    },
+    {
+      "file": "climb-v6-200-eval209.json",
+      "sha256": "60fa999b9d7f17c1612cd2b4d159b89a0d4d0aaf6101f31fd0339ce25315e974"
+    }
+  ],
+  "prepared_start_sources": [],
+  "export_checked_observations": 129,
+  "export_max_abs_error": 0.0
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "branch": "feature/go2-piper-sim2real",
+  "git_base": "324b7a796f9eb0115555242d7ad6fb04fde3c546",
+  "uncommitted_implementation": true,
+  "skills": {
+    "NAV": {
+      "bundle": "piper-nav-baseline-bundle",
+      "manifest_sha256": "79a2c6ed3aa2a93a31e69f4d6662c5e8fc146014239d93367d41412f2ea97760",
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "native_checks": [],
+      "native_validation_passed": true,
+      "mujoco": {
+        "report": "nav-goal-final500.json",
+        "sha256": "75c122ff7d29ddae70730a89892cc09a4ef97e2152980ddedfedd13f08e532e2",
+        "successes": 98,
+        "episodes": 100,
+        "failures": {
+          "timeout": 2
+        },
+        "passed": true
+      }
+    },
+    "PUSH": {
+      "bundle": "piper-push-pose599-bundle",
+      "manifest_sha256": "a68aea0d0e40b83aaeb79a18b88a43d361360555a670d9d487e064552d5bd14c",
+      "policy_sha256": "c3ddb39280fbbfd15327153b5bfd001dbbc75a49d86505b1bded762f344fc83a",
+      "native_checks": [
+        {
+          "seed": 206,
+          "successes": 31,
+          "episodes": 32,
+          "failures": {
+            "invalid_hand_contact": 1
+          }
+        },
+        {
+          "seed": 207,
+          "successes": 30,
+          "episodes": 32,
+          "failures": {
+            "invalid_hand_contact": 2
+          }
+        }
+      ],
+      "native_validation_passed": true,
+      "mujoco": {
+        "report": "mujoco-push-pose599-final500.json",
+        "sha256": "bf3336eee2db54b92fbfa2ca6521c3d02b51e5a3419be6528a324a4c450bdfe1",
+        "successes": 21,
+        "episodes": 32,
+        "failures": {
+          "invalid_hand_contact": 11
+        },
+        "passed": false
+      }
+    },
+    "CLIMB": {
+      "bundle": "piper-climb-center200-bundle",
+      "manifest_sha256": "ffa44dcd0bf12284a341cebdaaa2bfbc0598372091a8a346c51efbe4dc1bfe96",
+      "policy_sha256": "6d25118145668e381de648eebbe57b5ffe7dd4eb781ede7d1bc341eb559ecc32",
+      "native_checks": [
+        {
+          "seed": 208,
+          "successes": 30,
+          "episodes": 32,
+          "failures": {
+            "base_contact": 2
+          }
+        },
+        {
+          "seed": 209,
+          "successes": 32,
+          "episodes": 32,
+          "failures": {}
+        }
+      ],
+      "native_validation_passed": true,
+      "mujoco": {
+        "report": "mujoco-climb-center200-final500.json",
+        "sha256": "bf1a288b7dadd234ed1e8bf7b2a451e53dc35743b0580228ea78c5f839053de3",
+        "successes": 0,
+        "episodes": 32,
+        "failures": {
+          "base_contact": 23,
+          "bad_orientation": 7,
+          "timeout": 2
+        },
+        "passed": false
+      }
+    }
+  },
+  "static_and_observation_checks": [
+    {
+      "file": "native-mujoco-alignment-final16.json",
+      "sha256": "e32393623e7d9e561763ad66e699d2ad47b0340188d8a2588165723217cf17b0",
+      "passed": true
+    },
+    {
+      "file": "climb-observation-alignment16.json",
+      "sha256": "327d726af2878e767b6216a603b2c10c3273777124e347783b5511ab1fbdd359",
+      "passed": true
+    }
+  ],
+  "videos": [
+    {
+      "skill": "PUSH",
+      "file": "piper-push-pose599-native.mp4",
+      "sha256": "570fef60d94b0386605394c17181c6a6517589009998b769ec562cfceb814d04",
+      "report": "push-pose599-video210.json",
+      "report_sha256": "3152195d29f73f0ea4d7575da94fdfa17f1675a1adb6a04647980e48b3520881",
+      "actor_comparisons": 283,
+      "actor_max_abs_error": 0.0
+    },
+    {
+      "skill": "CLIMB",
+      "file": "piper-climb-center200-native.mp4",
+      "sha256": "b880b6317a2c94a8b252e1e4e242e5f77a2610ee28000735bf12d67e7e065769",
+      "report": "climb-center200-video211.json",
+      "report_sha256": "41aeb2a1afbf09091c55ec65672336eccebef8052bf03a77800829d19f5985ba",
+      "actor_comparisons": 176,
+      "actor_max_abs_error": 0.0
+    }
+  ],
+  "training_stage_complete": true,
+  "mujoco_all_skills_passed": false,
+  "combined_sequence_validated": false,
+  "hardware_validated": false,
+  "server_training_snapshots": {
+    "PUSH": "/opt/go2-piper/artifacts/go2-piper/2026-09-15/skills-v9-u8KMLk",
+    "CLIMB": "/opt/go2-piper/artifacts/go2-piper/2026-09-15/skills-v6-uk4pBB"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "samples": 16,
+  "max_abs_errors": {
+    "linear_velocity": 0.0,
+    "angular_velocity": 0.0,
+    "gravity": 0.0,
+    "command": 0.0,
+    "joint_positions": 1.210719347000122e-08,
+    "joint_velocities": 0.0,
+    "last_action": 0.0,
+    "height_scan": 2.682209014892578e-06
+  },
+  "tolerance": 0.0001,
+  "passed": true,
+  "native_sha256": "1c0d66b60d9d52d64eca57d5573a1da92b0925c4fa8634f86f280e7972e03fa2",
+  "script_sha256": "71bbd4f67f27c890b3cfbb86e5a38d2ce9ce5d123dd52693d45ee8433e3c40d0"
+}

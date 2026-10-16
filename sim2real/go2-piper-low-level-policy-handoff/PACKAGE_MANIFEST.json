@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "package": "go2-piper-low-level-policy-handoff",
+  "created": "2026-09-18",
+  "scope": "accepted low-level NAV, PUSH, and CLIMB policies plus their observation, action, robot-model, and controller contracts",
+  "source": {
+    "branch": "feature/go2-piper-sim2real",
+    "git_commit": "efa89ec5ab4366474eabf2cb4bb8bad605ae315e"
+  },
+  "policy_joint_order": [
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "model_joint_order": [
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "skills": {
+    "NAV": {
+      "policy": "policies/nav/policy.pt",
+      "sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "input_dimension": 210,
+      "output_dimension": 18,
+      "output_contract": "18 joint-position actions in policy_joint_order",
+      "manifest": "policies/nav/manifest.json",
+      "native_validation_passed": true,
+      "mujoco_validation_passed": true,
+      "hardware_validation_passed": false
+    },
+    "PUSH": {
+      "policy": "policies/push/policy.pt",
+      "sha256": "c3ddb39280fbbfd15327153b5bfd001dbbc75a49d86505b1bded762f344fc83a",
+      "input_dimension": 226,
+      "output_dimension": 12,
+      "output_contract": "12 leg actions in the leg prefix of policy_joint_order; generate six PIPER targets with the bundled PushArmIK contract and store the actual combined 18 commands in action history",
+      "controller": {
+        "hand_pitch_rad": 0.8,
+        "approach_distance_m": 0.03,
+        "press_depth_m": 0.02,
+        "lock_arm_on_contact": true,
+        "control_period_s": 0.02
+      },
+      "manifest": "policies/push/manifest.json",
+      "native_validation_passed": true,
+      "mujoco_validation_passed": false,
+      "hardware_validation_passed": false
+    },
+    "CLIMB": {
+      "policy": "policies/climb/policy.pt",
+      "sha256": "6d25118145668e381de648eebbe57b5ffe7dd4eb781ede7d1bc341eb559ecc32",
+      "input_dimension": 253,
+      "output_dimension": 18,
+      "output_contract": "18 joint-position actions in policy_joint_order",
+      "manifest": "policies/climb/manifest.json",
+      "native_validation_passed": true,
+      "mujoco_validation_passed": false,
+      "hardware_validation_passed": false
+    }
+  },
+  "robot_contract": {
+    "kinematic_model": "robot_model/go2piper.xml",
+    "inertial_profile": "config/piper_robot_profile.json",
+    "collision_profile": "config/piper_collision_profile.json",
+    "simulated_robot_mass_kg": 21.765000641345978,
+    "piper_mount_parent": "base_link",
+    "piper_mount_position_m": [0.0, 0.0, 0.07000000029802322],
+    "piper_mount_quaternion_wxyz": [1.0, 0.0, 0.0, 0.0],
+    "mount_is_hardware_calibrated": false
+  },
+  "reference_runtime": {
+    "mujoco": "runtime_reference/mujoco",
+    "training_mdp": "runtime_reference/isaac_mdp",
+    "is_hardware_driver": false,
+    "packaging_adaptations": [
+      "resource paths point to this package",
+      "the high-level environment type import was replaced by a minimal Protocol"
+    ],
+    "control_semantics_modified_for_packaging": false
+  },
+  "excluded": [
+    "world models and VLM components",
+    "Oracle and learned planners",
+    "scene graphs and replanners",
+    "snapshot, replay, candidate, and training datasets",
+    "high-level skill scheduling",
+    "ARX5 assets and policies",
+    "rejected diagnostic and robust-training candidate weights",
+    "hardware SDK, CAN driver, power design, and mounting drawings"
+  ]
+}

@@ -1,0 +1,2473 @@
+{
+  "schema_version": 1,
+  "scope": "flat-floor target-pose NAV with privileged state; no obstacle-planner or hardware acceptance",
+  "controller_tolerances": {
+    "position": 0.07,
+    "yaw": 0.08
+  },
+  "acceptance_tolerances": {
+    "position": 0.12,
+    "yaw": 0.15,
+    "hold_seconds": 1.0
+  },
+  "successful_episodes": 98,
+  "evaluated_episodes": 100,
+  "failures": {
+    "timeout": 2
+  },
+  "source_assets_sha256": {
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/check_piper_navigation.py": "21eef546106fa92a0ee367bf869312c6ade2861be35de9c17667fa6609206e03",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/deploy/piper_robot_profile.json": "82709e77505deaf5689a84e886b3fc2b570e5e85e93f34d626e5d2d6fea3536a",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/check_piper_locomotion.py": "09140621b7a8a3f215fdaaf1b4b0dbade90975e7a14f44b0acfdfea25e58ea7c",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/reconfigurable_navigation/piper_robot_profile.py": "3d6dac31c86e41eb67e6858172341fa0fe47bbe64a226987d7e0be7372fdca5c",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/reconfigurable_navigation/piper_locomotion_runtime.py": "e41329f4985751dac8c0c0f82a0e4c1c03bcd4d5701efc93077bc9faa2b3e35b",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/reconfigurable_navigation/locomotion_runtime.py": "684ab64449d15d889c517f4284133c355d2139e7fd522f8b3eff09a907723861",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/reconfigurable_navigation/skills/navigate.py": "eaa2fd12219e652c5c018627a1fb13e67df0f6981e0e2e4af9d06d3008c96700",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/scene.xml": "8c3d4e1c6ea9b354cb99fdda6a45aec8344127cc4d1b7020e00284dd81761e81",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/go2piper.xml": "e36f01b3dafa1d7d2820b200993f5e0a3a1c4bef948a5eb77141cb5686808c40",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_3.obj": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_4.obj": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_0.obj": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_0.obj": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/hip_1.stl": "670d389fcd321cfb96e2ee00c0649b4299dfd02c3ada5ca3ddfd5e9397a80d77",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link6.STL": "88374973bc3bd9e7389b5853cd6e555af9731c30b658b1ee6f85be34a126cb92",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_mirror_1.stl": "46163937eea7d3fa764a0f9c49c2f017aa699d3e2f4066a0dc2188914faf3a29",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_1.stl": "0b48e2976c050925c22d0646f35f3365425ac74c45f60ab72680b300ad5e3afd",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_4.stl": "f4d80b3ab978f4f8637e7afe8cceca45f10b3caab1bf74b2b0b19ee675e8e7ca",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_1.stl": "8a5dc28f87af8f4751ec21d9c03dda11640800fa096fa4c976844d1f297156c5",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_mirror_0.obj": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_mirror_0.stl": "1fd36e481c54a62425b5b1742ea9b360f74c5164c8ffabc6900a6d57d99cd301",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_1.obj": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_3.stl": "22b6e33c72eb92384cc1ccce6adb0705dea006c51b8a7235da55f310a8e37728",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link7.STL": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_mirror_0.stl": "022c3ccbcedc2176a98b76cac981b3ca88f7494678b8b064bde77492f9e2ce06",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_link.STL": "fd4a3d6d0266205fe3f725f048645be66592c23564db22e08b0807d5569b2c64",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/hip_0.stl": "232ae5a0fbfc36737eb0c169a19b0804e560541aa4da3be801508ab1ebd880be",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link2.STL": "0d37675b699b643f2e15348de99aed535fac10dc5f09a79b8e4b0acfaf4e0378",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/foot.stl": "7e18167ac25502b6b95caa1bd49c8119bdf66bf4153b971d2627d213b0c872fb",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_1.obj": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_mirror_1.obj": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_2.stl": "4891b21d9623561212ebd270ff40f4de6e18338d260cd7eac45a539adaa0fcb5",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_1.stl": "e72e81b7d0ca37ea09118734f19415be02fc067d6fd6d2978c893c3a1e97bb0c",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link3.STL": "e8ae51f17c0c7f6d67b753922e2cc269f5e8372a65734f859231639a64fe8fad",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_0.stl": "a9befe7f77a590300d512bb3e5c0b7eaca29bd24dd24a324293228e0f7db579c",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link1.STL": "9ee6e1d67c0241f42a0dbaf5c676d19230375ed078ee1943bb8c4c37ab303d14",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_0.stl": "87222772abd459c0d1069e97c1881c28a17b22475ba05172f581f8014bca7bf5",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/foot.obj": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_mirror_1.stl": "39d49f89b684af5fe0a0540e5f1bb2832e804049677bc44e83d1af1c4e109913",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/hip_0.obj": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/base_2.obj": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link8.STL": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/gripper_base.STL": "2895bfa6f1eef2d0ad2cb9dfdedd5f6c760ec07388bcde2b4d1e412e1189c9cb",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link4.STL": "efa33022976218f246f736a6133494b5d0e5486e8b50b52900c42f285ae85558",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_0.stl": "5d1aaeebaedaa7814d090f91dfadef36cef26c8dcad8b627403c5b59b2dc24ab",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_1.obj": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_mirror_0.obj": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/thigh_0.obj": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/hip_1.obj": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/calf_mirror_1.obj": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+    "/opt/go2-piper/GO2-ARX5-MUJOCO/mujoco/robots/go2_piper/assets/link5.STL": "a1c69d1c7f6f8c60e2c82331c0f444725200ed4053d3e5ec23aa82cb5db5b29f"
+  },
+  "results": [
+    {
+      "seed": 500,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.6933306455612183,
+        0.7548945546150208,
+        0.9133062362670898
+      ],
+      "final_pose": [
+        1.7023495435714722,
+        0.7241321802139282,
+        0.8302443027496338
+      ],
+      "position_error": 0.032057203352451324,
+      "yaw_error": 0.08306193351745605,
+      "elapsed_seconds": 19.740000000000357,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563329123655788,
+      "max_tilt_rad": 0.09877033947503407,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 501,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.639153242111206,
+        0.03681148961186409,
+        -0.509494960308075
+      ],
+      "final_pose": [
+        -1.6556991338729858,
+        -0.042713016271591187,
+        -0.5798421502113342
+      ],
+      "position_error": 0.08122754096984863,
+      "yaw_error": 0.07034718990325928,
+      "elapsed_seconds": 17.32000000000084,
+      "physical_initializations": 1,
+      "min_base_height": 0.25618933951982126,
+      "max_tilt_rad": 0.0995985398745069,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 502,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.8810577988624573,
+        -1.059510350227356,
+        1.9782911539077759
+      ],
+      "final_pose": [
+        -0.9601742029190063,
+        -1.049743890762329,
+        2.0545027256011963
+      ],
+      "position_error": 0.07971692830324173,
+      "yaw_error": 0.07621157169342041,
+      "elapsed_seconds": 15.10000000000096,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563674517469849,
+      "max_tilt_rad": 0.1000891367515821,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 503,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.060097098350525,
+        -0.657828152179718,
+        1.2903783321380615
+      ],
+      "final_pose": [
+        1.1349948644638062,
+        -0.647477388381958,
+        1.2204289436340332
+      ],
+      "position_error": 0.07560961693525314,
+      "yaw_error": 0.06994938850402832,
+      "elapsed_seconds": 15.760000000001064,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561274349539508,
+      "max_tilt_rad": 0.09884086154161321,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 504,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.0205624103546143,
+        -0.0833437442779541,
+        0.5893954634666443
+      ],
+      "final_pose": [
+        -0.9624788165092468,
+        -0.12635578215122223,
+        0.5113239288330078
+      ],
+      "position_error": 0.07227544486522675,
+      "yaw_error": 0.07807153463363647,
+      "elapsed_seconds": 15.180000000000973,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559879759194914,
+      "max_tilt_rad": 0.0997868731525246,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 505,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.004855751991272,
+        1.375363826751709,
+        -3.0321059226989746
+      ],
+      "final_pose": [
+        -1.0206712484359741,
+        1.4180155992507935,
+        -3.115267753601074
+      ],
+      "position_error": 0.0454895980656147,
+      "yaw_error": 0.08316183090209961,
+      "elapsed_seconds": 19.88000000000033,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562161813265916,
+      "max_tilt_rad": 0.09783223998635607,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 506,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.43749842047691345,
+        -1.316625714302063,
+        -0.2557172477245331
+      ],
+      "final_pose": [
+        0.4454779028892517,
+        -1.363651990890503,
+        -0.3384542465209961
+      ],
+      "position_error": 0.047698456794023514,
+      "yaw_error": 0.08273699879646301,
+      "elapsed_seconds": 18.940000000000516,
+      "physical_initializations": 1,
+      "min_base_height": 0.25614643973206885,
+      "max_tilt_rad": 0.09858472741924952,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 507,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.14690519869327545,
+        -1.2273895740509033,
+        0.6182384490966797
+      ],
+      "final_pose": [
+        0.2146591693162918,
+        -1.2554576396942139,
+        0.5700542330741882
+      ],
+      "position_error": 0.07333769649267197,
+      "yaw_error": 0.048184216022491455,
+      "elapsed_seconds": 15.16000000000097,
+      "physical_initializations": 1,
+      "min_base_height": 0.25626566787121263,
+      "max_tilt_rad": 0.09814803262509209,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 508,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.6906935572624207,
+        1.0046359300613403,
+        2.7392683029174805
+      ],
+      "final_pose": [
+        -0.6408266425132751,
+        1.0081202983856201,
+        2.6566264629364014
+      ],
+      "position_error": 0.04998849704861641,
+      "yaw_error": 0.0826418399810791,
+      "elapsed_seconds": 18.300000000000644,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561570139928816,
+      "max_tilt_rad": 0.09926414881207987,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 509,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.3960535526275635,
+        -1.3550742864608765,
+        0.7896348834037781
+      ],
+      "final_pose": [
+        1.470197081565857,
+        -1.370456576347351,
+        0.7264529466629028
+      ],
+      "position_error": 0.07572237402200699,
+      "yaw_error": 0.06318193674087524,
+      "elapsed_seconds": 17.540000000000795,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561400504511234,
+      "max_tilt_rad": 0.09879066967307888,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 510,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.3022990226745605,
+        0.6338539719581604,
+        -1.843679428100586
+      ],
+      "final_pose": [
+        1.3668216466903687,
+        0.577444314956665,
+        -1.785969853401184
+      ],
+      "position_error": 0.0857042521238327,
+      "yaw_error": 0.057709574699401855,
+      "elapsed_seconds": 15.280000000000989,
+      "physical_initializations": 1,
+      "min_base_height": 0.2566425313309173,
+      "max_tilt_rad": 0.09889689944002515,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 511,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.3663499355316162,
+        0.4787774682044983,
+        -1.424842357635498
+      ],
+      "final_pose": [
+        -1.441887378692627,
+        0.44082334637641907,
+        -1.5020192861557007
+      ],
+      "position_error": 0.08453650027513504,
+      "yaw_error": 0.07717692852020264,
+      "elapsed_seconds": 15.460000000001017,
+      "physical_initializations": 1,
+      "min_base_height": 0.256203699006979,
+      "max_tilt_rad": 0.09775156795075089,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 512,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.8614148497581482,
+        -1.752066969871521,
+        -2.912795305252075
+      ],
+      "final_pose": [
+        -0.8496240973472595,
+        -1.784327507019043,
+        -2.8328447341918945
+      ],
+      "position_error": 0.034347694367170334,
+      "yaw_error": 0.07995057106018066,
+      "elapsed_seconds": 17.96000000000071,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563845347382099,
+      "max_tilt_rad": 0.09863628007823055,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 513,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.93024080991745,
+        -0.8580431938171387,
+        0.19418221712112427
+      ],
+      "final_pose": [
+        0.9406638741493225,
+        -0.891303539276123,
+        0.11098716408014297
+      ],
+      "position_error": 0.03485528379678726,
+      "yaw_error": 0.08319505304098129,
+      "elapsed_seconds": 18.280000000000648,
+      "physical_initializations": 1,
+      "min_base_height": 0.25620432410207755,
+      "max_tilt_rad": 0.09971874413228356,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 514,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.7993180155754089,
+        1.618302583694458,
+        -2.121377468109131
+      ],
+      "final_pose": [
+        0.7298001050949097,
+        1.6371936798095703,
+        -2.2032859325408936
+      ],
+      "position_error": 0.07203897088766098,
+      "yaw_error": 0.0819084644317627,
+      "elapsed_seconds": 18.92000000000052,
+      "physical_initializations": 1,
+      "min_base_height": 0.25612788577999707,
+      "max_tilt_rad": 0.09900341054505796,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 515,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.5917708873748779,
+        0.9223794341087341,
+        2.8448643684387207
+      ],
+      "final_pose": [
+        0.5841206312179565,
+        0.994817316532135,
+        2.77913498878479
+      ],
+      "position_error": 0.07284074276685715,
+      "yaw_error": 0.06572937965393066,
+      "elapsed_seconds": 14.040000000000795,
+      "physical_initializations": 1,
+      "min_base_height": 0.255934061069462,
+      "max_tilt_rad": 0.09992861493241961,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 516,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.4534975290298462,
+        -0.789726734161377,
+        -2.984010934829712
+      ],
+      "final_pose": [
+        -1.3999755382537842,
+        -0.808514416217804,
+        -2.905200719833374
+      ],
+      "position_error": 0.05672372132539749,
+      "yaw_error": 0.07881021499633789,
+      "elapsed_seconds": 16.240000000001054,
+      "physical_initializations": 1,
+      "min_base_height": 0.25595913775995477,
+      "max_tilt_rad": 0.10006861407295894,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 517,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.27283763885498047,
+        1.3612006902694702,
+        -1.6708532571792603
+      ],
+      "final_pose": [
+        -0.34786689281463623,
+        1.3503857851028442,
+        -1.742033839225769
+      ],
+      "position_error": 0.0758046880364418,
+      "yaw_error": 0.07118058204650879,
+      "elapsed_seconds": 16.780000000000946,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561662597534831,
+      "max_tilt_rad": 0.09972430461708824,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 518,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.4122694432735443,
+        -1.8797975778579712,
+        -0.36089855432510376
+      ],
+      "final_pose": [
+        -0.4055362939834595,
+        -1.9495949745178223,
+        -0.4435790479183197
+      ],
+      "position_error": 0.0701214075088501,
+      "yaw_error": 0.08268049359321594,
+      "elapsed_seconds": 18.680000000000568,
+      "physical_initializations": 1,
+      "min_base_height": 0.25629240763412886,
+      "max_tilt_rad": 0.09775038564541172,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 519,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.525935173034668,
+        -0.8670958280563354,
+        0.06312272697687149
+      ],
+      "final_pose": [
+        -0.4849435091018677,
+        -0.9420498013496399,
+        -0.0005574945826083422
+      ],
+      "position_error": 0.08543075621128082,
+      "yaw_error": 0.06368022412061691,
+      "elapsed_seconds": 13.94000000000078,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559365996368135,
+      "max_tilt_rad": 0.09977872208476275,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 520,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.22805358469486237,
+        -1.377346158027649,
+        -2.2451181411743164
+      ],
+      "final_pose": [
+        0.25628170371055603,
+        -1.3839740753173828,
+        -2.1650190353393555
+      ],
+      "position_error": 0.02899579331278801,
+      "yaw_error": 0.08009910583496094,
+      "elapsed_seconds": 15.42000000000101,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563398367495901,
+      "max_tilt_rad": 0.10001351056223748,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 521,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.31602776050567627,
+        1.221548318862915,
+        -0.11325084418058395
+      ],
+      "final_pose": [
+        -0.26802530884742737,
+        1.2834316492080688,
+        -0.03279494866728783
+      ],
+      "position_error": 0.07831846177577972,
+      "yaw_error": 0.08045589923858643,
+      "elapsed_seconds": 14.320000000000839,
+      "physical_initializations": 1,
+      "min_base_height": 0.25594930247689057,
+      "max_tilt_rad": 0.09871640104673218,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 522,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.650869607925415,
+        -0.12265929579734802,
+        3.060708522796631
+      ],
+      "final_pose": [
+        -1.5953938961029053,
+        -0.15568630397319794,
+        3.141233205795288
+      ],
+      "position_error": 0.06456266343593597,
+      "yaw_error": 0.08052468299865723,
+      "elapsed_seconds": 15.880000000001083,
+      "physical_initializations": 1,
+      "min_base_height": 0.25603137274390164,
+      "max_tilt_rad": 0.09922910138683294,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 523,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.9875489473342896,
+        -0.09978160262107849,
+        -0.9834594130516052
+      ],
+      "final_pose": [
+        -2.012113094329834,
+        -0.17108429968357086,
+        -1.060806393623352
+      ],
+      "position_error": 0.07541532814502716,
+      "yaw_error": 0.07734698057174683,
+      "elapsed_seconds": 16.800000000000942,
+      "physical_initializations": 1,
+      "min_base_height": 0.25592437016558695,
+      "max_tilt_rad": 0.10115334937645089,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 524,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.2118992805480957,
+        -0.89482182264328,
+        -0.7507365942001343
+      ],
+      "final_pose": [
+        -1.227412223815918,
+        -0.9673960208892822,
+        -0.833465039730072
+      ],
+      "position_error": 0.07421364635229111,
+      "yaw_error": 0.08272844552993774,
+      "elapsed_seconds": 15.080000000000958,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561905602010289,
+      "max_tilt_rad": 0.10035150286073959,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 525,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.04618247225880623,
+        1.0328572988510132,
+        -3.072167158126831
+      ],
+      "final_pose": [
+        0.011477779597043991,
+        1.0973913669586182,
+        -3.1407692432403564
+      ],
+      "position_error": 0.07327388226985931,
+      "yaw_error": 0.06860208511352539,
+      "elapsed_seconds": 13.900000000000773,
+      "physical_initializations": 1,
+      "min_base_height": 0.25622344741076225,
+      "max_tilt_rad": 0.09942241085230907,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 526,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.555988073348999,
+        -0.8864192962646484,
+        -2.4912233352661133
+      ],
+      "final_pose": [
+        0.5739040374755859,
+        -0.9613050222396851,
+        -2.4244182109832764
+      ],
+      "position_error": 0.07699904590845108,
+      "yaw_error": 0.06680512428283691,
+      "elapsed_seconds": 14.940000000000936,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562825954561251,
+      "max_tilt_rad": 0.09948379651107817,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 527,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.4681220054626465,
+        0.11909738183021545,
+        -1.059691071510315
+      ],
+      "final_pose": [
+        1.5121747255325317,
+        0.12787750363349915,
+        -0.9788192510604858
+      ],
+      "position_error": 0.04491918161511421,
+      "yaw_error": 0.0808718204498291,
+      "elapsed_seconds": 16.92000000000092,
+      "physical_initializations": 1,
+      "min_base_height": 0.2558931287549849,
+      "max_tilt_rad": 0.10146234282513461,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 528,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.9300257563591003,
+        0.85710209608078,
+        0.5951361060142517
+      ],
+      "final_pose": [
+        -0.9177749156951904,
+        0.9330652952194214,
+        0.6407737731933594
+      ],
+      "position_error": 0.07694472372531891,
+      "yaw_error": 0.045637667179107666,
+      "elapsed_seconds": 14.360000000000845,
+      "physical_initializations": 1,
+      "min_base_height": 0.256100383928038,
+      "max_tilt_rad": 0.10073570730605688,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 529,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.9928516745567322,
+        -0.9477856159210205,
+        2.8803369998931885
+      ],
+      "final_pose": [
+        -1.021223783493042,
+        -0.995341956615448,
+        2.960772752761841
+      ],
+      "position_error": 0.05537673085927963,
+      "yaw_error": 0.08043575286865234,
+      "elapsed_seconds": 16.600000000000982,
+      "physical_initializations": 1,
+      "min_base_height": 0.25614138290908167,
+      "max_tilt_rad": 0.09965538794813736,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 530,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.793011486530304,
+        0.8178526759147644,
+        2.614271402359009
+      ],
+      "final_pose": [
+        0.7993200421333313,
+        0.9041776061058044,
+        2.5685384273529053
+      ],
+      "position_error": 0.0865551307797432,
+      "yaw_error": 0.045732975006103516,
+      "elapsed_seconds": 14.060000000000798,
+      "physical_initializations": 1,
+      "min_base_height": 0.25607686504438565,
+      "max_tilt_rad": 0.09941366465437679,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 531,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.9865895509719849,
+        1.6618496179580688,
+        -0.01658482477068901
+      ],
+      "final_pose": [
+        -0.9434150457382202,
+        1.7313623428344727,
+        0.03777094930410385
+      ],
+      "position_error": 0.08182943612337112,
+      "yaw_error": 0.05435577407479286,
+      "elapsed_seconds": 16.880000000000926,
+      "physical_initializations": 1,
+      "min_base_height": 0.25598199766478474,
+      "max_tilt_rad": 0.10055910728879729,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 532,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.5522865056991577,
+        -0.9377003312110901,
+        -3.0030198097229004
+      ],
+      "final_pose": [
+        -0.5523701310157776,
+        -0.9816184043884277,
+        -2.9220728874206543
+      ],
+      "position_error": 0.043918151408433914,
+      "yaw_error": 0.0809469223022461,
+      "elapsed_seconds": 15.42000000000101,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561764933421259,
+      "max_tilt_rad": 0.09988698883210466,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 533,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.4994956254959106,
+        0.652213454246521,
+        2.520261526107788
+      ],
+      "final_pose": [
+        1.5137149095535278,
+        0.7314172387123108,
+        2.4503297805786133
+      ],
+      "position_error": 0.08047004044055939,
+      "yaw_error": 0.0699317455291748,
+      "elapsed_seconds": 15.960000000001095,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563834987578966,
+      "max_tilt_rad": 0.09933533715615263,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 534,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.899080753326416,
+        -0.1657329797744751,
+        -2.473517656326294
+      ],
+      "final_pose": [
+        1.9117027521133423,
+        -0.24191612005233765,
+        -2.3972604274749756
+      ],
+      "position_error": 0.07722166925668716,
+      "yaw_error": 0.07625722885131836,
+      "elapsed_seconds": 16.900000000000922,
+      "physical_initializations": 1,
+      "min_base_height": 0.25596299832908537,
+      "max_tilt_rad": 0.10048939603110738,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 535,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.2337758541107178,
+        0.12746009230613708,
+        -1.4147740602493286
+      ],
+      "final_pose": [
+        -1.2966808080673218,
+        0.09398327767848969,
+        -1.4617135524749756
+      ],
+      "position_error": 0.07125819474458694,
+      "yaw_error": 0.04693949222564697,
+      "elapsed_seconds": 15.280000000000989,
+      "physical_initializations": 1,
+      "min_base_height": 0.25573087387364385,
+      "max_tilt_rad": 0.10079604714870342,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 536,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.30870336294174194,
+        -1.0543705224990845,
+        -2.335169792175293
+      ],
+      "final_pose": [
+        -0.25508439540863037,
+        -1.0452731847763062,
+        -2.255479574203491
+      ],
+      "position_error": 0.05438524857163429,
+      "yaw_error": 0.07969021797180176,
+      "elapsed_seconds": 14.640000000000889,
+      "physical_initializations": 1,
+      "min_base_height": 0.25573088162747015,
+      "max_tilt_rad": 0.10126513544250684,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 537,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.1613574028015137,
+        -1.4557723999023438,
+        -1.1214410066604614
+      ],
+      "final_pose": [
+        1.1412837505340576,
+        -1.3970999717712402,
+        -1.0409294366836548
+      ],
+      "position_error": 0.06201133504509926,
+      "yaw_error": 0.08051156997680664,
+      "elapsed_seconds": 16.440000000001014,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562172470125008,
+      "max_tilt_rad": 0.09919583812117945,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 538,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.9330244064331055,
+        0.31242990493774414,
+        2.184242010116577
+      ],
+      "final_pose": [
+        1.969684362411499,
+        0.37605956196784973,
+        2.1032445430755615
+      ],
+      "position_error": 0.07343490421772003,
+      "yaw_error": 0.08099746704101562,
+      "elapsed_seconds": 16.880000000000926,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562684847862222,
+      "max_tilt_rad": 0.09853423694723216,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 539,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.4262961149215698,
+        -0.16499778628349304,
+        1.277657389640808
+      ],
+      "final_pose": [
+        -1.4958425760269165,
+        -0.11612071841955185,
+        1.3620539903640747
+      ],
+      "position_error": 0.08500398695468903,
+      "yaw_error": 0.0843966007232666,
+      "elapsed_seconds": 15.080000000000958,
+      "physical_initializations": 1,
+      "min_base_height": 0.25606794991046133,
+      "max_tilt_rad": 0.09945273343043147,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 540,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.07930269092321396,
+        -1.3106732368469238,
+        -2.9018754959106445
+      ],
+      "final_pose": [
+        0.07083705812692642,
+        -1.3651154041290283,
+        -2.822347640991211
+      ],
+      "position_error": 0.05509642884135246,
+      "yaw_error": 0.0795278549194336,
+      "elapsed_seconds": 16.36000000000103,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563009127641956,
+      "max_tilt_rad": 0.09948096376232854,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 541,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.1370045244693756,
+        1.378212332725525,
+        -1.4058613777160645
+      ],
+      "final_pose": [
+        0.21252749860286713,
+        1.3652760982513428,
+        -1.3297405242919922
+      ],
+      "position_error": 0.07662288099527359,
+      "yaw_error": 0.07612085342407227,
+      "elapsed_seconds": 16.720000000000958,
+      "physical_initializations": 1,
+      "min_base_height": 0.2560766778757199,
+      "max_tilt_rad": 0.09920015611169153,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 542,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.8804024457931519,
+        0.24078266322612762,
+        -3.0161187648773193
+      ],
+      "final_pose": [
+        -1.8120827674865723,
+        0.2535163462162018,
+        -3.0996673107147217
+      ],
+      "position_error": 0.06949622184038162,
+      "yaw_error": 0.08354854583740234,
+      "elapsed_seconds": 22.519999999999804,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563988873242169,
+      "max_tilt_rad": 0.09861632179934668,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 543,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.6206556558609009,
+        -0.364399790763855,
+        -0.33851078152656555
+      ],
+      "final_pose": [
+        1.5545450448989868,
+        -0.3397448658943176,
+        -0.26004359126091003
+      ],
+      "position_error": 0.0705583319067955,
+      "yaw_error": 0.07846719026565552,
+      "elapsed_seconds": 14.940000000000936,
+      "physical_initializations": 1,
+      "min_base_height": 0.25623011643511784,
+      "max_tilt_rad": 0.09983729208222566,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 544,
+      "passed": false,
+      "reason": "timeout",
+      "target": [
+        0.889619767665863,
+        -1.6573539972305298,
+        -0.7320347428321838
+      ],
+      "final_pose": [
+        0.8487614393234253,
+        -1.612642765045166,
+        -0.8133135437965393
+      ],
+      "position_error": 0.06056812033057213,
+      "yaw_error": 0.08127880096435547,
+      "elapsed_seconds": 32.99999999999843,
+      "physical_initializations": 1,
+      "min_base_height": 0.25619870246737336,
+      "max_tilt_rad": 0.09739282836555542,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 545,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.5381566286087036,
+        -1.7350236177444458,
+        0.9570041298866272
+      ],
+      "final_pose": [
+        -0.45290303230285645,
+        -1.7607755661010742,
+        0.8824806213378906
+      ],
+      "position_error": 0.08905806392431259,
+      "yaw_error": 0.07452350854873657,
+      "elapsed_seconds": 18.180000000000668,
+      "physical_initializations": 1,
+      "min_base_height": 0.2556035670354828,
+      "max_tilt_rad": 0.10010787925623775,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 546,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.13731297850608826,
+        1.5062155723571777,
+        -0.8277915120124817
+      ],
+      "final_pose": [
+        -0.06461106985807419,
+        1.5414763689041138,
+        -0.7875289916992188
+      ],
+      "position_error": 0.08080155402421951,
+      "yaw_error": 0.04026252031326294,
+      "elapsed_seconds": 16.36000000000103,
+      "physical_initializations": 1,
+      "min_base_height": 0.25618186155482753,
+      "max_tilt_rad": 0.09939919183685408,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 547,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.5737277269363403,
+        -0.34755510091781616,
+        3.120058298110962
+      ],
+      "final_pose": [
+        -1.526368260383606,
+        -0.38103362917900085,
+        -3.0828170776367188
+      ],
+      "position_error": 0.0579976812005043,
+      "yaw_error": 0.08031016985048467,
+      "elapsed_seconds": 15.960000000001095,
+      "physical_initializations": 1,
+      "min_base_height": 0.25597309745063046,
+      "max_tilt_rad": 0.09892666532272731,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 548,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.4698258936405182,
+        -1.5214003324508667,
+        1.1398899555206299
+      ],
+      "final_pose": [
+        -0.3879513442516327,
+        -1.527341365814209,
+        1.0879204273223877
+      ],
+      "position_error": 0.08208981156349182,
+      "yaw_error": 0.05196952819824219,
+      "elapsed_seconds": 18.12000000000068,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561387440301858,
+      "max_tilt_rad": 0.09936093734907812,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 549,
+      "passed": false,
+      "reason": "timeout",
+      "target": [
+        -1.3904290199279785,
+        -0.6916232705116272,
+        -2.148043394088745
+      ],
+      "final_pose": [
+        -1.3460363149642944,
+        -0.6473824381828308,
+        -2.2332940101623535
+      ],
+      "position_error": 0.06267347186803818,
+      "yaw_error": 0.0852506160736084,
+      "elapsed_seconds": 32.99999999999843,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563968581247079,
+      "max_tilt_rad": 0.09995215017033929,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 550,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.8357652425765991,
+        -1.7153685092926025,
+        2.9942853450775146
+      ],
+      "final_pose": [
+        0.7859422564506531,
+        -1.7727638483047485,
+        3.017451524734497
+      ],
+      "position_error": 0.07600364834070206,
+      "yaw_error": 0.023166179656982422,
+      "elapsed_seconds": 16.480000000001006,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561686280526329,
+      "max_tilt_rad": 0.09888690963321128,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 551,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.186556100845337,
+        0.2781580090522766,
+        1.765580654144287
+      ],
+      "final_pose": [
+        -1.2087076902389526,
+        0.28504183888435364,
+        1.8462826013565063
+      ],
+      "position_error": 0.023196551948785782,
+      "yaw_error": 0.08070194721221924,
+      "elapsed_seconds": 14.600000000000882,
+      "physical_initializations": 1,
+      "min_base_height": 0.2560816286276833,
+      "max_tilt_rad": 0.10049853404408125,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 552,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.8991361260414124,
+        -0.8697241544723511,
+        0.067414790391922
+      ],
+      "final_pose": [
+        -0.866382896900177,
+        -0.9379022121429443,
+        0.015991685912013054
+      ],
+      "position_error": 0.07563743740320206,
+      "yaw_error": 0.051423102617263794,
+      "elapsed_seconds": 15.060000000000954,
+      "physical_initializations": 1,
+      "min_base_height": 0.25633038698824817,
+      "max_tilt_rad": 0.09995912349785926,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 553,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.4106510579586029,
+        1.577843189239502,
+        -1.1891883611679077
+      ],
+      "final_pose": [
+        0.49063676595687866,
+        1.5764210224151611,
+        -1.1183074712753296
+      ],
+      "position_error": 0.07999835163354874,
+      "yaw_error": 0.07088088989257812,
+      "elapsed_seconds": 16.320000000001038,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562275664205693,
+      "max_tilt_rad": 0.09876674231258536,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 554,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.4263148307800293,
+        0.08416321873664856,
+        -2.6771395206451416
+      ],
+      "final_pose": [
+        -1.439638614654541,
+        0.13825693726539612,
+        -2.7592885494232178
+      ],
+      "position_error": 0.05571044236421585,
+      "yaw_error": 0.08214902877807617,
+      "elapsed_seconds": 18.180000000000668,
+      "physical_initializations": 1,
+      "min_base_height": 0.25616883835842036,
+      "max_tilt_rad": 0.0985491237533501,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 555,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.21616922318935394,
+        -0.9890666007995605,
+        -2.9769322872161865
+      ],
+      "final_pose": [
+        -0.2224826067686081,
+        -1.0459191799163818,
+        -2.8981618881225586
+      ],
+      "position_error": 0.05720204859972,
+      "yaw_error": 0.07877039909362793,
+      "elapsed_seconds": 15.620000000001042,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559186316901873,
+      "max_tilt_rad": 0.10093357512511301,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 556,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.12336495518684387,
+        1.124523639678955,
+        -2.478816032409668
+      ],
+      "final_pose": [
+        0.05240139737725258,
+        1.1663979291915894,
+        -2.5397391319274902
+      ],
+      "position_error": 0.08239710330963135,
+      "yaw_error": 0.060923099517822266,
+      "elapsed_seconds": 14.740000000000904,
+      "physical_initializations": 1,
+      "min_base_height": 0.2560890220299231,
+      "max_tilt_rad": 0.0999732962161031,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 557,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.5811119079589844,
+        1.2657244205474854,
+        -2.6961450576782227
+      ],
+      "final_pose": [
+        -0.6408631801605225,
+        1.3087043762207031,
+        -2.74119234085083
+      ],
+      "position_error": 0.07360360771417618,
+      "yaw_error": 0.04504728317260742,
+      "elapsed_seconds": 15.74000000000106,
+      "physical_initializations": 1,
+      "min_base_height": 0.25605004047423785,
+      "max_tilt_rad": 0.09819628015318896,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 558,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.6670121550559998,
+        0.9531249403953552,
+        0.48367607593536377
+      ],
+      "final_pose": [
+        0.6140068173408508,
+        0.9439694285392761,
+        0.564392626285553
+      ],
+      "position_error": 0.05379023402929306,
+      "yaw_error": 0.08071655035018921,
+      "elapsed_seconds": 14.26000000000083,
+      "physical_initializations": 1,
+      "min_base_height": 0.2558114952957265,
+      "max_tilt_rad": 0.10116158430921171,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 559,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.813793957233429,
+        1.5541659593582153,
+        2.0796263217926025
+      ],
+      "final_pose": [
+        -0.7757760882377625,
+        1.495547890663147,
+        2.1039810180664062
+      ],
+      "position_error": 0.06986727565526962,
+      "yaw_error": 0.02435469627380371,
+      "elapsed_seconds": 11.220000000000354,
+      "physical_initializations": 1,
+      "min_base_height": 0.25608749990330515,
+      "max_tilt_rad": 0.10042570679426321,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 560,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.9975813627243042,
+        -0.1559293419122696,
+        0.13489872217178345
+      ],
+      "final_pose": [
+        0.9347094297409058,
+        -0.1552145630121231,
+        0.05275134742259979
+      ],
+      "position_error": 0.06287599354982376,
+      "yaw_error": 0.08214737474918365,
+      "elapsed_seconds": 17.600000000000783,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562433424912055,
+      "max_tilt_rad": 0.09984119745919226,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 561,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.5573892593383789,
+        1.7083888053894043,
+        -2.402620792388916
+      ],
+      "final_pose": [
+        0.4858757555484772,
+        1.7521964311599731,
+        -2.4691944122314453
+      ],
+      "position_error": 0.0838647112250328,
+      "yaw_error": 0.0665736198425293,
+      "elapsed_seconds": 17.240000000000855,
+      "physical_initializations": 1,
+      "min_base_height": 0.25627910625753586,
+      "max_tilt_rad": 0.09871904912403028,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 562,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.674167275428772,
+        0.8888487815856934,
+        2.4437484741210938
+      ],
+      "final_pose": [
+        0.6973679661750793,
+        0.9586146473884583,
+        2.3645179271698
+      ],
+      "position_error": 0.07352243363857269,
+      "yaw_error": 0.07923054695129395,
+      "elapsed_seconds": 14.380000000000848,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559010507386568,
+      "max_tilt_rad": 0.1015423573635305,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 563,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.7851678133010864,
+        -1.7359914779663086,
+        2.144137382507324
+      ],
+      "final_pose": [
+        -0.8668298125267029,
+        -1.7430312633514404,
+        2.192423105239868
+      ],
+      "position_error": 0.081964872777462,
+      "yaw_error": 0.048285722732543945,
+      "elapsed_seconds": 16.740000000000954,
+      "physical_initializations": 1,
+      "min_base_height": 0.2558791189419055,
+      "max_tilt_rad": 0.09922071278270762,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 564,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.802829384803772,
+        1.2955639362335205,
+        -0.9754783511161804
+      ],
+      "final_pose": [
+        0.8890889883041382,
+        1.3011151552200317,
+        -0.9029107689857483
+      ],
+      "position_error": 0.08643804490566254,
+      "yaw_error": 0.07256758213043213,
+      "elapsed_seconds": 14.980000000000942,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563031748629668,
+      "max_tilt_rad": 0.0993383879143602,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 565,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.534825325012207,
+        -0.2522800862789154,
+        2.994217872619629
+      ],
+      "final_pose": [
+        1.5151894092559814,
+        -0.17768257856369019,
+        2.930421829223633
+      ],
+      "position_error": 0.07713856548070908,
+      "yaw_error": 0.0637960433959961,
+      "elapsed_seconds": 18.42000000000062,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561557738415727,
+      "max_tilt_rad": 0.09882998160639536,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 566,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.787927508354187,
+        0.3119412660598755,
+        -2.031959056854248
+      ],
+      "final_pose": [
+        -1.8620156049728394,
+        0.31594163179397583,
+        -2.0847012996673584
+      ],
+      "position_error": 0.07419601827859879,
+      "yaw_error": 0.05274224281311035,
+      "elapsed_seconds": 16.600000000000982,
+      "physical_initializations": 1,
+      "min_base_height": 0.25632522705849914,
+      "max_tilt_rad": 0.09904095677981055,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 567,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.0174709558486938,
+        1.4544684886932373,
+        -1.4494456052780151
+      ],
+      "final_pose": [
+        1.092697262763977,
+        1.4284545183181763,
+        -1.3863533735275269
+      ],
+      "position_error": 0.07959725707769394,
+      "yaw_error": 0.06309223175048828,
+      "elapsed_seconds": 16.10000000000108,
+      "physical_initializations": 1,
+      "min_base_height": 0.25629261505703244,
+      "max_tilt_rad": 0.09838618225361015,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 568,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.002235613763332367,
+        1.9438362121582031,
+        -1.883895993232727
+      ],
+      "final_pose": [
+        -0.08627212047576904,
+        1.9394158124923706,
+        -1.9419419765472412
+      ],
+      "position_error": 0.08415268361568451,
+      "yaw_error": 0.05804598331451416,
+      "elapsed_seconds": 18.040000000000695,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563705052574967,
+      "max_tilt_rad": 0.09930278389818258,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 569,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.37862738966941833,
+        1.112032175064087,
+        1.557152509689331
+      ],
+      "final_pose": [
+        -0.38473841547966003,
+        1.0631346702575684,
+        1.6374017000198364
+      ],
+      "position_error": 0.0492778941988945,
+      "yaw_error": 0.08024919033050537,
+      "elapsed_seconds": 14.620000000000886,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559746057139989,
+      "max_tilt_rad": 0.09887959049382233,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 570,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.18528339266777039,
+        0.9997259974479675,
+        -0.7449167370796204
+      ],
+      "final_pose": [
+        0.25995904207229614,
+        1.0304673910140991,
+        -0.681505560874939
+      ],
+      "position_error": 0.08075571805238724,
+      "yaw_error": 0.0634111762046814,
+      "elapsed_seconds": 13.600000000000726,
+      "physical_initializations": 1,
+      "min_base_height": 0.25623570173577254,
+      "max_tilt_rad": 0.09964391988146604,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 571,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.4928731620311737,
+        1.3997511863708496,
+        0.2360011488199234
+      ],
+      "final_pose": [
+        0.5014778971672058,
+        1.4405325651168823,
+        0.31701382994651794
+      ],
+      "position_error": 0.04167927801609039,
+      "yaw_error": 0.08101268112659454,
+      "elapsed_seconds": 16.140000000001073,
+      "physical_initializations": 1,
+      "min_base_height": 0.2560957282749722,
+      "max_tilt_rad": 0.09853708078424656,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 572,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.9772088527679443,
+        0.7589656114578247,
+        2.4574508666992188
+      ],
+      "final_pose": [
+        0.9909831285476685,
+        0.8321332931518555,
+        2.3764638900756836
+      ],
+      "position_error": 0.0744529440999031,
+      "yaw_error": 0.08098697662353516,
+      "elapsed_seconds": 14.720000000000901,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561767619621601,
+      "max_tilt_rad": 0.09925854395477256,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 573,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.0296844244003296,
+        -1.6654666662216187,
+        1.9826734066009521
+      ],
+      "final_pose": [
+        -1.109663724899292,
+        -1.65585458278656,
+        2.058720350265503
+      ],
+      "position_error": 0.08055482804775238,
+      "yaw_error": 0.07604694366455078,
+      "elapsed_seconds": 17.040000000000894,
+      "physical_initializations": 1,
+      "min_base_height": 0.2566080651420693,
+      "max_tilt_rad": 0.0989766701215799,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 574,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.8360637426376343,
+        0.1289147436618805,
+        -2.132399320602417
+      ],
+      "final_pose": [
+        1.872994303703308,
+        0.056807879358530045,
+        -2.0837459564208984
+      ],
+      "position_error": 0.0810139924287796,
+      "yaw_error": 0.048653364181518555,
+      "elapsed_seconds": 16.600000000000982,
+      "physical_initializations": 1,
+      "min_base_height": 0.2556545714427478,
+      "max_tilt_rad": 0.09969804854801044,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 575,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.20875883102417,
+        -0.729221761226654,
+        1.014078140258789
+      ],
+      "final_pose": [
+        -1.278777003288269,
+        -0.6766918301582336,
+        1.0892120599746704
+      ],
+      "position_error": 0.08753249794244766,
+      "yaw_error": 0.07513391971588135,
+      "elapsed_seconds": 16.600000000000982,
+      "physical_initializations": 1,
+      "min_base_height": 0.25606036469435633,
+      "max_tilt_rad": 0.09967822078005331,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 576,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.6984714865684509,
+        1.7240153551101685,
+        2.7450509071350098
+      ],
+      "final_pose": [
+        -0.6745828986167908,
+        1.7408931255340576,
+        2.66292405128479
+      ],
+      "position_error": 0.029249336570501328,
+      "yaw_error": 0.08212685585021973,
+      "elapsed_seconds": 20.0200000000003,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562028867290395,
+      "max_tilt_rad": 0.09851729322113327,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 577,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.5909878015518188,
+        0.8436145782470703,
+        0.8284221291542053
+      ],
+      "final_pose": [
+        0.552848219871521,
+        0.7871291041374207,
+        0.8949155807495117
+      ],
+      "position_error": 0.06815596669912338,
+      "yaw_error": 0.0664934515953064,
+      "elapsed_seconds": 8.779999999999973,
+      "physical_initializations": 1,
+      "min_base_height": 0.256150827200648,
+      "max_tilt_rad": 0.10019846922097096,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 578,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.7979543805122375,
+        -0.9107006192207336,
+        -1.6596800088882446
+      ],
+      "final_pose": [
+        0.8371044397354126,
+        -0.914801836013794,
+        -1.5801341533660889
+      ],
+      "position_error": 0.0393642894923687,
+      "yaw_error": 0.07954585552215576,
+      "elapsed_seconds": 15.620000000001042,
+      "physical_initializations": 1,
+      "min_base_height": 0.25584305763323784,
+      "max_tilt_rad": 0.09980425568572285,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 579,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.024517584592103958,
+        -1.9421087503433228,
+        -2.3147993087768555
+      ],
+      "final_pose": [
+        0.045741401612758636,
+        -1.943786382675171,
+        -2.2344303131103516
+      ],
+      "position_error": 0.021290017291903496,
+      "yaw_error": 0.0803689956665039,
+      "elapsed_seconds": 17.180000000000867,
+      "physical_initializations": 1,
+      "min_base_height": 0.25645766448532986,
+      "max_tilt_rad": 0.09887549549899696,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 580,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.0566346645355225,
+        -0.306258887052536,
+        -2.760838031768799
+      ],
+      "final_pose": [
+        -0.9976460933685303,
+        -0.331441730260849,
+        -2.6820740699768066
+      ],
+      "position_error": 0.06413912773132324,
+      "yaw_error": 0.07876396179199219,
+      "elapsed_seconds": 13.680000000000739,
+      "physical_initializations": 1,
+      "min_base_height": 0.2560906983425293,
+      "max_tilt_rad": 0.10029542198776882,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 581,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.9553720951080322,
+        0.39917701482772827,
+        0.020830728113651276
+      ],
+      "final_pose": [
+        0.8927430510520935,
+        0.4024506211280823,
+        0.10188857465982437
+      ],
+      "position_error": 0.06271454691886902,
+      "yaw_error": 0.0810578465461731,
+      "elapsed_seconds": 14.000000000000789,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562505629195974,
+      "max_tilt_rad": 0.09998683894130479,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 582,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.12540265917778015,
+        -1.154029130935669,
+        -0.9570415616035461
+      ],
+      "final_pose": [
+        -0.1493600755929947,
+        -1.1784868240356445,
+        -1.0405241250991821
+      ],
+      "position_error": 0.03423647955060005,
+      "yaw_error": 0.08348256349563599,
+      "elapsed_seconds": 17.92000000000072,
+      "physical_initializations": 1,
+      "min_base_height": 0.25619586012407247,
+      "max_tilt_rad": 0.100110806788745,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 583,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.1988575458526611,
+        -0.5902846455574036,
+        -1.701709508895874
+      ],
+      "final_pose": [
+        -1.2112481594085693,
+        -0.5747321844100952,
+        -1.7849311828613281
+      ],
+      "position_error": 0.019884826615452766,
+      "yaw_error": 0.0832216739654541,
+      "elapsed_seconds": 18.740000000000556,
+      "physical_initializations": 1,
+      "min_base_height": 0.25626866130560755,
+      "max_tilt_rad": 0.09895375585042517,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 584,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.4585003852844238,
+        0.5312747955322266,
+        1.1116448640823364
+      ],
+      "final_pose": [
+        -1.4949116706848145,
+        0.604937732219696,
+        1.1424381732940674
+      ],
+      "position_error": 0.08217061311006546,
+      "yaw_error": 0.030793309211730957,
+      "elapsed_seconds": 15.54000000000103,
+      "physical_initializations": 1,
+      "min_base_height": 0.25631204157441334,
+      "max_tilt_rad": 0.10036382673889571,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 585,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.40762925148010254,
+        -1.9417223930358887,
+        0.013147537596523762
+      ],
+      "final_pose": [
+        0.44852662086486816,
+        -2.0022637844085693,
+        -0.054401472210884094
+      ],
+      "position_error": 0.07306062430143356,
+      "yaw_error": 0.06754901260137558,
+      "elapsed_seconds": 17.040000000000894,
+      "physical_initializations": 1,
+      "min_base_height": 0.25613673842646556,
+      "max_tilt_rad": 0.09739708767058103,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 586,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.03430807963013649,
+        -1.534010887145996,
+        -3.125180959701538
+      ],
+      "final_pose": [
+        -0.06788720935583115,
+        -1.595643162727356,
+        -3.0459651947021484
+      ],
+      "position_error": 0.07018614560365677,
+      "yaw_error": 0.07921576499938965,
+      "elapsed_seconds": 17.480000000000807,
+      "physical_initializations": 1,
+      "min_base_height": 0.2558288000203954,
+      "max_tilt_rad": 0.10076550166672973,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 587,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.3262171745300293,
+        -0.9585051536560059,
+        1.8983120918273926
+      ],
+      "final_pose": [
+        0.24312983453273773,
+        -0.9679884314537048,
+        1.9666998386383057
+      ],
+      "position_error": 0.08362678438425064,
+      "yaw_error": 0.06838774681091309,
+      "elapsed_seconds": 15.640000000001045,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561347221868217,
+      "max_tilt_rad": 0.10124203382483643,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 588,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.99391508102417,
+        0.019322728738188744,
+        1.0528262853622437
+      ],
+      "final_pose": [
+        -2.0389530658721924,
+        0.08240062743425369,
+        1.1286896467208862
+      ],
+      "position_error": 0.07750639319419861,
+      "yaw_error": 0.07586336135864258,
+      "elapsed_seconds": 16.240000000001054,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563245114189555,
+      "max_tilt_rad": 0.09998963791005541,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 589,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.7523016929626465,
+        1.0175912380218506,
+        1.7765727043151855
+      ],
+      "final_pose": [
+        0.787918746471405,
+        1.0338435173034668,
+        1.6932240724563599
+      ],
+      "position_error": 0.03914985433220863,
+      "yaw_error": 0.08334863185882568,
+      "elapsed_seconds": 18.500000000000604,
+      "physical_initializations": 1,
+      "min_base_height": 0.2557708259292148,
+      "max_tilt_rad": 0.1006961462492252,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 590,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.36795276403427124,
+        1.2068883180618286,
+        1.5069315433502197
+      ],
+      "final_pose": [
+        0.36024755239486694,
+        1.1396647691726685,
+        1.426047444343567
+      ],
+      "position_error": 0.06766369938850403,
+      "yaw_error": 0.08088409900665283,
+      "elapsed_seconds": 13.94000000000078,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561828539483785,
+      "max_tilt_rad": 0.10021100857379252,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 591,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.4187661409378052,
+        -1.2822364568710327,
+        -2.00730037689209
+      ],
+      "final_pose": [
+        0.45049455761909485,
+        -1.275604009628296,
+        -1.9267998933792114
+      ],
+      "position_error": 0.03241422399878502,
+      "yaw_error": 0.08050048351287842,
+      "elapsed_seconds": 15.340000000000998,
+      "physical_initializations": 1,
+      "min_base_height": 0.2562445486053436,
+      "max_tilt_rad": 0.09919043494217351,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 592,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.9352588057518005,
+        -0.4994581937789917,
+        -1.4130204916000366
+      ],
+      "final_pose": [
+        -0.9628613591194153,
+        -0.5257759690284729,
+        -1.4964337348937988
+      ],
+      "position_error": 0.0381382517516613,
+      "yaw_error": 0.08341324329376221,
+      "elapsed_seconds": 17.280000000000847,
+      "physical_initializations": 1,
+      "min_base_height": 0.2561210452677488,
+      "max_tilt_rad": 0.09893995490828675,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 593,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.8793267011642456,
+        1.648445963859558,
+        2.934523105621338
+      ],
+      "final_pose": [
+        0.8539531826972961,
+        1.7202119827270508,
+        2.859083890914917
+      ],
+      "position_error": 0.07611948996782303,
+      "yaw_error": 0.0754392147064209,
+      "elapsed_seconds": 15.940000000001092,
+      "physical_initializations": 1,
+      "min_base_height": 0.2559802131965443,
+      "max_tilt_rad": 0.10055540445848489,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 594,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.17741429805755615,
+        -1.439626693725586,
+        0.26862525939941406
+      ],
+      "final_pose": [
+        0.2371632158756256,
+        -1.4969490766525269,
+        0.18766775727272034
+      ],
+      "position_error": 0.08279968798160553,
+      "yaw_error": 0.08095750212669373,
+      "elapsed_seconds": 15.600000000001039,
+      "physical_initializations": 1,
+      "min_base_height": 0.2557419178906628,
+      "max_tilt_rad": 0.09946883269495713,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 595,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        1.6590875387191772,
+        1.0516197681427002,
+        2.9723637104034424
+      ],
+      "final_pose": [
+        1.6456462144851685,
+        1.1252585649490356,
+        2.9180703163146973
+      ],
+      "position_error": 0.07485546916723251,
+      "yaw_error": 0.05429339408874512,
+      "elapsed_seconds": 18.200000000000664,
+      "physical_initializations": 1,
+      "min_base_height": 0.2564594809379101,
+      "max_tilt_rad": 0.09923858944939715,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 596,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.8444647789001465,
+        1.0248892307281494,
+        1.4996997117996216
+      ],
+      "final_pose": [
+        0.8566470742225647,
+        0.9952585101127625,
+        1.4161494970321655
+      ],
+      "position_error": 0.03203728795051575,
+      "yaw_error": 0.08355021476745605,
+      "elapsed_seconds": 19.500000000000405,
+      "physical_initializations": 1,
+      "min_base_height": 0.25605810768676834,
+      "max_tilt_rad": 0.09916481462231404,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 597,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -0.042052801698446274,
+        1.581384301185608,
+        -0.5370584726333618
+      ],
+      "final_pose": [
+        0.02461717091500759,
+        1.6256688833236694,
+        -0.5030561089515686
+      ],
+      "position_error": 0.08003754913806915,
+      "yaw_error": 0.03400236368179321,
+      "elapsed_seconds": 15.980000000001098,
+      "physical_initializations": 1,
+      "min_base_height": 0.2563130275043999,
+      "max_tilt_rad": 0.09942407023737622,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 598,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        -1.9639792442321777,
+        0.2187918722629547,
+        -1.4363006353378296
+      ],
+      "final_pose": [
+        -2.0235209465026855,
+        0.18211643397808075,
+        -1.4914720058441162
+      ],
+      "position_error": 0.06993069499731064,
+      "yaw_error": 0.05517137050628662,
+      "elapsed_seconds": 16.600000000000982,
+      "physical_initializations": 1,
+      "min_base_height": 0.2565050493953962,
+      "max_tilt_rad": 0.09728291093331878,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    },
+    {
+      "seed": 599,
+      "passed": true,
+      "reason": "completed",
+      "target": [
+        0.4869595170021057,
+        1.6430819034576416,
+        1.4396058320999146
+      ],
+      "final_pose": [
+        0.47288861870765686,
+        1.576939344406128,
+        1.359765648841858
+      ],
+      "position_error": 0.06762269139289856,
+      "yaw_error": 0.07984018325805664,
+      "elapsed_seconds": 16.26000000000105,
+      "physical_initializations": 1,
+      "min_base_height": 0.25621845071032906,
+      "max_tilt_rad": 0.09989257291862653,
+      "first_illegal_contact": null,
+      "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+      "config_sha256": "09f818a0342354dac3f2b321025f9de4705910c2208ebde750ab3229176c1755"
+    }
+  ]
+}

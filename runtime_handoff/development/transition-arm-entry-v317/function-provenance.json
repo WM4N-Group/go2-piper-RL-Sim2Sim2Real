@@ -1,0 +1,7 @@
+{
+  "parent_plan_sha256": "503cd71ec49724c6e02358c8150e9e8db9af1d68f7d31c46b50f9d7c7eead451",
+  "change": "Used-start v317 box-aware frozen approach tip-envelope standoff during existing loaded final centering; nominal path+boundedresidual static preview and measured final recheck, original safety/budgets unchanged; not acceptance",
+  "evidence": "v3167/8,3703contactboxlocalz.100736m exceeds.0901 bound at30.60s before safeapproach complete; sampled sourceFK nominal+boundedresidual indicates entry shortfall. Not dynamic proof.",
+  "preserve": "Frozen arm path/endpoints,actor weights,NAV guard90%,PD/queues/history,actual35mm clearance/98% substep and contact/stop/READY gates,budgets; support-only extension/handheight use original support-only need; reject if40mm insufficient",
+  "forecast_reserve": "5mm extra nominal planning allowance; final measured check retains original sampled15mm tip-center envelope. Covers observed~2mm planning-to-final envelope drift in3705; not dynamic guarantee."
+}

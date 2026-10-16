@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "skill": "nav",
+      "preparation_returncode": 0,
+      "verified_input_flags": [
+        "--source",
+        "--policy",
+        "--posture-template"
+      ],
+      "physical_execution": false
+    },
+    {
+      "skill": "push",
+      "preparation_returncode": 0,
+      "verified_input_flags": [
+        "--checkpoint",
+        "--push-geometry-root"
+      ],
+      "physical_execution": false
+    },
+    {
+      "skill": "climb",
+      "preparation_returncode": 0,
+      "verified_input_flags": [
+        "--climb-stage-bank",
+        "--actor-policy"
+      ],
+      "physical_execution": false
+    },
+    {
+      "skill": "nav-climb-nav",
+      "preparation_returncode": 0,
+      "verified_input_flags": [
+        "--source",
+        "--nav-actor"
+      ],
+      "physical_execution": false
+    },
+    {
+      "skill": "nav-push-nav",
+      "preparation_returncode": 0,
+      "verified_input_flags": [
+        "--source",
+        "--nav-actor"
+      ],
+      "physical_execution": false
+    }
+  ],
+  "overwrite_rejected": true
+}

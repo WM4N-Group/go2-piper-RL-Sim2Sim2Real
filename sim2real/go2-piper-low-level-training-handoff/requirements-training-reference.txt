@@ -1,0 +1,10 @@
+# Historical package reference; current environment/scope: ../../docs/AGENT_HANDOFF_CN.md.
+# This is a compatibility reference, not a standalone pip requirements file.
+# Install Isaac Lab/Isaac Sim in a separate training environment first.
+isaaclab
+isaaclab_rl
+isaaclab_tasks
+rsl-rl-lib>=3.0.1
+torch
+gymnasium
+pyyaml

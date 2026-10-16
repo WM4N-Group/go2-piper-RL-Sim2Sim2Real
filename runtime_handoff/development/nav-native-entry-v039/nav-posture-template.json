@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "scope": "Arm posture reference template derived from original NAV steady gait. Used only as PD target under current limits, never injected into physics state. Not a safety or completion certificate. Live native compatibility still required.",
+  "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+  "source_control_sha256": "c78e005479838b0f9385a2f7ec7ee6c9b7592712ad5e23c37807cace68ce2b07",
+  "source_time_s": [
+    8.0,
+    13.0
+  ],
+  "joint_names": [
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "measured_pose_median_rad": [
+    0.028486864641308784,
+    1.593807578086853,
+    -1.4218034744262695,
+    1.352264642715454,
+    -0.030606552958488464,
+    -1.344534158706665
+  ],
+  "measured_pose_std_rad": [
+    0.003736815167422984,
+    0.014644159587830491,
+    0.01639290663059508,
+    0.006454931549322286,
+    0.01638677190802811,
+    0.01020817228518135
+  ],
+  "live_compatibility_basin_rad": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "body_height_reference_m": 0.27764084935188293,
+  "body_height_tolerance_m": 0.015,
+  "projected_gravity_xy_limit": 0.093786660295433
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "robot": "go2_piper",
+  "settle_position_tolerance_rad": 0.04,
+  "settle_velocity_tolerance_rad_s": 0.12,
+  "purpose": "Original-start direct nominal approach dynamic diagnostic,not validated",
+  "waypoints": [
+    [
+      0.0,
+      0.1569999908470907,
+      -0.14834999036329166,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.31413325929694585,
+      2.56432355958652,
+      -1.2702870731151343,
+      1.4336795400015987,
+      -0.41065311981647545,
+      -1.1500080799656238
+    ]
+  ],
+  "v212_provenance": {
+    "parent_sha256": "5d881abb2a6dbaaacf15ed81d17699c2593492b197112d707133180124ca27c3",
+    "static_audit_sha256": "e7c5b1ba7b54bdef8052597e8ff45f15b9a29a2d6901b95db2b7c78775e741f9",
+    "scope": "Static nominal arm/base joint-interpolation shortcut only;not full self-collision,arm-box/leg collision,dynamics,effort,or success proof. First/final poses unchanged."
+  }
+}

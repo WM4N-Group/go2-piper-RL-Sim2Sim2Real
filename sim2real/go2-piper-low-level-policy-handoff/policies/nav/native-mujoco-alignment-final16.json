@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "samples": 16,
+  "errors": {
+    "position": 4.958892875772669e-07,
+    "quaternion": 6.708410377623961e-07,
+    "jacobian": 1.2634580909276494e-06,
+    "gravity": 2.2663474055661936e-05,
+    "mass": 0.0,
+    "inertia": 4.61986385804844e-08,
+    "center_of_mass": 0.0
+  },
+  "tolerances": {
+    "position": 0.0001,
+    "quaternion": 0.0001,
+    "jacobian": 0.001,
+    "gravity": 0.001,
+    "mass": 1e-05,
+    "inertia": 1e-05,
+    "center_of_mass": 1e-05
+  },
+  "floating_base_reference": "PhysX base COM; MuJoCo Jacobian and wrench shifted from base origin",
+  "passed": true,
+  "native_states_sha256": "cea333e7898e5739a4754200ff4a43090b6ba74d439e513c06be73a0668224d1",
+  "profile_sha256": "82709e77505deaf5689a84e886b3fc2b570e5e85e93f34d626e5d2d6fea3536a",
+  "check_sha256": "088a5eb76b2f3ad3de65b62dc03065d5f569e3379f01213447d0b01893b377f7"
+}

@@ -1,0 +1,666 @@
+{
+  "status": "diagnostics_complete",
+  "scope": "Conditional fixed balanced-contact bootstrap damping used-seed regression, native10s plus<=80mm preparation excursion; no full-chain/formal acceptance.",
+  "active": [],
+  "entries": [
+    {
+      "seed": 3702,
+      "returncode": 0,
+      "missing_report": false,
+      "native_and_drift_gate_pass": true,
+      "report": {
+        "scope": "Independent flat diagnostic with original chain robot, reset, physical limits and failure terms; no task-arrival or deployment acceptance",
+        "ee_x_m": 0.45,
+        "posture_template_sha256": "cc7e7a53e05fa49a41da569ce18ae938d653eb2033cb3489cc685e2bacffb276",
+        "support_min_s": 3.0,
+        "initial_body_damping_s_inv": 5.0,
+        "initial_root_position": [
+          0.034314192831516266,
+          0.07022318243980408,
+          0.33000001311302185
+        ],
+        "maximum_preparation_horizontal_excursion_m": 0.05196774750947952,
+        "initial_leg_mode": "Original native zero leg action PD throughout preparation; gravity and forecast-bounded arm loading",
+        "seed": 3702,
+        "ee_z_m": 0.45,
+        "outcome": "completed_native_active_diagnostic",
+        "steps": 1342,
+        "phase_counts": {
+          "NAV_PREPARE": 793,
+          "NAV_BLEND": 49,
+          "NAV_ACTIVE": 500
+        },
+        "active_samples": 500,
+        "active_native18_exact_samples": 500,
+        "max_native_target_error_rad": 0.0,
+        "termination": {},
+        "max_arm_effort_ratio_including_init": 0.9115507006645203,
+        "max_all_effort_ratio_including_init": 0.9115507006645203,
+        "airborne_control_samples": 1,
+        "under_three_support_control_samples": 131,
+        "exactly_three_support_control_samples": 228,
+        "max_abs_vz_mps": 0.5456821322441101,
+        "max_foot_force_N": 138.10879516601562,
+        "max_resultant_contact_force_N": 298.6302795410156,
+        "actual_arm_limits_Nm": [
+          20.0,
+          20.0,
+          15.0,
+          7.0,
+          5.0,
+          5.0
+        ],
+        "self_collisions_enabled": true,
+        "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+        "physical_resets_after_initial": 0,
+        "active_extra_arm_filter": false,
+        "velocity_request_mode": "Explicit initial support uses known EE(.5,0,.2), velocity0 and native leg feedback with gravity arm hold; after support precheck switch pending native EE/velocity input without history clearing",
+        "requested_forward_speed_mps": 0.25,
+        "prepare_leg_mode": "supported-body plus iterative bounded native arm target",
+        "blend_s": 1.0,
+        "active_native_soft_limit_policy": "Native leg virtual references unprojected; actual leg q checked each physics substep and .04s linear forecast before control; arm reference soft limit retained",
+        "source_plan_sha256": "5652c8e4fb326000a4a98f07644790387b4a12f905a7ed3ade2064bce9511c51",
+        "robot_total_mass_kg": 20.774118423461914,
+        "sampled_actuator_delays": {
+          "base_legs": {
+            "efforts_delay_buffer": [
+              0
+            ],
+            "positions_delay_buffer": [
+              0
+            ],
+            "velocities_delay_buffer": [
+              0
+            ]
+          },
+          "joint1": {
+            "efforts_delay_buffer": [
+              3
+            ],
+            "positions_delay_buffer": [
+              3
+            ],
+            "velocities_delay_buffer": [
+              3
+            ]
+          },
+          "joint2": {
+            "efforts_delay_buffer": [
+              0
+            ],
+            "positions_delay_buffer": [
+              0
+            ],
+            "velocities_delay_buffer": [
+              0
+            ]
+          },
+          "joint3": {
+            "efforts_delay_buffer": [
+              1
+            ],
+            "positions_delay_buffer": [
+              1
+            ],
+            "velocities_delay_buffer": [
+              1
+            ]
+          },
+          "joint4": {
+            "efforts_delay_buffer": [
+              0
+            ],
+            "positions_delay_buffer": [
+              0
+            ],
+            "velocities_delay_buffer": [
+              0
+            ]
+          },
+          "joint5": {
+            "efforts_delay_buffer": [
+              3
+            ],
+            "positions_delay_buffer": [
+              3
+            ],
+            "velocities_delay_buffer": [
+              3
+            ]
+          },
+          "joint6": {
+            "efforts_delay_buffer": [
+              1
+            ],
+            "positions_delay_buffer": [
+              1
+            ],
+            "velocities_delay_buffer": [
+              1
+            ]
+          }
+        },
+        "minimum_actual_leg_soft_margin_rad_including_init": 0.5207968354225159,
+        "ground_support_event": {
+          "time_s": 3.08,
+          "physical_precheck": {
+            "kinematic_precheck": true,
+            "request_zero_required": false,
+            "request_zero_actual": true,
+            "wrench_feasible": true,
+            "effort_ratio": 0.22919714450836182,
+            "soft_limits": true,
+            "residual": [
+              0.0,
+              9.313225746154785e-10,
+              -1.52587890625e-05,
+              9.112991392612457e-07,
+              -9.75094735622406e-07,
+              1.1641532182693481e-10
+            ],
+            "loads": [
+              [
+                -0.0051192850805819035,
+                0.00456241425126791,
+                48.49712371826172
+              ],
+              [
+                -0.007410472258925438,
+                0.004057739395648241,
+                50.81214904785156
+              ],
+              [
+                -0.006528482772409916,
+                0.0028468980453908443,
+                51.00653839111328
+              ],
+              [
+                -0.009076917544007301,
+                0.0025191204622387886,
+                53.4008674621582
+              ]
+            ]
+          },
+          "actual_foot_fz": [
+            50.44776916503906,
+            49.78193283081055,
+            49.37405776977539,
+            54.357147216796875
+          ],
+          "scope": "Actual initial support precheck before arm preparation; final full READY dwell remains separate"
+        },
+        "ready_event": {
+          "time_s": 15.84,
+          "gates": {
+            "live_native_goal_enabled": true,
+            "normal_wrist_branch": true,
+            "actual_leg_state_within_soft_limits": true,
+            "native_leg_predicted_torque_reserve": true,
+            "canonical_leg_reference_match": true,
+            "canonical_body_height": true,
+            "original_body_orientation_gate": true,
+            "conversion_elapsed": true,
+            "native_arm_within_soft_limits": true,
+            "native_arm_reference_match": true,
+            "native_arm_predicted_torque_reserve": true,
+            "body_stopped": true,
+            "all_four_loaded": true,
+            "legs_slow": true,
+            "arm_slow": true,
+            "references_slow": true,
+            "no_effort_failure": true
+          },
+          "continuous_stable_s": 0.5000000000000001,
+          "actual_q": [
+            -0.11620059609413147,
+            0.8350768089294434,
+            -1.8214819431304932,
+            0.11627018451690674,
+            0.7977741360664368,
+            -1.854173183441162,
+            -0.1069607362151146,
+            0.9760867357254028,
+            -1.7049616575241089,
+            0.11846394836902618,
+            0.9874733686447144,
+            -1.737036943435669,
+            0.10475951433181763,
+            1.164061188697815,
+            -1.0285176038742065,
+            1.2876955270767212,
+            -0.12050557881593704,
+            -1.2995883226394653
+          ],
+          "actual_root": [
+            0.0018597617745399475,
+            0.0739409476518631,
+            0.2767648994922638
+          ],
+          "issued_target": [
+            -0.10000000149011612,
+            0.800000011920929,
+            -1.5,
+            0.10000000149011612,
+            0.800000011920929,
+            -1.5,
+            -0.10000000149011612,
+            1.0,
+            -1.5,
+            0.10000000149011612,
+            1.0,
+            -1.5,
+            0.10273389518260956,
+            1.0269314050674438,
+            -1.1441421508789062,
+            1.2760257720947266,
+            -0.15098829567432404,
+            -1.2992932796478271
+          ],
+          "pending_native_target": [
+            0.03219807893037796,
+            0.9372085928916931,
+            -1.3365232944488525,
+            -0.06908074766397476,
+            0.9015212059020996,
+            -1.349591851234436,
+            0.03328704088926315,
+            1.0333070755004883,
+            -1.4530529975891113,
+            -0.026146359741687775,
+            1.1310315132141113,
+            -1.3887598514556885,
+            0.10273389518260956,
+            1.0269314050674438,
+            -1.1441421508789062,
+            1.2760257720947266,
+            -0.15098829567432404,
+            -1.2992932796478271
+          ],
+          "native_arm_predicted_ratio": 0.6162712574005127
+        },
+        "last_preparation_details": {
+          "ready_gates": {
+            "live_native_goal_enabled": true,
+            "normal_wrist_branch": true,
+            "actual_leg_state_within_soft_limits": true,
+            "native_leg_predicted_torque_reserve": true,
+            "canonical_leg_reference_match": true,
+            "canonical_body_height": true,
+            "original_body_orientation_gate": true,
+            "conversion_elapsed": true,
+            "native_arm_within_soft_limits": true,
+            "native_arm_reference_match": true,
+            "native_arm_predicted_torque_reserve": true,
+            "body_stopped": true,
+            "all_four_loaded": true,
+            "legs_slow": true,
+            "arm_slow": true,
+            "references_slow": true,
+            "no_effort_failure": true
+          },
+          "ready_dwell_s": 0.5000000000000001,
+          "native_arm_reference_error_rad": 0.0,
+          "native_arm_predicted_torque_ratio": 0.6162712574005127,
+          "native_leg_predicted_torque_ratio": 0.33291351795196533,
+          "body_reference_domain": {
+            "height_m": 0.27764084935188293,
+            "height_tolerance_m": 0.015,
+            "projected_gravity_xy_limit": 0.093786660295433
+          },
+          "template_live_goal_started_s": 9.36,
+          "template_stable_s": 0.3,
+          "support_control": {
+            "mode": "Canonical native zero leg-action PD reference plus bounded arm preparation",
+            "arm_conversion_fraction": 1.0,
+            "leg_reference_error_rad": 0.0
+          },
+          "subphase": "supported_arm_preparation",
+          "preparation_soft_projection_max_rad": 0.0
+        },
+        "active_horizontal_net_travel_m": 2.642669916152954,
+        "active_mean_body_velocity_xy": [
+          0.2647083746790886,
+          -0.002391081416986708
+        ],
+        "control_sha256": "95babb2a819927d3d146f69b2e5bbee37ddbf3be6dc247101fd167b1e2acb5f8"
+      }
+    },
+    {
+      "seed": 3703,
+      "returncode": 0,
+      "missing_report": false,
+      "native_and_drift_gate_pass": true,
+      "report": {
+        "scope": "Independent flat diagnostic with original chain robot, reset, physical limits and failure terms; no task-arrival or deployment acceptance",
+        "ee_x_m": 0.45,
+        "posture_template_sha256": "cc7e7a53e05fa49a41da569ce18ae938d653eb2033cb3489cc685e2bacffb276",
+        "support_min_s": 3.0,
+        "initial_body_damping_s_inv": 5.0,
+        "initial_root_position": [
+          -0.04281306266784668,
+          0.034953005611896515,
+          0.33000001311302185
+        ],
+        "maximum_preparation_horizontal_excursion_m": 0.06618229299783707,
+        "initial_leg_mode": "Original native zero leg action PD throughout preparation; gravity and forecast-bounded arm loading",
+        "seed": 3703,
+        "ee_z_m": 0.45,
+        "outcome": "completed_native_active_diagnostic",
+        "steps": 1378,
+        "phase_counts": {
+          "NAV_PREPARE": 829,
+          "NAV_BLEND": 49,
+          "NAV_ACTIVE": 500
+        },
+        "active_samples": 500,
+        "active_native18_exact_samples": 500,
+        "max_native_target_error_rad": 0.0,
+        "termination": {},
+        "max_arm_effort_ratio_including_init": 0.9036610722541809,
+        "max_all_effort_ratio_including_init": 0.9036610722541809,
+        "airborne_control_samples": 1,
+        "under_three_support_control_samples": 122,
+        "exactly_three_support_control_samples": 214,
+        "max_abs_vz_mps": 0.5703883767127991,
+        "max_foot_force_N": 154.51319885253906,
+        "max_resultant_contact_force_N": 318.060546875,
+        "actual_arm_limits_Nm": [
+          20.0,
+          20.0,
+          15.0,
+          7.0,
+          5.0,
+          5.0
+        ],
+        "self_collisions_enabled": true,
+        "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+        "physical_resets_after_initial": 0,
+        "active_extra_arm_filter": false,
+        "velocity_request_mode": "Explicit initial support uses known EE(.5,0,.2), velocity0 and native leg feedback with gravity arm hold; after support precheck switch pending native EE/velocity input without history clearing",
+        "requested_forward_speed_mps": 0.25,
+        "prepare_leg_mode": "supported-body plus iterative bounded native arm target",
+        "blend_s": 1.0,
+        "active_native_soft_limit_policy": "Native leg virtual references unprojected; actual leg q checked each physics substep and .04s linear forecast before control; arm reference soft limit retained",
+        "source_plan_sha256": "5652c8e4fb326000a4a98f07644790387b4a12f905a7ed3ade2064bce9511c51",
+        "robot_total_mass_kg": 22.30527687072754,
+        "sampled_actuator_delays": {
+          "base_legs": {
+            "efforts_delay_buffer": [
+              1
+            ],
+            "positions_delay_buffer": [
+              1
+            ],
+            "velocities_delay_buffer": [
+              1
+            ]
+          },
+          "joint1": {
+            "efforts_delay_buffer": [
+              1
+            ],
+            "positions_delay_buffer": [
+              1
+            ],
+            "velocities_delay_buffer": [
+              1
+            ]
+          },
+          "joint2": {
+            "efforts_delay_buffer": [
+              2
+            ],
+            "positions_delay_buffer": [
+              2
+            ],
+            "velocities_delay_buffer": [
+              2
+            ]
+          },
+          "joint3": {
+            "efforts_delay_buffer": [
+              2
+            ],
+            "positions_delay_buffer": [
+              2
+            ],
+            "velocities_delay_buffer": [
+              2
+            ]
+          },
+          "joint4": {
+            "efforts_delay_buffer": [
+              0
+            ],
+            "positions_delay_buffer": [
+              0
+            ],
+            "velocities_delay_buffer": [
+              0
+            ]
+          },
+          "joint5": {
+            "efforts_delay_buffer": [
+              2
+            ],
+            "positions_delay_buffer": [
+              2
+            ],
+            "velocities_delay_buffer": [
+              2
+            ]
+          },
+          "joint6": {
+            "efforts_delay_buffer": [
+              0
+            ],
+            "positions_delay_buffer": [
+              0
+            ],
+            "velocities_delay_buffer": [
+              0
+            ]
+          }
+        },
+        "minimum_actual_leg_soft_margin_rad_including_init": 0.4766809344291687,
+        "ground_support_event": {
+          "time_s": 3.7800000000000002,
+          "physical_precheck": {
+            "kinematic_precheck": true,
+            "request_zero_required": false,
+            "request_zero_actual": true,
+            "wrench_feasible": true,
+            "effort_ratio": 0.25326719880104065,
+            "soft_limits": true,
+            "residual": [
+              0.0,
+              0.0,
+              0.0,
+              -8.223578333854675e-07,
+              -9.58913005888462e-07,
+              -5.093170329928398e-11
+            ],
+            "loads": [
+              [
+                -0.0030481796711683273,
+                0.004294860176742077,
+                52.729923248291016
+              ],
+              [
+                -0.0027752830646932125,
+                0.004291118588298559,
+                52.38528823852539
+              ],
+              [
+                -0.005819268990308046,
+                0.004439299460500479,
+                57.025657653808594
+              ],
+              [
+                -0.005236905999481678,
+                0.0044752792455255985,
+                56.62144470214844
+              ]
+            ]
+          },
+          "actual_foot_fz": [
+            52.702457427978516,
+            53.00087356567383,
+            57.01734924316406,
+            56.117027282714844
+          ],
+          "scope": "Actual initial support precheck before arm preparation; final full READY dwell remains separate"
+        },
+        "ready_event": {
+          "time_s": 16.56,
+          "gates": {
+            "live_native_goal_enabled": true,
+            "normal_wrist_branch": true,
+            "actual_leg_state_within_soft_limits": true,
+            "native_leg_predicted_torque_reserve": true,
+            "canonical_leg_reference_match": true,
+            "canonical_body_height": true,
+            "original_body_orientation_gate": true,
+            "conversion_elapsed": true,
+            "native_arm_within_soft_limits": true,
+            "native_arm_reference_match": true,
+            "native_arm_predicted_torque_reserve": true,
+            "body_stopped": true,
+            "all_four_loaded": true,
+            "legs_slow": true,
+            "arm_slow": true,
+            "references_slow": true,
+            "no_effort_failure": true
+          },
+          "continuous_stable_s": 0.5000000000000001,
+          "actual_q": [
+            -0.1269899606704712,
+            0.8041458129882812,
+            -1.8637336492538452,
+            0.13211636245250702,
+            0.8188759684562683,
+            -1.869771122932434,
+            -0.10997020453214645,
+            0.9836854338645935,
+            -1.7424919605255127,
+            0.11432521790266037,
+            0.9752801060676575,
+            -1.7517569065093994,
+            0.10542532056570053,
+            1.1436518430709839,
+            -1.0024360418319702,
+            1.2852238416671753,
+            -0.11474068462848663,
+            -1.2929753065109253
+          ],
+          "actual_root": [
+            -0.08801476657390594,
+            0.03347397968173027,
+            0.2716296315193176
+          ],
+          "issued_target": [
+            -0.10000000149011612,
+            0.800000011920929,
+            -1.5,
+            0.10000000149011612,
+            0.800000011920929,
+            -1.5,
+            -0.10000000149011612,
+            1.0,
+            -1.5,
+            0.10000000149011612,
+            1.0,
+            -1.5,
+            0.10545909404754639,
+            1.0094456672668457,
+            -1.1181890964508057,
+            1.2742037773132324,
+            -0.1441337913274765,
+            -1.2930753231048584
+          ],
+          "pending_native_target": [
+            0.05442927032709122,
+            0.9215054512023926,
+            -1.2619110345840454,
+            -0.06855636090040207,
+            0.8762772679328918,
+            -1.298068642616272,
+            0.06010698527097702,
+            1.0178111791610718,
+            -1.3871012926101685,
+            -0.040005944669246674,
+            1.1064479351043701,
+            -1.36282479763031,
+            0.10545910149812698,
+            1.0094456672668457,
+            -1.1181890964508057,
+            1.2742037773132324,
+            -0.1441337913274765,
+            -1.2930753231048584
+          ],
+          "native_arm_predicted_ratio": 0.6165028214454651
+        },
+        "last_preparation_details": {
+          "ready_gates": {
+            "live_native_goal_enabled": true,
+            "normal_wrist_branch": true,
+            "actual_leg_state_within_soft_limits": true,
+            "native_leg_predicted_torque_reserve": true,
+            "canonical_leg_reference_match": true,
+            "canonical_body_height": true,
+            "original_body_orientation_gate": true,
+            "conversion_elapsed": true,
+            "native_arm_within_soft_limits": true,
+            "native_arm_reference_match": true,
+            "native_arm_predicted_torque_reserve": true,
+            "body_stopped": true,
+            "all_four_loaded": true,
+            "legs_slow": true,
+            "arm_slow": true,
+            "references_slow": true,
+            "no_effort_failure": true
+          },
+          "ready_dwell_s": 0.5000000000000001,
+          "native_arm_reference_error_rad": 7.450580596923828e-09,
+          "native_arm_predicted_torque_ratio": 0.6165028214454651,
+          "native_leg_predicted_torque_ratio": 0.39733564853668213,
+          "body_reference_domain": {
+            "height_m": 0.27764084935188293,
+            "height_tolerance_m": 0.015,
+            "projected_gravity_xy_limit": 0.093786660295433
+          },
+          "template_live_goal_started_s": 10.08,
+          "template_stable_s": 0.3,
+          "support_control": {
+            "mode": "Canonical native zero leg-action PD reference plus bounded arm preparation",
+            "arm_conversion_fraction": 1.0,
+            "leg_reference_error_rad": 0.0
+          },
+          "subphase": "supported_arm_preparation",
+          "preparation_soft_projection_max_rad": 0.0
+        },
+        "active_horizontal_net_travel_m": 2.650848865509033,
+        "active_mean_body_velocity_xy": [
+          0.26536442622542383,
+          -0.0013445851136930287
+        ],
+        "control_sha256": "06bc924898ce3bc7b24c33c3fcd40922518851fa8177f8ba05c7c069b56b45ea"
+      }
+    }
+  ],
+  "not_run": [],
+  "updated_unix": 1792152056.4681747,
+  "selection": {
+    "case": {
+      "name": "damping5",
+      "ee_x": 0.45,
+      "ee_z": 0.45,
+      "support_min_s": 3.0,
+      "body_damping": 5.0,
+      "priority": 1
+    },
+    "policy": "Registered batches by small EE deviation; select lowest registered priority among valid successes in first successful batch, then freeze params for other used seeds.",
+    "report_sha256": "c946aba99ebbec9c2576a46b1f49a2b0d55cfe28911b54f5cd14e70b16b5622e",
+    "control_sha256": "9bdbe688a8ea0dbce99ecb0d54118bf0d72201ac33fb2fc8b426ac2e4b6146f5"
+  }
+}

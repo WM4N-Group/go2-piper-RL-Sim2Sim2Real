@@ -1,0 +1,16 @@
+# Runtime payload index; exact files and hashes: repository SHA256SUMS
+PUSH-v212/train/ | delivered | full frozen source/assets with explicit runtime resource locations
+PUSH-v212/geometry/mujoco/ | delivered | matching geometry source, profiles and mesh assets
+PUSH-v212/model_255.pt | delivered | SHA256 4d1a4616928b4d06002285e870a1d6dd114e27b8cafcdd9a41dbdae1aceed419
+PUSH-v212/model_199.pt | delivered | SHA256 b1ebb8abb5370dcd98debab85d70e05a004bb1e59b5b00710460f575174c7721
+CLIMB-iy/train/ | delivered | full matching source/assets and 12-source plan binding
+CLIMB-iy/stand_actor304.pt | delivered | SHA256 d9673b2b49f5dce08d844a1de81a3a37e7f90e85d20b86489a5751b8aa2b1dee
+CLIMB-iy/stage-bank.json | delivered | state numbers unchanged; delivered hash in CLIMB-iy/plan.json
+CLIMB-iy/plan.json, jobs.json, source-payload.tar.gz | delivered | stage replay configuration
+NAV frozen policy | delivered | historical policy bundle; SHA256 72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8
+development/nav-native-entry-v039/ | delivered | original actor under current effort limits; 3 development seeds
+development/nav-native-entry-video-v038/ | delivered | same control logic with original-speed recording
+development/transition-arm-entry-v317/ | delivered | retained NAV/PUSH/NAV development baseline
+development/transition-nav-climb-v067/ | delivered | retained NAV/CLIMB/NAV development comparison
+NAV full goal/chain qualification | in development | not asserted by this delivery
+CLIMB independent completion verifier | not added | old task success is distinct from stage completion

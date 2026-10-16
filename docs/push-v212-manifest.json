@@ -1,0 +1,2367 @@
+{
+  "version": "push-direct-approach-v212",
+  "scope": "User-approved 16s Isaac simulation reference, not safety-qualified sim2sim or hardware release. Configure the artifact root for the receiving environment; file sizes and SHA256 identify the source artifacts.",
+  "source_plan_sha256": "c4eda1d2bbdd6329c22128cb61f3670d3d14d402d85336352a79f8d130a4ae6b",
+  "files": [
+    {
+      "path": "/path/to/artifacts/go2-piper/push-loadprobe-20261001-ac/selected-candidate/model_199.pt",
+      "bytes": 6772010,
+      "sha256": "b1ebb8abb5370dcd98debab85d70e05a004bb1e59b5b00710460f575174c7721"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/plan.json",
+      "bytes": 29226,
+      "sha256": "c4eda1d2bbdd6329c22128cb61f3670d3d14d402d85336352a79f8d130a4ae6b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/mujoco/deploy/piper_push_safe_approach.json",
+      "bytes": 918,
+      "sha256": "9c6db3af65afe62ace57f5d85f3a773666074b381383d037db4fa3df62162cbc"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v176.py",
+      "bytes": 10050,
+      "sha256": "22593d151654333eb1e583be411914a0fe04369fa572565fef5472442174c56a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v177.py",
+      "bytes": 10070,
+      "sha256": "a74849453774c382d34cb47c46221e20b1c5d0c28b22b66a2e9525eba8ad2d44"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v179.py",
+      "bytes": 10660,
+      "sha256": "6ef96c4d58f0c37bf33d3af7ee0a8e103aa5285c738f01de2d003fbe4c6ab412"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v185.py",
+      "bytes": 10743,
+      "sha256": "32843ba0f503c8794f845d52b30d7a671868859054601fc6fe87b14ae6b85755"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v186.py",
+      "bytes": 10743,
+      "sha256": "32843ba0f503c8794f845d52b30d7a671868859054601fc6fe87b14ae6b85755"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/body_transfer_v187.py",
+      "bytes": 10743,
+      "sha256": "32843ba0f503c8794f845d52b30d7a671868859054601fc6fe87b14ae6b85755"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/bounded_gradient_v175.py",
+      "bytes": 3535,
+      "sha256": "588c20551054b57247b4b1e3085252fe1c069bbad32c31dc4dfbeadd4a03c44b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/box_evaluation_metrics.py",
+      "bytes": 6987,
+      "sha256": "377a4938453c768832410d9984101590e41fdd81789efb8ea9cc4ee299ca6229"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/capture_startup_physics_v124.py",
+      "bytes": 67047,
+      "sha256": "cc24d6a4f782c05a566b1d50299180637efd19984a2e096a16a6909278aa2587"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_evaluation.py",
+      "bytes": 7198,
+      "sha256": "81cbd404e2a52e0dc34d6cbb7d6c291568dbf510ade481aa1fbcaf6026325411"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_push_contract.py",
+      "bytes": 3647,
+      "sha256": "076af972a2c596e6cf89ea63b4682417f01767eff794e4f724d43354013ba02a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_push_control.py",
+      "bytes": 29064,
+      "sha256": "ed26593d3d30bae117b0b14a56a79dfc1a0770b535f54de6cde18b17f7318d41"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_skill_rewards.py",
+      "bytes": 3886,
+      "sha256": "81a577ae08dbd3aebd38d2b6ead17e71b1f4bad5e1aa8fd81e3b3aaddd28eaea"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_startup.py",
+      "bytes": 8203,
+      "sha256": "ec9f138db0454e8685467766260bca92b32a8f3121ec1db40856f716d078a674"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_box_terrain.py",
+      "bytes": 3390,
+      "sha256": "7aa088c840949d320c5629f49d1210856f865b901e979e64d10008a9f494f922"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_climb_start_states.py",
+      "bytes": 7202,
+      "sha256": "11056c7ed28c0e35ef26ce6299f7474d10caa988fff2aa96fd20814623b9dba0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_piper_collision_variant.py",
+      "bytes": 3050,
+      "sha256": "08283edf4bd9ecf2c1fbbe8776bcd3922d3b4af503d7f25c21222208a4a0acef"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_piper_native.py",
+      "bytes": 8483,
+      "sha256": "797ff2844bd0fdbbf6f9695f8fa97039fe0fede70baa277245631cda8cd3dc47"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_push_hybrid.py",
+      "bytes": 5624,
+      "sha256": "1fad3ee45fb01efb7f8b53b5d45c95393a7dcf7680fbddb9e9ef1562eace8c10"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_skill_export_provenance.py",
+      "bytes": 2375,
+      "sha256": "783e1851592a6d8a3e0f2fd007d605140d1b009a9fcc127a9b21119e8b293de5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/check_skill_initialization.py",
+      "bytes": 5465,
+      "sha256": "645e592da60a44ba53f277f7566ab0fbb88005c088bea5ff19a3ce868255b33b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/create_piper_collision_variant.py",
+      "bytes": 10455,
+      "sha256": "5494b133b29bbaf5803ea4f3d3e860774d59d357202bffc72dfe268793c063e5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/entry_hold_v125.py",
+      "bytes": 5956,
+      "sha256": "df7a5cf8cf4c831f66bb8f48643ea9e1fda7ec15dcf1253d0f1ff55b0c37b84f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills.py",
+      "bytes": 55496,
+      "sha256": "f9703b0eaa2fcefa87cd1d6b390bee56134357c6593d32e7f258ce6af1ea7b42"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills_contact_posture_diagnostic.py",
+      "bytes": 35202,
+      "sha256": "d92b590d37d0022db97ec4c573dbcfa293be5f33fb9d8c87caf538349aeedfd2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills_contact_trace_20260928.py",
+      "bytes": 34383,
+      "sha256": "c4f9977173288fdc992116c4f14c301dfb78895c9a821b23ce1a6eb122bdbe8e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills_pose_trace_20261008.py",
+      "bytes": 55686,
+      "sha256": "5fc7fe4347f0ae32cddc67ee4036651f25782379675b74476ca3e6e246313d0b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills_pose_trace_20261008_v2.py",
+      "bytes": 56057,
+      "sha256": "60fc900db3ef24f253e82b0558327f924239eda61f85471fd056ba460ece5463"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_box_skills_support_trace_20260928.py",
+      "bytes": 35202,
+      "sha256": "d92b590d37d0022db97ec4c573dbcfa293be5f33fb9d8c87caf538349aeedfd2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_entry_hold_v125.py",
+      "bytes": 66525,
+      "sha256": "70c86a09ff01a0b780dfade06a28e8fede25da1628c3bfad86f4fccdd35c8003"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_final_body_v140.py",
+      "bytes": 66687,
+      "sha256": "92ee1b355a3c030d04b766b91dd360c84d3972ce867c740ad769d2702e9cb977"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_final_body_v145.py",
+      "bytes": 66687,
+      "sha256": "d2840a4ffa39baf94c8e3b0ec73af8149dce67555c608a46a3629fea05c32ac5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_final_body_v150.py",
+      "bytes": 66687,
+      "sha256": "3ac8938b1ba89243fbf29524670d38a3ab55114a8bc90b273c0b7a5dae31c742"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_final_body_v151.py",
+      "bytes": 66687,
+      "sha256": "c41bd0bdb2f113b549291b5f96a5e739302b8e60de5764110f1ec4de4260c78f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_four_feet_v137.py",
+      "bytes": 66680,
+      "sha256": "356cb5135d3efd0fb4ff21f589056f660f877489ce8daa424b854bfa22a48bb7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_free_transfer_v176.py",
+      "bytes": 67314,
+      "sha256": "5af75851658424f49c81293d3fc4333b91db6cbf72cbf28678bcd988791d383f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_free_transfer_v177.py",
+      "bytes": 67586,
+      "sha256": "84a579de9dc16cb701e4e0b12316493b13e39c85483996b04cb051e4bab0781e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_free_transfer_v179.py",
+      "bytes": 67586,
+      "sha256": "d393d16e62c47bc2f9e4e3de75657ca23f70c346ff14d339f933c8e65067f13c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_phase_audit_v120.py",
+      "bytes": 66522,
+      "sha256": "7eb8039e3b98d6cadb0b91c998b6dc9628f675349b66b6db528dea01f03667ff"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_recontact_v185.py",
+      "bytes": 67734,
+      "sha256": "89bca9ea9aa307874af5e41fe5fdf5a626e06d4d4d002adcc2a6ab0dbff604b2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_recontact_v186.py",
+      "bytes": 67734,
+      "sha256": "391dc20edc080f5d5d4f6ce054fe662f7b388b63c80cd225b194ebeed5a96006"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_recontact_v187.py",
+      "bytes": 67734,
+      "sha256": "e2269ef268df18e7a4f378e0bd102a6bc8bf730a4d91e347cfc2174905fb5da6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_residual_push.py",
+      "bytes": 68314,
+      "sha256": "5a801de358b1ccc86e0c23c2cb1db187e1b6407b43e3d93e3503e314039df049"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_resumed_approach_v141.py",
+      "bytes": 66698,
+      "sha256": "62b8a672450e16abf43a95c16bc5624257d4776096e19f912cc48eb78a3038ef"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_resumed_approach_v147.py",
+      "bytes": 66698,
+      "sha256": "d1560022fea8ddf515be201fdba02a8367e676815b3431bd75cf5dab249577d1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_resumed_approach_v148.py",
+      "bytes": 66698,
+      "sha256": "f0fc69787920be70a6977748f6237f2df73d5f7a5f09cd3db967db15d29dc893"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_resumed_approach_v153.py",
+      "bytes": 66698,
+      "sha256": "af9fa2a970d504cd7a05e36ec75349a00146d6fe4399896ceff9dce859b122c3"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_rr_replan_v138.py",
+      "bytes": 66680,
+      "sha256": "8fa95a8a3e9a4f8f94c8ef4b6814a09f47156404b5b03ed85b8f751f58b867d1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_safe_base.py",
+      "bytes": 7893,
+      "sha256": "6bb99862f9a45055915b8b52e98955576bddb27733f2ba0ef453238cefe389e7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v180.py",
+      "bytes": 66718,
+      "sha256": "29f85f65bf47eb915b31caf7419a1f46c79734b27391db3b0f70412bbea5e449"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v181.py",
+      "bytes": 66839,
+      "sha256": "1ed7b815df2ea2e1cb39aa4b8dc825b6d7d9ec24e923dd87ce2c09de9bba7f95"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v182.py",
+      "bytes": 66718,
+      "sha256": "f6f279b92c8c12c9302c7d1a1e9c8d8f9147fc1cca450544c23e95fafe55396c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v188b.py",
+      "bytes": 66719,
+      "sha256": "e5248aa4d82643732fe11ea435162c08d6be3fccdd4f213bd5d3a9f24d10c23d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v189.py",
+      "bytes": 66718,
+      "sha256": "5fcdab1fc64f5a2d08e173961de7863c89e4258436bc45ab2d1b9d5274bc5e69"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v191.py",
+      "bytes": 66718,
+      "sha256": "2a57245327c5bbb612c7d76b9a3f6a4ddc11aa27e61c0911c1577fa038530278"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v192.py",
+      "bytes": 67663,
+      "sha256": "40a22db214f465ca237b39a91d1fc8109a9a115216fa3bab7566bd89e13a36fa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v193.py",
+      "bytes": 68567,
+      "sha256": "b51f8a9a5d50d8b348006c590e8c5c49e6f3c1028450da3a36e30cbb034b2bbb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stage_hold_v194.py",
+      "bytes": 68393,
+      "sha256": "0268fdcc13060689dd1337d21064f20103073053abcd6dfdfabb0a9a512a281b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_stance_anchor_v139.py",
+      "bytes": 66688,
+      "sha256": "9b37213216ad14ea3c29fee91ac76e67153e6d1f4ccf5b4ee2eda69e102ffc38"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v126.py",
+      "bytes": 66694,
+      "sha256": "8be1fa96e51dece53be70299159f6ab1d827c218bfa0410d5284277bcb30acc6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v127.py",
+      "bytes": 66694,
+      "sha256": "861d9dee9db03efcb886ecc1f0ad781e90f4ea3389b0a0e41f4c00bf626d07f7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v128.py",
+      "bytes": 66694,
+      "sha256": "c200a5f0c588ffc75f7cb216585c46d12718230cb673499400431f1c6ca00f8f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v129.py",
+      "bytes": 66694,
+      "sha256": "60362a7f86de6390216b40bfc508f884992f7accf369da75ead3d2a2903e696e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v130.py",
+      "bytes": 66694,
+      "sha256": "54c57df152909f1b8c7976813aa7717fcfb367c5a7ff18ab3b3f5d0ce9cc60e7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v131.py",
+      "bytes": 66694,
+      "sha256": "fc1731907200d9bd595f9197417cb6a0718282974d3d1678b9e8876e76264afa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v132.py",
+      "bytes": 66694,
+      "sha256": "c664b25516f4944ee66fb0498caae1110fc2b963c595804c6b05dec3d1f1cfb3"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_support_transfer_v135.py",
+      "bytes": 66694,
+      "sha256": "c6a3d878454ee1bd509cb24cc6902c08e1014c4eab2f6dcbcc8fd9b7923f804c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_two_front_v136.py",
+      "bytes": 66680,
+      "sha256": "ebb8e623a276d875ad4af856cc2e15840daabd747ae090ac182bf818a4fed8ab"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_withdrawal_v171.py",
+      "bytes": 66847,
+      "sha256": "11d8055a9402ea19e3f05e7cb4fc46b6a26fe0558ce745b1750bd6a84c3316b9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/evaluate_withdrawal_v175.py",
+      "bytes": 67137,
+      "sha256": "9dba49d79ab2c5d45d2c6c6eeee6f2c88e8fcb5f8973215b1df6a0ed2a7b7eea"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_box_climb_actor.py",
+      "bytes": 6139,
+      "sha256": "d600c1b2fc177bf90e2cdba02e168ad9b5f7484e5315930ad9c203fb8d82548d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_box_push_actor.py",
+      "bytes": 5369,
+      "sha256": "20b58c1ce43d898512e2234368e7b15b82edebfcc0065929e7c6bac51b765e2c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_piper_collision_profile.py",
+      "bytes": 4460,
+      "sha256": "86e9ebfadec7eaf756d232ea4ca626ed2727e855b231e114734e5992c823cbff"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_piper_native_state.py",
+      "bytes": 4789,
+      "sha256": "d16718b54c10d90d3622449e3c6b4e0ebe1b53863fa934af40e44d0c7851e276"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_piper_nav_actor.py",
+      "bytes": 3955,
+      "sha256": "2b241ebe3e38884cb5ec81bd728e7713f8fecc19f7c78e2dc3eeaf9cc53c5ea5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/export_piper_robot_profile.py",
+      "bytes": 5249,
+      "sha256": "3053f2c90c1176b9d8c89ae2f94438b1d7cf72092bc0f117a68e456e549638c6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v140.py",
+      "bytes": 3124,
+      "sha256": "71b531ae78d6d8931efbe8f9984a3142dc8b72da6068624c44f49fde08c29fe4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v145.py",
+      "bytes": 3130,
+      "sha256": "8b3568993c7f4ac9f5f6f0026b4c42e9609813fda022fb2ad87753f83f607cd5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v150.py",
+      "bytes": 3142,
+      "sha256": "6284f75f89a45ad65eb52feacdce17662cba9e8d3a196a14f1973e0206f39bc7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v151.py",
+      "bytes": 3142,
+      "sha256": "b7eebca848b58b65ac1435fd75e11102ecf5cd2632edf693b42385cedb099e1a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v176.py",
+      "bytes": 3142,
+      "sha256": "83045db2f27fa8043ebdf788dcb7984d97654291f1d27f9a85c67cbad63d318b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v177.py",
+      "bytes": 3142,
+      "sha256": "74a892e76e4c8c1b99c9219f9b22bc9c4b0163df247e746a73f48cd687d0f86e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_body_v179.py",
+      "bytes": 3142,
+      "sha256": "1d570677512cbf22810aa8fdf9578e4eb9d3080dd4963755a6ca23eb0cc6fa66"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v140.py",
+      "bytes": 14702,
+      "sha256": "607b8730425e12aff99371fc1d6534782d7639318b8532014a57d8b04f3a8a06"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v145.py",
+      "bytes": 14700,
+      "sha256": "32ad4639e01654c52c7ab0e29f6cb9b7837783684e7ff5dccc26e12fa157d3c5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v150.py",
+      "bytes": 15946,
+      "sha256": "a834435d5ddb662b1f8f6f2ba5854eb4f1c592002e92f3d456cff6562f302b36"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v151.py",
+      "bytes": 15949,
+      "sha256": "cd76b4aa87d99d8fa1dcaa94abc586cac10ab5517e17fa6b7affb29ec22ee3b6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v176.py",
+      "bytes": 16115,
+      "sha256": "f7c1bad622a705ccced838f57c7d179ab8a78c6dbfdf45d1dd720788b29986b4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v177.py",
+      "bytes": 16115,
+      "sha256": "f7c1bad622a705ccced838f57c7d179ab8a78c6dbfdf45d1dd720788b29986b4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/final_hold_v179.py",
+      "bytes": 16277,
+      "sha256": "8048dc88fa5b296320a364938e24fb05de484e4505869bf32fc2e70d128d6a25"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/four_feet_v137.py",
+      "bytes": 5246,
+      "sha256": "db3c28b68114c9ef7e5b6879afcdac3cc809fcef62fb94ea526247d106fb561c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v126.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v127.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v128.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v129.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v130.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v131.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v132.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/leg_kinematics_v135.py",
+      "bytes": 5495,
+      "sha256": "9976cf1b45c5ce010ee9c59bedf958ac428e265f806e48aeb190eff25220ef58"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/list_envs.py",
+      "bytes": 2637,
+      "sha256": "4871c36173876fd5966c9dd639514588a34dcfb1e45086d06f3198f6b32ef9d8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/push_delayed_margin_observer.py",
+      "bytes": 5064,
+      "sha256": "de7eda1da722e645ee4b736c9ca992154f596c89b2f5370c82996ca25366843e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/push_phase_telemetry_v120.py",
+      "bytes": 5281,
+      "sha256": "6401a4d0201f863e3fe3eb328fe0defb89db54c5a919972ed4e387794f119f55"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/push_shadow_observer.py",
+      "bytes": 5926,
+      "sha256": "3e28a24c450abd07f8ecb6be085f1800576041a9975b1309d0d75f1ac6bb371d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/random_agent.py",
+      "bytes": 2637,
+      "sha256": "61de67e3128619453a500563161fa053a0f76faa5e5129d1537d41567a2f6a0c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/recontact_v185.py",
+      "bytes": 9876,
+      "sha256": "50c152e55b507d60b52a2a686d3d28964e8d78bd4d1164896acf3404248180ec"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/recontact_v186.py",
+      "bytes": 10705,
+      "sha256": "6fc7c3eaf4e7e26e0bf9aad295b804362e65c51c304aa6ec8e03cd85f2449ce6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/recontact_v187.py",
+      "bytes": 11181,
+      "sha256": "e9cfa95a05b3b59c072f45c2d2eed2075c4fcf39468ac8df65966f010ec031f1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_foot_friction_20260928.py",
+      "bytes": 21489,
+      "sha256": "53f2a60069440aab1c72ed68de8ff9006ae1a715b932573fabc4e60d044d3c0b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace.py",
+      "bytes": 17039,
+      "sha256": "000800bc7c8922c1d2e2c8cc61c88097187c7cb70bc146aa34a319135c058f5b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_depenetration_20260928.py",
+      "bytes": 19009,
+      "sha256": "87f7b2d4a79393db4ab166bb312def694bd5ae40d1d0bfba4f361d947c016ee9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_foot_geometry_20260928.py",
+      "bytes": 18434,
+      "sha256": "3c66a8dea6361c9ce8605c3b08e98c0331d33e95750ca0eca2e810e2155ecd56"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_foot_spheres_20260928.py",
+      "bytes": 23107,
+      "sha256": "39a199b1872ad517246846ded36fb732914c71bdcaacc8331440592dafa7bee5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_force_timing_20260928.py",
+      "bytes": 19187,
+      "sha256": "62ebc039e2a9225ebc704fa2740f2886d0625085a38f83c56e95644339fbb783"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_geometry_20260928.py",
+      "bytes": 18434,
+      "sha256": "3c66a8dea6361c9ce8605c3b08e98c0331d33e95750ca0eca2e810e2155ecd56"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/replay_piper_control_trace_materials_20260928.py",
+      "bytes": 19477,
+      "sha256": "2254e705ab0c69ed21f1c750de648aed2fc0d457e5ff0488b34e7dd7e16d3528"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resumable_entry_v141.py",
+      "bytes": 1135,
+      "sha256": "7d0d28bc5cfb554a6066ed9745187211f55df2ed38fa475b08b64077de4adf29"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resumable_entry_v147.py",
+      "bytes": 4553,
+      "sha256": "281c30a707c96d2cc950a9da4e86bd06a3fa417f095940630c7d9771cd6bc36c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resumable_entry_v148.py",
+      "bytes": 4723,
+      "sha256": "87b914a5941e1c82d3a0941877ed49da16ddf0e072c3be366f6cc8013ce4d739"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resumable_entry_v153.py",
+      "bytes": 4723,
+      "sha256": "6b56bfd2de9e54eda1e6432099fed921d439f182942f97d00ee92e25d4dc46c5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v141.py",
+      "bytes": 6365,
+      "sha256": "0f58f8515f2362d2e0f272a53ea0cf1629733283466452d814bfa111332ef50a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v147.py",
+      "bytes": 6500,
+      "sha256": "ec1320aec17aa545fc84bd5af0cc5aa0ac93aaffe04233922feae9e03c15609d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v148.py",
+      "bytes": 6530,
+      "sha256": "1ce2d0798fba0371bf4c36ed8fdedf6d3dc2d7c0f1772f3111b2b89b41bd28c8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v153.py",
+      "bytes": 6530,
+      "sha256": "76fa1191f577608c721abde7082a8146a39806db44da097db123f2ea9a4d4a52"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v176.py",
+      "bytes": 6530,
+      "sha256": "3b50eef14bb6060ea36bddf56ef4d7ddd59c1e92757b394b8cf8c00159057ac6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v177.py",
+      "bytes": 6530,
+      "sha256": "f5bf864ea18d9c6a4fabf68424566810f5d44cd607dbd13269b64c7b62620b6c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/resume_approach_v179.py",
+      "bytes": 6530,
+      "sha256": "b76ebba5038660fc1d4928d5d311c787a016afafc120843b97c49913c57ac7be"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rr_replan_v138.py",
+      "bytes": 5213,
+      "sha256": "fbc27497f40b7eb7d705f8f312f7d7ff39e2ab9a26ae279e7cb88f98cef3bbe4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/cli_args.py",
+      "bytes": 4115,
+      "sha256": "81eb3d7936086f5314e183ced08bf32ac20f4df112a48ba0b4df99d0f54480ed"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/initialization.py",
+      "bytes": 5801,
+      "sha256": "5ac73f256fdb66b89bd706dbeb6a7455a8859a7f99ec0a85bce4d62f55633248"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/matched_training.py",
+      "bytes": 4275,
+      "sha256": "341abed5d36f8ee30f3abbb089efc8db6b62a030c559fb29bff5908ac8506fc3"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/play.py",
+      "bytes": 9222,
+      "sha256": "d1e1943a76bb995dd418d29347a3fb18b634c00b8571a28a988fe336d7346137"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/push_action_sampling.py",
+      "bytes": 3546,
+      "sha256": "0893cb9a133286670e00207279b201755a7deddf74a49a9bf0ca484724a3581c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/safe_retraining.py",
+      "bytes": 15324,
+      "sha256": "7cb77fcf1756a3c22478d2a519cd2dd6a066584073522ea9415372bc72089217"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/rsl_rl/train.py",
+      "bytes": 15696,
+      "sha256": "148853974f07af335fc9b988a9d6f709d05bfa67d137c6ce762ceae8e553e2e3"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/short_transfer_v181.py",
+      "bytes": 10038,
+      "sha256": "20daa9a9f3bb3f078d800d074a7ae214f1232300f20b94589249e741621d2949"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/skill_export_provenance.py",
+      "bytes": 2401,
+      "sha256": "a224582dcd4e86987ba289a116bb0019d2634ab6b60edf1adb285204edcfbd25"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_body_transfer_v181.py",
+      "bytes": 10658,
+      "sha256": "a7bc744eaa6c20f382d5c77757c5ad25f90f7c5355f3e6becc047fc8500c7537"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_final_hold_v181.py",
+      "bytes": 16277,
+      "sha256": "05758b950d1402d969fd3dd0e34aa4eb07c4b829607c1bda0c038a76b15470a7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v180.py",
+      "bytes": 6845,
+      "sha256": "60b4cc5e00c4b7e80b3abf63ec117ad7f415eee35d7814afb91c7fa3388c1bce"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v182.py",
+      "bytes": 8500,
+      "sha256": "b9218006a58cdad8bd3958cd0fde329530540b352b1d466722a9b187b215fa8a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v188.py",
+      "bytes": 13277,
+      "sha256": "daa79b74c976fab519a38a9dd1331f9ba442ec98d24a9e7b5af17cd288f8b5b1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v188b.py",
+      "bytes": 13277,
+      "sha256": "daa79b74c976fab519a38a9dd1331f9ba442ec98d24a9e7b5af17cd288f8b5b1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v189.py",
+      "bytes": 13603,
+      "sha256": "8bcb286070e78e3f8fa25b30c25f9c682a66094af022281cc44637de1c4509f8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v191.py",
+      "bytes": 16675,
+      "sha256": "0b2ccc2b1a58ca038cb39b7aacf99a6d6d527fe9e8197769e7f855771a80c300"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v192.py",
+      "bytes": 16675,
+      "sha256": "0b2ccc2b1a58ca038cb39b7aacf99a6d6d527fe9e8197769e7f855771a80c300"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v193.py",
+      "bytes": 18697,
+      "sha256": "a2a743068056715d6853040f35917ab04f974ca48e273d2b61c620a3c0cae061"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stage_hold_v194.py",
+      "bytes": 21313,
+      "sha256": "909877c8dde436d3437ecdc6fd7be9f6f3c13c35d3ebe3de189053b305f18f1b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/stance_anchor_v139.py",
+      "bytes": 3043,
+      "sha256": "8fdf5525e21e02e8c2e461b3e1aa56eeda8306d30cabaddd2875056574c1a697"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v126.py",
+      "bytes": 4502,
+      "sha256": "02d65769f82737490c93a81b9809f416f4ec19d4cf2ebad9269bc8c8e3b340a7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v127.py",
+      "bytes": 5458,
+      "sha256": "4f8c1a3d22a28ec2cedad2e3bd25c3663bd14250bff260f2026649cac2137483"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v128.py",
+      "bytes": 5458,
+      "sha256": "4f8c1a3d22a28ec2cedad2e3bd25c3663bd14250bff260f2026649cac2137483"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v129.py",
+      "bytes": 5458,
+      "sha256": "4f8c1a3d22a28ec2cedad2e3bd25c3663bd14250bff260f2026649cac2137483"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v130.py",
+      "bytes": 6688,
+      "sha256": "c8e872abce23263f70d7d8829b433a05fac5b53057eb36ab9c89059e190ea384"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v131.py",
+      "bytes": 6688,
+      "sha256": "c8e872abce23263f70d7d8829b433a05fac5b53057eb36ab9c89059e190ea384"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v132.py",
+      "bytes": 6688,
+      "sha256": "c8e872abce23263f70d7d8829b433a05fac5b53057eb36ab9c89059e190ea384"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_math_v135.py",
+      "bytes": 6688,
+      "sha256": "c8e872abce23263f70d7d8829b433a05fac5b53057eb36ab9c89059e190ea384"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v126.py",
+      "bytes": 11960,
+      "sha256": "a379bd2e3a0c2329afbfd99f2bfa699c3cc156937d54f8050f8dafaaa2f4e912"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v127.py",
+      "bytes": 13180,
+      "sha256": "5802cc17b625e62e83384516e130a241913cc247d09dfd454b637a8983a1651b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v128.py",
+      "bytes": 13877,
+      "sha256": "e4aa3a5fb1a8a808541f388bada9e87b97e6d2e2597ebcd7ad1523239c092cec"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v129.py",
+      "bytes": 14722,
+      "sha256": "e79033827252f43fd4688e26c8c3b8c9343a36cbcba38b352599426b70c0a6ed"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v130.py",
+      "bytes": 18885,
+      "sha256": "ec54d1a9051a83b473006dfbfe7215972b690046214b3b55613303146f840a87"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v131.py",
+      "bytes": 19918,
+      "sha256": "4daaafa5999397e4c8a70d825787d2bd0eedaf14c290bc350befb45806685f54"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v132.py",
+      "bytes": 20091,
+      "sha256": "11faf047a98d4643d4f490df6ad67eb27e745adaeb0133299cdfea03cfd97aa7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/support_transfer_v135.py",
+      "bytes": 20074,
+      "sha256": "dfd538acc6269fee2f01835e30948ad6596b85b43c12753d61272e33d148b2fe"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/two_front_v136.py",
+      "bytes": 4918,
+      "sha256": "26e696d4e0c0d15d2261b52c2865052222a7b2de7fd82bb82779baf3a64d9578"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/withdrawal_v171.py",
+      "bytes": 11123,
+      "sha256": "44990893ff469d3640907bda6779a1d24dfb3a56177af52077468c691fe75d08"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/withdrawal_v175.py",
+      "bytes": 11131,
+      "sha256": "03c531983dc4b0647e4a34b18f581cf0817a3805b2cdccd4a35a14baa47bad2a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/withdrawal_v176.py",
+      "bytes": 11278,
+      "sha256": "f8a5fd8907fb80317ffefbd937791a0ce1473b5446ee46752b26cea53cd7ccbf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/withdrawal_v177.py",
+      "bytes": 11278,
+      "sha256": "f8a5fd8907fb80317ffefbd937791a0ce1473b5446ee46752b26cea53cd7ccbf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/withdrawal_v179.py",
+      "bytes": 11278,
+      "sha256": "f8a5fd8907fb80317ffefbd937791a0ce1473b5446ee46752b26cea53cd7ccbf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/scripts/zero_agent.py",
+      "bytes": 2608,
+      "sha256": "9092c1465ed4c3a5e3fff4c459caab9cfdbc8b86f7188ff7688e6a59fc7a9753"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/__init__.py",
+      "bytes": 763,
+      "sha256": "93313aeb237d8b118bd3854978c57f706b8dcde9652f7f3b334f88ea657d83e9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/.asset_hash",
+      "bytes": 32,
+      "sha256": "9ef128e8131502214a8dd2aaf009d07bbb4ee1306bbfd08414fb9c9c710d9d51"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/config.yaml",
+      "bytes": 510,
+      "sha256": "27b50db3f63bfb47cf912d60dbaba250e6b14f64e1190cf3c51e01b56846a049"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/configuration/go2_arx5_base.usd",
+      "bytes": 31546206,
+      "sha256": "6c8db7b37bcb63a4c9712320af37d7cbb32eac978f70deecde704691a47c9a43"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/configuration/go2_arx5_physics.usd",
+      "bytes": 8366,
+      "sha256": "ab5cf8cc28a89c1e73ebe435803c701ce743f175d1d472cd9afca55ed1ac0fad"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/configuration/go2_arx5_robot.usd",
+      "bytes": 2366,
+      "sha256": "2573b9b8bdf5709f45100ea2b9e9ac789cf96174e9f248b94518021b12bc9901"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/configuration/go2_arx5_sensor.usd",
+      "bytes": 648,
+      "sha256": "648c6562eb3135e512903e45a587b05e676a8ed783c59ddfce1f5299f3e2e911"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/go2_arx5.usd",
+      "bytes": 1457,
+      "sha256": "2ee25ef7100cbb7ff0053355ef647d8ecab77fa435424c39b9ff90fecad7876e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/go2_arx5_articulation_cfg.py",
+      "bytes": 4668,
+      "sha256": "800135dc118b8785f00c8c0541031c8befa952a6ab587a7b9476733dddfd9e1c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/.asset_hash",
+      "bytes": 32,
+      "sha256": "fd912c23304e59396dcfce273886d1aa1859c04c132c4166eb29bfa9c72b15d2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/config.yaml",
+      "bytes": 511,
+      "sha256": "623d184dcf612844827515f16d5c72f0e88c5921a4fe2b89ad82ddaed45742c8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_base.usd",
+      "bytes": 32041512,
+      "sha256": "542208f7497fdb72515692ba70450bbf639997cb9e14ef7307ff93e998ce20b5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_physics.usd",
+      "bytes": 8420,
+      "sha256": "961a2e3c4f8e039d3cb05844241346310703bc0f4d6fd8874446438ba503ef29"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_robot.usd",
+      "bytes": 2376,
+      "sha256": "400e409b680e1e50089e9ff50f9b570707154f51a57de28e412823d14c3cfe6f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_sensor.usd",
+      "bytes": 649,
+      "sha256": "5cc66a900471dc4380fd1691e290d5fbd7a1c02aaf60aea1b17a15216743b1af"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper.usd",
+      "bytes": 1458,
+      "sha256": "7096d6fe13922bb16678a7963eb5eef9a4e5fafc8de0cfc8b512f002f83dfc16"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py",
+      "bytes": 4671,
+      "sha256": "39b61dd88bcaca377bc46462b103324e69f0818f2b06681fdd61f408a4bcea9a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_selective_collision.usd",
+      "bytes": 2917,
+      "sha256": "d8421ef50d69b7d43dd7a7d07675fa3b4c651ffcaf9d3d00d74c85544bbdf21f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/__init__.py",
+      "bytes": 925,
+      "sha256": "fc406ce68ff7f76bdb53aba8ecb758e157d9befd6ae17628dc1336e824c3899d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/__init__.py",
+      "bytes": 624,
+      "sha256": "df22e2b5788c6251ceb903a77e9e71dd7f44c58c315d018464fc63767bf63826"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/__init__.py",
+      "bytes": 3489,
+      "sha256": "88e4180bd26c1107c5b26cc359b1f8f536bbadbdd830a14cff65889c07809456"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/__init__.py",
+      "bytes": 585,
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/rsl_rl_ppo_cfg.py",
+      "bytes": 3599,
+      "sha256": "924e7a3ce501275f8ae12284ee15cf5b21aeb2059abb701cfd18ef99723fd812"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/box_climb_env_cfg.py",
+      "bytes": 5206,
+      "sha256": "3c2b0962715c4c4e316f98131232a2809bdae50bfdc1e1f1da0b3a8992da98ba"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/box_push_env_cfg.py",
+      "bytes": 9893,
+      "sha256": "96014f1c19ceaac5609c1a0c14344eaddb55cee018d88fad0da131ba208a4502"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/box_robot_cfg.py",
+      "bytes": 1046,
+      "sha256": "97d2e813c38307ecae8a37159d9ce5f5c2213e83a3c43d3cb2da5dd78b35c382"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/climb_env_cfg.py",
+      "bytes": 4743,
+      "sha256": "0e8d1e37a01509e21f172cbc306e7186080bec05f674e90b022a067c3872d2c7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/flat_env_cfg.py",
+      "bytes": 2482,
+      "sha256": "90b460407d84eaf6817bf1e6ec42afc9c96db9ccc9c74bde4149026424853c1a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/wbc_env_cfg.py",
+      "bytes": 4365,
+      "sha256": "547ef5c5f1c762895ae06249c844c461d304c52835a608dd6178686973230d41"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/__init__.py",
+      "bytes": 2571,
+      "sha256": "a28bc0d0916354beef0ac1239a7e7d078f0f30620bc69901d2ad236e2b40c1f5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/__init__.py",
+      "bytes": 585,
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/rsl_rl_ppo_cfg.py",
+      "bytes": 3739,
+      "sha256": "2dae471186b41b7efdf8ab572c4b2b97a2cc77eb8d7f7c5b60f5ebbd09f9d96c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/box_env_cfg.py",
+      "bytes": 15314,
+      "sha256": "c1591665dcc0d2f6794a121ec131bfb86a4d600482bf879153e1b549a33a2d4f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/flat_env_cfg.py",
+      "bytes": 2501,
+      "sha256": "1585b2464e35f24c22646f252cadbd36b8912087de89667f846d6ee68627b3f5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/wbc_env_cfg.py",
+      "bytes": 4627,
+      "sha256": "5399b7432bb3ec1679a1329bccb11c9b4007989a0ab5072a3cf7ed525717dce2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/leggedmanip_lab_env_cfg.py",
+      "bytes": 17011,
+      "sha256": "dd73ab305ad875fc5a9c83f3b60dd93c89e994e739481f9a2a222695f9e851e7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/__init__.py",
+      "bytes": 1146,
+      "sha256": "9d0437950813d00fb85f6ddeb458895d3a16836b9146f55b3f6dbcb9bbaaad83"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_climb.py",
+      "bytes": 6178,
+      "sha256": "c25d8816f76540fff99cb902cff475996247369eafb37de301392a20d23167be"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_push.py",
+      "bytes": 16862,
+      "sha256": "c00347198b9eb70400134526558a44c4a6c9d07812041b340a1b3da64fbc51ae"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_push_actions.py",
+      "bytes": 3366,
+      "sha256": "d92f8d006b1f5b74b7603501ec68a38fe88894e151c961fafcfb15adaf92d7c5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_push_control.py",
+      "bytes": 13936,
+      "sha256": "4ff8cc3dab6482b7e099cf519f688a3ddf25ee77394d3b12426470fc76865f17"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_push_geometry.py",
+      "bytes": 6708,
+      "sha256": "46d14b5f217294ca3301c6be0debfee3421ebc0b632449b8a254d27292d8d1d5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_push_ik.py",
+      "bytes": 50142,
+      "sha256": "05662448aa466d80a28476746545dd93abca257352a59c752ae233b3a35cb5af"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_rewards.py",
+      "bytes": 1967,
+      "sha256": "d46f5e077a29dade5d9fde3b9aebf0ea386ec915ef8568131e487d3da40e8f5d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/box_terrain.py",
+      "bytes": 3442,
+      "sha256": "6cd058b846ca80db90a839df3985500a37cf256997646f8cddc0956bbd00de28"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/command_cfg.py",
+      "bytes": 2208,
+      "sha256": "05f84e2a2ecda7d208d606810f948b4dfad53021c0999e2e8f52bc370d64c5d4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/climb_start_states.py",
+      "bytes": 2765,
+      "sha256": "4cca1fdd605f14d3eedb9903632d423d803317fc40d744cf8dd3a38a9f7ae8ac"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/curriculums.py",
+      "bytes": 8987,
+      "sha256": "0d94404ce0f7fcec4daadf732f97b8e0de690788eab7ad27ac52f0acf40af7cb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/events.py",
+      "bytes": 3292,
+      "sha256": "ab65d22168ee3b9618637846b72dab2f33623e8d76c6c344dfb49bb5b59ef95d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/observations.py",
+      "bytes": 7187,
+      "sha256": "23ed2f1e86bea46618efdc6fbcf2bd66251291dd7c978d2dad7c9af704df9ade"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_b.py",
+      "bytes": 7305,
+      "sha256": "225caa2b1825864f4f1d82828c73ca1dd2e6fd3acfa2541f34157eb6c562c2aa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_wbc.py",
+      "bytes": 10214,
+      "sha256": "9266a53093084c437edcc88a3ab166be69fbc9535a5678cb2a4182d028d20249"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/residual_push_actions.py",
+      "bytes": 2087,
+      "sha256": "a82f6b2371c4f8976f80fd4d529d7ae99d388c12e3bbfca690293dca3eda134a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/rewards.py",
+      "bytes": 15142,
+      "sha256": "d48f23ed9a571d3b23fc24399e4933136e0bd14f07c56761a6dd59b796f091db"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/LeggedManip_Lab/ui_extension_example.py",
+      "bytes": 2112,
+      "sha256": "92ae5980b8799efe1cf443f119953ca4ebe502d95556509bb74997bad252cab4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/train/source/LeggedManip_Lab/setup.py",
+      "bytes": 1907,
+      "sha256": "1a600017249ebbceebea4090d5b68d28867446c816589242e3a8257b9366816b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used2701-32env-48s/plan.json",
+      "bytes": 2286,
+      "sha256": "11240b28208f86ecd03b1f7c4b52fdb2c0e14a7de2a26a7bb3bee3e6e2dae901"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used2701-32env-48s/report.json",
+      "bytes": 9266557,
+      "sha256": "ef00079983df4af5dc7681d4f493b747a17a4e126bb92d27365a5b1597e28481"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used2701-32env-48s/result.json",
+      "bytes": 17991,
+      "sha256": "34f0abee1b596f2271961d7497b8a2d3a67a2d012c7f6e4bc89426009667a631"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used2701-32env-48s/startup-physics.json",
+      "bytes": 3639,
+      "sha256": "8664f6a6620f9b08c88f8a00533f929626aff8f5870ed9cb90482d1a68462007"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used3701-8env-48s/plan.json",
+      "bytes": 2284,
+      "sha256": "81f221b9462f66cd39b48e3a747f9f5786001e142bd2d6bf2c0a25bbaf57785e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used3701-8env-48s/report.json",
+      "bytes": 7450840,
+      "sha256": "5d39f86db91a792ed4f9e9edf7802bb746d211ca574c11be79c37a04e672f56d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used3701-8env-48s/result.json",
+      "bytes": 5317,
+      "sha256": "ddb26e3bbab3b6bc3dda16c1194016fdfa28fea695423089160537b3ee7c8f1e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/trained8052direct-used3701-8env-48s/startup-physics.json",
+      "bytes": 1047,
+      "sha256": "181dbcfd8052f16d7246a690a7b86b9f51b5724cf0a3089f0cce1d5b71007e2b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/video-development-seed3701-8env-48s/full-push-env0-original-speed.mp4",
+      "bytes": 795111,
+      "sha256": "5825476ea9dfe7915bba69780cefa926f92922c65e1cd233dbdd316d8985cc47"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/video-development-seed3701-8env-48s/plan.json",
+      "bytes": 2462,
+      "sha256": "171011686bcbab6df4c97adaccda069cffaa3801ea916f993d463b5886aa5788"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/video-development-seed3701-8env-48s/report.json",
+      "bytes": 7450988,
+      "sha256": "2cea320b10f56621b265b448bcfdc6da7af49548cb0fe55662e836fd27ddcc08"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/video-development-seed3701-8env-48s/result.json",
+      "bytes": 5318,
+      "sha256": "1e726e41bae98ec2691958bf4e5e63bc781c58bb4fc2b8a0bf72b8205011b311"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-direct-approach-v212/video-development-seed3701-8env-48s/startup-physics.json",
+      "bytes": 1047,
+      "sha256": "181dbcfd8052f16d7246a690a7b86b9f51b5724cf0a3089f0cce1d5b71007e2b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/push-warmstart-train-v205/train/logs/rsl_rl/go2_piper_box_push_hybrid/2026-10-13_05-16-06_full_light_train_8052/model_255.pt",
+      "bytes": 6783146,
+      "sha256": "4d1a4616928b4d06002285e870a1d6dd114e27b8cafcdd9a41dbdae1aceed419"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/deploy/piper_collision_profile.json",
+      "bytes": 554935,
+      "sha256": "54640d2f015626328f63e0ee98387b57ed01993c4e9595ba624c2a6b810ce276"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/deploy/piper_robot_profile.json",
+      "bytes": 21310,
+      "sha256": "82709e77505deaf5689a84e886b3fc2b570e5e85e93f34d626e5d2d6fea3536a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/README_CN.md",
+      "bytes": 13288,
+      "sha256": "01b1db274783954df082d7df1dd4d89a5ec5ef76a8837bb6a0d79ec477b37afe"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/__init__.py",
+      "bytes": 338,
+      "sha256": "8fb48d549da02136ee56af27985c93f68a3d6f7b50faf40e251b9a314a165907"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/blocked_passage.xml",
+      "bytes": 2182,
+      "sha256": "fe4ab9988b2e61901562f5317ef280c794c68637b3b6c2fce73bb9fbf6cb57aa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/box_climb_runtime.py",
+      "bytes": 1940,
+      "sha256": "103c364338d30322ed546db3af930a5baf5ece520aa69dec80665e1a95b2ef00"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/box_navigation_runtime.py",
+      "bytes": 1879,
+      "sha256": "24332f1389929ac6dd9f10bab5e0f7d8e86f074d28d1dfc17e0c0577b597c411"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/box_push_runtime.py",
+      "bytes": 30306,
+      "sha256": "12897c8e024f06667e51918c5ad0823c94e5fd6b9269a92972af4e6f78df3bc1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/box_robot_profile.py",
+      "bytes": 2499,
+      "sha256": "d9ee9074c3b508a8d6ffc729f5016c29c6695cd5255f15e029f43acba140d2c5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/climb_runtime.py",
+      "bytes": 12341,
+      "sha256": "eb8f5883b8e744825c52d24d43f93c39d62c6ea8351cec10c005eb3b3ca9ccca"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/complex_course.xml",
+      "bytes": 3457,
+      "sha256": "68863d6364ec2b6932e16007c78be83a2bd4d29e3ab6dce63c638f828102ce31"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/complex_course_env.py",
+      "bytes": 3379,
+      "sha256": "94449d0c2b326792d470daa4673f46a909b026c24c5f204a1ac329b783c2982a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/__init__.py",
+      "bytes": 152,
+      "sha256": "c800034d24ae0b5853cb9884c95a9d4f1f2c25a30ed0d5cb426633914de616e5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/candidates.py",
+      "bytes": 4568,
+      "sha256": "67e88f2c4e3542528ceb9f10ebe9db538376b84627e76d17de73ac134c470efb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/events.py",
+      "bytes": 2454,
+      "sha256": "1b9030cfb9bec43ce24893e5ab17cb9c69ef7d1c1e0d5b7d084d069ef82349dd"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/snapshot.py",
+      "bytes": 7054,
+      "sha256": "f6fd547356a198f0c9bf27fc1e30a8350c6bb9094811b9bc8265be656c3bbe05"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/snapshot_io.py",
+      "bytes": 11050,
+      "sha256": "d5428de8e69055a4c9eb1573f7d37a4cb3dfa7ee66d66858ceb54597d0fcb076"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/data/transition.py",
+      "bytes": 3459,
+      "sha256": "4f570fa6ffa3c3c3e41ca08641af97a1246dc2e5b488112d9b8828ce7e340838"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/env.py",
+      "bytes": 12523,
+      "sha256": "64dd57f6aa8ee82823ff4ed90399048189771f8eb3d4d35efa749239fa8cf4d9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/locomotion_runtime.py",
+      "bytes": 7968,
+      "sha256": "684ab64449d15d889c517f4284133c355d2139e7fd522f8b3eff09a907723861"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/occupancy.py",
+      "bytes": 5806,
+      "sha256": "f29636a92a3898e45bde695ba3dac795dfa7c58c87d4b2adfcc7cceaff554011"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/oracle_planner.py",
+      "bytes": 13886,
+      "sha256": "b4790e08060642124c67199c5b605a7d9dc32c6ed5c22b725cd98e46a87366ec"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/passage_scene.py",
+      "bytes": 6345,
+      "sha256": "2c8dddd87307feca9c5d43582e4d4df23cc5e453d29fbc1c4afe7d2345d0f0b5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/piper_box_runtime.py",
+      "bytes": 12243,
+      "sha256": "0c890890be0d2922e7f43c4664e760771f0046c152a67be00c18566638d63889"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/piper_locomotion_runtime.py",
+      "bytes": 3167,
+      "sha256": "e41329f4985751dac8c0c0f82a0e4c1c03bcd4d5701efc93077bc9faa2b3e35b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/piper_robot_profile.py",
+      "bytes": 3052,
+      "sha256": "26c095022cd2aef6b16acca16c5dcd57fc2401626c7ac7ab5de00f6c261b927d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/representations.py",
+      "bytes": 2759,
+      "sha256": "020089e45580490b416a58d061c4e74ce565389c6033934d708309544be07f37"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/runtime/__init__.py",
+      "bytes": 203,
+      "sha256": "a0e2fcf8a9d4041991fd003b21f622ddc7ae59278f209b3669f41a9c44a70042"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/runtime/executor.py",
+      "bytes": 13010,
+      "sha256": "0d2a9e9ae35356323bcb41ce81f9f87cd9ff26219d4788b836a0b09e8cd861f7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/runtime/replanner.py",
+      "bytes": 1574,
+      "sha256": "caaa34708a943227c28f0e26b784ba14fcf585e6747eee858eb6276487650a74"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/runtime/safety.py",
+      "bytes": 1222,
+      "sha256": "f4a82b8cf05baed0b7e3d460bfd4dc3b7b9ca8748edeed523ac9dc8dc8d3eca9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/skills/__init__.py",
+      "bytes": 433,
+      "sha256": "df1dfa90a336635b852e3ad7a105f759d0fd16429479cbc892d64bf01931df01"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/skills/base.py",
+      "bytes": 1076,
+      "sha256": "5574e641ae0aa83742ecfbd6d536c9fcd8ca11dd881e96d96c7460832c76f8a2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/skills/climb.py",
+      "bytes": 6118,
+      "sha256": "8a5b7e411c4d8d25eb9efc8d167b06a2af0aae656d5184aae6964e984f80806c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/skills/navigate.py",
+      "bytes": 5265,
+      "sha256": "eaa2fd12219e652c5c018627a1fb13e67df0f6981e0e2e4af9d06d3008c96700"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/skills/push.py",
+      "bytes": 11507,
+      "sha256": "0488da50f0361f8a6da47bcbd083746cff16b33f256ee7fd95fd1d03d681c455"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/reconfigurable_navigation/velocity_projection.py",
+      "bytes": 3534,
+      "sha256": "ff667505788660f5bab9268e62cfb82b3b275fcc5179c5f619eb59b23f4f731b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/ago_z1.xml",
+      "bytes": 13718,
+      "sha256": "116e99faaab1db332f5baf36643d471bad398afeca08a96a8acd066244225e89"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/calf.stl",
+      "bytes": 472584,
+      "sha256": "bbb56eb25e4171e1d5e0120481644e8a6e3406feb91ac02521dc1bb54888af80"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/hip.stl",
+      "bytes": 165584,
+      "sha256": "865a5af12717fa64e722e0f75787dcadbde140ee9d91cae1a00d2f382be2bf48"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/thigh.stl",
+      "bytes": 475684,
+      "sha256": "9a8e1c7a54fb43015d6c24ef90c0dba9086dead0f3950daac3e62edfbd3f2279"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/thigh_mirror.stl",
+      "bytes": 474084,
+      "sha256": "e504a94860925b2dcb98289fa9eb7edcc31c14d4c7902446478453de7e1c32bd"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/trunk.stl",
+      "bytes": 1914284,
+      "sha256": "7914b93b9f7af9aaa0eadc480894ca716b172ce2b7b184187a66339aaa401f6a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover.stl",
+      "bytes": 1152684,
+      "sha256": "7b88f56bd0c92448713ce167286cf1a8a27df027081bbcfec68650449fe2aa09"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover_col_1.stl",
+      "bytes": 2484,
+      "sha256": "e5f3f92d4444d58d5bb438af3bb554e3415b822f38d15a00af3f0cda22d6baef"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover_col_2.stl",
+      "bytes": 2484,
+      "sha256": "2c236c4bd283c4ad8370ad80a01a778c9f629a72876303cab2c0bbad044d3e5f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover_col_3.stl",
+      "bytes": 2484,
+      "sha256": "e7cc5f0a728855a6611a8c9545315058a476478675841dcf33f9d4d6f9f8eab8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover_col_4.stl",
+      "bytes": 4284,
+      "sha256": "a0a330f50af07470bc61a7aa5046e2ef74dfeffb75ea0542c4ea171df51d6ebb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperMover_col_5.stl",
+      "bytes": 4284,
+      "sha256": "13b959c18081ea848b022662ef51c4c9778231ae3393fd197db7290dfb091ad8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator.stl",
+      "bytes": 2170284,
+      "sha256": "9f5dc7cc40f53de018c9bc201c14e2602eb10fedbd130609a3ddcb162ed9cee7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_1.stl",
+      "bytes": 684,
+      "sha256": "14e70222863b725f462381cf1cc3b1bb7c078611a7deaa928bac58fca77d5576"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_2.stl",
+      "bytes": 2484,
+      "sha256": "6eff356928ad4f76fe82aa69d7f755ad402ca5b50428dee9aab7ddc4374da0c9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_3.stl",
+      "bytes": 2484,
+      "sha256": "a20f5d9c651e3eda86af3f78dcaabd6a2e906bfd0285f80849bdbca21db58885"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_4.stl",
+      "bytes": 1284,
+      "sha256": "10d12c40f52841b250a9aa7d3078e8ee26faad027e7b0098f471bf4364c61b61"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_5.stl",
+      "bytes": 6284,
+      "sha256": "8589982f430e2cf49f34a7fb6910e6881321f4d80ad2d46962200e843f4e9030"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_GripperStator_col_6.stl",
+      "bytes": 6284,
+      "sha256": "385bd1ee96796b8756b208e8b474a0064daf83d334f90097122e54724b285f3d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link00.stl",
+      "bytes": 818684,
+      "sha256": "d75a404679bd85795b09fdc95cfd490211d1bced9a8b9228b2e737394f8dccbf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link01.stl",
+      "bytes": 2813284,
+      "sha256": "489238d3af107b967e57d260887363b3ffc635b2005e378b8f6d881f796da649"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link02.stl",
+      "bytes": 1306284,
+      "sha256": "20b767758fce2d00991180abb5893cb1208c99ca912b9d787821ee3f28214949"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link03.stl",
+      "bytes": 1679084,
+      "sha256": "bc367e92accb5653e7f59ce8f92c67f6fe5ca58adb6f34b58b10e2c98ac3adf1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link04.stl",
+      "bytes": 1263884,
+      "sha256": "cf597837f10e7c062f24234f80c443f1ccd5f29db0eb8acd47f639612248e804"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link05.stl",
+      "bytes": 901584,
+      "sha256": "11672541c399a9fe93621f30f323f012d8216a064749dabf437bf849c0ea81bc"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/assets/z1_Link06.stl",
+      "bytes": 114584,
+      "sha256": "c6f401da94b1dd329ff3ab4cc094fcab034f514db8edaa95a3e84d457d313431"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/ago_z1/scene.xml",
+      "bytes": 1103,
+      "sha256": "ae296e59f9c668d2888e404f7ec9a01077ad22a1da5e9aed8a83942389ecc319"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FL_calf.obj",
+      "bytes": 672991,
+      "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FL_foot.obj",
+      "bytes": 1134008,
+      "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FL_hip.obj",
+      "bytes": 168726,
+      "sha256": "5e3942ae305c6f9f0fa074f9c92195345948bc953a5a40e7005656730133a41a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FL_thigh.obj",
+      "bytes": 656761,
+      "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FL_thigh_protect.obj",
+      "bytes": 407319,
+      "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FR_calf.obj",
+      "bytes": 672991,
+      "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FR_foot.obj",
+      "bytes": 1134008,
+      "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FR_hip.obj",
+      "bytes": 168209,
+      "sha256": "23b89b015a6c30bc8423a81d547ed41cfe0fa0d1d60f922c9dd8379139d22b83"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FR_thigh.obj",
+      "bytes": 1516972,
+      "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/FR_thigh_protect.obj",
+      "bytes": 408074,
+      "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RL_calf.obj",
+      "bytes": 672991,
+      "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RL_foot.obj",
+      "bytes": 1134008,
+      "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RL_hip.obj",
+      "bytes": 165316,
+      "sha256": "6e2879adc22ac042a5496cc34e4b33899629bba7551409694e63ac6000c553a0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RL_thigh.obj",
+      "bytes": 656761,
+      "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RL_thigh_protect.obj",
+      "bytes": 407319,
+      "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RR_calf.obj",
+      "bytes": 672991,
+      "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RR_foot.obj",
+      "bytes": 1134008,
+      "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RR_hip.obj",
+      "bytes": 165423,
+      "sha256": "8518c8bc919782381dce1dcc170e5d2c0621e8bf6de40d78ec98d8b48ba8eadf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RR_thigh.obj",
+      "bytes": 1516972,
+      "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/RR_thigh_protect.obj",
+      "bytes": 408074,
+      "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/base_link.obj",
+      "bytes": 16748391,
+      "sha256": "5bd2e7c234ca56777c7170b89baf879dad84fc68683711920eb0ef8c6c3b264f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/f_dc_link.obj",
+      "bytes": 3010,
+      "sha256": "24993a575ae7dbaebf21c72fc11ee91d80eb65044d19bc1ca5dc26126a1501e9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/f_oc_link.obj",
+      "bytes": 7653,
+      "sha256": "f6e8e5851e3b3af7dc21f87cd28e20b23217d47e342d455a4db4ef40e87e7538"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/fake_head_Link.STL",
+      "bytes": 117684,
+      "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/fake_imu_link.STL",
+      "bytes": 117684,
+      "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/fake_tail_link.STL",
+      "bytes": 117684,
+      "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/logo_left.obj",
+      "bytes": 272124,
+      "sha256": "0887aa24c5178af99fd95742a6177c5697f7f49eb9dd5862ca27867d66887bd2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/logo_right.obj",
+      "bytes": 272963,
+      "sha256": "c94c9b364a612c91521fa65f82e51fc9b1720ca9ad16740ed49d3fa3dca448e9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/r_dc_link.obj",
+      "bytes": 2943,
+      "sha256": "32629150f572e434cbd135de454aeaa14454871f5897fd865460b5b94d1356b7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/r_oc_link.obj",
+      "bytes": 7737,
+      "sha256": "c2448a40b0e697f827067ee8a3e0772b29aa48249da091b07311687253b9ca1a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/unitree_ladar.obj",
+      "bytes": 9252,
+      "sha256": "e951dd0f9487e378a70f4f6bed7af1912fe56d5afae3acd8ae06c39474791cfe"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover.stl",
+      "bytes": 1152684,
+      "sha256": "7b88f56bd0c92448713ce167286cf1a8a27df027081bbcfec68650449fe2aa09"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover_col_1.stl",
+      "bytes": 2484,
+      "sha256": "e5f3f92d4444d58d5bb438af3bb554e3415b822f38d15a00af3f0cda22d6baef"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover_col_2.stl",
+      "bytes": 2484,
+      "sha256": "2c236c4bd283c4ad8370ad80a01a778c9f629a72876303cab2c0bbad044d3e5f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover_col_3.stl",
+      "bytes": 2484,
+      "sha256": "e7cc5f0a728855a6611a8c9545315058a476478675841dcf33f9d4d6f9f8eab8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover_col_4.stl",
+      "bytes": 4284,
+      "sha256": "a0a330f50af07470bc61a7aa5046e2ef74dfeffb75ea0542c4ea171df51d6ebb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperMover_col_5.stl",
+      "bytes": 4284,
+      "sha256": "13b959c18081ea848b022662ef51c4c9778231ae3393fd197db7290dfb091ad8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator.stl",
+      "bytes": 2170284,
+      "sha256": "9f5dc7cc40f53de018c9bc201c14e2602eb10fedbd130609a3ddcb162ed9cee7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_1.stl",
+      "bytes": 684,
+      "sha256": "14e70222863b725f462381cf1cc3b1bb7c078611a7deaa928bac58fca77d5576"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_2.stl",
+      "bytes": 2484,
+      "sha256": "6eff356928ad4f76fe82aa69d7f755ad402ca5b50428dee9aab7ddc4374da0c9"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_3.stl",
+      "bytes": 2484,
+      "sha256": "a20f5d9c651e3eda86af3f78dcaabd6a2e906bfd0285f80849bdbca21db58885"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_4.stl",
+      "bytes": 1284,
+      "sha256": "10d12c40f52841b250a9aa7d3078e8ee26faad027e7b0098f471bf4364c61b61"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_5.stl",
+      "bytes": 6284,
+      "sha256": "8589982f430e2cf49f34a7fb6910e6881321f4d80ad2d46962200e843f4e9030"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_GripperStator_col_6.stl",
+      "bytes": 6284,
+      "sha256": "385bd1ee96796b8756b208e8b474a0064daf83d334f90097122e54724b285f3d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link00.stl",
+      "bytes": 818684,
+      "sha256": "d75a404679bd85795b09fdc95cfd490211d1bced9a8b9228b2e737394f8dccbf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link01.stl",
+      "bytes": 2813284,
+      "sha256": "489238d3af107b967e57d260887363b3ffc635b2005e378b8f6d881f796da649"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link02.stl",
+      "bytes": 1306284,
+      "sha256": "20b767758fce2d00991180abb5893cb1208c99ca912b9d787821ee3f28214949"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link03.stl",
+      "bytes": 1679084,
+      "sha256": "bc367e92accb5653e7f59ce8f92c67f6fe5ca58adb6f34b58b10e2c98ac3adf1"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link04.stl",
+      "bytes": 1263884,
+      "sha256": "cf597837f10e7c062f24234f80c443f1ccd5f29db0eb8acd47f639612248e804"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link05.stl",
+      "bytes": 901584,
+      "sha256": "11672541c399a9fe93621f30f323f012d8216a064749dabf437bf849c0ea81bc"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/assets/z1_Link06.stl",
+      "bytes": 114584,
+      "sha256": "c6f401da94b1dd329ff3ab4cc094fcab034f514db8edaa95a3e84d457d313431"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/b2_z1.xml",
+      "bytes": 13569,
+      "sha256": "d40e12ef59af05a39a61183c41a518601d7f6fa527e23b3eb32ccefcfcf3806a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/b2_z1/scene.xml",
+      "bytes": 1101,
+      "sha256": "078d62d7776ad7dbaa0be008df195b7c23efb0396413d0d5a432da282f731f30"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/base_link.obj",
+      "bytes": 1059296,
+      "sha256": "45d32c4eed71baf720dd22917e354e0f243af5ef9e32b421e2a962344fab2868"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/calf.stl",
+      "bytes": 1447984,
+      "sha256": "ad3685e132454fd64e4ca3e5089f0d812fb53958e95c14913a22e3193e9e9ed8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/camera.obj",
+      "bytes": 835733,
+      "sha256": "1add87c2a03f996ed5304f97ed24a56294d5d32720fda6783a02041c5c03c8f7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/hip.stl",
+      "bytes": 1505284,
+      "sha256": "b6599b9dd2751ebd87449203223f5683a6c235268b76fcc443e00e0d974a06c0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link1.obj",
+      "bytes": 94912,
+      "sha256": "3b3c73324132aaa9ded0030605aa940153f75acbe67f3d87ed974e2b9a083519"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link2.obj",
+      "bytes": 3015470,
+      "sha256": "386336421e5e2a340eef0f84e5a130cc27c08bd4edfc51f800b01b5d273d0fc5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link3.obj",
+      "bytes": 671255,
+      "sha256": "138fa8bb6e7fbfdccd596a11be073365afb3080c5c07752637dcefa3ec8c0762"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link4.obj",
+      "bytes": 84304,
+      "sha256": "7c4062cd6a6b0c0595effb8590118c56ec7d62acbab9b4676005f992f6577b68"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link5.obj",
+      "bytes": 426456,
+      "sha256": "63c0ac068bfacfe9654b0861d266ac56beb088b3c22d22077c216339167692fc"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link6.obj",
+      "bytes": 402401,
+      "sha256": "88dd21b9c47e46d9e0e1da084bea354570d3fe6816c1deeb50539aca507de9ac"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link7.obj",
+      "bytes": 57708,
+      "sha256": "056e93b2a760169f7b4929d19b4ec417dbed178f3ccefc3bb1c2ccc23e4fe320"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/link8.obj",
+      "bytes": 57202,
+      "sha256": "9d0aa1ae14eb32b41c987b58fa5509d707354ce91e3c42d4f97537ce20c5a1b7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/thigh.stl",
+      "bytes": 793584,
+      "sha256": "bbf7c0a441323088c59276dbec8a32e708a1c61f42d30a6f6775176366ea23f8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/thigh_mirror.stl",
+      "bytes": 950834,
+      "sha256": "1a90b89de47a57cb12a2d703f6b008a6ace8a1890a381c27723296fd0d00b9d8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/assets/trunk.stl",
+      "bytes": 5619284,
+      "sha256": "051a57995dc6f892fc9bc53cd94e9a894f3dc209fd646e94d55d764150013970"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/go1_arx5.xml",
+      "bytes": 17508,
+      "sha256": "2b6f610e2144671cbff622c01b3a18b0730791961f835c9e344d46916c54d4f3"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_arx5/scene.xml",
+      "bytes": 1107,
+      "sha256": "708971ace1f02c37a0037f80cba61c6475e3b8c5d0f2a21506a98c988893f2fa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/calf.stl",
+      "bytes": 1447984,
+      "sha256": "ad3685e132454fd64e4ca3e5089f0d812fb53958e95c14913a22e3193e9e9ed8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/hip.stl",
+      "bytes": 1505284,
+      "sha256": "b6599b9dd2751ebd87449203223f5683a6c235268b76fcc443e00e0d974a06c0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/interbotix_black.png",
+      "bytes": 1994,
+      "sha256": "4cd224156bbaab1ddf1b92b90d46c54835a8b41f61bc258b2f216c2618e062cf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/thigh.stl",
+      "bytes": 793584,
+      "sha256": "bbf7c0a441323088c59276dbec8a32e708a1c61f42d30a6f6775176366ea23f8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/thigh_mirror.stl",
+      "bytes": 950834,
+      "sha256": "1a90b89de47a57cb12a2d703f6b008a6ace8a1890a381c27723296fd0d00b9d8"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/trunk.stl",
+      "bytes": 5619284,
+      "sha256": "051a57995dc6f892fc9bc53cd94e9a894f3dc209fd646e94d55d764150013970"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_10_gripper_finger.stl",
+      "bytes": 22284,
+      "sha256": "6a459bd4ef07eb5c4687e258bd9564004e741437e2e668af7ed31964567d8f90"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_11_ar_tag.stl",
+      "bytes": 3884,
+      "sha256": "a18a1601074d29ed1d546ead70cd18fbb063f1db7b5b96b9f0365be714f3136a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_1_base.stl",
+      "bytes": 75584,
+      "sha256": "69facd590abff70fa03431497ead2c7f1aabe616d55af594288e9bf36b1fd067"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_2_shoulder.stl",
+      "bytes": 61884,
+      "sha256": "337b4cb7e9b637ee3dca6a737becf831fe5f95b790b34f9a97e5cf11475fc222"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_3_upper_arm.stl",
+      "bytes": 70484,
+      "sha256": "b4550b3a79e83d0ca9e1a65e490ff4e25b667e8a7d8e94bab441851c96eb11fa"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_4_upper_forearm.stl",
+      "bytes": 30084,
+      "sha256": "1a64efc97dc129bc277afee75c129de27721e8fedcad45a4ec8b251f44542f23"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_5_lower_forearm.stl",
+      "bytes": 149084,
+      "sha256": "1445950b7f5ce2cf374b98711df296acd6c2b4df24c3937b413bcb6beb037603"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_6_wrist.stl",
+      "bytes": 57684,
+      "sha256": "8602fe1313765caceec64faff5ec919ec09c57c614b87f1c1c625dcef1e3df5a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_7_gripper.stl",
+      "bytes": 17684,
+      "sha256": "6dbc189d3787ca62e09a8cf3f928ceca70c5c184a95c97ac6587805aa6a1ec6d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_8_gripper_prop.stl",
+      "bytes": 22684,
+      "sha256": "30fcd807817b7c9df6275d2c8100cfe0e7786e2c65b574d22efe177520f1a316"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/assets/wx250s_9_gripper_bar.stl",
+      "bytes": 36684,
+      "sha256": "b54601da3f60eea180226b695bb95a9b29b187f22f5b74d9a523ac9785d9a518"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/go1_wx250s.xml",
+      "bytes": 18531,
+      "sha256": "4548b7efc6a29ca198f0914dff2df62f0540e147d36f0be1eba4ea37b2638a8c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go1_wx250s/scene.xml",
+      "bytes": 1111,
+      "sha256": "a256748a23b700100ed39d968b5e578030e8ace11af261e49af7c4789708c696"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_0.obj",
+      "bytes": 1330465,
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_1.obj",
+      "bytes": 811791,
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_2.obj",
+      "bytes": 294090,
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_3.obj",
+      "bytes": 379093,
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_4.obj",
+      "bytes": 7776234,
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/base_link.obj",
+      "bytes": 1059296,
+      "sha256": "45d32c4eed71baf720dd22917e354e0f243af5ef9e32b421e2a962344fab2868"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/calf_0.obj",
+      "bytes": 877174,
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/calf_1.obj",
+      "bytes": 326865,
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/calf_mirror_0.obj",
+      "bytes": 876538,
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/calf_mirror_1.obj",
+      "bytes": 327261,
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/camera.obj",
+      "bytes": 835733,
+      "sha256": "1add87c2a03f996ed5304f97ed24a56294d5d32720fda6783a02041c5c03c8f7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/foot.obj",
+      "bytes": 1144729,
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/hip_0.obj",
+      "bytes": 2863864,
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/hip_1.obj",
+      "bytes": 2767918,
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link1.obj",
+      "bytes": 94912,
+      "sha256": "3b3c73324132aaa9ded0030605aa940153f75acbe67f3d87ed974e2b9a083519"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link2.obj",
+      "bytes": 3015470,
+      "sha256": "386336421e5e2a340eef0f84e5a130cc27c08bd4edfc51f800b01b5d273d0fc5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link3.obj",
+      "bytes": 671255,
+      "sha256": "138fa8bb6e7fbfdccd596a11be073365afb3080c5c07752637dcefa3ec8c0762"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link4.obj",
+      "bytes": 84304,
+      "sha256": "7c4062cd6a6b0c0595effb8590118c56ec7d62acbab9b4676005f992f6577b68"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link5.obj",
+      "bytes": 426456,
+      "sha256": "63c0ac068bfacfe9654b0861d266ac56beb088b3c22d22077c216339167692fc"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link6.obj",
+      "bytes": 402401,
+      "sha256": "88dd21b9c47e46d9e0e1da084bea354570d3fe6816c1deeb50539aca507de9ac"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link7.obj",
+      "bytes": 57708,
+      "sha256": "056e93b2a760169f7b4929d19b4ec417dbed178f3ccefc3bb1c2ccc23e4fe320"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/link8.obj",
+      "bytes": 57202,
+      "sha256": "9d0aa1ae14eb32b41c987b58fa5509d707354ce91e3c42d4f97537ce20c5a1b7"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/thigh_0.obj",
+      "bytes": 2841868,
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/thigh_1.obj",
+      "bytes": 1491320,
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/thigh_mirror_0.obj",
+      "bytes": 2817674,
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/assets/thigh_mirror_1.obj",
+      "bytes": 1482261,
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/go2_arx5.xml",
+      "bytes": 20047,
+      "sha256": "392e0a949d44574e19dfe00553f528a65cf312ede2d7474134209512d87e5707"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_arx5/scene.xml",
+      "bytes": 1106,
+      "sha256": "ee7a498cf3c7576b9ee7f05ae099f1ff715470c65e12ed0d464953bbc63b5add"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_0.obj",
+      "bytes": 1330465,
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_0.stl",
+      "bytes": 506584,
+      "sha256": "87222772abd459c0d1069e97c1881c28a17b22475ba05172f581f8014bca7bf5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_1.obj",
+      "bytes": 811791,
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_1.stl",
+      "bytes": 198184,
+      "sha256": "0b48e2976c050925c22d0646f35f3365425ac74c45f60ab72680b300ad5e3afd"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_2.obj",
+      "bytes": 294090,
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_2.stl",
+      "bytes": 100334,
+      "sha256": "4891b21d9623561212ebd270ff40f4de6e18338d260cd7eac45a539adaa0fcb5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_3.obj",
+      "bytes": 379093,
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_3.stl",
+      "bytes": 116084,
+      "sha256": "22b6e33c72eb92384cc1ccce6adb0705dea006c51b8a7235da55f310a8e37728"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_4.obj",
+      "bytes": 7776234,
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_4.stl",
+      "bytes": 2975634,
+      "sha256": "f4d80b3ab978f4f8637e7afe8cceca45f10b3caab1bf74b2b0b19ee675e8e7ca"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/base_link.STL",
+      "bytes": 607384,
+      "sha256": "fd4a3d6d0266205fe3f725f048645be66592c23564db22e08b0807d5569b2c64"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_0.obj",
+      "bytes": 877174,
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_0.stl",
+      "bytes": 325684,
+      "sha256": "5d1aaeebaedaa7814d090f91dfadef36cef26c8dcad8b627403c5b59b2dc24ab"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_1.obj",
+      "bytes": 326865,
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_1.stl",
+      "bytes": 102734,
+      "sha256": "8a5dc28f87af8f4751ec21d9c03dda11640800fa096fa4c976844d1f297156c5"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_mirror_0.obj",
+      "bytes": 876538,
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_mirror_0.stl",
+      "bytes": 325684,
+      "sha256": "022c3ccbcedc2176a98b76cac981b3ca88f7494678b8b064bde77492f9e2ce06"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_mirror_1.obj",
+      "bytes": 327261,
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/calf_mirror_1.stl",
+      "bytes": 102734,
+      "sha256": "39d49f89b684af5fe0a0540e5f1bb2832e804049677bc44e83d1af1c4e109913"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/foot.obj",
+      "bytes": 1144729,
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/foot.stl",
+      "bytes": 220284,
+      "sha256": "7e18167ac25502b6b95caa1bd49c8119bdf66bf4153b971d2627d213b0c872fb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/gripper_base.STL",
+      "bytes": 649484,
+      "sha256": "2895bfa6f1eef2d0ad2cb9dfdedd5f6c760ec07388bcde2b4d1e412e1189c9cb"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/hip_0.obj",
+      "bytes": 2863864,
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/hip_0.stl",
+      "bytes": 902884,
+      "sha256": "232ae5a0fbfc36737eb0c169a19b0804e560541aa4da3be801508ab1ebd880be"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/hip_1.obj",
+      "bytes": 2767918,
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/hip_1.stl",
+      "bytes": 948684,
+      "sha256": "670d389fcd321cfb96e2ee00c0649b4299dfd02c3ada5ca3ddfd5e9397a80d77"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link1.STL",
+      "bytes": 447784,
+      "sha256": "9ee6e1d67c0241f42a0dbaf5c676d19230375ed078ee1943bb8c4c37ab303d14"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link2.STL",
+      "bytes": 3658384,
+      "sha256": "0d37675b699b643f2e15348de99aed535fac10dc5f09a79b8e4b0acfaf4e0378"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link3.STL",
+      "bytes": 1845784,
+      "sha256": "e8ae51f17c0c7f6d67b753922e2cc269f5e8372a65734f859231639a64fe8fad"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link4.STL",
+      "bytes": 877984,
+      "sha256": "efa33022976218f246f736a6133494b5d0e5486e8b50b52900c42f285ae85558"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link5.STL",
+      "bytes": 833684,
+      "sha256": "a1c69d1c7f6f8c60e2c82331c0f444725200ed4053d3e5ec23aa82cb5db5b29f"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link6.STL",
+      "bytes": 58884,
+      "sha256": "88374973bc3bd9e7389b5853cd6e555af9731c30b658b1ee6f85be34a126cb92"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link7.STL",
+      "bytes": 104384,
+      "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/link8.STL",
+      "bytes": 104384,
+      "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_0.obj",
+      "bytes": 2841868,
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_0.stl",
+      "bytes": 921334,
+      "sha256": "a9befe7f77a590300d512bb3e5c0b7eaca29bd24dd24a324293228e0f7db579c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_1.obj",
+      "bytes": 1491320,
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_1.stl",
+      "bytes": 585484,
+      "sha256": "e72e81b7d0ca37ea09118734f19415be02fc067d6fd6d2978c893c3a1e97bb0c"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_mirror_0.obj",
+      "bytes": 2817674,
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_mirror_0.stl",
+      "bytes": 920934,
+      "sha256": "1fd36e481c54a62425b5b1742ea9b360f74c5164c8ffabc6900a6d57d99cd301"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_mirror_1.obj",
+      "bytes": 1482261,
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/assets/thigh_mirror_1.stl",
+      "bytes": 585484,
+      "sha256": "46163937eea7d3fa764a0f9c49c2f017aa699d3e2f4066a0dc2188914faf3a29"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/go2piper.xml",
+      "bytes": 22310,
+      "sha256": "e36f01b3dafa1d7d2820b200993f5e0a3a1c4bef948a5eb77141cb5686808c40"
+    },
+    {
+      "path": "/path/to/artifacts/go2-piper/sim2sim-current-20261008-a/runtime-push-detour-v1/mujoco/robots/go2_piper/scene.xml",
+      "bytes": 1107,
+      "sha256": "8c3d4e1c6ea9b354cb99fdda6a45aec8344127cc4d1b7020e00284dd81761e81"
+    }
+  ]
+}

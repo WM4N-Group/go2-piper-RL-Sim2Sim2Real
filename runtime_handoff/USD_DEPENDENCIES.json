@@ -1,0 +1,29 @@
+{
+  "scope": "Matching frozen runtime USD layers inspected with USD ComputeAllDependencies.",
+  "snapshots": {
+    "CLIMB-iy": {
+      "provided_layers": [
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_selective_collision.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_base.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_physics.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_robot.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_sensor.usd"
+      ],
+      "missing_layers": []
+    },
+    "PUSH-v212": {
+      "provided_layers": [
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_selective_collision.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_base.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_physics.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_robot.usd",
+        "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_sensor.usd"
+      ],
+      "missing_layers": []
+    }
+  },
+  "environment_material_reference": "OmniPBR.mdl",
+  "note": "MDL material resolution is supplied by the Isaac runtime, which must be installed separately. Repository USD layers have no missing project layer references."
+}

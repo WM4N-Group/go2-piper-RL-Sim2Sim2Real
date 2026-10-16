@@ -1,0 +1,56 @@
+{
+  "scope": "Fixed low-drift independent flat native entry, three used seeds, not actual external goal/full chain/formal acceptance",
+  "successes": 3,
+  "failures": 0,
+  "missing": 0,
+  "registered_max_preparation_excursion_m": 0.08,
+  "selected": {
+    "case": {
+      "name": "damping5",
+      "ee_x": 0.45,
+      "ee_z": 0.45,
+      "support_min_s": 3.0,
+      "body_damping": 5.0,
+      "priority": 1
+    },
+    "policy": "Registered batches by small EE deviation; select lowest registered priority among valid successes in first successful batch, then freeze params for other used seeds.",
+    "report_sha256": "c946aba99ebbec9c2576a46b1f49a2b0d55cfe28911b54f5cd14e70b16b5622e",
+    "control_sha256": "9bdbe688a8ea0dbce99ecb0d54118bf0d72201ac33fb2fc8b426ac2e4b6146f5"
+  },
+  "source_probe_sha256": "88a859af379a666f59a5f4f32bd6e8e3dd095ac79546927ca4dc13ac6a980723",
+  "entries": [
+    {
+      "seed": 3701,
+      "source": "nav-native-entry-v038/damping5",
+      "native_exact_steps": 500,
+      "max_preparation_excursion_m": 0.06739402562379837,
+      "max_arm_actual_ratio_including_init": 0.9247444272041321,
+      "any_joint_saturation_from_peak_including_init": false,
+      "net_native_travel_m": 2.735856771469116,
+      "prepare_complete_s": 16.66,
+      "control_sha256": "9bdbe688a8ea0dbce99ecb0d54118bf0d72201ac33fb2fc8b426ac2e4b6146f5"
+    },
+    {
+      "seed": 3702,
+      "source": "nav-native-entry-v039/seed3702",
+      "native_exact_steps": 500,
+      "max_preparation_excursion_m": 0.05196774750947952,
+      "max_arm_actual_ratio_including_init": 0.9115507006645203,
+      "any_joint_saturation_from_peak_including_init": false,
+      "net_native_travel_m": 2.642669916152954,
+      "prepare_complete_s": 15.84,
+      "control_sha256": "95babb2a819927d3d146f69b2e5bbee37ddbf3be6dc247101fd167b1e2acb5f8"
+    },
+    {
+      "seed": 3703,
+      "source": "nav-native-entry-v039/seed3703",
+      "native_exact_steps": 500,
+      "max_preparation_excursion_m": 0.06618229299783707,
+      "max_arm_actual_ratio_including_init": 0.9036610722541809,
+      "any_joint_saturation_from_peak_including_init": false,
+      "net_native_travel_m": 2.650848865509033,
+      "prepare_complete_s": 16.56,
+      "control_sha256": "06bc924898ce3bc7b24c33c3fcd40922518851fa8177f8ba05c7c069b56b45ea"
+    }
+  ]
+}

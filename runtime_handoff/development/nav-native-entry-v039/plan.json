@@ -1,0 +1,81 @@
+{
+  "scope": "Conditional fixed balanced-contact bootstrap damping used-seed regression, native10s plus<=80mm preparation excursion; no full-chain/formal acceptance.",
+  "created_beijing": "2026-10-16T17:10:54.177373+08:00",
+  "frozen_chain_parent": "transition-nav-climb-v066",
+  "policy_sha256": "72d9f22c633081e8d4b9693e6fda54dba6cdd036a102f330c1bfe096e43b4da8",
+  "seed": 3703,
+  "variants": "selection.json selected by registered parent policy",
+  "seconds": 60,
+  "prepare_s": "event gated after original6s warmup and at least6s actual supported arm conversion",
+  "forward_request_active_mps": [
+    0.15,
+    0.25
+  ],
+  "active_18axis_mode": "native passthrough including original leg virtual PD target semantics; actual leg state/forecast and arm reference gates retained",
+  "physical_resets_after_initial": 0,
+  "failure_terms": "all frozen chain failure terms plus .98 actual arm substep gate; original task-success term omitted in independent flat scenario",
+  "preserved": "chain robot USD/selective self collision/PD/limits/startup and reset events; no queue/history/state clearing after reset",
+  "files": {
+    "stance_wrench_math.py": "3d6dc98bc4b57d0a40f0d50ea17fa1fe663e5d2a06c49e8d36cb0d60b7da904d",
+    "stance_wrench_fallback.py": "e7c5e5d8d84c4c49bf316165f966ab3635a5b80a983139b3edef25538af1d957",
+    "nav-posture-template.json": "cc7e7a53e05fa49a41da569ce18ae938d653eb2033cb3489cc685e2bacffb276",
+    "probe.py": "88a859af379a666f59a5f4f32bd6e8e3dd095ac79546927ca4dc13ac6a980723",
+    "supported_brake.py": "9749095b67fa2fc4c1227ca2dba1d52b47e4d8a97b2cf16242ebc4a93462dd54",
+    "piper_skill_transition_contract.py": "e7d548b8b6c93cff46b250b26a1b478a54a91a3f52851dbe87c78a792a33b5f0",
+    "run.py": "6674d91437ee602622a95ba0003ddca3ee9ccbfc68361961422ff1cfb59976a7",
+    "native_arm_effort_guard.py": "c16a9e95fa9633256395dbba6908d0422c63d8848866494eb486f9b0772df93d"
+  },
+  "parent": "nav-native-entry-v038",
+  "change": "Same selected balanced bootstrap damping and all native/physics parameters for3702/3703 only after valid source-bound parent qualification.",
+  "request_profile": "zero during initial support; pending native incoming request applied once supported preparation starts; unchanged during NAV ACTIVE",
+  "active_window_s": 10,
+  "initial_support_input": {
+    "EE": [
+      0.5,
+      0,
+      0.2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "arm": "first2s gravity, next4s old finite native authority ramp; preserved forecast guard until support precheck"
+  },
+  "cases": [
+    {
+      "name": "damping3",
+      "ee_x": 0.45,
+      "ee_z": 0.45,
+      "support_min_s": 3.0,
+      "body_damping": 3.0,
+      "priority": 2
+    },
+    {
+      "name": "damping5",
+      "ee_x": 0.45,
+      "ee_z": 0.45,
+      "support_min_s": 3.0,
+      "body_damping": 5.0,
+      "priority": 1
+    }
+  ],
+  "seeds": [
+    3702,
+    3703
+  ],
+  "upstream_files": {
+    "stance_wrench_math.py": "3d6dc98bc4b57d0a40f0d50ea17fa1fe663e5d2a06c49e8d36cb0d60b7da904d",
+    "stance_wrench_fallback.py": "e7c5e5d8d84c4c49bf316165f966ab3635a5b80a983139b3edef25538af1d957",
+    "nav-posture-template.json": "cc7e7a53e05fa49a41da569ce18ae938d653eb2033cb3489cc685e2bacffb276",
+    "probe.py": "88a859af379a666f59a5f4f32bd6e8e3dd095ac79546927ca4dc13ac6a980723",
+    "supported_brake.py": "9749095b67fa2fc4c1227ca2dba1d52b47e4d8a97b2cf16242ebc4a93462dd54",
+    "piper_skill_transition_contract.py": "e7d548b8b6c93cff46b250b26a1b478a54a91a3f52851dbe87c78a792a33b5f0",
+    "run.py": "c1491e8c5d7c0f7b5105b078393801b8ae5a53fba628ddc43f958088dab2d247",
+    "native_arm_effort_guard.py": "c16a9e95fa9633256395dbba6908d0422c63d8848866494eb486f9b0772df93d"
+  }
+}

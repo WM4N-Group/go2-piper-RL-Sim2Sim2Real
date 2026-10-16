@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "task": "GO2-PIPER-Box-Push-Hybrid-Play",
+  "native_validation_passed": true,
+  "robot_provenance": {
+    "robot": "go2_piper",
+    "assets_sha256": {
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_base.usd": "542208f7497fdb72515692ba70450bbf639997cb9e14ef7307ff93e998ce20b5",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_physics.usd": "961a2e3c4f8e039d3cb05844241346310703bc0f4d6fd8874446438ba503ef29",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_robot.usd": "400e409b680e1e50089e9ff50f9b570707154f51a57de28e412823d14c3cfe6f",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/configuration/go2_piper_sensor.usd": "5cc66a900471dc4380fd1691e290d5fbd7a1c02aaf60aea1b17a15216743b1af",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper.usd": "7096d6fe13922bb16678a7963eb5eef9a4e5fafc8de0cfc8b512f002f83dfc16",
+      "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py": "b4528af223a7ad9081a1dca7e3a47ca8f2a875672702613d9c73c146cc3549c5"
+    },
+    "joint_names": [
+      "FL_hip_joint",
+      "FR_hip_joint",
+      "RL_hip_joint",
+      "RR_hip_joint",
+      "FL_thigh_joint",
+      "FR_thigh_joint",
+      "RL_thigh_joint",
+      "RR_thigh_joint",
+      "joint1",
+      "FL_calf_joint",
+      "FR_calf_joint",
+      "RL_calf_joint",
+      "RR_calf_joint",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6"
+    ],
+    "effort_limits": [
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      23.700000762939453,
+      20.0,
+      45.43000030517578,
+      45.43000030517578,
+      45.43000030517578,
+      45.43000030517578,
+      20.0,
+      15.0,
+      7.0,
+      5.0,
+      5.0
+    ],
+    "joint_defaults": [
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.800000011920929,
+      0.800000011920929,
+      1.0,
+      1.0,
+      0.0,
+      -1.5,
+      -1.5,
+      -1.5,
+      -1.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "controller_contract": {
+      "lock_arm_on_contact": true,
+      "align_hand_orientation": true,
+      "hand_pitch": 0.8,
+      "approach_distance": 0.03,
+      "press_depth": 0.02,
+      "control_dt": 0.02
+    },
+    "preparation_seconds": 0.0
+  },
+  "checkpoint_sha256": "aaff6614b641238ab4579c11fff8329b566904163f04d5e20cc4dab6b1ec891a",
+  "policy_sha256": "c3ddb39280fbbfd15327153b5bfd001dbbc75a49d86505b1bded762f344fc83a",
+  "actor_input_dimension": 226,
+  "actor_output_dimension": 12,
+  "actor_observation_groups": [
+    "policy",
+    "box"
+  ],
+  "policy_history_dimension": 210,
+  "box_and_controller_state_dimension": 16,
+  "actor_outputs": "12 leg actions; arm commands are produced by PushArmIK",
+  "action_history": "18 combined joint commands from BoxPushLegAction",
+  "required_controller": "BoxPushLegAction with PushArmIK, not the legacy 210-input runtime",
+  "mujoco_physical_validation_passed": false,
+  "control_sha256": {
+    "box_push.py": "b395079bb9a19d7e84aa1cf7ef8eb69284e741d399571cd2617ebb1ff291c5d6",
+    "box_push_control.py": "c55581aff733ce598cf653542e155e1440680d2f46801ea689ce07639b8b4102",
+    "box_rewards.py": "d46f5e077a29dade5d9fde3b9aebf0ea386ec915ef8568131e487d3da40e8f5d",
+    "box_push_ik.py": "6570d39eae8d4423bc56c2ccdf4a40829c2e629dd46cd3d34ce44483466cf6d4",
+    "box_push_actions.py": "101cefa82ffd22741c5ebfb8d0ae4b8135321e469a7e6b057e6c54aa6c182c53"
+  },
+  "training_parameters_sha256": {
+    "env.yaml": "a47109328f2a263fb0fe9ad023fc9979e6885335e2930cd6591d71af838bd795",
+    "agent.yaml": "7458a26e1e3fc61b77a8781ebb371278230129f4ef2d8aacb9cbedf8df3906ba"
+  },
+  "export_max_abs_error": 0.0,
+  "export_checked_observations": 129,
+  "evaluations": [
+    {
+      "file": "push-v9-599-eval206.json",
+      "sha256": "623979f809d206f24081703ec34a66d41c12b666238e480555b63c122150e3b6"
+    },
+    {
+      "file": "push-v9-599-eval207.json",
+      "sha256": "454602d0e768670fdff2ab434d6bc76162c335063395f6ac591115253ac860fe"
+    }
+  ]
+}
