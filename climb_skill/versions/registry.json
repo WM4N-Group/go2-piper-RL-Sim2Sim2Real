@@ -1,7 +1,8 @@
 {
   "V1": {
     "source": "恢复的截图 AMP 基线；原始完整快照和权重已缺失，不保证历史逐字节一致",
-    "outputs": null
+    "outputs": "outputs/V1/train-20261019-110256-00f00wtw",
+    "note": "New training of the reconstructed baseline, not original screenshot weights"
   },
   "V2": {
     "default": "V22",

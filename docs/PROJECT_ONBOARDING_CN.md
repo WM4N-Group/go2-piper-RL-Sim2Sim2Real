@@ -100,16 +100,11 @@ python scripts/train.py --headless --device cuda:0
 ```
 
 - [ ] `which python` 指向专用环境；不要把依赖装到系统Python，不与MuJoCo混装。
-- [ ] 第一次仅一个环境。默认 `--device cuda:0`；它指CUDA可见列表中的第一块卡。
-- [ ] 确认没有自己之前未结束的训练/评估；共享显卡显存会变，不能保证任何时候都不OOM。
-- [ ] 默认产物在 `outputs/isaac/` 的独立新目录；可用 `GO2_PIPER_OUTPUT_DIR` 改根目录，或用 `--output-dir` 指定尚不存在的目录。
-- [ ] 查看 `command.json`、`report.json`；PUSH/CLIMB另有冻结源补件哈希记录。入口会补齐历史包遗漏的公共文件并保留冻结文件，不改历史包。
-- [ ] PUSH/CLIMB加 `--video` 调用已有评估器录像，生成MP4，无需桌面。NAV原检查器没有录像参数，此入口没有另写录像器。
-- [ ] 学会用 `--help` 查参数，用 `--seed` 换初态；一次成功仅是冒烟检查。
-
-想查录像实现，读[历史评估器](../sim2real/go2-piper-low-level-training-handoff/scripts/evaluate_box_skills.py)：`--video-path` 自动设置 `enable_cameras=True`，环境用 `rgb_array` 渲染，`imageio` 的 `libx264` 编码器写入MP4。循环每两个控制步调用一次 `base.render()`，帧率为 `round(1 / (2 * step_dt))`；控制步长0.02秒时就是25fps。无窗口并不妨碍离屏相机工作。
-
-默认只运行一个环境，录像随本次回合评估结束。并行评估时要额外检查画面是否包含其他回合重置；不要把不同评估版本的录像停止逻辑混为一谈。录像长度由实际终止和采样决定，不能强行凑成听说的43秒，或剪辑失败段后作为成功证据。
+- [ ] 初次回放使用一个环境；训练参数、续训与录像命令见 [Climb README](../climb_skill/README.md)。
+- [ ] Climb新训练产物写到 `climb_skill/outputs/当前版本组/` 的新目录，不覆盖旧训练。
+- [ ] 检查对应训练的 `config.json`、`run.json` 与checkpoint录像的 `report.json`。每100轮自动保存并录像，录像时训练等待。
+- [ ] 历史冻结技能的运行方法以 [原交付说明](../runtime_handoff/README_CN.md) 为准，不使用已删除的本地启动器。
+- [ ] 一条成功录像不代表跨仿真验收通过。
 
 ## 7. 之后再学训练、切换和验收
 
