@@ -1,0 +1,21 @@
+# Isaac development only. MuJoCo tools use requirements.txt in a separate environment.
+--extra-index-url https://pypi.nvidia.com
+--extra-index-url https://download.pytorch.org/whl/cu128
+isaacsim[all,extscache]==5.1.0.0
+torch==2.7.0+cu128
+torchvision==0.22.0+cu128
+numpy==1.26.0
+scipy==1.15.3
+gymnasium==1.2.1
+rsl-rl-lib==5.0.1
+psutil==5.9.8
+typing_extensions==4.12.2
+fastapi==0.115.7
+# Sim 5.1 requires starlette<0.46; the dedicated Lab setup has a recorded compatibility patch.
+starlette==0.45.3
+# Isaac Lab RL requires packaging<24; keep a compatible wheel release.
+packaging==23.0
+wheel==0.45.1
+setuptools<82
+imageio==2.37.0
+imageio-ffmpeg==0.6.0

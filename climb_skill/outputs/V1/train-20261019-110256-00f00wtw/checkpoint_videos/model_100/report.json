@@ -1,0 +1,107 @@
+{
+  "status": "complete",
+  "requested_episodes": 1,
+  "seed": 42001,
+  "formal_acceptance": false,
+  "checkpoint_sha256": "08b47691f2307a1bda228127e26746374f251053fc7618bf2d3b6fcac1b36af7",
+  "completed_episodes": 1,
+  "successful_episodes": 0,
+  "missing_episodes": 0,
+  "episodes": [
+    {
+      "episode": 0,
+      "env": 0,
+      "success": false,
+      "reason": "timeout",
+      "seconds": 24.0,
+      "box_height": 0.05000000074505806,
+      "curriculum_level": 0,
+      "traversal_seconds": 0.0,
+      "supported_feet": 2,
+      "supported_foot_names": [
+        "FL_foot",
+        "FR_foot"
+      ],
+      "ever_top_supported_foot_names": [
+        "FL_foot",
+        "FR_foot"
+      ],
+      "top_contact_age_s": [
+        0.0,
+        0.0,
+        null,
+        null
+      ],
+      "max_supported_feet": 2,
+      "max_root_x": 0.8078936338424683,
+      "foot_positions": [
+        [
+          1.0236868858337402,
+          0.09831405431032181,
+          0.07361067831516266
+        ],
+        [
+          1.005955696105957,
+          -0.16536720097064972,
+          0.0735069289803505
+        ],
+        [
+          0.4902716875076294,
+          0.12517043948173523,
+          0.022691592574119568
+        ],
+        [
+          0.38762474060058594,
+          -0.1809713989496231,
+          0.021753430366516113
+        ]
+      ],
+      "peak_arm_error_rad": 0.13855619728565216,
+      "final_arm_error_rad": 0.00029164558509364724,
+      "arm_joint_error_rad": [
+        -2.4533252144465223e-05,
+        8.629045623820275e-06,
+        -6.921892236277927e-06,
+        0.00029164558509364724,
+        0.00023886602139100432,
+        -0.00015604966029059142
+      ],
+      "peak_foot_contact_N": 289.2496643066406,
+      "root_position": [
+        0.7962779998779297,
+        -0.035547927021980286,
+        0.34663864970207214
+      ],
+      "yaw_rad": 0.018218446522951126,
+      "forward_heading_error_rad": 0.018218446522951126,
+      "return": 2.5291483402252197
+    }
+  ],
+  "box_height": 0.05,
+  "arm_pose": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "training_target_height": 0.2,
+  "box_length": 2.4,
+  "finish_x": 2.3,
+  "success_definition": "four feet above safe top beyond finish for 0.3s with recent real loading; current support and posture checks",
+  "forward_traversal_contract": {
+    "heading_required": true,
+    "target_yaw_rad": 0.0,
+    "heading_tolerance_rad": 0.17453292519943295,
+    "lateral_tolerance_m": 0.2,
+    "confirmation_seconds": 0.3,
+    "finish_x": 2.3,
+    "route_goal_x": 2.75
+  },
+  "max_arm_command_error_rad": 0.0,
+  "video_frames": 600,
+  "policy_branch": "history",
+  "ground_start": true,
+  "video_sha256": "a717718646441ef729e1d433906cd7be602140074bd989e498c2c27a63471291"
+}

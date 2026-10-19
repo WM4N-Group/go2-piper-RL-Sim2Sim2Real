@@ -1,0 +1,9 @@
+{
+  "version": "V1",
+  "cpu_tests": "passed",
+  "log": "/mnt/miaojigui/artifacts/go2-piper/climb-versioning-20261019/V1-tests.log",
+  "training_launched": false,
+  "formal_acceptance": false,
+  "baseline_fidelity": "reconstructed, original full snapshot and weights missing",
+  "cleanup": "Removed unused runtime configs, diagnostic files, template agents and unused imports. Active physics/rewards/checkpoint contracts unchanged."
+}

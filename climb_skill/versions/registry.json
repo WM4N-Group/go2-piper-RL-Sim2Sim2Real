@@ -1,0 +1,58 @@
+{
+  "V1": {
+    "source": "恢复的截图 AMP 基线；原始完整快照和权重已缺失，不保证历史逐字节一致",
+    "outputs": null
+  },
+  "V2": {
+    "default": "V22",
+    "outputs": [
+      "outputs/V2/V21",
+      "outputs/V2/V22"
+    ]
+  },
+  "V21": {
+    "parent": "V2",
+    "front_pitch_weight": 0.5,
+    "outputs": "outputs/V2/V21"
+  },
+  "V22": {
+    "parent": "V2",
+    "front_pitch_weight": 0.0,
+    "outputs": "outputs/V2/V22"
+  },
+  "V3": {
+    "outputs": [
+      "outputs/V3/original",
+      "outputs/V3/current",
+      "outputs/V3/migration"
+    ],
+    "note": "original 是旧课程；current 是课程修正后的续训。二者统一归 V3，不能混淆训练合同。"
+  },
+  "artifact_mapping": [
+    {
+      "original_path": "/mnt/miaojigui/zyh/climb_skill/outputs/train-20261017-231924-386et4wd",
+      "current_path": "outputs/V2/V21",
+      "checkpoints": 21
+    },
+    {
+      "original_path": "/mnt/miaojigui/zyh/climb_skill/outputs/train-20261017-233902-ddz3uby_",
+      "current_path": "outputs/V2/V22",
+      "checkpoints": 19
+    },
+    {
+      "original_path": "/mnt/miaojigui/zyh/climb_skill2/outputs/train-20261018-161654-w9li0ngk",
+      "current_path": "outputs/V3/original",
+      "checkpoints": 6
+    },
+    {
+      "original_path": "/mnt/miaojigui/zyh/climb_skill2/outputs/train-20261018-181807-_pugz3xr",
+      "current_path": "outputs/V3/current",
+      "checkpoints": 24
+    },
+    {
+      "original_path": "/mnt/miaojigui/zyh/climb_skill2/outputs/model800-curriculum-v4-20261018",
+      "current_path": "outputs/V3/migration",
+      "checkpoints": 1
+    }
+  ]
+}

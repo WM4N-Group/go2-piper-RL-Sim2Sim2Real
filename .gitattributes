@@ -1,15 +1,18 @@
-*.usd filter=lfs diff=lfs merge=lfs -text
-*.usda filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.hdr filter=lfs diff=lfs merge=lfs -text
-*.dae filter=lfs diff=lfs merge=lfs -text
-*.mtl filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
-*.stl filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.pt filter=lfs diff=lfs merge=lfs -text
-*.jit filter=lfs diff=lfs merge=lfs -text
-*.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.usd -filter -diff -merge -text
+*.usda -filter -diff -merge -text
+*.psd -filter -diff -merge -text
+*.hdr -filter -diff -merge -text
+*.dae -filter -diff -merge -text
+*.mtl -filter -diff -merge -text
+*.obj -filter -diff -merge -text
+*.stl -filter -diff -merge -text
+*.gif -filter -diff -merge -text
+*.mp4 -filter -diff -merge -text
+*.pt -filter -diff -merge -text
+*.jit -filter -diff -merge -text
+*.hdf5 -filter -diff -merge -text
 
 *.bat text eol=crlf
+
+climb_skill/outputs/**/*.pt filter=lfs diff=lfs merge=lfs -text
+climb_skill/outputs/**/*.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,291 @@
+{
+  "selection": "Models and videos independently: latest 10 by mtime, or latest 5 when fewer than 10; all when fewer than 5. All unselected files preserved locally.",
+  "models": [
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_900.pt",
+      "bytes": 28820427,
+      "sha256": "cb741d772d6b90b7bd25107758b9715bb6faf674c5e3b1856e53fcd0a325f424"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_800.pt",
+      "bytes": 28820427,
+      "sha256": "ba042320869647fdd8aea680bddc9627f4a109f649dee308904306bbe3d28b0e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_700.pt",
+      "bytes": 28820427,
+      "sha256": "004f5702302554ffa147a9a1e631833774ca570a5b2e2dd114f38a73500d7e4b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_600.pt",
+      "bytes": 28820427,
+      "sha256": "8b94b8e57590fcafd7b2f74963d2e810537159ddccdb8cdbec2ff5d7349277d0"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_500.pt",
+      "bytes": 28820427,
+      "sha256": "b2a04c0df8e7c0fea7807de01633c613f6e0e4ecc9525bfcd32971cf9e0bc641"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_400.pt",
+      "bytes": 28820363,
+      "sha256": "d85ae7005efddb38ac9a4ec6a729e7e715e8254eaa8ec2066fc49993fdde91ec"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_300.pt",
+      "bytes": 28820427,
+      "sha256": "b430dc8d33dca49f69290f5b2dbda10491553a736f77f5d4526126253b52673e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_200.pt",
+      "bytes": 28820363,
+      "sha256": "2f59d8fa7f051114fcc370fbeb06218ce961ec8d81b9a0945257f5475ea3937e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_100.pt",
+      "bytes": 28820363,
+      "sha256": "08b47691f2307a1bda228127e26746374f251053fc7618bf2d3b6fcac1b36af7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/model_3200.pt",
+      "bytes": 28821074,
+      "sha256": "0f9061965ec45457f4f603010d3298f9a80d013fc1ff278becb1ed23f5c8c001"
+    }
+  ],
+  "videos": [
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/climb.mp4",
+      "bytes": 622880,
+      "sha256": "d14ece142e0c94a5e5ecd5d922b571cd1b69b20328248ed2beb6328058a4e97a"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_800/climb.mp4",
+      "bytes": 636144,
+      "sha256": "97a1005ce31adffd703b3edc02c71f509adf43ed924f2e2f88a7b884ead4681b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_700/climb.mp4",
+      "bytes": 641757,
+      "sha256": "0a751a701cc770c69450dca0b72c957207cfa7fcc605b8629f539dcc7cb67787"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_600/climb.mp4",
+      "bytes": 762982,
+      "sha256": "5cd0b9e0754eccb1b13666b7031ac75fbc96cb73e2bf0e0f3a65520e80adc5f4"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_500/climb.mp4",
+      "bytes": 642789,
+      "sha256": "86327f6e776a7192a1dd39fe9cdac0ba601e7efda1893322b759ba047f767f3b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_400/climb.mp4",
+      "bytes": 645605,
+      "sha256": "d052d7159874cd73aa75c1ac63be001ae35fe147421498b51f322edcdcfc7370"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_300/climb.mp4",
+      "bytes": 761367,
+      "sha256": "16c21715d9873c84b2d27a665a7e737c7c1eee7a3aa04a4429ef063b8722ac9e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_200/climb.mp4",
+      "bytes": 614190,
+      "sha256": "94cfdf4f323b0d9bc2de2b278a2c69857affdf7e2ccff79560c4924aa567352c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_100/climb.mp4",
+      "bytes": 383532,
+      "sha256": "a717718646441ef729e1d433906cd7be602140074bd989e498c2c27a63471291"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/climb.mp4",
+      "bytes": 623867,
+      "sha256": "b5795f36da11edc441f1189dbdaa8da8c03241078a44fe0d6bf5fc46e3b71875"
+    }
+  ],
+  "metadata": [
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_100/config.json",
+      "bytes": 6870,
+      "sha256": "6631cfa3eb779a74a2b71ae9457babfe1b9c11badd34b8238f9fe5dc4c89308f"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_100/report.json",
+      "bytes": 2750,
+      "sha256": "ca9678a60e1821f0af241d138374975735f19dace5f43d740dc0051b0399f489"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_100/run.json",
+      "bytes": 10614,
+      "sha256": "2f4aa44cc4182c0a988033d645e2bcbcf11caa9bb4cc23cc0ce674f95e5e1d06"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_200/config.json",
+      "bytes": 6885,
+      "sha256": "cc4cbc4abf3603e5ad3c4a1c1e0871879169bceca2934a56a0c47265c5274300"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_200/report.json",
+      "bytes": 2840,
+      "sha256": "e7385b7e3b3401d76b122f428f0e283b59ba377ecccea7fcb26b1a0d69df3c63"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_200/run.json",
+      "bytes": 10629,
+      "sha256": "3c0e30f90d6c59a8b068177f77c5230a16800672368320accd529c6c50a59df5"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_300/config.json",
+      "bytes": 6885,
+      "sha256": "20b6433ea83a4cf86e2f1e5d3d6c3683301fe5c3b1421ebe6db2e8b7b848089e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_300/report.json",
+      "bytes": 2855,
+      "sha256": "a79fedc099bc752fab5bd35d82ee6458cb5dc5bba7577e0cfc5ddad85a3726da"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_300/run.json",
+      "bytes": 10629,
+      "sha256": "d3bd6230c61c8bffdc754950199734f47b5583b12a110dbb01fdd4eaa6547e03"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_400/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_400/report.json",
+      "bytes": 2833,
+      "sha256": "72d5f88e064f663b65aa3a24a2a1a6d65a67c45402b94f22701c62e27ff71d53"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_400/run.json",
+      "bytes": 10613,
+      "sha256": "01e4a73934b5055b6b9ad2a66cb0adb316f6b5b876d366718ca2fe5ea34e90cf"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_500/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_500/report.json",
+      "bytes": 2835,
+      "sha256": "6036a8ce69315e4217908fa5a742608582bf5746ba28a4b92c18fe5a9526d45b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_500/run.json",
+      "bytes": 10613,
+      "sha256": "05522940232093772fccfb6f1cf8bc519c4a94e61de1c348d4577b8bfe31701d"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_600/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_600/report.json",
+      "bytes": 2827,
+      "sha256": "caed4c9345f211807437e359190aff003e5bc73d7c71c8ceff6ddbb968029d2b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_600/run.json",
+      "bytes": 10613,
+      "sha256": "fc826e5aa57ea74796f9ae9b4de0d48ab516eae169234c6a348ff34594745aba"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_700/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_700/report.json",
+      "bytes": 2822,
+      "sha256": "b81cea4ab8832b9ba32e73721cf4d4a44e5233b522b7546aef96a457bcdb704d"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_700/run.json",
+      "bytes": 10613,
+      "sha256": "2614d94779daaf29a966cd3a9272311ec4d8f7a530b14221d9abcf7f40a1e9ff"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_800/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_800/report.json",
+      "bytes": 2826,
+      "sha256": "cff33aa5212a62e971a578780e4329987080be08c6a2d78a8060d19ef2333240"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_800/run.json",
+      "bytes": 10613,
+      "sha256": "2ebb3408c30244c41759b11300cfe3ac25d3cf028d30811de06aac24307d8656"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/report.json",
+      "bytes": 2830,
+      "sha256": "169c9b2bfd86989eda1866d66807851c51d4a62a48672524f7f94d50e64553ad"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/run.json",
+      "bytes": 10613,
+      "sha256": "80d2c9a655cb0a2384dead6c18d499b36b8a91af1915e038a29689d140755a8c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/config.json",
+      "bytes": 6867,
+      "sha256": "8f1dee0b51a83341609cf826d56be2838e853230b5b9cfb94e0fb73cdc9ed8fb"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/run.json",
+      "bytes": 9986,
+      "sha256": "5fd2160d23deb4e84a3b99273a3d722ff3ce675ad399ef3d5a8332cc945f0566"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/config.json",
+      "bytes": 6857,
+      "sha256": "f434ab4d5d2f8ab4deb1e74bc8b43dd210c70362f3ef7d54dc9d232f8d828624"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/report.json",
+      "bytes": 5035,
+      "sha256": "508a0d4d0968f6ff17e45f530ec3c63eb8a5d43bbe14bf50ec8ad1df7b2bb0dc"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/run.json",
+      "bytes": 10760,
+      "sha256": "6b8d43b70cde84435c4a8f307350c0e0d7743def6482e29b849dc373d696f5d3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/config.json",
+      "bytes": 6855,
+      "sha256": "fcd3d598696e5ca331ac62ea4b770495fed2047afd4d81d82676e8a582812814"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/run.json",
+      "bytes": 10489,
+      "sha256": "793cf77762d0eceec34d803f59ec432e589a3e8ce2240e5f37b128d753f7bdd2"
+    }
+  ],
+  "excluded": "Training logs, generated source copies, environments, caches and other videos",
+  "acceptance": "Development artifacts; no claim of formal sim2sim or real-world acceptance."
+}

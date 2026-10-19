@@ -1,0 +1,936 @@
+{
+  "V1-to-V2": [
+    {
+      "parameter": "ppo.entropy_coefficient",
+      "before": 0.01,
+      "after": 0.003
+    },
+    {
+      "parameter": "ppo.maximum_learning_rate",
+      "before": null,
+      "after": 0.0005
+    },
+    {
+      "parameter": "ppo.maximum_std",
+      "before": null,
+      "after": 1.0
+    },
+    {
+      "parameter": "ppo.minimum_std",
+      "before": null,
+      "after": 0.05
+    },
+    {
+      "parameter": "task.amp_body_gate",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.amp_enabled",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.approach_quality_enabled",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.box_height",
+      "before": 0.2,
+      "after": 0.3
+    },
+    {
+      "parameter": "task.crossing_clearance_min",
+      "before": 0.005,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_commit_distance",
+      "before": 0.02,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_failure_penalty",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_guidance_weight",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_intent_distance",
+      "before": 0.08,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_intent_height",
+      "before": 0.065,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_intent_ratio",
+      "before": 0.6,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_quality_enabled",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_reference_weight",
+      "before": 1.0,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_return_seconds",
+      "before": 0.06,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_takeoff_max",
+      "before": 0.38,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_takeoff_min",
+      "before": 0.03,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_timeout",
+      "before": 1.5,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_unsafe_seconds",
+      "before": 0.08,
+      "after": null
+    },
+    {
+      "parameter": "task.crossing_wall_seconds",
+      "before": 0.08,
+      "after": null
+    },
+    {
+      "parameter": "task.curriculum_levels",
+      "before": 7,
+      "after": 11
+    },
+    {
+      "parameter": "task.curriculum_only_enabled",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_duration_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_gait_enabled",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_max_stance_seconds",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_max_swing_seconds",
+      "before": 0.35,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_pair_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_sync_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.diagonal_transfer_seconds",
+      "before": 0.06,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_ignore_edge_distance",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_stability_blend_width",
+      "before": 0.1,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_stability_margin",
+      "before": 0.2,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_use_body_gate",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_air_variance_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_flight_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_long_air_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_mirror_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_start_height",
+      "before": 0.15,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_velocity_tracking",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walk_vertical_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.flat_walking_enabled",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.front_calf_max",
+      "before": null,
+      "after": -0.95
+    },
+    {
+      "parameter": "task.front_calf_min",
+      "before": null,
+      "after": -2.65
+    },
+    {
+      "parameter": "task.front_clearance_distance",
+      "before": 0.22,
+      "after": null
+    },
+    {
+      "parameter": "task.front_clearance_margin",
+      "before": 0.03,
+      "after": null
+    },
+    {
+      "parameter": "task.front_clearance_scale",
+      "before": 0.08,
+      "after": null
+    },
+    {
+      "parameter": "task.front_clearance_weight",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.front_joint_scale",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.front_joint_weight",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.front_landing_bonus",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.front_landing_seconds",
+      "before": 0.08,
+      "after": null
+    },
+    {
+      "parameter": "task.front_pitch_scale",
+      "before": null,
+      "after": 0.25
+    },
+    {
+      "parameter": "task.front_pitch_soft_max",
+      "before": null,
+      "after": 0.6
+    },
+    {
+      "parameter": "task.front_pitch_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.front_thigh_max",
+      "before": null,
+      "after": 1.9
+    },
+    {
+      "parameter": "task.front_thigh_min",
+      "before": null,
+      "after": -0.3
+    },
+    {
+      "parameter": "task.gait_frame_cost_max",
+      "before": 0.45,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_good_fraction_min",
+      "before": 0.7,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_ground_seconds",
+      "before": 0.8,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_leg_cost_max",
+      "before": 0.45,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_mean_cost_max",
+      "before": 0.35,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_speed_max",
+      "before": 0.65,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_speed_min",
+      "before": 0.15,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_top_seconds",
+      "before": 0.4,
+      "after": null
+    },
+    {
+      "parameter": "task.quality_window_enabled",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.quality_window_required",
+      "before": 3,
+      "after": null
+    },
+    {
+      "parameter": "task.quality_window_size",
+      "before": 5,
+      "after": null
+    },
+    {
+      "parameter": "task.rear_boundary_x",
+      "before": -0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.rear_workspace_enabled",
+      "before": true,
+      "after": null
+    },
+    {
+      "parameter": "task.rewards.feet_edge",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.startup_angular_tolerance",
+      "before": null,
+      "after": 0.3
+    },
+    {
+      "parameter": "task.startup_linear_tolerance",
+      "before": null,
+      "after": 0.1
+    },
+    {
+      "parameter": "task.startup_stand_seconds",
+      "before": 1.0,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.startup_tilt_tolerance",
+      "before": null,
+      "after": 0.1
+    },
+    {
+      "parameter": "task.straight_heading_weight",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.straight_lateral_velocity_weight",
+      "before": 1.0,
+      "after": null
+    },
+    {
+      "parameter": "task.straight_path_weight",
+      "before": 1.0,
+      "after": null
+    },
+    {
+      "parameter": "task.straight_tracking_enabled",
+      "before": false,
+      "after": null
+    },
+    {
+      "parameter": "task.straight_yaw_rate_weight",
+      "before": 0.3,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_clearance_max",
+      "before": 0.06,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_clearance_min",
+      "before": 0.025,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_clearance_scale",
+      "before": 0.04,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_clearance_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_early_gain",
+      "before": 0.25,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_pair_ramp_seconds",
+      "before": 0.03,
+      "after": null
+    },
+    {
+      "parameter": "task.walking_refinement_enabled",
+      "before": true,
+      "after": null
+    }
+  ],
+  "V21-to-V22": [
+    {
+      "parameter": "task.front_pitch_weight",
+      "before": 0.5,
+      "after": 0.0
+    }
+  ],
+  "V2-to-V3": [
+    {
+      "parameter": "ppo.entropy_coefficient",
+      "before": 0.003,
+      "after": 0.01
+    },
+    {
+      "parameter": "ppo.iterations",
+      "before": 15000,
+      "after": 14700
+    },
+    {
+      "parameter": "ppo.maximum_learning_rate",
+      "before": 0.0005,
+      "after": null
+    },
+    {
+      "parameter": "ppo.maximum_std",
+      "before": 1.0,
+      "after": null
+    },
+    {
+      "parameter": "ppo.minimum_std",
+      "before": 0.05,
+      "after": null
+    },
+    {
+      "parameter": "task.amp_body_gate",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.amp_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.approach_quality_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.box_height",
+      "before": 0.3,
+      "after": 0.2
+    },
+    {
+      "parameter": "task.crossing_clearance_min",
+      "before": null,
+      "after": 0.005
+    },
+    {
+      "parameter": "task.crossing_commit_distance",
+      "before": null,
+      "after": 0.02
+    },
+    {
+      "parameter": "task.crossing_failure_penalty",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.crossing_guidance_weight",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.crossing_intent_distance",
+      "before": null,
+      "after": 0.08
+    },
+    {
+      "parameter": "task.crossing_intent_height",
+      "before": null,
+      "after": 0.065
+    },
+    {
+      "parameter": "task.crossing_intent_ratio",
+      "before": null,
+      "after": 0.6
+    },
+    {
+      "parameter": "task.crossing_quality_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.crossing_reference_weight",
+      "before": null,
+      "after": 1.0
+    },
+    {
+      "parameter": "task.crossing_return_seconds",
+      "before": null,
+      "after": 0.06
+    },
+    {
+      "parameter": "task.crossing_takeoff_max",
+      "before": null,
+      "after": 0.38
+    },
+    {
+      "parameter": "task.crossing_takeoff_min",
+      "before": null,
+      "after": 0.03
+    },
+    {
+      "parameter": "task.crossing_timeout",
+      "before": null,
+      "after": 1.5
+    },
+    {
+      "parameter": "task.crossing_unsafe_seconds",
+      "before": null,
+      "after": 0.08
+    },
+    {
+      "parameter": "task.crossing_wall_seconds",
+      "before": null,
+      "after": 0.08
+    },
+    {
+      "parameter": "task.curriculum_levels",
+      "before": 11,
+      "after": 7
+    },
+    {
+      "parameter": "task.curriculum_only_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.diagonal_duration_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.diagonal_gait_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.diagonal_max_stance_seconds",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.diagonal_max_swing_seconds",
+      "before": null,
+      "after": 0.35
+    },
+    {
+      "parameter": "task.diagonal_pair_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.diagonal_sync_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.diagonal_transfer_seconds",
+      "before": null,
+      "after": 0.06
+    },
+    {
+      "parameter": "task.flat_ignore_edge_distance",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.flat_stability_blend_width",
+      "before": null,
+      "after": 0.1
+    },
+    {
+      "parameter": "task.flat_stability_margin",
+      "before": null,
+      "after": 0.2
+    },
+    {
+      "parameter": "task.flat_use_body_gate",
+      "before": null,
+      "after": false
+    },
+    {
+      "parameter": "task.flat_walk_air_variance_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.flat_walk_flight_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.flat_walk_long_air_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.flat_walk_mirror_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.flat_walk_start_height",
+      "before": null,
+      "after": 0.15
+    },
+    {
+      "parameter": "task.flat_walk_velocity_tracking",
+      "before": null,
+      "after": false
+    },
+    {
+      "parameter": "task.flat_walk_vertical_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.flat_walking_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.front_calf_max",
+      "before": -0.95,
+      "after": null
+    },
+    {
+      "parameter": "task.front_calf_min",
+      "before": -2.65,
+      "after": null
+    },
+    {
+      "parameter": "task.front_clearance_distance",
+      "before": null,
+      "after": 0.22
+    },
+    {
+      "parameter": "task.front_clearance_margin",
+      "before": null,
+      "after": 0.03
+    },
+    {
+      "parameter": "task.front_clearance_scale",
+      "before": null,
+      "after": 0.08
+    },
+    {
+      "parameter": "task.front_clearance_weight",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.front_joint_scale",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.front_joint_weight",
+      "before": 0.5,
+      "after": null
+    },
+    {
+      "parameter": "task.front_landing_bonus",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.front_landing_seconds",
+      "before": null,
+      "after": 0.08
+    },
+    {
+      "parameter": "task.front_pitch_scale",
+      "before": 0.25,
+      "after": null
+    },
+    {
+      "parameter": "task.front_pitch_soft_max",
+      "before": 0.6,
+      "after": null
+    },
+    {
+      "parameter": "task.front_pitch_weight",
+      "before": 0.0,
+      "after": null
+    },
+    {
+      "parameter": "task.front_thigh_max",
+      "before": 1.9,
+      "after": null
+    },
+    {
+      "parameter": "task.front_thigh_min",
+      "before": -0.3,
+      "after": null
+    },
+    {
+      "parameter": "task.gait_frame_cost_max",
+      "before": null,
+      "after": 0.45
+    },
+    {
+      "parameter": "task.gait_good_fraction_min",
+      "before": null,
+      "after": 0.7
+    },
+    {
+      "parameter": "task.gait_ground_seconds",
+      "before": null,
+      "after": 0.8
+    },
+    {
+      "parameter": "task.gait_leg_cost_max",
+      "before": null,
+      "after": 0.45
+    },
+    {
+      "parameter": "task.gait_mean_cost_max",
+      "before": null,
+      "after": 0.35
+    },
+    {
+      "parameter": "task.gait_speed_max",
+      "before": null,
+      "after": 0.65
+    },
+    {
+      "parameter": "task.gait_speed_min",
+      "before": null,
+      "after": 0.15
+    },
+    {
+      "parameter": "task.gait_top_seconds",
+      "before": null,
+      "after": 0.4
+    },
+    {
+      "parameter": "task.quality_window_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.quality_window_required",
+      "before": null,
+      "after": 3
+    },
+    {
+      "parameter": "task.quality_window_size",
+      "before": null,
+      "after": 5
+    },
+    {
+      "parameter": "task.rear_boundary_x",
+      "before": null,
+      "after": -1.6
+    },
+    {
+      "parameter": "task.rear_workspace_enabled",
+      "before": null,
+      "after": true
+    },
+    {
+      "parameter": "task.reset_x_range",
+      "before": [
+        -0.1,
+        0.1
+      ],
+      "after": [
+        -1.1,
+        -0.9
+      ]
+    },
+    {
+      "parameter": "task.rewards.feet_edge",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.startup_angular_tolerance",
+      "before": 0.3,
+      "after": null
+    },
+    {
+      "parameter": "task.startup_linear_tolerance",
+      "before": 0.1,
+      "after": null
+    },
+    {
+      "parameter": "task.startup_stand_seconds",
+      "before": 0.0,
+      "after": 1.0
+    },
+    {
+      "parameter": "task.startup_tilt_tolerance",
+      "before": 0.1,
+      "after": null
+    },
+    {
+      "parameter": "task.straight_heading_weight",
+      "before": null,
+      "after": 0.5
+    },
+    {
+      "parameter": "task.straight_lateral_velocity_weight",
+      "before": null,
+      "after": 1.0
+    },
+    {
+      "parameter": "task.straight_path_weight",
+      "before": null,
+      "after": 1.0
+    },
+    {
+      "parameter": "task.straight_tracking_enabled",
+      "before": null,
+      "after": false
+    },
+    {
+      "parameter": "task.straight_yaw_rate_weight",
+      "before": null,
+      "after": 0.3
+    },
+    {
+      "parameter": "task.walking_clearance_max",
+      "before": null,
+      "after": 0.06
+    },
+    {
+      "parameter": "task.walking_clearance_min",
+      "before": null,
+      "after": 0.025
+    },
+    {
+      "parameter": "task.walking_clearance_scale",
+      "before": null,
+      "after": 0.04
+    },
+    {
+      "parameter": "task.walking_clearance_weight",
+      "before": null,
+      "after": 0.0
+    },
+    {
+      "parameter": "task.walking_early_gain",
+      "before": null,
+      "after": 0.25
+    },
+    {
+      "parameter": "task.walking_pair_ramp_seconds",
+      "before": null,
+      "after": 0.03
+    },
+    {
+      "parameter": "task.walking_refinement_enabled",
+      "before": null,
+      "after": true
+    }
+  ],
+  "V3-reference-to-V3": [
+    {
+      "parameter": "ppo.iterations",
+      "before": 15000,
+      "after": 14700
+    },
+    {
+      "parameter": "task.curriculum_only_enabled",
+      "before": false,
+      "after": true
+    },
+    {
+      "parameter": "task.quality_window_enabled",
+      "before": false,
+      "after": true
+    }
+  ]
+}

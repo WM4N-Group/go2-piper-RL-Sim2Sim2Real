@@ -1,4 +1,16 @@
-# CLIMB：当前交接与验证状态
+# CLIMB 当前交接
+
+## 本地 AMP 重新训练项目（V1／V2／V3）
+
+2026-10-19：训练项目已统一到 [climb_skill](../climb_skill/README.md)，原climb_skill2目录已移除。源码独立本地Git管理，当前选择V1；实际版本见[VERSION.json](../climb_skill/VERSION.json)。[版本差异](../climb_skill/docs/VERSIONS_CN.md)、[参数说明](../climb_skill/docs/CONFIG_CN.md)、[产物映射](../climb_skill/versions/registry.json)、[当前CPU检查](../climb_skill/validation/current.json)。
+
+V1是截图AMP/后腿参考基线恢复版，旧完整快照与权重已缺失；V2是原30cm/前腿软限制版，V21额外抬头成本0.5、V22为0；V3统一原climb_skill2的内部版本，保留认可model800所在旧课程训练和后续修正课程续训。V3最终20cm，7级，质量窗口5取3；默认4096环境、每100轮checkpoint和当前课程录像。V2为30cm/11级，V1为20cm/7级，不能混用说明。
+
+4个实际训练目录与1个迁移目录已移动到版本化outputs位置；4428个文件、71份checkpoint逐项哈希一致。旧run.json/训练源码快照保留原文；通过映射定位，不改写历史证据。本次没有训练。源码整理、CPU测试和单例录像不代替正式Isaac/MuJoCo验收。NAV/PUSH和以下冻结iy历史合同不变。
+
+## 上游 iy 控制器与技能切换交接
+
+以下内容属于上游 iy 阶段控制器及冻结 NAV 的开发交接；本地 AMP 训练配置以 climb_skill 内的版本说明为准。
 
 **新开发仓库运行入口（2026-10-16）：**完整iy运行树、actor、阶段bank和plan/jobs已包含在 `runtime_handoff/CLIMB-iy/`；当前原生NAV入口和v067切换对照在 `runtime_handoff/development/`。按[运行材料](../runtime_handoff/README_CN.md)启动。阶段bank重放与普通reset连续切换分别记录，历史报告不是新入口的外部依赖。
 
@@ -273,3 +285,10 @@ PY
 ```
 
 完整报告约3.9GB，应预留报告、录像和分析副本空间。脚本退出0仅证明评估进程结束；接收方还须针对**新报告路径**核对32个唯一终态/缺失、登台/展开/舒展条件、旧位置指标、安全终止、步态、含初始化饱和、释放重载、质量缓存和几何，并计算新报告/视频SHA256。原审计脚本也写死了任务名和路径，须在新目录副本中适配且记录改动，不能直接复用原`verification.json`作为新结果。seed28302回归已完成且属于已用种子；不能再次作为未用种子验收。
+
+
+### 2026-10-19 上传布局更新
+
+Climb已并入主仓库zyh分支，不再使用嵌套仓库。旧源码完整历史保存在 `climb_skill/versions/source-history.bundle`；通过 `scripts/manage.py` 切换，切换只恢复Climb源码，保存后再切下一版。最近10个模型和最近10个录像通过Git LFS交付，其余录像保留本地。准确清单见Climb的 `versions/publication.json`，当前操作以Climb README为准。训练控制逻辑未变。
+
+本次模型与录像分别按修改时间选最近10个；不足10个取最近5个，不足5个全取。未选中的本地文件不删除。

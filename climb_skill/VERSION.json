@@ -1,0 +1,7 @@
+{
+  "version": "V1",
+  "config": "configs/V1.json",
+  "status": "development, not formal acceptance",
+  "baseline_fidelity": "reconstructed, original full snapshot and weights missing",
+  "output_group": "V1"
+}

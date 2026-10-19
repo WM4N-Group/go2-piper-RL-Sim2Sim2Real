@@ -79,3 +79,7 @@ MUJOCO_LOG.TXT
 # TacSL sensor
 **/tactile_record/*
 **/gelsight_r15_data/*
+
+# Climb CPU regression tests are source, not generated artifacts.
+!climb_skill/tests/
+!climb_skill/tests/**

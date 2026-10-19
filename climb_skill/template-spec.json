@@ -1,0 +1,16 @@
+{
+  "external": true,
+  "path": "/mnt/miaojigui/artifacts/go2-piper/climb-official-template-_57izcmk",
+  "name": "climb_skill",
+  "workflows": [
+    {
+      "name": "direct",
+      "type": "single-agent"
+    }
+  ],
+  "rl_libraries": [],
+  "platform": "linux",
+  "generator": "/mnt/miaojigui/deps/go2-piper/IsaacLab/tools/template/generator.py",
+  "generator_sha256": "64765f18c4ceb69134b3d0c57b1ee715da223d5bf9e95ac22fecec807a42d125",
+  "note": "Generated with the official generator.generate entry used by isaaclab.sh --new. Custom Parkour PPO is connected separately; nested generated Git metadata is not copied."
+}
