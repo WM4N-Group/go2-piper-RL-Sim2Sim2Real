@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "successful": true,
+  "formal_acceptance": false,
+  "weights": {
+    "model_199.pt": "b1ebb8abb5370dcd98debab85d70e05a004bb1e59b5b00710460f575174c7721",
+    "model_255.pt": "4d1a4616928b4d06002285e870a1d6dd114e27b8cafcdd9a41dbdae1aceed419"
+  },
+  "arm_entry_speed": 1.5,
+  "video_fps": 25,
+  "device": "cuda:0",
+  "terminal": {
+    "seconds": 13.59999942779541,
+    "flags": {
+      "time_out": false,
+      "base_contact": false,
+      "bad_orientation": false,
+      "box_settled": true,
+      "box_contact": false,
+      "invalid_hand_contact": false,
+      "box_tipped": false,
+      "low_posture": false,
+      "arm_body_clearance": false,
+      "actual_surface_clearance": false,
+      "arm_effort_safety": false
+    },
+    "box_position": [
+      1.685854434967041,
+      0.03384847566485405,
+      0.09999977052211761
+    ],
+    "base_position": [
+      0.5103111267089844,
+      -0.10496769100427628,
+      0.28068071603775024
+    ]
+  },
+  "initial_box": [
+    1.0846997499465942,
+    0.012802752666175365,
+    0.09999989718198776
+  ],
+  "max_control_sample_torque_ratio": 0.9469562768936157,
+  "simulation_seconds": 13.59999942779541,
+  "playback_wall_seconds": 169.21336549706757,
+  "success_definition": "original box_settled + no safety failures; error<0.12m, speed<0.08m/s for0.5s; no retract guarantee",
+  "wall_seconds_including_startup": 276.946686450392
+}

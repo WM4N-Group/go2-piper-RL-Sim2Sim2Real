@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/miaojigui/zyh/climb_skill2/outputs/train-20261018-161654-w9li0ngk/model_800.pt",
+  "source_sha256": "5859aad5c7e6a81532ecee569d468a0cfebd00ccbe00d8e75e13d4d7006e3685",
+  "destination": "/mnt/miaojigui/zyh/climb_skill2/outputs/model800-curriculum-v4-20261018/model_800_curriculum.pt",
+  "destination_sha256": "1ed0fd58fe8db4a4e1639103b0a9a1f9caeb5ef80f4072995d42f412d0dd061a",
+  "changed_task_fields": {
+    "curriculum_only_enabled": {
+      "before": false,
+      "after": true
+    },
+    "quality_window_enabled": {
+      "before": false,
+      "after": true
+    }
+  },
+  "optimizer_updates": 0,
+  "iteration_preserved": 800,
+  "physics_state_restored": false,
+  "note": "Learning state preserved; episode state and curriculum evidence window reset on resume"
+}

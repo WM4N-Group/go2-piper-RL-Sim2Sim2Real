@@ -1,0 +1,65 @@
+# 公共脚本索引
+
+这些工具保留在scripts以维持既有导入；冻结版本另有自己的train/scripts。下面按用途索引，不把同名公共工具当作最新技能默认入口。
+
+| 文件 | 用途类别 |
+|---|---|
+| [audit_climb_leg_geometry.py](../scripts/audit_climb_leg_geometry.py) | 审计／诊断（不等于验收通过） |
+| [audit_climb_stage_reach.py](../scripts/audit_climb_stage_reach.py) | 审计／诊断（不等于验收通过） |
+| [audit_crawl_centroidal.py](../scripts/audit_crawl_centroidal.py) | 审计／诊断（不等于验收通过） |
+| [audit_crawl_schedule_budget.py](../scripts/audit_crawl_schedule_budget.py) | 审计／诊断（不等于验收通过） |
+| [audit_piper_transition.py](../scripts/audit_piper_transition.py) | 审计／诊断（不等于验收通过） |
+| [box_evaluation_metrics.py](../scripts/box_evaluation_metrics.py) | 控制／规划／公共辅助 |
+| [check_box_evaluation.py](../scripts/check_box_evaluation.py) | 测试／合同检查 |
+| [check_box_push_contract.py](../scripts/check_box_push_contract.py) | 测试／合同检查 |
+| [check_box_push_control.py](../scripts/check_box_push_control.py) | 测试／合同检查 |
+| [check_box_skill_rewards.py](../scripts/check_box_skill_rewards.py) | 测试／合同检查 |
+| [check_box_startup.py](../scripts/check_box_startup.py) | 测试／合同检查 |
+| [check_box_terrain.py](../scripts/check_box_terrain.py) | 测试／合同检查 |
+| [check_climb_guidance.py](../scripts/check_climb_guidance.py) | 测试／合同检查 |
+| [check_climb_stages.py](../scripts/check_climb_stages.py) | 测试／合同检查 |
+| [check_climb_start_states.py](../scripts/check_climb_start_states.py) | 测试／合同检查 |
+| [check_crawl_centroidal.py](../scripts/check_crawl_centroidal.py) | 测试／合同检查 |
+| [check_crawl_gait.py](../scripts/check_crawl_gait.py) | 测试／合同检查 |
+| [check_crawl_route.py](../scripts/check_crawl_route.py) | 测试／合同检查 |
+| [check_crawl_support.py](../scripts/check_crawl_support.py) | 测试／合同检查 |
+| [check_piper_climb_completion.py](../scripts/check_piper_climb_completion.py) | 测试／合同检查 |
+| [check_piper_collision_variant.py](../scripts/check_piper_collision_variant.py) | 测试／合同检查 |
+| [check_piper_native.py](../scripts/check_piper_native.py) | 测试／合同检查 |
+| [check_piper_skill_transition_contract.py](../scripts/check_piper_skill_transition_contract.py) | 测试／合同检查 |
+| [check_piper_transition_audit.py](../scripts/check_piper_transition_audit.py) | 测试／合同检查 |
+| [check_push_action_sampling.py](../scripts/check_push_action_sampling.py) | 测试／合同检查 |
+| [check_push_hybrid.py](../scripts/check_push_hybrid.py) | 测试／合同检查 |
+| [check_skill_export_provenance.py](../scripts/check_skill_export_provenance.py) | 测试／合同检查 |
+| [check_skill_initialization.py](../scripts/check_skill_initialization.py) | 测试／合同检查 |
+| [crawl_approach.py](../scripts/crawl_approach.py) | 控制／规划／公共辅助 |
+| [crawl_centroidal.py](../scripts/crawl_centroidal.py) | 控制／规划／公共辅助 |
+| [crawl_cycle.py](../scripts/crawl_cycle.py) | 控制／规划／公共辅助 |
+| [crawl_leg_kinematics.py](../scripts/crawl_leg_kinematics.py) | 控制／规划／公共辅助 |
+| [crawl_support.py](../scripts/crawl_support.py) | 控制／规划／公共辅助 |
+| [create_piper_collision_variant.py](../scripts/create_piper_collision_variant.py) | 模型／资产导出 |
+| [diagnose_crawl_step.py](../scripts/diagnose_crawl_step.py) | 审计／诊断（不等于验收通过） |
+| [diagnose_s38_push_self_collision.py](../scripts/diagnose_s38_push_self_collision.py) | 审计／诊断（不等于验收通过） |
+| [evaluate_box_skills.py](../scripts/evaluate_box_skills.py) | 评估／回放 |
+| [evaluate_safe_base.py](../scripts/evaluate_safe_base.py) | 评估／回放 |
+| [export_box_climb_actor.py](../scripts/export_box_climb_actor.py) | 模型／资产导出 |
+| [export_box_push_actor.py](../scripts/export_box_push_actor.py) | 模型／资产导出 |
+| [export_crawl_articulation.py](../scripts/export_crawl_articulation.py) | 模型／资产导出 |
+| [export_piper_collision_profile.py](../scripts/export_piper_collision_profile.py) | 模型／资产导出 |
+| [export_piper_native_state.py](../scripts/export_piper_native_state.py) | 模型／资产导出 |
+| [export_piper_nav_actor.py](../scripts/export_piper_nav_actor.py) | 模型／资产导出 |
+| [export_piper_robot_profile.py](../scripts/export_piper_robot_profile.py) | 模型／资产导出 |
+| [list_envs.py](../scripts/list_envs.py) | 控制／规划／公共辅助 |
+| [piper_climb_completion.py](../scripts/piper_climb_completion.py) | 控制／规划／公共辅助 |
+| [piper_skill_transition_contract.py](../scripts/piper_skill_transition_contract.py) | 控制／规划／公共辅助 |
+| [plan_crawl_route.py](../scripts/plan_crawl_route.py) | 控制／规划／公共辅助 |
+| [random_agent.py](../scripts/random_agent.py) | 控制／规划／公共辅助 |
+| [replay_piper_control_trace.py](../scripts/replay_piper_control_trace.py) | 评估／回放 |
+| [rsl_rl/cli_args.py](../scripts/rsl_rl/cli_args.py) | 训练与策略工具 |
+| [rsl_rl/initialization.py](../scripts/rsl_rl/initialization.py) | 训练与策略工具 |
+| [rsl_rl/play.py](../scripts/rsl_rl/play.py) | 训练与策略工具 |
+| [rsl_rl/push_action_sampling.py](../scripts/rsl_rl/push_action_sampling.py) | 训练与策略工具 |
+| [rsl_rl/train.py](../scripts/rsl_rl/train.py) | 训练与策略工具 |
+| [skill_export_provenance.py](../scripts/skill_export_provenance.py) | 控制／规划／公共辅助 |
+| [verify_climb_stage_regression.py](../scripts/verify_climb_stage_regression.py) | 测试／合同检查 |
+| [zero_agent.py](../scripts/zero_agent.py) | 控制／规划／公共辅助 |

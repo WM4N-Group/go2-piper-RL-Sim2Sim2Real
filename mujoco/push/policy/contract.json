@@ -1,0 +1,384 @@
+{
+  "settings": {
+    "episode_length_s": 48.0,
+    "push_ik_clearance_minimum": 0.1,
+    "push_ik_joint_limit_solve": true,
+    "push_ik_orientation_weight": 0.5,
+    "push_ik_height_weight": 2.0,
+    "push_goal_hold_pose": true,
+    "push_press_on_legal_contact": true,
+    "push_stop_distance": 0.11,
+    "push_press_depth": 0.08,
+    "push_hand_height_offset": 0.0,
+    "push_contact_memory_s": 0.1,
+    "push_leg_release_ramp_s": 0.7,
+    "push_leg_contact_ramp_s": 0.2,
+    "push_forward_command_gain": 2.0,
+    "push_geometry_minimum": 0.035,
+    "push_joint4_floor": 0.8,
+    "push_approach_height_gate": true,
+    "push_distance": 0.6
+  },
+  "joint_names": [
+    "FL_hip_joint",
+    "FR_hip_joint",
+    "RL_hip_joint",
+    "RR_hip_joint",
+    "FL_thigh_joint",
+    "FR_thigh_joint",
+    "RL_thigh_joint",
+    "RR_thigh_joint",
+    "joint1",
+    "FL_calf_joint",
+    "FR_calf_joint",
+    "RL_calf_joint",
+    "RR_calf_joint",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "body_names": [
+    "base",
+    "FL_hip",
+    "FR_hip",
+    "RL_hip",
+    "RR_hip",
+    "link0",
+    "FL_thigh",
+    "FR_thigh",
+    "RL_thigh",
+    "RR_thigh",
+    "link1",
+    "FL_calf",
+    "FR_calf",
+    "RL_calf",
+    "RR_calf",
+    "link2",
+    "FL_foot",
+    "FR_foot",
+    "RL_foot",
+    "RR_foot",
+    "link3",
+    "link4",
+    "link5",
+    "link6",
+    "end_effector"
+  ],
+  "action_joint_names": [
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "arm_joint_ids": [
+    8,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "leg_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "physics_dt": 0.005,
+  "step_dt": 0.02,
+  "default_joint_pos": [
+    0.10000000149011612,
+    -0.10000000149011612,
+    0.10000000149011612,
+    -0.10000000149011612,
+    0.800000011920929,
+    0.800000011920929,
+    1.0,
+    1.0,
+    0.0,
+    -1.5,
+    -1.5,
+    -1.5,
+    -1.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "joint_limits": [
+    [
+      -1.0471998453140259,
+      1.0471998453140259
+    ],
+    [
+      -1.0471998453140259,
+      1.0471998453140259
+    ],
+    [
+      -1.0471998453140259,
+      1.0471998453140259
+    ],
+    [
+      -1.0471998453140259,
+      1.0471998453140259
+    ],
+    [
+      -1.5707999467849731,
+      3.4906997680664062
+    ],
+    [
+      -1.5707999467849731,
+      3.4906997680664062
+    ],
+    [
+      -0.5235999226570129,
+      4.537899494171143
+    ],
+    [
+      -0.5235999226570129,
+      4.537899494171143
+    ],
+    [
+      -2.618000030517578,
+      2.618000030517578
+    ],
+    [
+      -2.7227001190185547,
+      -0.8377599120140076
+    ],
+    [
+      -2.7227001190185547,
+      -0.8377599120140076
+    ],
+    [
+      -2.7227001190185547,
+      -0.8377599120140076
+    ],
+    [
+      -2.7227001190185547,
+      -0.8377599120140076
+    ],
+    [
+      0.0,
+      3.1399998664855957
+    ],
+    [
+      -2.9669997692108154,
+      0.0
+    ],
+    [
+      -1.744999885559082,
+      1.744999885559082
+    ],
+    [
+      -1.21999990940094,
+      1.21999990940094
+    ],
+    [
+      -2.0943996906280518,
+      2.0943996906280518
+    ]
+  ],
+  "soft_joint_limits": [
+    [
+      -0.9424798488616943,
+      0.9424798488616943
+    ],
+    [
+      -0.9424798488616943,
+      0.9424798488616943
+    ],
+    [
+      -0.9424798488616943,
+      0.9424798488616943
+    ],
+    [
+      -0.9424798488616943,
+      0.9424798488616943
+    ],
+    [
+      -1.3177247047424316,
+      3.2376246452331543
+    ],
+    [
+      -1.3177247047424316,
+      3.2376246452331543
+    ],
+    [
+      -0.2705249786376953,
+      4.284824371337891
+    ],
+    [
+      -0.2705249786376953,
+      4.284824371337891
+    ],
+    [
+      -2.3561999797821045,
+      2.3561999797821045
+    ],
+    [
+      -2.628453016281128,
+      -0.9320070147514343
+    ],
+    [
+      -2.628453016281128,
+      -0.9320070147514343
+    ],
+    [
+      -2.628453016281128,
+      -0.9320070147514343
+    ],
+    [
+      -2.628453016281128,
+      -0.9320070147514343
+    ],
+    [
+      0.15700006484985352,
+      2.982999801635742
+    ],
+    [
+      -2.8186497688293457,
+      -0.14835000038146973
+    ],
+    [
+      -1.5704998970031738,
+      1.5704998970031738
+    ],
+    [
+      -1.097999930381775,
+      1.097999930381775
+    ],
+    [
+      -1.8849596977233887,
+      1.8849596977233887
+    ]
+  ],
+  "body_mass": [
+    7.287001132965088,
+    0.7669999599456787,
+    0.7669999599456787,
+    0.7669999599456787,
+    0.7669999599456787,
+    1.0199999809265137,
+    1.2409999370574951,
+    1.2409999370574951,
+    1.2409999370574951,
+    1.2409999370574951,
+    0.7099999785423279,
+    0.15399999916553497,
+    0.15399999916553497,
+    0.15399999916553497,
+    0.15399999916553497,
+    1.1699999570846558,
+    0.03999999910593033,
+    0.03999999910593033,
+    0.03999999910593033,
+    0.03999999910593033,
+    0.5,
+    0.3799999952316284,
+    0.382999986410141,
+    0.5070000290870667,
+    1.0
+  ],
+  "observation_terms": {
+    "policy": [
+      "base_ang_vel",
+      "projected_gravity",
+      "joint_pos",
+      "joint_vel",
+      "actions",
+      "velocity_commands",
+      "pos_commands"
+    ],
+    "critic": [
+      "base_lin_vel",
+      "base_ang_vel",
+      "projected_gravity",
+      "velocity_commands",
+      "pos_commands",
+      "joint_pos",
+      "joint_vel",
+      "actions",
+      "joint_torques",
+      "feet_contact",
+      "ee_link0_rel_pose"
+    ],
+    "box": [
+      "state"
+    ]
+  },
+  "ground_material": "RigidBodyMaterialCfg(func=<function spawn_rigid_body_material at 0x7f94d7b0e480>, static_friction=1.0, dynamic_friction=1.0, restitution=0.0, friction_combine_mode='min', restitution_combine_mode='min', compliant_contact_stiffness=0.0, compliant_contact_damping=0.0)",
+  "schema_version": 1,
+  "skill": "PUSH v212",
+  "server_source": "/mnt/miaojigui/zyh/push_skill",
+  "checkpoint_sha256": {
+    "model_199.pt": "b1ebb8abb5370dcd98debab85d70e05a004bb1e59b5b00710460f575174c7721",
+    "model_255.pt": "4d1a4616928b4d06002285e870a1d6dd114e27b8cafcdd9a41dbdae1aceed419"
+  },
+  "actor_sha256": {
+    "arm_actor.pt": "45e8f418aa90fa41e1ea386d412b91ca2a7f642ded0e86145b244872d3e6ca7a",
+    "leg_actor.pt": "2f7ff820441a0ee5cde18f79bcbd1c27885a4b158ad9448ee5ce50d3ac410799"
+  },
+  "observation_joint_order": [
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "observation_term_dimensions": [
+    3,
+    3,
+    18,
+    18,
+    18,
+    3,
+    7
+  ],
+  "observation_history_length": 3,
+  "box_observation_dimensions": 16,
+  "actor_input_dimensions": 226,
+  "actor_output_dimensions": {
+    "leg": 12,
+    "arm": 19
+  },
+  "applied_action_dimensions": 19
+}

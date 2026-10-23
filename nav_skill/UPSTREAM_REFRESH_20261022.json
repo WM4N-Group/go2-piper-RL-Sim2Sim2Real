@@ -1,0 +1,514 @@
+{
+  "date": "2026-10-22",
+  "url": "https://github.com/zzzJie-Robot/LeggedManip_Lab.git",
+  "commit": "4e12109d1eccb1d9da2e4a35f189fabea3f13677",
+  "fetched_from_network": true,
+  "upstream_changed": false,
+  "files": [
+    {
+      "upstream_path": "CODE_OF_CONDUCT.md",
+      "local_path": "CODE_OF_CONDUCT.md",
+      "sha256": "022115014775fa00e73ca2c68664d3ac8dbc6537a1a9d5395359324ace54ba0b",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "CONTRIBUTING.md",
+      "local_path": "CONTRIBUTING.md",
+      "sha256": "2a5a20fadb28f74dfe15b15f8641407366bf5224cd7850ad3c2f299a08efa402",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "23e2301250e57ee3d2cdd4535768fd00ca37cf3f5c43fc4ea2482c8665b7559d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "PROJECT_INTRO.md",
+      "local_path": "PROJECT_INTRO.md",
+      "sha256": "aaf02143093d46aec6437022e9bc367c4e01bf68f30883d780ef6b76b7d1e339",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "README.md",
+      "local_path": "README_UPSTREAM.md",
+      "sha256": "5ef68888e0f1f238c3b06f79a3a97bfe6a2e98f7bc01e0924669576fce21230c",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "README_CN.md",
+      "local_path": "README_CN_UPSTREAM.md",
+      "sha256": "ba046121fe908aafa5eb1353fed718f93ca612ae98357c445333fed0d8edbd48",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "docs/ENV_DETAILS.md",
+      "local_path": "docs/ENV_DETAILS.md",
+      "sha256": "da56b650e051957fa3dfea35b313a078e1a62a3afac9d3386934ea2f6a9ece1b",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "docs/ENV_DETAILS_CN.md",
+      "local_path": "docs/ENV_DETAILS_CN.md",
+      "sha256": "a19e6426f6565331fbb3e5b3fec73f485b219c03362a2633f76af57ee6cefaeb",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "docs/WBC_MIXED_FRAME.md",
+      "local_path": "docs/WBC_MIXED_FRAME.md",
+      "sha256": "0a05263081cd4960774902a54b565387c94fe6a87752182409cdeef6f68d39e5",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "docs/WBC_MIXED_FRAME_CN.md",
+      "local_path": "docs/WBC_MIXED_FRAME_CN.md",
+      "sha256": "f47bccb0f41c5207fe1bab8d0e079017e5266c27ac85cad1adcb3696c15d7b9c",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "pyproject.toml",
+      "local_path": "pyproject.toml",
+      "sha256": "5b64d904757bb06c362da3bdbfca7f089fffb319a28690d973d65b10a3c818e9",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "requirements.txt",
+      "local_path": "requirements.txt",
+      "sha256": "4c712d98350a0db308fe93f247b6118f1ec09afdbb8b3bfb20b3ebc1d629fae4",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/list_envs.py",
+      "local_path": "scripts/list_envs.py",
+      "sha256": "4871c36173876fd5966c9dd639514588a34dcfb1e45086d06f3198f6b32ef9d8",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/random_agent.py",
+      "local_path": "scripts/random_agent.py",
+      "sha256": "61de67e3128619453a500563161fa053a0f76faa5e5129d1537d41567a2f6a0c",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/rsl_rl/cli_args.py",
+      "local_path": "scripts/rsl_rl/cli_args.py",
+      "sha256": "81eb3d7936086f5314e183ced08bf32ac20f4df112a48ba0b4df99d0f54480ed",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/rsl_rl/play.py",
+      "local_path": "scripts/rsl_rl/play.py",
+      "sha256": "d1e1943a76bb995dd418d29347a3fb18b634c00b8571a28a988fe336d7346137",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/rsl_rl/train.py",
+      "local_path": "scripts/rsl_rl/train.py",
+      "sha256": "9fe24e7a3decd04a364d597c4894bb0212769ae8305415755101a8ffd2de7073",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "scripts/zero_agent.py",
+      "local_path": "scripts/zero_agent.py",
+      "sha256": "9092c1465ed4c3a5e3fff4c459caab9cfdbc8b86f7188ff7688e6a59fc7a9753",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/__init__.py",
+      "sha256": "93313aeb237d8b118bd3854978c57f706b8dcde9652f7f3b334f88ea657d83e9",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/ago_z1/ago_z1_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/ago_z1/ago_z1_articulation_cfg.py",
+      "sha256": "fa83ad65e34d91950c20a14d2e503f1974ca8b2adb8f803dc012a944ee680244",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/b1_z1/b1_z1_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/b1_z1/b1_z1_articulation_cfg.py",
+      "sha256": "8740acf89c120262d8bacb532ec56137ec52c279478f0f4a2786be9d644cf270",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/b2_z1/b2_z1_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/b2_z1/b2_z1_articulation_cfg.py",
+      "sha256": "ac92daf9ce723c86c0e75b40b40ceb1f6214d316d2390659e79452caae88e309",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go1_arx5/go1_arx5_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go1_arx5/go1_arx5_articulation_cfg.py",
+      "sha256": "9c5de028c1dcade9e0e4f6bc9125bad75fccdb20af1e97893f2bee059b92a63e",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go1_wx250s/go1_wx250s_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go1_wx250s/go1_wx250s_articulation_cfg.py",
+      "sha256": "597323ebd0c6d1ce8ba6ff2ddb4e95a390cde8c52d350a27500a396c63db821a",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/go2_arx5_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_arx5/go2_arx5_articulation_cfg.py",
+      "sha256": "800135dc118b8785f00c8c0541031c8befa952a6ab587a7b9476733dddfd9e1c",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py",
+      "sha256": "ed3bbd7815cbadf08c1b80a77db2df95d48a16bdfea16358a617b630d7234692",
+      "upstream_identical": false
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/__init__.py",
+      "sha256": "fc406ce68ff7f76bdb53aba8ecb758e157d9befd6ae17628dc1336e824c3899d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/__init__.py",
+      "sha256": "df22e2b5788c6251ceb903a77e9e71dd7f44c58c315d018464fc63767bf63826",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/__init__.py",
+      "sha256": "4043dad79b52ae026de3eba4b636561345a704f0ea8b8e4785572362127a42fa",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/agents/__init__.py",
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "f97276b91845677fc53190ddda33abc7245ffd8848d4473baae2fe9c27f72fdf",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/flat_env_cfg.py",
+      "sha256": "caae0c8c2fe76bab7b619d2a2d789b5b04ad75a35b71e7987a56958aec0bef0c",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/ago_z1/wbc_env_cfg.py",
+      "sha256": "523d24b54df1cd25a6c4ead8b797ae8f3f60c68769aeccfaa55d360db1334371",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/__init__.py",
+      "sha256": "be32c3f588d09d17f8b68d5827cebd6f4204818556ba7828961710218357c83d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/agents/__init__.py",
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "922954415f23fbf345be8894bebaf13c33e2cc324f359f5986f615855295cf36",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/flat_env_cfg.py",
+      "sha256": "23953ae6aad2d950c670a915874eeeb5aa90f214c8352d67a90b7d0788f7ad7b",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b1_z1/wbc_env_cfg.py",
+      "sha256": "444a502f395c7458cee0e225471246ef12757d79fc9835a4fcbe927556ec615e",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/__init__.py",
+      "sha256": "94782c0321c9df55d5f70e7648c1a70e653deb576a33bd245f31c440b60734a9",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/agents/__init__.py",
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "8c4b32b9dcde5fd50c289bbe1a01c6b64033f97cde90f59567d974b0827c1930",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/flat_env_cfg.py",
+      "sha256": "9e8bcbe2767b3560d43d1556b5fb40f65ac72416ac0cdb8bf99c3ef3721aee4d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/b2_z1/wbc_env_cfg.py",
+      "sha256": "e488a69260940f74ab2f3af1dcb1d331819c03748657c4bc6b55e45704dfe258",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/__init__.py",
+      "sha256": "5bf7462d68f26f5b0ebed0eaf5ef8cfdbfedea81ac3414b7e1de36b093ad6e1a",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/agents/__init__.py",
+      "sha256": "5a462dc326450167e5047cb70858fa0b6a332d712c3c90c506a92f8edce37813",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "01a49988872dd4e6493d5d05bc6b304913f0323629c58e3db1eefb093ab395af",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/flat_env_cfg.py",
+      "sha256": "54e4cd3861a81a9345725eb7a22349ab55dad592cbacd183b6f52072b2c1dfb8",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_arx5/wbc_env_cfg.py",
+      "sha256": "7f14fc3c3ac3caf784e7bd2e1f2d21d6c70d4f1261ca058808c51e24ffecfaa3",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/__init__.py",
+      "sha256": "1e85f6a581d9052252772861609bb8e415e65d357a01a0791707e85bf04b495d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/agents/__init__.py",
+      "sha256": "5a462dc326450167e5047cb70858fa0b6a332d712c3c90c506a92f8edce37813",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "a816369e11d98b1544448bbbaefe99529c93cc0474f7a3782dde973c92d758d0",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/flat_env_cfg.py",
+      "sha256": "93876f6f5aba343cdcb2dc7f2ecf173336f2f8d49f30f9049dd7da1d72c51b41",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go1_wx250s/wbc_env_cfg.py",
+      "sha256": "a816165bf03468302c8866ee69de49205afc3f809f0570b7bba1db7a6608fc3a",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/__init__.py",
+      "sha256": "76f0a7af75442e781f08f034a71a6eeaf87f093f9bc9a45253d21013bc8e1eb9",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/__init__.py",
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "d916f02827406fd082798bdd40ffbcf53a029323419cae3295e9c2d44b039bdb",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/flat_env_cfg.py",
+      "sha256": "90b460407d84eaf6817bf1e6ec42afc9c96db9ccc9c74bde4149026424853c1a",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_arx5/wbc_env_cfg.py",
+      "sha256": "547ef5c5f1c762895ae06249c844c461d304c52835a608dd6178686973230d41",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/__init__.py",
+      "sha256": "e6a35e6de591be6f4bfbf37347b7bfa43e4aab04d165d1e26c121ace10970e87",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/__init__.py",
+      "sha256": "abdcb0bbd29604a73b97e6911a73db8106b1d83313bace28acae0c2e439e8812",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/rsl_rl_ppo_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "3b6005b958ea3a82f0711ab50c7142c4b0f1ef79baa25da1fde701039fb96919",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/flat_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/flat_env_cfg.py",
+      "sha256": "1585b2464e35f24c22646f252cadbd36b8912087de89667f846d6ee68627b3f5",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/wbc_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/config/go2_piper/wbc_env_cfg.py",
+      "sha256": "5399b7432bb3ec1679a1329bccb11c9b4007989a0ab5072a3cf7ed525717dce2",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/leggedmanip_lab_env_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/leggedmanip_lab_env_cfg.py",
+      "sha256": "dd73ab305ad875fc5a9c83f3b60dd93c89e994e739481f9a2a222695f9e851e7",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/__init__.py",
+      "sha256": "3f15f30a48946511c3fae996747f094958a676b4eb686a281e6b1262b127a357",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/__init__.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/command_cfg.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/cfg/command_cfg.py",
+      "sha256": "05f84e2a2ecda7d208d606810f948b4dfad53021c0999e2e8f52bc370d64c5d4",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/curriculums.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/curriculums.py",
+      "sha256": "0d94404ce0f7fcec4daadf732f97b8e0de690788eab7ad27ac52f0acf40af7cb",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/events.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/events.py",
+      "sha256": "ab65d22168ee3b9618637846b72dab2f33623e8d76c6c344dfb49bb5b59ef95d",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/observations.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/observations.py",
+      "sha256": "23ed2f1e86bea46618efdc6fbcf2bd66251291dd7c978d2dad7c9af704df9ade",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_b.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_b.py",
+      "sha256": "225caa2b1825864f4f1d82828c73ca1dd2e6fd3acfa2541f34157eb6c562c2aa",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_wbc.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/pose_command_wbc.py",
+      "sha256": "9266a53093084c437edcc88a3ab166be69fbc9535a5678cb2a4182d028d20249",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/rewards.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/tasks/manager_based/leggedmanip_lab/mdp/rewards.py",
+      "sha256": "d48f23ed9a571d3b23fc24399e4933136e0bd14f07c56761a6dd59b796f091db",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/LeggedManip_Lab/ui_extension_example.py",
+      "local_path": "source/LeggedManip_Lab/LeggedManip_Lab/ui_extension_example.py",
+      "sha256": "92ae5980b8799efe1cf443f119953ca4ebe502d95556509bb74997bad252cab4",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/config/extension.toml",
+      "local_path": "source/LeggedManip_Lab/config/extension.toml",
+      "sha256": "d440fc83d74ab1e06ee41a4d0d1f5bd706040b8922f554868725aec2ca5f9412",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/pyproject.toml",
+      "local_path": "source/LeggedManip_Lab/pyproject.toml",
+      "sha256": "0aafaeecb08244d278aa82585d07d1c8b4a31b58815b097bca70e1e1dbcee146",
+      "upstream_identical": true
+    },
+    {
+      "upstream_path": "source/LeggedManip_Lab/setup.py",
+      "local_path": "source/LeggedManip_Lab/setup.py",
+      "sha256": "1a600017249ebbceebea4090d5b68d28867446c816589242e3a8257b9366816b",
+      "upstream_identical": true
+    }
+  ],
+  "shared_assets": [
+    {
+      "path": "asset/go2_piper/configuration/go2_piper_base.usd",
+      "git_blob": "1f9bc60f0e28116be9a35667700c7222dd140573"
+    },
+    {
+      "path": "asset/go2_piper/configuration/go2_piper_physics.usd",
+      "git_blob": "80a5fca62d06639fda20404c24d0676c23e2a8ce"
+    },
+    {
+      "path": "asset/go2_piper/configuration/go2_piper_robot.usd",
+      "git_blob": "dfdac234e23caf0b49d98722a1a5c7c6e40d117d"
+    },
+    {
+      "path": "asset/go2_piper/configuration/go2_piper_sensor.usd",
+      "git_blob": "9363fb798fc8a5d92072a22f5f4c88f1557b6ca8"
+    },
+    {
+      "path": "asset/go2_piper/go2_piper.usd",
+      "git_blob": "1111eef79b14dda63d86cba2372162b2cc11cab6"
+    }
+  ],
+  "training_started": false,
+  "validation": "AST and exact upstream bytes except USD path; no new simulation",
+  "environment": {
+    "python": "3.11.16",
+    "isaacsim": "5.1.0.0",
+    "rsl-rl-lib": "5.0.1",
+    "conda": "go2-piper"
+  },
+  "backup_status": "Deleted at user request; training checkpoints and logs preserved."
+}

@@ -1,0 +1,5 @@
+# Python 3.11; 先在专用Conda环境安装CPU PyTorch，再安装此文件。
+mujoco==3.12.0
+numpy>=1.26,<3
+imageio>=2.34,<3
+imageio-ffmpeg>=0.5,<0.7

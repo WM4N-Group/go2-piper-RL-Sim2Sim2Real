@@ -1,0 +1,14 @@
+{
+  "base": "Windows / existing Anaconda Python 3.9.25 / CUDA 11.8 Torch runtime",
+  "python": "D:/Anaconda/envs/pytorch/python.exe",
+  "reuse_existing": true,
+  "pip_phases": [],
+  "packages": {"torch": "2.1.0+cu118", "mujoco": "3.3.2", "numpy": "1.26.4", "scipy": "1.13.1"},
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "inference": "cuda",
+  "physics": "CPU MuJoCo implicitfast 0.005 s; 4 physics steps per policy step",
+  "weight_dirs": {"actor": "climb/sim2sim/policy/actor.pt"},
+  "smoke": {
+    "gpu_tests": [{"cmd": "& D:\\Anaconda\\envs\\pytorch\\python.exe C:\\Users\\zyh\\Desktop\\MuJoCo\\climb\\sim2sim\\acceptance\\kernel_witness.py", "expect": "^WITNESS .*cuda"}]
+  }
+}

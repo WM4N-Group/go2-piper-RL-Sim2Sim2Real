@@ -2,7 +2,7 @@
 
 唯一项目目录是 `/mnt/miaojigui/zyh/climb_skill`，内部 Python 包仍叫 `climb_skill`。
 代码、配置、测试现在由主仓库统一管理，没有嵌套 Git 仓库。完整旧源码历史随 `versions/source-history.bundle` 交付，版本管理器会自动读取，不需要另找旧目录。
-本次交付包括最近10个模型、按修改时间最近10个录像与对应元数据，通过Git LFS存储；其他录像和日志保留在本地但不上传。准确清单与SHA256见 `versions/publication.json`。
+本次交付为每个训练版本／运行仅保留最后一个checkpoint及对应录像、配置和源码快照，通过Git LFS存储；V3迁移权重和运行必需的冻结actor单独保留。其他权重、录像和训练日志保留在本地但不上传。准确清单与SHA256见 `versions/publication.json` 和根目录 `PUBLICATION.json`。
 V1原始历史权重缺失，但现有恢复代码已经重新训练，结果在 `outputs/V1/`；不能把新权重称为原始截图权重。
 
 首次克隆主仓库的 `zyh` 分支后，在仓库根目录执行 `git lfs install`、`git lfs pull` 下载模型和录像。

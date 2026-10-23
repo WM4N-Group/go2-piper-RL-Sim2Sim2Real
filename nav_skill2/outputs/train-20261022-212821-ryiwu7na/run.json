@@ -1,0 +1,49 @@
+{
+  "python": "/mnt/miaojigui/conda/envs/go2-piper/bin/python",
+  "argv": [
+    "/mnt/miaojigui/zyh/nav_skill2/scripts/train.py",
+    "--headless",
+    "--device",
+    "cuda:0",
+    "--num-envs",
+    "2048",
+    "--iterations",
+    "15000"
+  ],
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "isaaclab": "0.54.4",
+    "isaacsim": "5.1.0.0",
+    "numpy": "1.26.0",
+    "gymnasium": "1.2.1"
+  },
+  "robot_usd": "/mnt/miaojigui/zyh/asset/go2_piper/go2_piper.usd",
+  "hashes": {
+    "__init__.py": "2b546402a6259afc76c4de8ac38a9862c63c52ff7f5b5315739d84c8e84f1266",
+    "tasks/__init__.py": "80dcb0705472b7c0afc07cac050c37417aa52c45de79cbbac3c6b83e02874f3d",
+    "tasks/direct/__init__.py": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe",
+    "tasks/direct/nav_skill2/nav_skill2_env_cfg.py": "ef69be19328d3e07c5eb1721ab596337798c8b03c6a0087c22b84f23d2459d34",
+    "tasks/direct/nav_skill2/robot.py": "36ed49efc3d1b75d3cd8b67d4673d54d1d0c1bae803f3ec276758a01d36deb25",
+    "tasks/direct/nav_skill2/commands.py": "3d0c2ebcac076670a81c0b11f7ea82b5dad4552bb4d14c702ae6f65810130444",
+    "tasks/direct/nav_skill2/nav_skill2_env.py": "a512b3a0837a871c8eaf972917fe6aa8883d77e1ea88bcbe76d6b88da4b96146",
+    "tasks/direct/nav_skill2/parameters.py": "578eeb2dd8ac8a4185868c2bda6d8ed5194bb9a3a37a2da1153db0e5c803e626",
+    "tasks/direct/nav_skill2/randomization.py": "304fa79aa68fc82c999981cd236b9e5838efa0ca989a40df7930baa8365d2869",
+    "tasks/direct/nav_skill2/__init__.py": "65cfc8e76d49aee2d982c062932a8fb19414d70093a897b78a7ae20c24418d07",
+    "tasks/direct/nav_skill2/agents/__init__.py": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435",
+    "tasks/direct/nav_skill2/agents/ppo_cfg.py": "cfa07e621d6ab96a5b605edfcdb0216ff1f5053142cd2dc9eb0d5eb7ba53e5b1",
+    "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utils/runtime.py": "79ca4c4b98b2b152fd235bccb75279f65931f096c37c06b4bafa594cf55ac3bf",
+    "learning/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "learning/amp.py": "7f554ffae05eb5f339ef493d0c7a7762a67e89913ff870ca934ab3f6432f2259",
+    "learning/motion_reference.py": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c",
+    "learning/ppo.py": "285e2873417f2eeab3597f26413fd81d330fda2c8a766b658ef57042ac6cd038",
+    "learning/symmetry.py": "cc33343d36b3f223a4d18b826a3c75c45e3837db74a7d4a5ba61789003efa64d",
+    "/mnt/miaojigui/zyh/asset/go2_piper/go2_piper.usd": "7096d6fe13922bb16678a7963eb5eef9a4e5fafc8de0cfc8b512f002f83dfc16",
+    "/mnt/miaojigui/zyh/asset/go2_piper/configuration/go2_piper_base.usd": "542208f7497fdb72515692ba70450bbf639997cb9e14ef7307ff93e998ce20b5",
+    "/mnt/miaojigui/zyh/asset/go2_piper/configuration/go2_piper_physics.usd": "961a2e3c4f8e039d3cb05844241346310703bc0f4d6fd8874446438ba503ef29",
+    "/mnt/miaojigui/zyh/asset/go2_piper/configuration/go2_piper_robot.usd": "400e409b680e1e50089e9ff50f9b570707154f51a57de28e412823d14c3cfe6f",
+    "/mnt/miaojigui/zyh/asset/go2_piper/configuration/go2_piper_sensor.usd": "5cc66a900471dc4380fd1691e290d5fbd7a1c02aaf60aea1b17a15216743b1af",
+    "/mnt/miaojigui/zyh/nav_skill2/data/amp_speed_pairs.json": "978a0ed8eb8a3edfe9ed06e04b4587d2414eded8a72fff9b8924ee4461741fed"
+  },
+  "note": "Training artifacts are not acceptance evidence"
+}

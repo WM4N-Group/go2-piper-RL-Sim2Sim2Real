@@ -83,3 +83,38 @@ MUJOCO_LOG.TXT
 # Climb CPU regression tests are source, not generated artifacts.
 !climb_skill/tests/
 !climb_skill/tests/**
+
+# New PUSH regression sources and local development runs.
+!push_skill/tests/
+!push_skill/tests/**
+push_skill/outputs/
+
+# Reorganized project local artifacts
+nav_skill/logs/
+nav_skill/outputs/
+history/outputs/
+**/__pycache__/
+
+# Independent Nav2 training artifacts and regression sources.
+nav_skill2/outputs/
+!nav_skill2/tests/
+!nav_skill2/tests/**
+
+# Publication: local diagnostics and secrets are never uploaded.
+**/.env
+**/.env.*
+**/.venv/
+**/.envs/
+**/core
+**/core.*
+**/events.out.tfevents.*
+**/metrics.jsonl
+**/episodes.jsonl
+**/trace.jsonl
+**/traces.jsonl
+# Generated Climb sim2sim evaluation payloads; keep evaluation source files.
+climb_skill/sim2sim_acceptance_v1_900/*/
+!climb_skill/sim2sim_acceptance_v1_900/eval-frozen-v3/
+climb_skill/sim2sim_acceptance_v1_900/*.zip
+climb_skill/sim2sim_acceptance_v1_900/*.tar.gz
+climb_skill/sim2sim_acceptance_v1_900/eval-frozen-v3/**/__pycache__/

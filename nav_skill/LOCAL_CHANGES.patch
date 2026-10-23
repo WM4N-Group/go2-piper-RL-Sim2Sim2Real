@@ -1,0 +1,12 @@
+--- a/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py
++++ b/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper/go2_piper_articulation_cfg.py
+@@ -19,7 +19,8 @@
+ 
+ current_dir = os.path.dirname(os.path.abspath(__file__))
+ 
+-GO2_PIPER_USD = os.path.join(current_dir, "go2_piper.usd")
++from pathlib import Path
++GO2_PIPER_USD = os.environ.get("CLIMB_ROBOT_USD", str(Path(__file__).resolve().parents[6] / "asset/go2_piper/go2_piper.usd"))
+ 
+ ##
+ # Configuration

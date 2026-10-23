@@ -1,0 +1,33 @@
+[package]
+
+# Semantic Versioning is used: https://semver.org/
+version = "0.1.0"
+
+# Description
+category = "isaaclab"
+readme  = "README.md"
+
+title = "GO2-PIPER Nav Skill 2"
+author = "Isaac Lab Project Developers"
+maintainer = "Isaac Lab Project Developers"
+description="Velocity-conditioned flat locomotion with 12 leg predictions, zero arm and AMP"
+repository = "https://github.com/WM4N-Group/go2-piper-RL-Sim2Sim2Real"
+keywords = ["extension", "template", "isaaclab"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_tasks" = {}
+# NOTE: Add additional dependencies here
+
+[[python.module]]
+name = "nav_skill2"
+
+[isaac_lab_settings]
+# TODO: Uncomment and list any apt dependencies here.
+#       If none, leave it commented out.
+# apt_deps = ["example_package"]
+# TODO: Uncomment and provide path to a ros_ws
+#       with rosdeps to be installed. If none,
+#       leave it commented out.
+# ros_ws = "path/from/extension_root/to/ros_ws"

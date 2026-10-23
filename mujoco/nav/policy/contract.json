@@ -1,0 +1,94 @@
+{
+  "repository": "https://github.com/ZyH-Maker/go2_push",
+  "commit": "559f010e260916ebf8c5fa9c0e4786f595348b80",
+  "actor_sha256": "e0c53bd102d2ac89afd5317d134ae8d84ebf820cfd7dce61e21408fdc2d870b2",
+  "scope": "Frozen WBC velocity/EE command deployment, not trained high-level navigation or pushing PPO",
+  "constants": {
+    "WBC_INPUT_DIM": 210,
+    "WBC_OUTPUT_DIM": 18,
+    "WBC_HISTORY_LENGTH": 3,
+    "PHYSICS_DT": 0.005,
+    "WBC_DECIMATION": 4,
+    "HIGH_LEVEL_DECIMATION": 20,
+    "WBC_OBS_TERM_DIMS": [
+      3,
+      3,
+      18,
+      18,
+      18,
+      3,
+      7
+    ],
+    "WBC_POLICY_SHA256": "e0c53bd102d2ac89afd5317d134ae8d84ebf820cfd7dce61e21408fdc2d870b2",
+    "WBC_JOINT_NAMES": [
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6"
+    ],
+    "GRIPPER_JOINT_NAMES": [
+      "joint7",
+      "joint8"
+    ],
+    "VELOCITY_SCALE": [
+      0.5,
+      0.4,
+      0.8
+    ],
+    "VELOCITY_RATE_LIMIT": [
+      0.15,
+      0.12,
+      0.2
+    ],
+    "EE_NOMINAL": [
+      0.5,
+      0.0,
+      0.4
+    ],
+    "EE_OFFSET_SCALE": [
+      0.05,
+      0.3,
+      0.2
+    ],
+    "EE_RATE_LIMIT": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "EE_QUATERNION_WXYZ": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ACTION_SCALE": 0.25
+  },
+  "robot": "Byte-identical copy of climb/robot; original base robot USD hashes match go2_push. Fixed closed fingers; no movable gripper added.",
+  "differences": [
+    "MuJoCo contact/velocity limits differ from PhysX.",
+    "Same closed-finger 18-axis model as climb, not go2_push movable 20-axis gripper.",
+    "Ground velocity tracking evaluation uses simulation state; no real sensor validation."
+  ],
+  "source_sha256": {
+    "actions.py": "a9cb7ecc22dee54d3b4add7db23cab2739424b0f97e1178615bd28fa2291acb0",
+    "observations.py": "36f64eb4df5d6bd0f12e448154c4bc9264c8d571fc4951df8e66320c5c9fb02e",
+    "robot_cfg.py": "14c3dd78037e6241360ffc421e65aaaa8368b6eda7776bb0af46b8ce3ff03923",
+    "env_cfg.py": "0693c7fe4b7b8491116af12cd7f303abdf27d760d9500f53212f3d977d3aa760",
+    "check_wbc_contract.py": "876612840f52b4c3b1f73a32550b9e28cb9afd7152d596ae6244010c404e4a6f",
+    "README.upstream.md": "01c8d8937e6f8930e44e2f9a2dc074408e58bf62999e13f9f88e93867ff04b26"
+  }
+}

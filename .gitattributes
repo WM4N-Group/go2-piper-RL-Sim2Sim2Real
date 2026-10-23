@@ -16,3 +16,10 @@
 
 climb_skill/outputs/**/*.pt filter=lfs diff=lfs merge=lfs -text
 climb_skill/outputs/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Versioned model/video publication; Git LFS required after clone.
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.jit filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text

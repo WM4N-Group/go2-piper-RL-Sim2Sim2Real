@@ -1,0 +1,11 @@
+{
+  "origin": "history/source/LeggedManip_Lab/LeggedManip_Lab/assets/go2_piper",
+  "push_asset_matches": {
+    "go2_piper.usd": true,
+    "go2_piper_selective_collision.usd": true,
+    "configuration/go2_piper_base.usd": true,
+    "configuration/go2_piper_physics.usd": true,
+    "configuration/go2_piper_robot.usd": true,
+    "configuration/go2_piper_sensor.usd": true
+  }
+}

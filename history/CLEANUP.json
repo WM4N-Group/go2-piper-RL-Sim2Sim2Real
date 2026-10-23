@@ -1,0 +1,10 @@
+{
+  "deleted_failed_experiments": [
+    "history/outputs/push-cartesian-entry-20261020-a",
+    "history/outputs/push-cartesian-entry-20261020-b",
+    "history/outputs/push-demo-001",
+    "history/push_skill",
+    "push_skill/outputs/play-20261020-195457",
+    "push_skill/outputs/play-20261020-195819"
+  ]
+}

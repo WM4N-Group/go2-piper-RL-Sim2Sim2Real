@@ -1,0 +1,2260 @@
+{
+  "date": "2026-10-23",
+  "branch": "zyh",
+  "selection": "Latest numeric checkpoint per training run/version, matching TorchScript export and matching checkpoint videos if present. Original paths preserved; older artifacts retained locally. Runtime-required frozen multi-model dependencies are included.",
+  "runs": [
+    {
+      "run": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw",
+      "iteration": 900,
+      "model": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_900.pt",
+      "export": null,
+      "videos": [
+        "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/climb.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "climb_skill/outputs/V2/V21",
+      "iteration": 2100,
+      "model": "climb_skill/outputs/V2/V21/model_2100.pt",
+      "export": null,
+      "videos": [
+        "climb_skill/outputs/V2/V21/checkpoint_videos/model_2100/climb.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "climb_skill/outputs/V2/V22",
+      "iteration": 1900,
+      "model": "climb_skill/outputs/V2/V22/model_1900.pt",
+      "export": null,
+      "videos": [
+        "climb_skill/outputs/V2/V22/checkpoint_videos/model_1900/climb.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "climb_skill/outputs/V3/current",
+      "iteration": 3200,
+      "model": "climb_skill/outputs/V3/current/model_3200.pt",
+      "export": null,
+      "videos": [
+        "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/climb.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "climb_skill/outputs/V3/original",
+      "iteration": 900,
+      "model": "climb_skill/outputs/V3/original/model_900.pt",
+      "export": null,
+      "videos": [
+        "climb_skill/outputs/V3/original/checkpoint_videos/model_900/climb.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_10-51-48",
+      "iteration": 3000,
+      "model": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_10-51-48/model_3000.pt",
+      "export": null,
+      "videos": []
+    },
+    {
+      "run": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_18-25-45",
+      "iteration": 9999,
+      "model": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_18-25-45/model_9999.pt",
+      "export": null,
+      "videos": []
+    },
+    {
+      "run": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-22_21-35-08",
+      "iteration": 4999,
+      "model": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-22_21-35-08/model_4999.pt",
+      "export": null,
+      "videos": []
+    },
+    {
+      "run": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999",
+      "iteration": 9998,
+      "model": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999/model_9998.pt",
+      "export": null,
+      "videos": []
+    },
+    {
+      "run": "nav_skill2/outputs/resume-v3-1200-20261022",
+      "iteration": 10100,
+      "model": "nav_skill2/outputs/resume-v3-1200-20261022/model_10100.pt",
+      "export": "nav_skill2/outputs/resume-v3-1200-20261022/actor_10100.pt",
+      "videos": [
+        "nav_skill2/outputs/resume-v3-1200-20261022/checkpoint_videos/model_10100/locomotion.mp4"
+      ],
+      "video_complete": false
+    },
+    {
+      "run": "nav_skill2/outputs/train-20261022-173336-m7p7euk0",
+      "iteration": 1200,
+      "model": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/model_1200.pt",
+      "export": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/actor_1200.pt",
+      "videos": [
+        "nav_skill2/outputs/train-20261022-173336-m7p7euk0/checkpoint_videos/model_1200/locomotion.mp4"
+      ],
+      "video_complete": true
+    },
+    {
+      "run": "nav_skill2/outputs/train-20261022-212821-ryiwu7na",
+      "iteration": 6400,
+      "model": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/model_6400.pt",
+      "export": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/actor_6400.pt",
+      "videos": [
+        "nav_skill2/outputs/train-20261022-212821-ryiwu7na/checkpoint_videos/model_6400/locomotion.mp4"
+      ],
+      "video_complete": true
+    }
+  ],
+  "files": [
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/climb.mp4",
+      "bytes": 622880,
+      "sha256": "d14ece142e0c94a5e5ecd5d922b571cd1b69b20328248ed2beb6328058a4e97a"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/config.json",
+      "bytes": 6869,
+      "sha256": "59c0b698222cc577bbbb1ce666ff8842a15ee0eee61f8bd661806d9ff701179c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/report.json",
+      "bytes": 2830,
+      "sha256": "169c9b2bfd86989eda1866d66807851c51d4a62a48672524f7f94d50e64553ad"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/checkpoint_videos/model_900/run.json",
+      "bytes": 10613,
+      "sha256": "80d2c9a655cb0a2384dead6c18d499b36b8a91af1915e038a29689d140755a8c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/config.json",
+      "bytes": 6867,
+      "sha256": "8f1dee0b51a83341609cf826d56be2838e853230b5b9cfb94e0fb73cdc9ed8fb"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/model_900.pt",
+      "bytes": 28820427,
+      "sha256": "cb741d772d6b90b7bd25107758b9715bb6faf674c5e3b1856e53fcd0a325f424"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/run.json",
+      "bytes": 9986,
+      "sha256": "5fd2160d23deb4e84a3b99273a3d722ff3ce675ad399ef3d5a8332cc945f0566"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/export_policy.py",
+      "bytes": 1665,
+      "sha256": "67356d3d906457f888e331fd984442a620c659622b2ab6b458838c90d1ce30c8"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/manage.py",
+      "bytes": 3770,
+      "sha256": "7bc57bded3b6d3575f4fac889bd30e6d1668318708be655e3dc3d226f504ccaf"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/migrate_curriculum.py",
+      "bytes": 3612,
+      "sha256": "2e4bf3781341230bdb10b25effb3ebf5e5d4ec2b7acb72ff1a80690e0fca31a5"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/play.py",
+      "bytes": 8026,
+      "sha256": "86784dbf9482292d78361a36935cf0d98ae7a5fb53afaf7aaf8f87136a0e7fcd"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/prepare_amp_data.py",
+      "bytes": 3582,
+      "sha256": "b7073775c481c5270e22678b536dea92453023fc1326ddd1e32837402a1f8b58"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/scripts/train.py",
+      "bytes": 10981,
+      "sha256": "2063a8b6eafde6997c4e6f062645edf95a6e87b0344954c5a5f8cadb435ecd09"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/__init__.py",
+      "bytes": 77,
+      "sha256": "7f405adf229da9f8aef266a62c54213d147ff2015a502156ec4f0753bfabba48"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/learning/actor_critic.py",
+      "bytes": 4365,
+      "sha256": "1f81a3b253d88965425533f2c5edfe01191b8edc9c90099e5fea03fed367004b"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/learning/amp.py",
+      "bytes": 8943,
+      "sha256": "2cfcdd9de9da2d27e71343475c5da48425952a353e454a541dd6a096ac59737c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/learning/ppo.py",
+      "bytes": 13382,
+      "sha256": "806a2f0cae769cbc2b70342b690b633974789bafbbafe1e602a9361086b4ad0c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/__init__.py",
+      "bytes": 115,
+      "sha256": "a190a32144431aea75e51baadb883f51b24826cb42782e4e632784df3a5008b4"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/__init__.py",
+      "bytes": 348,
+      "sha256": "af37962dc6011de363c48e93bcff092aea2b8c9340be77eb9a72581dc23e808a"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/ppo_cfg.py",
+      "bytes": 2879,
+      "sha256": "80b331bf3a5956937fd793d6809394af80d33623b07d1867de95fcc482865e17"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env.py",
+      "bytes": 7375,
+      "sha256": "5626ac29653e18b0721b0321f89e946b94fe1c8cae5055291219c8e6db9a3109"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env_cfg.py",
+      "bytes": 5793,
+      "sha256": "5fd0fc6512fca5affd4174a60f5cb3711da3c9a07e564da6981a403a04623d5c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/actions.py",
+      "bytes": 1848,
+      "sha256": "bebb23a2927196745c7b40e9e37ed0dc901cbcfb0166c86944d17d236c222d6a"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/amp.py",
+      "bytes": 1776,
+      "sha256": "fcb527cbf098a791de34a5153f1a2dfe5ffa64b023b1351cc8ca648757549641"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/approach_quality.py",
+      "bytes": 7076,
+      "sha256": "602ea8e2597dbb6183d0efd78628d72fa55b1feedfc829e0980e137d77197339"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/crossing_quality.py",
+      "bytes": 12890,
+      "sha256": "4f40f588709d4b4b5d38b1329dab035cef8eedd3076fd7d3ff9d1272ebf8449d"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/diagonal_gait.py",
+      "bytes": 3549,
+      "sha256": "b37e044a5226c5c814535c91b829f7876ea117796572cdce43564e44adc1716e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_stability.py",
+      "bytes": 4374,
+      "sha256": "a4967922eede5eb06c4ad74f6b37767a95f9bc156ca48ac66ed7077a8f276792"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_walking.py",
+      "bytes": 2864,
+      "sha256": "4bcd58fd76fda5afa63c194d6ff9a1533c825ca995e1de55ede871becd780007"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/gait_quality.py",
+      "bytes": 1135,
+      "sha256": "58459d4b77a9dac204a746195597746176064f764e6f4b8b488b6c1ffcf0e413"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/geometry.py",
+      "bytes": 4199,
+      "sha256": "e66f169dfd245c54fa275a963a5780e2dbceff94d51b55a73e8d4ad89b316c3f"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/joint_workspace.py",
+      "bytes": 616,
+      "sha256": "4b26385e8ba161cfce6d5e6e2a219ace37543eee67457abb3a56d106b20944c7"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/observations.py",
+      "bytes": 4403,
+      "sha256": "712052cce1ec77fcf5eb0113392a5659429398f193ef59016ed3781865f9cbd9"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/quality_window.py",
+      "bytes": 877,
+      "sha256": "1e2e99bb192101a0d6736ba87a945d3513aadccb3b5a72231f39c562a541c3b6"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/randomization.py",
+      "bytes": 2352,
+      "sha256": "6bd7dc1b77da291cad89c32f45b54498f5e08aeae1d8183415e2f08bff658253"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/resets.py",
+      "bytes": 5342,
+      "sha256": "d224aa5e8dd3a523ff9ba10c54cffebb8c690a6240a05beaf38e7793dc5c8678"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/rewards.py",
+      "bytes": 16163,
+      "sha256": "e864d3ba6f72554ddd39904de641e763f3be2ba8638dd15108a666533468ef30"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/startup.py",
+      "bytes": 1935,
+      "sha256": "933fa89b4063eb57c45133aa170fbfe252b6cbe87fbc647451e312e89fa29c5f"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/terminations.py",
+      "bytes": 5562,
+      "sha256": "cd788c9766efac5ce71a5d9ed8470a8b8bb9b6065a529f68d8d4465159dd1a56"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/walking_refinement.py",
+      "bytes": 2390,
+      "sha256": "e1b12b9bbfb126b4cbc7a7867ca9975bae001dd5620f1fea1337115646ae5638"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/task_parameters.py",
+      "bytes": 31569,
+      "sha256": "d5c409d673669ac85195dae76f75ea1db4b5df7c7a57ac940e4c4bb32b504ca9"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/utils/checkpoint_video.py",
+      "bytes": 3489,
+      "sha256": "badea34416e96d9e5a7a3bff1c28ae9495f0255c6419ac5b23c15e0586498f47"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/climb_skill/utils/runtime.py",
+      "bytes": 3817,
+      "sha256": "04087e713fc4c83b0c250781aa5913c470fa06b4825aee13a064f8992cab2767"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/source/climb_skill/setup.py",
+      "bytes": 1517,
+      "sha256": "b304d9f277048ca37ab5673c570d4a33e3c285f0960710ae2037365541f39c41"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/config_cases.py",
+      "bytes": 30313,
+      "sha256": "f4dc936c670aa7cee8440792fb7ee4e2d86d5979eb0dc10268f105516263c9ee"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_amp.py",
+      "bytes": 4710,
+      "sha256": "07544be787405d29c250525cb9bf0da4589145777f32ed8a7d054a582e2a6768"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_approach_quality.py",
+      "bytes": 5015,
+      "sha256": "2583de11244d1d8d4e6f8aef77fc29fbb155180b96f8ae0d38308353f4454d88"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_checkpoint_revision.py",
+      "bytes": 730,
+      "sha256": "0b1f7c9823b9625231cffb41add6e3edbd1699c12a4a0a8d6f0d12a1e5cd5bd8"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_checkpoint_video.py",
+      "bytes": 3170,
+      "sha256": "a026e56677fef1bf1d02fdd2e93770ee779b32933231d14ad72ec73b1e772e0e"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_contracts.py",
+      "bytes": 4952,
+      "sha256": "33b5e4341efa9cb53020908f8df3b78cf94d2011d06f5457ef9216f2a80b22d0"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_crossing_quality.py",
+      "bytes": 5984,
+      "sha256": "8b05c04d7dc2aba78b7340139ba729c1fa44ebbf2782040d0c78d751ee843cfa"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_curriculum_migration.py",
+      "bytes": 3189,
+      "sha256": "53eb6f47a983010194ec43a13b05b407550b498bdaca2745488a45d31f655202"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_diagonal_gait.py",
+      "bytes": 4730,
+      "sha256": "3e13ea6c5f85b6b6b8c476e54371e986df33f416e3217173549dd4d3ef792ecc"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_flat_motion.py",
+      "bytes": 3586,
+      "sha256": "c8139b8bd6bf9c025f1086df6e6e56fcbdf28c646b01cbc4e3833a7c088cafde"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_flat_refinement.py",
+      "bytes": 6085,
+      "sha256": "5b6da95b8cbee005ac5b88e78d3b2427f2f6bf211a74ef664543afa8c1c3cfc5"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_flat_walking.py",
+      "bytes": 3571,
+      "sha256": "0083ba429733834b1b51d4c3e7a0c88d887def7275e6e9517a22c1e843abd5f5"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_forward_recovery.py",
+      "bytes": 2713,
+      "sha256": "d6a5e795dd0511214f19362b74706025b5e23516df3eb3df7e6412aff8cf822f"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_forward_task.py",
+      "bytes": 6887,
+      "sha256": "3a2991e9e4021f4d5902ab8edb3b82dc584afbafb5be7baea8faea6432f0d7c3"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_gait_heading.py",
+      "bytes": 3697,
+      "sha256": "5b69529341739dd44af7d27ff4248f2fd6e8a52d7cd4728f329e1550b2d747df"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_heading_strong.py",
+      "bytes": 2097,
+      "sha256": "3d2981339d5cd96bfc8b2697763b648bf5f693b6dc6729a57df60dab5c36167c"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_motion_reference.py",
+      "bytes": 6306,
+      "sha256": "840bc5436f7a850718f9a8536f1ea743e45251cb60faf0fa1ccf1e872f7cbbba"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_quality_window.py",
+      "bytes": 2497,
+      "sha256": "bf86db13129d991d4352d6f7c1678ac18c9d7788a5e21b7c95790fcb15ec85c7"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_startup.py",
+      "bytes": 2683,
+      "sha256": "dbcd5139d2c1928fce861ead3c0fe422c87ee707426bb90062c1130d308a9afa"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_version_workflow.py",
+      "bytes": 2932,
+      "sha256": "92deb4451f8e89f9f605abd43a90db494c979272791146e2011b68a8fced5ca2"
+    },
+    {
+      "path": "climb_skill/outputs/V1/train-20261019-110256-00f00wtw/source/tests/test_walking_refinement.py",
+      "bytes": 5778,
+      "sha256": "592d0307f52e6eff3ff29390b2a647787d280831189a44addc24a4ebd8bd8b12"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/checkpoint_videos/model_2100/climb.mp4",
+      "bytes": 695308,
+      "sha256": "b84ebd6b06ba10a958d949773d1dadb8db06ff15c1246af93b3c61b129657ff7"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/checkpoint_videos/model_2100/config.json",
+      "bytes": 4866,
+      "sha256": "bef649ca16053c349ef9263df116810c1d1ccd720ec8eb8d0d2f0295d3d33715"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/checkpoint_videos/model_2100/report.json",
+      "bytes": 3133,
+      "sha256": "ff4f8d6884d5ec0b7bfd8468f7bf8502ecd7bb9152d7818a81c784cc6ae470da"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/checkpoint_videos/model_2100/run.json",
+      "bytes": 8521,
+      "sha256": "0544d31724d6f3531dbaba3908e22f24890b38132d3102fbf23de0c53f781630"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/config.json",
+      "bytes": 4864,
+      "sha256": "56b068f325f4aed7cabd02db22bd8793c222eff754e25c9caa049f06cc0b9481"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/model_2100.pt",
+      "bytes": 28818386,
+      "sha256": "b4fd45cf742e6d929702ea577ce01e1db7d0a1062d0f7997291724a039858e33"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/run.json",
+      "bytes": 7967,
+      "sha256": "80709050a5171f51f793472a59b83c532a5d20a4820e48f593ab17f671418332"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/.vscode/tools/setup_vscode.py",
+      "bytes": 9945,
+      "sha256": "f6074d90f8df44259095c6aa2b96f3e119d1beb35e59131235d5727ffcf7b527"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/scripts/export_policy.py",
+      "bytes": 1665,
+      "sha256": "67356d3d906457f888e331fd984442a620c659622b2ab6b458838c90d1ce30c8"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/scripts/list_envs.py",
+      "bytes": 2183,
+      "sha256": "ab826cda98d61cb0c097653f5a1df5e0d505d5760a7a3584cbeb5980873e6ba5"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/scripts/play.py",
+      "bytes": 7818,
+      "sha256": "a747beaf1705673e49585658e8f23eb7ae74e49843cd541b1adea501ed6870c7"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/scripts/prepare_amp_data.py",
+      "bytes": 3582,
+      "sha256": "b7073775c481c5270e22678b536dea92453023fc1326ddd1e32837402a1f8b58"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/scripts/train.py",
+      "bytes": 9613,
+      "sha256": "7b03eca8a83a0a2670f668267484a5bbfdb2c2406588eede492c1cd2af1ec6b4"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/__init__.py",
+      "bytes": 77,
+      "sha256": "7f405adf229da9f8aef266a62c54213d147ff2015a502156ec4f0753bfabba48"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/learning/actor_critic.py",
+      "bytes": 4365,
+      "sha256": "1f81a3b253d88965425533f2c5edfe01191b8edc9c90099e5fea03fed367004b"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/learning/amp.py",
+      "bytes": 8737,
+      "sha256": "e86d7268498bc92c2abbeb9c3bc71eceacb9dd3cb2169989516c06a50285f944"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/learning/motion_reference.py",
+      "bytes": 2912,
+      "sha256": "bf0622ae851e7dcf7919024578283a990750e69b389c0e9bfdd8b6723f47cefa"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/learning/ppo.py",
+      "bytes": 14443,
+      "sha256": "ba4b48aa5a624769f2999165725a9ce9c3b2c4e5e3a5fff053ad87f6e6a2c7fc"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/__init__.py",
+      "bytes": 115,
+      "sha256": "a190a32144431aea75e51baadb883f51b24826cb42782e4e632784df3a5008b4"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/__init__.py",
+      "bytes": 348,
+      "sha256": "af37962dc6011de363c48e93bcff092aea2b8c9340be77eb9a72581dc23e808a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/ppo_cfg.py",
+      "bytes": 3475,
+      "sha256": "d6d44967a732c634a7d01fc32825f0714998a22d0117feffbed136340e8e853a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env.py",
+      "bytes": 6956,
+      "sha256": "ff1d886feb6f97533247ab9386fe7f8fa0c44c576c8847782d6a3d83dcbabd15"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env_cfg.py",
+      "bytes": 5772,
+      "sha256": "caf2c50806e40a667ac202695e3bec8eda705a4546b9c1c93408f87435c927f0"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/actions.py",
+      "bytes": 1445,
+      "sha256": "e7fc8e487610cd25189940798a4d18fba24f168b101727000ab429da69effc03"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/amp.py",
+      "bytes": 1053,
+      "sha256": "40bcdd5c02140639ddbae93a590230314114c2021aeff94fe74eb8a0b0a9ae6a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_stability.py",
+      "bytes": 2453,
+      "sha256": "e2b0903ead1d2c6a6574d27dbe3e8e064a7852ef777f0ce0bec7db2fa19c9c66"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/front_safety.py",
+      "bytes": 890,
+      "sha256": "f5b1d4b65741c274990d3c6bb07d4162670cd384d67aac4583ff82c01467dc18"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/gait_quality.py",
+      "bytes": 1212,
+      "sha256": "4db7e25b136ff556a310b23837b60d8f6d5fc5fe210c8af5a30123374d606903"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/geometry.py",
+      "bytes": 3930,
+      "sha256": "549ce75f6b9dffc746fff9293f0b745a609bd12019fb2aedfc23d192c0c64b99"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/joint_workspace.py",
+      "bytes": 553,
+      "sha256": "cae6989bd89bd8711f7c9426e5d90d1bbda96f923c00f5bc81ed90bc7d0a27b3"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/observations.py",
+      "bytes": 4003,
+      "sha256": "a6aa3518ed7c680a4470e7f6929340973f47924525ca658415480d66a965c1d2"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/randomization.py",
+      "bytes": 2273,
+      "sha256": "c37a5b4668903530ae7dd598e9d6d4a6f4ee8dce5fef87b75e8f73c43668694d"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/resets.py",
+      "bytes": 4668,
+      "sha256": "55598fe47e12cc50bcb5dfe10e894f06c65494132e981938bc54f581559164f7"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/rewards.py",
+      "bytes": 10420,
+      "sha256": "83699c82bec7eb220402604cc29a7e50c26ad8a7c2ae91b40200f14ac3fee738"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/startup.py",
+      "bytes": 2012,
+      "sha256": "edfb45ca145177b9e00bafd00a270cf7fbb52f5db9052d4ae3fe08b0642f2e03"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/terminations.py",
+      "bytes": 5529,
+      "sha256": "6c04b5b1bdfd12425dc23620fe695946534b1d93e84bc612cb6733e3af192483"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/task_parameters.py",
+      "bytes": 14342,
+      "sha256": "14de0aedecb87d9052525d3945ce624157dd064553912b95b8581a6ef1265c13"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/utils/checkpoint_video.py",
+      "bytes": 3489,
+      "sha256": "badea34416e96d9e5a7a3bff1c28ae9495f0255c6419ac5b23c15e0586498f47"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/climb_skill/utils/runtime.py",
+      "bytes": 3634,
+      "sha256": "0e427d582087a54f412dfc7507398d67d4c5c75dfbdf955c8b0698e3f5e7c0fd"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/source/climb_skill/setup.py",
+      "bytes": 1517,
+      "sha256": "b304d9f277048ca37ab5673c570d4a33e3c285f0960710ae2037365541f39c41"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_amp.py",
+      "bytes": 4676,
+      "sha256": "8c1476bb21ca87ff5f833a3199226da95cce17cc1a842ce1b16b24ac33c37a83"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_ascent_confirmation.py",
+      "bytes": 2545,
+      "sha256": "237a87342a85c018e7e7f14e5198ced00a7f33a8492b507db2466a079541fb7f"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_checkpoint_video.py",
+      "bytes": 3170,
+      "sha256": "a026e56677fef1bf1d02fdd2e93770ee779b32933231d14ad72ec73b1e772e0e"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_contracts.py",
+      "bytes": 5001,
+      "sha256": "06bc5f11bb057fc26acf1178a8d7b0b3be5834e6bd92fd0ef9b32fb502cd5c57"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_front_soft30.py",
+      "bytes": 3391,
+      "sha256": "dc88fdb119347b286c37eec62542967fcb0a13621bd7b65fd24ee463d102f7c9"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_motion_reference.py",
+      "bytes": 5511,
+      "sha256": "c9467f00b1338083ab776eaa823caa0e04334189a2c3089720c59717cccf724b"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V21/source/tests/test_policy_authority.py",
+      "bytes": 3935,
+      "sha256": "bfa2a9a8562a63d670e0a8fcc80b10af46e0661160422a8ba147ec7f12d46ade"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/checkpoint_videos/model_1900/climb.mp4",
+      "bytes": 699779,
+      "sha256": "ff7f11f475aa27fe7023661694e1f7da5dfc9c70c196b0bad3807f1fdbde5520"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/checkpoint_videos/model_1900/config.json",
+      "bytes": 4866,
+      "sha256": "7c6992734be498f5841e33f37ba33906ea3d00c1338c8108474f43ecadb442d8"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/checkpoint_videos/model_1900/report.json",
+      "bytes": 3139,
+      "sha256": "c9db5c6660ddd7eda519a8e2294a63c61c45081200975e9ba9ba1e04449f9aea"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/checkpoint_videos/model_1900/run.json",
+      "bytes": 8521,
+      "sha256": "e3296c1130e249972c7b07e2ae0cb13b9c102f7cf582641542abad1f5e8a4269"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/config.json",
+      "bytes": 4864,
+      "sha256": "0b4ec5db0a7b672acd4155caa6c0d9df38dc83cba4e6bb87b83d2109b1a3a31e"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/model_1900.pt",
+      "bytes": 28818386,
+      "sha256": "50546e5772c2386c64ec5105b1759d88393dad5dd4e58fe7d2f4e54b73df3a28"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/run.json",
+      "bytes": 7969,
+      "sha256": "c6642a9dc0177118b7604d53670d9a1be8faa7411058fd511b04fd519fa24169"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/.vscode/tools/setup_vscode.py",
+      "bytes": 9945,
+      "sha256": "f6074d90f8df44259095c6aa2b96f3e119d1beb35e59131235d5727ffcf7b527"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/scripts/export_policy.py",
+      "bytes": 1665,
+      "sha256": "67356d3d906457f888e331fd984442a620c659622b2ab6b458838c90d1ce30c8"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/scripts/list_envs.py",
+      "bytes": 2183,
+      "sha256": "ab826cda98d61cb0c097653f5a1df5e0d505d5760a7a3584cbeb5980873e6ba5"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/scripts/play.py",
+      "bytes": 7818,
+      "sha256": "a747beaf1705673e49585658e8f23eb7ae74e49843cd541b1adea501ed6870c7"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/scripts/prepare_amp_data.py",
+      "bytes": 3582,
+      "sha256": "b7073775c481c5270e22678b536dea92453023fc1326ddd1e32837402a1f8b58"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/scripts/train.py",
+      "bytes": 9613,
+      "sha256": "7b03eca8a83a0a2670f668267484a5bbfdb2c2406588eede492c1cd2af1ec6b4"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/__init__.py",
+      "bytes": 77,
+      "sha256": "7f405adf229da9f8aef266a62c54213d147ff2015a502156ec4f0753bfabba48"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/learning/actor_critic.py",
+      "bytes": 4365,
+      "sha256": "1f81a3b253d88965425533f2c5edfe01191b8edc9c90099e5fea03fed367004b"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/learning/amp.py",
+      "bytes": 8737,
+      "sha256": "e86d7268498bc92c2abbeb9c3bc71eceacb9dd3cb2169989516c06a50285f944"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/learning/motion_reference.py",
+      "bytes": 2912,
+      "sha256": "bf0622ae851e7dcf7919024578283a990750e69b389c0e9bfdd8b6723f47cefa"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/learning/ppo.py",
+      "bytes": 14443,
+      "sha256": "ba4b48aa5a624769f2999165725a9ce9c3b2c4e5e3a5fff053ad87f6e6a2c7fc"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/__init__.py",
+      "bytes": 115,
+      "sha256": "a190a32144431aea75e51baadb883f51b24826cb42782e4e632784df3a5008b4"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/__init__.py",
+      "bytes": 348,
+      "sha256": "af37962dc6011de363c48e93bcff092aea2b8c9340be77eb9a72581dc23e808a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/ppo_cfg.py",
+      "bytes": 3475,
+      "sha256": "d6d44967a732c634a7d01fc32825f0714998a22d0117feffbed136340e8e853a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env.py",
+      "bytes": 6956,
+      "sha256": "ff1d886feb6f97533247ab9386fe7f8fa0c44c576c8847782d6a3d83dcbabd15"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env_cfg.py",
+      "bytes": 5772,
+      "sha256": "caf2c50806e40a667ac202695e3bec8eda705a4546b9c1c93408f87435c927f0"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/actions.py",
+      "bytes": 1445,
+      "sha256": "e7fc8e487610cd25189940798a4d18fba24f168b101727000ab429da69effc03"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/amp.py",
+      "bytes": 1053,
+      "sha256": "40bcdd5c02140639ddbae93a590230314114c2021aeff94fe74eb8a0b0a9ae6a"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_stability.py",
+      "bytes": 2453,
+      "sha256": "e2b0903ead1d2c6a6574d27dbe3e8e064a7852ef777f0ce0bec7db2fa19c9c66"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/front_safety.py",
+      "bytes": 890,
+      "sha256": "f5b1d4b65741c274990d3c6bb07d4162670cd384d67aac4583ff82c01467dc18"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/gait_quality.py",
+      "bytes": 1212,
+      "sha256": "4db7e25b136ff556a310b23837b60d8f6d5fc5fe210c8af5a30123374d606903"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/geometry.py",
+      "bytes": 3930,
+      "sha256": "549ce75f6b9dffc746fff9293f0b745a609bd12019fb2aedfc23d192c0c64b99"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/joint_workspace.py",
+      "bytes": 553,
+      "sha256": "cae6989bd89bd8711f7c9426e5d90d1bbda96f923c00f5bc81ed90bc7d0a27b3"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/observations.py",
+      "bytes": 4003,
+      "sha256": "a6aa3518ed7c680a4470e7f6929340973f47924525ca658415480d66a965c1d2"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/randomization.py",
+      "bytes": 2273,
+      "sha256": "c37a5b4668903530ae7dd598e9d6d4a6f4ee8dce5fef87b75e8f73c43668694d"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/resets.py",
+      "bytes": 4668,
+      "sha256": "55598fe47e12cc50bcb5dfe10e894f06c65494132e981938bc54f581559164f7"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/rewards.py",
+      "bytes": 10420,
+      "sha256": "83699c82bec7eb220402604cc29a7e50c26ad8a7c2ae91b40200f14ac3fee738"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/startup.py",
+      "bytes": 2012,
+      "sha256": "edfb45ca145177b9e00bafd00a270cf7fbb52f5db9052d4ae3fe08b0642f2e03"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/terminations.py",
+      "bytes": 5529,
+      "sha256": "6c04b5b1bdfd12425dc23620fe695946534b1d93e84bc612cb6733e3af192483"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/task_parameters.py",
+      "bytes": 14412,
+      "sha256": "05bfee0572854b49a0dda957f5aee932f9aa53b08dc0947a37018189d0760b9f"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/utils/checkpoint_video.py",
+      "bytes": 3489,
+      "sha256": "badea34416e96d9e5a7a3bff1c28ae9495f0255c6419ac5b23c15e0586498f47"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/climb_skill/utils/runtime.py",
+      "bytes": 3634,
+      "sha256": "0e427d582087a54f412dfc7507398d67d4c5c75dfbdf955c8b0698e3f5e7c0fd"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/source/climb_skill/setup.py",
+      "bytes": 1517,
+      "sha256": "b304d9f277048ca37ab5673c570d4a33e3c285f0960710ae2037365541f39c41"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_amp.py",
+      "bytes": 4676,
+      "sha256": "8c1476bb21ca87ff5f833a3199226da95cce17cc1a842ce1b16b24ac33c37a83"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_ascent_confirmation.py",
+      "bytes": 2545,
+      "sha256": "237a87342a85c018e7e7f14e5198ced00a7f33a8492b507db2466a079541fb7f"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_checkpoint_video.py",
+      "bytes": 3170,
+      "sha256": "a026e56677fef1bf1d02fdd2e93770ee779b32933231d14ad72ec73b1e772e0e"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_contracts.py",
+      "bytes": 5001,
+      "sha256": "06bc5f11bb057fc26acf1178a8d7b0b3be5834e6bd92fd0ef9b32fb502cd5c57"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_front_soft30.py",
+      "bytes": 3511,
+      "sha256": "e00707df19e36722d44c921f2497312df7400604cfd2548dc09dd643f7edb1c6"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_motion_reference.py",
+      "bytes": 5511,
+      "sha256": "c9467f00b1338083ab776eaa823caa0e04334189a2c3089720c59717cccf724b"
+    },
+    {
+      "path": "climb_skill/outputs/V2/V22/source/tests/test_policy_authority.py",
+      "bytes": 3935,
+      "sha256": "bfa2a9a8562a63d670e0a8fcc80b10af46e0661160422a8ba147ec7f12d46ade"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/climb.mp4",
+      "bytes": 623867,
+      "sha256": "b5795f36da11edc441f1189dbdaa8da8c03241078a44fe0d6bf5fc46e3b71875"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/config.json",
+      "bytes": 6857,
+      "sha256": "f434ab4d5d2f8ab4deb1e74bc8b43dd210c70362f3ef7d54dc9d232f8d828624"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/report.json",
+      "bytes": 5035,
+      "sha256": "508a0d4d0968f6ff17e45f530ec3c63eb8a5d43bbe14bf50ec8ad1df7b2bb0dc"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/checkpoint_videos/model_3200/run.json",
+      "bytes": 10760,
+      "sha256": "6b8d43b70cde84435c4a8f307350c0e0d7743def6482e29b849dc373d696f5d3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/config.json",
+      "bytes": 6855,
+      "sha256": "fcd3d598696e5ca331ac62ea4b770495fed2047afd4d81d82676e8a582812814"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/model_3200.pt",
+      "bytes": 28821074,
+      "sha256": "0f9061965ec45457f4f603010d3298f9a80d013fc1ff278becb1ed23f5c8c001"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/run.json",
+      "bytes": 10489,
+      "sha256": "793cf77762d0eceec34d803f59ec432e589a3e8ce2240e5f37b128d753f7bdd2"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/export_policy.py",
+      "bytes": 1665,
+      "sha256": "67356d3d906457f888e331fd984442a620c659622b2ab6b458838c90d1ce30c8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/list_envs.py",
+      "bytes": 2183,
+      "sha256": "ab826cda98d61cb0c097653f5a1df5e0d505d5760a7a3584cbeb5980873e6ba5"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/migrate_curriculum.py",
+      "bytes": 3612,
+      "sha256": "2e4bf3781341230bdb10b25effb3ebf5e5d4ec2b7acb72ff1a80690e0fca31a5"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/play.py",
+      "bytes": 8026,
+      "sha256": "86784dbf9482292d78361a36935cf0d98ae7a5fb53afaf7aaf8f87136a0e7fcd"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/prepare_amp_data.py",
+      "bytes": 3582,
+      "sha256": "b7073775c481c5270e22678b536dea92453023fc1326ddd1e32837402a1f8b58"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/random_agent.py",
+      "bytes": 2240,
+      "sha256": "ea1e376188956cd0f376863d113c7e0933ce32409bf72ccf92510ebad260684b"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/train.py",
+      "bytes": 10981,
+      "sha256": "2063a8b6eafde6997c4e6f062645edf95a6e87b0344954c5a5f8cadb435ecd09"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/scripts/zero_agent.py",
+      "bytes": 2211,
+      "sha256": "d10335c1c90ea60bfafb0fd364c31a17f30c9754a412635e603b3771f76afa4e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/__init__.py",
+      "bytes": 77,
+      "sha256": "7f405adf229da9f8aef266a62c54213d147ff2015a502156ec4f0753bfabba48"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/learning/actor_critic.py",
+      "bytes": 4365,
+      "sha256": "1f81a3b253d88965425533f2c5edfe01191b8edc9c90099e5fea03fed367004b"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/learning/amp.py",
+      "bytes": 8943,
+      "sha256": "2cfcdd9de9da2d27e71343475c5da48425952a353e454a541dd6a096ac59737c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/learning/ppo.py",
+      "bytes": 13382,
+      "sha256": "806a2f0cae769cbc2b70342b690b633974789bafbbafe1e602a9361086b4ad0c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/__init__.py",
+      "bytes": 115,
+      "sha256": "a190a32144431aea75e51baadb883f51b24826cb42782e4e632784df3a5008b4"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/__init__.py",
+      "bytes": 348,
+      "sha256": "af37962dc6011de363c48e93bcff092aea2b8c9340be77eb9a72581dc23e808a"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/ppo_cfg.py",
+      "bytes": 2879,
+      "sha256": "80b331bf3a5956937fd793d6809394af80d33623b07d1867de95fcc482865e17"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env.py",
+      "bytes": 7375,
+      "sha256": "5626ac29653e18b0721b0321f89e946b94fe1c8cae5055291219c8e6db9a3109"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env_cfg.py",
+      "bytes": 5793,
+      "sha256": "5fd0fc6512fca5affd4174a60f5cb3711da3c9a07e564da6981a403a04623d5c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/actions.py",
+      "bytes": 1993,
+      "sha256": "8a6110a9aafbbfe372bb191d52fa59896bb079d5a7b348e7dedc0bcd5c6e2ae9"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/amp.py",
+      "bytes": 1776,
+      "sha256": "fcb527cbf098a791de34a5153f1a2dfe5ffa64b023b1351cc8ca648757549641"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/approach_quality.py",
+      "bytes": 7076,
+      "sha256": "602ea8e2597dbb6183d0efd78628d72fa55b1feedfc829e0980e137d77197339"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/crossing_quality.py",
+      "bytes": 12890,
+      "sha256": "4f40f588709d4b4b5d38b1329dab035cef8eedd3076fd7d3ff9d1272ebf8449d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/diagonal_gait.py",
+      "bytes": 3549,
+      "sha256": "b37e044a5226c5c814535c91b829f7876ea117796572cdce43564e44adc1716e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_stability.py",
+      "bytes": 4374,
+      "sha256": "a4967922eede5eb06c4ad74f6b37767a95f9bc156ca48ac66ed7077a8f276792"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_walking.py",
+      "bytes": 2864,
+      "sha256": "4bcd58fd76fda5afa63c194d6ff9a1533c825ca995e1de55ede871becd780007"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/gait_quality.py",
+      "bytes": 1135,
+      "sha256": "58459d4b77a9dac204a746195597746176064f764e6f4b8b488b6c1ffcf0e413"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/geometry.py",
+      "bytes": 4199,
+      "sha256": "e66f169dfd245c54fa275a963a5780e2dbceff94d51b55a73e8d4ad89b316c3f"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/joint_workspace.py",
+      "bytes": 616,
+      "sha256": "4b26385e8ba161cfce6d5e6e2a219ace37543eee67457abb3a56d106b20944c7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/observations.py",
+      "bytes": 4458,
+      "sha256": "147f546cf4b21126b9f7fce241eb8c78787eaee09a619a64f5651d56d683af61"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/quality_window.py",
+      "bytes": 877,
+      "sha256": "1e2e99bb192101a0d6736ba87a945d3513aadccb3b5a72231f39c562a541c3b6"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/randomization.py",
+      "bytes": 2455,
+      "sha256": "ad3e4aef8b3f3d81547d2a7cd2fb046397165540b669d85bbd48a20e1290cd09"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/resets.py",
+      "bytes": 5435,
+      "sha256": "e235cbef450968a1b098bead9928eaf4b1851577679e52da2d498ce7ddf08fd3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/rewards.py",
+      "bytes": 16266,
+      "sha256": "4a5864bd2fc81fefce3da14723a965b73146bdd1f2b1e180828aad34698368c0"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/startup.py",
+      "bytes": 1935,
+      "sha256": "933fa89b4063eb57c45133aa170fbfe252b6cbe87fbc647451e312e89fa29c5f"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/terminations.py",
+      "bytes": 5666,
+      "sha256": "b6325fb1ea96af7d2f62736092600bcb81d2aaf47b43b3145322da18e7d63571"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/walking_refinement.py",
+      "bytes": 2390,
+      "sha256": "e1b12b9bbfb126b4cbc7a7867ca9975bae001dd5620f1fea1337115646ae5638"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/task_parameters.py",
+      "bytes": 31433,
+      "sha256": "e1fd581e616b3d3fafc947d1bb099593a5c6f52723f0a96be52cfa5269a4646e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/utils/checkpoint_video.py",
+      "bytes": 3489,
+      "sha256": "badea34416e96d9e5a7a3bff1c28ae9495f0255c6419ac5b23c15e0586498f47"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/climb_skill/utils/runtime.py",
+      "bytes": 3665,
+      "sha256": "ef182f52545fb9baf9046d34988c31634ac91d6357d43cb2431e9cc8cca0e900"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/source/climb_skill/setup.py",
+      "bytes": 1517,
+      "sha256": "b304d9f277048ca37ab5673c570d4a33e3c285f0960710ae2037365541f39c41"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_amp.py",
+      "bytes": 4744,
+      "sha256": "0a399359d9e774fde13346e0627a2c5ff6415e72bbafd4425db783c5eab7ab9c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_approach_quality.py",
+      "bytes": 5022,
+      "sha256": "58c594f07909f81264d3af17c3d3dd5f26d734f7a8fdd4431e1c77a7f014a6d3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_checkpoint_revision.py",
+      "bytes": 730,
+      "sha256": "0b1f7c9823b9625231cffb41add6e3edbd1699c12a4a0a8d6f0d12a1e5cd5bd8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_checkpoint_video.py",
+      "bytes": 3170,
+      "sha256": "a026e56677fef1bf1d02fdd2e93770ee779b32933231d14ad72ec73b1e772e0e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_contracts.py",
+      "bytes": 4952,
+      "sha256": "33b5e4341efa9cb53020908f8df3b78cf94d2011d06f5457ef9216f2a80b22d0"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_crossing_quality.py",
+      "bytes": 5970,
+      "sha256": "a7d7080ce3302fba64209f7b77955c60fa19c2c7381ad8971398186b4f375348"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_curriculum_migration.py",
+      "bytes": 3196,
+      "sha256": "c91d4d2b320a5030ad77769cdce5a3af41aa1f0ecaca55e1b7226078c2bbad53"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_diagonal_gait.py",
+      "bytes": 4737,
+      "sha256": "6ae85893522882b693e5102b8e61951d725cfa90adfada2152ff6fd2af864ba3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_flat_motion.py",
+      "bytes": 3593,
+      "sha256": "628f755f09ab631b3d3e7f02c97653c87fdae11d925edfad9a1f5c833e109fe7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_flat_refinement.py",
+      "bytes": 6092,
+      "sha256": "b45a78e1df717331a66cd40503346a532b5fe5145c7351105f5949050c8d140d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_flat_walking.py",
+      "bytes": 3557,
+      "sha256": "07c458e459853d179efd347e51d2488818843d746535005e5c6d5507e88cf5c2"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_forward_recovery.py",
+      "bytes": 2720,
+      "sha256": "9915b9343c6b756305e9e9f4ccadba05c628179fddaa3c9b1457a337bb16d99d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_forward_task.py",
+      "bytes": 6887,
+      "sha256": "3a2991e9e4021f4d5902ab8edb3b82dc584afbafb5be7baea8faea6432f0d7c3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_gait_heading.py",
+      "bytes": 3683,
+      "sha256": "1b32fd22f715b450b8e742a12d6f3734eed65bf14dca6f44564a2084f6fe2e6d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_heading_strong.py",
+      "bytes": 2114,
+      "sha256": "12655479df6f1de209eaf5d5087dfd2b6afc17bd6fb0c8710e85bdfce5cae6f8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_motion_reference.py",
+      "bytes": 6313,
+      "sha256": "19fdfa10e47a3ab0bc3128706af16a042d982d328beab99ded5750ef2e13ede7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_quality_window.py",
+      "bytes": 2514,
+      "sha256": "e4ad8c2f9233f67ab214805079408c089d1a4c49192746999ce1784abc0f4f32"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_startup.py",
+      "bytes": 2683,
+      "sha256": "dbcd5139d2c1928fce861ead3c0fe422c87ee707426bb90062c1130d308a9afa"
+    },
+    {
+      "path": "climb_skill/outputs/V3/current/source/tests/test_walking_refinement.py",
+      "bytes": 5785,
+      "sha256": "67aca5dc89782c4c39b01630ba2831c1404ad80604e83f0382cf35c609db51ad"
+    },
+    {
+      "path": "climb_skill/outputs/V3/migration/migration.json",
+      "bytes": 784,
+      "sha256": "e430efeb02c9ddf82a96fa4e168635e5e60e4ec560b9f85cc2b6ab1649146fec"
+    },
+    {
+      "path": "climb_skill/outputs/V3/migration/model_800_curriculum.pt",
+      "bytes": 28821208,
+      "sha256": "1ed0fd58fe8db4a4e1639103b0a9a1f9caeb5ef80f4072995d42f412d0dd061a"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/amp_dataset.json",
+      "bytes": 2132,
+      "sha256": "bde73c60e969c28570bc0883fcdd3437a0dec5052dbb97fbce55338d44eadb57"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/checkpoint_videos/model_900/climb.mp4",
+      "bytes": 601923,
+      "sha256": "ff36da8546f66f85b5a10974be7f29ea938264c9dc306ca0f484e86493f4bbff"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/checkpoint_videos/model_900/config.json",
+      "bytes": 6824,
+      "sha256": "12d6938732bfa8b73bc1a92146e8851349b7ba90c69d00f2fd61c3b931c821b7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/checkpoint_videos/model_900/report.json",
+      "bytes": 4758,
+      "sha256": "701864a3e044157236e3ee2f01fcfe8c1dad20507e7f2f8c6da905f47125beb8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/checkpoint_videos/model_900/run.json",
+      "bytes": 10543,
+      "sha256": "a7dc9af22df36d90cb80c300722daca4a3ac01ec36e9e6a9dffed8e487a1e631"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/config.json",
+      "bytes": 6645,
+      "sha256": "7b1bd58b54615e5a7858f3c237928f90917a670076e768f4c3b7517adf8c27f9"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/model_900.pt",
+      "bytes": 28820683,
+      "sha256": "d0b8a204e5908c51cf9c8f648c1ea2275b180f87c28ce14dea96257d7f7caa71"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/run.json",
+      "bytes": 9993,
+      "sha256": "cd14d041a222add9297a9639d907ac9c0ff962c8033fd45ecf938bf8fe78b549"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/export_policy.py",
+      "bytes": 1665,
+      "sha256": "67356d3d906457f888e331fd984442a620c659622b2ab6b458838c90d1ce30c8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/list_envs.py",
+      "bytes": 2183,
+      "sha256": "ab826cda98d61cb0c097653f5a1df5e0d505d5760a7a3584cbeb5980873e6ba5"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/play.py",
+      "bytes": 8026,
+      "sha256": "86784dbf9482292d78361a36935cf0d98ae7a5fb53afaf7aaf8f87136a0e7fcd"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/prepare_amp_data.py",
+      "bytes": 3582,
+      "sha256": "b7073775c481c5270e22678b536dea92453023fc1326ddd1e32837402a1f8b58"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/random_agent.py",
+      "bytes": 2240,
+      "sha256": "ea1e376188956cd0f376863d113c7e0933ce32409bf72ccf92510ebad260684b"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/train.py",
+      "bytes": 10879,
+      "sha256": "8e07e5bbc25348c930246797992148163cd7d2cc220e6aea85ede726c17ab020"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/scripts/zero_agent.py",
+      "bytes": 2211,
+      "sha256": "d10335c1c90ea60bfafb0fd364c31a17f30c9754a412635e603b3771f76afa4e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/__init__.py",
+      "bytes": 77,
+      "sha256": "7f405adf229da9f8aef266a62c54213d147ff2015a502156ec4f0753bfabba48"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/learning/actor_critic.py",
+      "bytes": 4365,
+      "sha256": "1f81a3b253d88965425533f2c5edfe01191b8edc9c90099e5fea03fed367004b"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/learning/amp.py",
+      "bytes": 8943,
+      "sha256": "2cfcdd9de9da2d27e71343475c5da48425952a353e454a541dd6a096ac59737c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/learning/ppo.py",
+      "bytes": 13382,
+      "sha256": "806a2f0cae769cbc2b70342b690b633974789bafbbafe1e602a9361086b4ad0c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/__init__.py",
+      "bytes": 115,
+      "sha256": "a190a32144431aea75e51baadb883f51b24826cb42782e4e632784df3a5008b4"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/__init__.py",
+      "bytes": 348,
+      "sha256": "af37962dc6011de363c48e93bcff092aea2b8c9340be77eb9a72581dc23e808a"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/agents/ppo_cfg.py",
+      "bytes": 2879,
+      "sha256": "80b331bf3a5956937fd793d6809394af80d33623b07d1867de95fcc482865e17"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env.py",
+      "bytes": 7375,
+      "sha256": "5626ac29653e18b0721b0321f89e946b94fe1c8cae5055291219c8e6db9a3109"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/climb_skill_env_cfg.py",
+      "bytes": 5793,
+      "sha256": "5fd0fc6512fca5affd4174a60f5cb3711da3c9a07e564da6981a403a04623d5c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/actions.py",
+      "bytes": 1993,
+      "sha256": "8a6110a9aafbbfe372bb191d52fa59896bb079d5a7b348e7dedc0bcd5c6e2ae9"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/amp.py",
+      "bytes": 1776,
+      "sha256": "fcb527cbf098a791de34a5153f1a2dfe5ffa64b023b1351cc8ca648757549641"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/approach_quality.py",
+      "bytes": 7076,
+      "sha256": "602ea8e2597dbb6183d0efd78628d72fa55b1feedfc829e0980e137d77197339"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/crossing_quality.py",
+      "bytes": 10124,
+      "sha256": "81c9917040c30fa072ca69d88f0b9762c0d17dcda644f4d42f7a0a88bc6a6b85"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/diagonal_gait.py",
+      "bytes": 3549,
+      "sha256": "b37e044a5226c5c814535c91b829f7876ea117796572cdce43564e44adc1716e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_stability.py",
+      "bytes": 4374,
+      "sha256": "a4967922eede5eb06c4ad74f6b37767a95f9bc156ca48ac66ed7077a8f276792"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/flat_walking.py",
+      "bytes": 2864,
+      "sha256": "4bcd58fd76fda5afa63c194d6ff9a1533c825ca995e1de55ede871becd780007"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/gait_quality.py",
+      "bytes": 1135,
+      "sha256": "58459d4b77a9dac204a746195597746176064f764e6f4b8b488b6c1ffcf0e413"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/geometry.py",
+      "bytes": 4199,
+      "sha256": "e66f169dfd245c54fa275a963a5780e2dbceff94d51b55a73e8d4ad89b316c3f"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/joint_workspace.py",
+      "bytes": 616,
+      "sha256": "4b26385e8ba161cfce6d5e6e2a219ace37543eee67457abb3a56d106b20944c7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/observations.py",
+      "bytes": 4458,
+      "sha256": "147f546cf4b21126b9f7fce241eb8c78787eaee09a619a64f5651d56d683af61"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/randomization.py",
+      "bytes": 2455,
+      "sha256": "ad3e4aef8b3f3d81547d2a7cd2fb046397165540b669d85bbd48a20e1290cd09"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/resets.py",
+      "bytes": 5055,
+      "sha256": "e97f51d51a5aa9900591f6f44ab97c3a817c6507cbab085bcf70a3ebe54b35b2"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/rewards.py",
+      "bytes": 16266,
+      "sha256": "4a5864bd2fc81fefce3da14723a965b73146bdd1f2b1e180828aad34698368c0"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/startup.py",
+      "bytes": 1935,
+      "sha256": "933fa89b4063eb57c45133aa170fbfe252b6cbe87fbc647451e312e89fa29c5f"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/terminations.py",
+      "bytes": 5666,
+      "sha256": "b6325fb1ea96af7d2f62736092600bcb81d2aaf47b43b3145322da18e7d63571"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/mdp/walking_refinement.py",
+      "bytes": 2390,
+      "sha256": "e1b12b9bbfb126b4cbc7a7867ca9975bae001dd5620f1fea1337115646ae5638"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/tasks/direct/climb_skill/task_parameters.py",
+      "bytes": 30154,
+      "sha256": "74543610d9ef1f80e52b60ea28734d410b022f27eede63c60c35a76105d95956"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/utils/checkpoint_video.py",
+      "bytes": 3489,
+      "sha256": "badea34416e96d9e5a7a3bff1c28ae9495f0255c6419ac5b23c15e0586498f47"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/climb_skill/utils/runtime.py",
+      "bytes": 3665,
+      "sha256": "ef182f52545fb9baf9046d34988c31634ac91d6357d43cb2431e9cc8cca0e900"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/source/climb_skill/setup.py",
+      "bytes": 1517,
+      "sha256": "b304d9f277048ca37ab5673c570d4a33e3c285f0960710ae2037365541f39c41"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_amp.py",
+      "bytes": 4744,
+      "sha256": "0a399359d9e774fde13346e0627a2c5ff6415e72bbafd4425db783c5eab7ab9c"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_approach_quality.py",
+      "bytes": 5022,
+      "sha256": "58c594f07909f81264d3af17c3d3dd5f26d734f7a8fdd4431e1c77a7f014a6d3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_checkpoint_revision.py",
+      "bytes": 730,
+      "sha256": "0b1f7c9823b9625231cffb41add6e3edbd1699c12a4a0a8d6f0d12a1e5cd5bd8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_checkpoint_video.py",
+      "bytes": 3170,
+      "sha256": "a026e56677fef1bf1d02fdd2e93770ee779b32933231d14ad72ec73b1e772e0e"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_contracts.py",
+      "bytes": 4952,
+      "sha256": "33b5e4341efa9cb53020908f8df3b78cf94d2011d06f5457ef9216f2a80b22d0"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_crossing_quality.py",
+      "bytes": 5970,
+      "sha256": "a7d7080ce3302fba64209f7b77955c60fa19c2c7381ad8971398186b4f375348"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_diagonal_gait.py",
+      "bytes": 4737,
+      "sha256": "6ae85893522882b693e5102b8e61951d725cfa90adfada2152ff6fd2af864ba3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_flat_motion.py",
+      "bytes": 3593,
+      "sha256": "628f755f09ab631b3d3e7f02c97653c87fdae11d925edfad9a1f5c833e109fe7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_flat_refinement.py",
+      "bytes": 6092,
+      "sha256": "b45a78e1df717331a66cd40503346a532b5fe5145c7351105f5949050c8d140d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_flat_walking.py",
+      "bytes": 3557,
+      "sha256": "07c458e459853d179efd347e51d2488818843d746535005e5c6d5507e88cf5c2"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_forward_recovery.py",
+      "bytes": 2720,
+      "sha256": "9915b9343c6b756305e9e9f4ccadba05c628179fddaa3c9b1457a337bb16d99d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_forward_task.py",
+      "bytes": 6887,
+      "sha256": "3a2991e9e4021f4d5902ab8edb3b82dc584afbafb5be7baea8faea6432f0d7c3"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_gait_heading.py",
+      "bytes": 3683,
+      "sha256": "1b32fd22f715b450b8e742a12d6f3734eed65bf14dca6f44564a2084f6fe2e6d"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_heading_strong.py",
+      "bytes": 2114,
+      "sha256": "12655479df6f1de209eaf5d5087dfd2b6afc17bd6fb0c8710e85bdfce5cae6f8"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_motion_reference.py",
+      "bytes": 6313,
+      "sha256": "19fdfa10e47a3ab0bc3128706af16a042d982d328beab99ded5750ef2e13ede7"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_startup.py",
+      "bytes": 2683,
+      "sha256": "dbcd5139d2c1928fce861ead3c0fe422c87ee707426bb90062c1130d308a9afa"
+    },
+    {
+      "path": "climb_skill/outputs/V3/original/source/tests/test_walking_refinement.py",
+      "bytes": 5785,
+      "sha256": "67aca5dc89782c4c39b01630ba2831c1404ad80604e83f0382cf35c609db51ad"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_10-51-48/model_3000.pt",
+      "bytes": 5921461,
+      "sha256": "bcd704872fc351af93c9367d04f31ba0f17b73bf8891f9ad485285d9f6ce8ec8"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_10-51-48/params/agent.yaml",
+      "bytes": 1201,
+      "sha256": "e5973513c0793f44c6d8213c3387549a72191342f266988ee5f5241c360d9c13"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_10-51-48/params/env.yaml",
+      "bytes": 46627,
+      "sha256": "31816cf1d8add5e85d68fe66d7d5880a43db26b4bf14c3a95374f8fd8f751341"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_18-25-45/model_9999.pt",
+      "bytes": 5921461,
+      "sha256": "ad20f00e35728fc7439997d6c49428cbd62ed686aaa695f252c72463635f8e23"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_18-25-45/params/agent.yaml",
+      "bytes": 1218,
+      "sha256": "25e9e9c4b5ba211e5f0240995082a140ad7896836ad114fd403329ea4976a093"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-21_18-25-45/params/env.yaml",
+      "bytes": 46627,
+      "sha256": "8454a5f89b0e9a41a0192fa0450fa304094fd402c97622363278628046e813bb"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-22_21-35-08/model_4999.pt",
+      "bytes": 5921461,
+      "sha256": "36a8e3db920648967572bbc79b717e29ea8ced2f834aabf5cf6c6ec5ab5d24ef"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-22_21-35-08/params/agent.yaml",
+      "bytes": 1200,
+      "sha256": "8e9ebbabb575c1e022520ef9e7a63c8c28831cd7d25911bd33e8d1c18b12177b"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-22_21-35-08/params/env.yaml",
+      "bytes": 46627,
+      "sha256": "9c9657bfb98e855c623c61719e4ed98faee148eab4f65c482e4c997198b4a344"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999/model_9998.pt",
+      "bytes": 5921461,
+      "sha256": "164a21f6da4a42b082375b75f593ec7abd73fca497f4341f777c2bb5b86480fc"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999/params/agent.yaml",
+      "bytes": 1227,
+      "sha256": "2ee1c3fd4f65c5660a010c541acc86ce49006576c847ae2e783d813d6fb0b7b0"
+    },
+    {
+      "path": "nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999/params/env.yaml",
+      "bytes": 46639,
+      "sha256": "b69aa71a1f15c17f231f867b97a0fc281df636a382a5a8ed7335948656aa53c7"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/actor_10100.pt",
+      "bytes": 1323305,
+      "sha256": "e89280c1e880ecd9e5497d6eb212c32f1f28055c53edcfc61a54dea89f35e19f"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/amp_dataset.json",
+      "bytes": 18713,
+      "sha256": "b44ab931fb3acf6981e44c64eae56aaec07e5f78563ae5a76f113d0f89245950"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/checkpoint_videos/model_10100/locomotion.mp4",
+      "bytes": 1877982,
+      "sha256": "dafe6b12b0d54c870872f2b6b4cb481fce6377e42e356564bc4218de318d754e"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/config.json",
+      "bytes": 3355,
+      "sha256": "35523f0d6fa877b1bdbbcbb0c514a9b49dbf9020a051cbca1a21e02669ab41c4"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/model_10100.pt",
+      "bytes": 26222049,
+      "sha256": "b80dee18294725813f0806c93f69415456a632ce4136b84f192c4f240439badf"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/run.json",
+      "bytes": 3466,
+      "sha256": "393f33a255bd77de215a81fc6b7d57b08327a42ebe988efe9988ffcf910932d1"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/scripts/env.sh",
+      "bytes": 317,
+      "sha256": "8036a80d829e60a8306fc204df9cc9c965f8cfe92f78b9261d27ddb968e844e3"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/scripts/list_envs.py",
+      "bytes": 448,
+      "sha256": "d7dd790053da11fe1ef349c42d9f7ea628581168fdd9213d301a629c3b83ecd3"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/scripts/play.py",
+      "bytes": 9619,
+      "sha256": "4ba65ad0bd438300a53338f5c1a96a2d5d9ded635ea2afcc994658fd33ba37ac"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/scripts/prepare_amp_data.py",
+      "bytes": 3909,
+      "sha256": "d223c920b45f7a15b381a5edab595242b1eea8a61c5432b51b060f3da12ff87a"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/scripts/train.py",
+      "bytes": 7222,
+      "sha256": "9c65e96fa803aa0d0f99d26482ce877487777c33b30be5f9c0724fc178b79274"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/__init__.py",
+      "bytes": 86,
+      "sha256": "2b546402a6259afc76c4de8ac38a9862c63c52ff7f5b5315739d84c8e84f1266"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/learning/amp.py",
+      "bytes": 6260,
+      "sha256": "ac523338436c805b5b982950b78ad9230199d1250f34b15bf4c50a945b02cf77"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/learning/ppo.py",
+      "bytes": 7730,
+      "sha256": "88ca23e8f6d7700e5d00ca31e20821633530e382add3e8470f1bfc0682da9755"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/__init__.py",
+      "bytes": 108,
+      "sha256": "80dcb0705472b7c0afc07cac050c37417aa52c45de79cbbac3c6b83e02874f3d"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/__init__.py",
+      "bytes": 243,
+      "sha256": "65cfc8e76d49aee2d982c062932a8fb19414d70093a897b78a7ae20c24418d07"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/agents/ppo_cfg.py",
+      "bytes": 796,
+      "sha256": "ec2980446d3a8a0782fdd6524c029172ba3a8a5e163e16f6db04a778b39ed12f"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/commands.py",
+      "bytes": 4905,
+      "sha256": "2e4a6fa23accc6b49983a96e786f10d9d2eadc99d036a87972753a578764854d"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/nav_skill2_env.py",
+      "bytes": 22143,
+      "sha256": "547bf9fe94a3e56ce1cc611edb5a3519d4c692e37adcfec63110d234dce8c4f6"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/nav_skill2_env_cfg.py",
+      "bytes": 1715,
+      "sha256": "ef69be19328d3e07c5eb1721ab596337798c8b03c6a0087c22b84f23d2459d34"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/parameters.py",
+      "bytes": 5742,
+      "sha256": "6f205ff770e40da8a86ac1fbcb206ee880febb9457552ea23afdd19f8cfa363d"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/randomization.py",
+      "bytes": 2267,
+      "sha256": "304fa79aa68fc82c999981cd236b9e5838efa0ca989a40df7930baa8365d2869"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/tasks/direct/nav_skill2/robot.py",
+      "bytes": 2798,
+      "sha256": "36ed49efc3d1b75d3cd8b67d4673d54d1d0c1bae803f3ec276758a01d36deb25"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/resume-v3-1200-20261022/source/utils/runtime.py",
+      "bytes": 2015,
+      "sha256": "3b6532ef78ffeac1bc3617c5fc8a8896f0f8895f359eef86f13e7adf4f643767"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/actor_1200.pt",
+      "bytes": 1323212,
+      "sha256": "05374d2b33e888cb86f79ba3f51e0c102d7790021ada0b57d2d1015d4d3ffe57"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/amp_dataset.json",
+      "bytes": 18713,
+      "sha256": "b44ab931fb3acf6981e44c64eae56aaec07e5f78563ae5a76f113d0f89245950"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/checkpoint_videos/model_1200/locomotion.mp4",
+      "bytes": 6524015,
+      "sha256": "2e56186031a3f2262eb668c0823a596321aca1ba83235281d1167e78e0c5ca42"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/checkpoint_videos/model_1200/report.json",
+      "bytes": 5994,
+      "sha256": "580de4ddbe213871a1e8eabcf4cc57c751c82753667136a0f0ca7feabae316ed"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/config.json",
+      "bytes": 3282,
+      "sha256": "1f71451c86879b1eef2579c63acb0a36234e2cc45f0624d44a2056f1c12c5163"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/model_1200.pt",
+      "bytes": 26221814,
+      "sha256": "cce72d94ed3539de035caf46398ad36fea73a210f6e0a290e8d04da9077bbad2"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/run.json",
+      "bytes": 3247,
+      "sha256": "f76e436033f5db36969e09bf1cdd2c83bd0a838dfda32b8002d81bc53b06f5c2"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/scripts/env.sh",
+      "bytes": 317,
+      "sha256": "8036a80d829e60a8306fc204df9cc9c965f8cfe92f78b9261d27ddb968e844e3"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/scripts/list_envs.py",
+      "bytes": 448,
+      "sha256": "d7dd790053da11fe1ef349c42d9f7ea628581168fdd9213d301a629c3b83ecd3"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/scripts/play.py",
+      "bytes": 8892,
+      "sha256": "0480f6c42a341b16424cb34e6bfa9e5e802fcd5525753ea0b4e7ade5d837b15f"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/scripts/prepare_amp_data.py",
+      "bytes": 3909,
+      "sha256": "d223c920b45f7a15b381a5edab595242b1eea8a61c5432b51b060f3da12ff87a"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/scripts/train.py",
+      "bytes": 7222,
+      "sha256": "9c65e96fa803aa0d0f99d26482ce877487777c33b30be5f9c0724fc178b79274"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/__init__.py",
+      "bytes": 86,
+      "sha256": "2b546402a6259afc76c4de8ac38a9862c63c52ff7f5b5315739d84c8e84f1266"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/learning/amp.py",
+      "bytes": 6260,
+      "sha256": "ac523338436c805b5b982950b78ad9230199d1250f34b15bf4c50a945b02cf77"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/learning/ppo.py",
+      "bytes": 7730,
+      "sha256": "88ca23e8f6d7700e5d00ca31e20821633530e382add3e8470f1bfc0682da9755"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/__init__.py",
+      "bytes": 108,
+      "sha256": "80dcb0705472b7c0afc07cac050c37417aa52c45de79cbbac3c6b83e02874f3d"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/__init__.py",
+      "bytes": 243,
+      "sha256": "65cfc8e76d49aee2d982c062932a8fb19414d70093a897b78a7ae20c24418d07"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/agents/ppo_cfg.py",
+      "bytes": 796,
+      "sha256": "ec2980446d3a8a0782fdd6524c029172ba3a8a5e163e16f6db04a778b39ed12f"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/commands.py",
+      "bytes": 4633,
+      "sha256": "cec8677faf6e1acd9a9f6b43df8f73f6a692b6537317b7652710af9b20da2d0f"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/nav_skill2_env.py",
+      "bytes": 19045,
+      "sha256": "bfa2a3ca918f1215fc0cf43499b2eded1a290382e7d535c225a298ccda34c04c"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/nav_skill2_env_cfg.py",
+      "bytes": 1715,
+      "sha256": "ef69be19328d3e07c5eb1721ab596337798c8b03c6a0087c22b84f23d2459d34"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/parameters.py",
+      "bytes": 5276,
+      "sha256": "1f55b50c52ef7949704b0bc671220e05c2772f2665e93658e829e28e30c324cf"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/randomization.py",
+      "bytes": 2267,
+      "sha256": "304fa79aa68fc82c999981cd236b9e5838efa0ca989a40df7930baa8365d2869"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/tasks/direct/nav_skill2/robot.py",
+      "bytes": 2798,
+      "sha256": "36ed49efc3d1b75d3cd8b67d4673d54d1d0c1bae803f3ec276758a01d36deb25"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/source/utils/runtime.py",
+      "bytes": 2015,
+      "sha256": "3b6532ef78ffeac1bc3617c5fc8a8896f0f8895f359eef86f13e7adf4f643767"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-173336-m7p7euk0/status.json",
+      "bytes": 218,
+      "sha256": "5363955230fa5a238eac541ef19f56110b6e2e07a47797cf6321fa8c2f024d1b"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/actor_6400.pt",
+      "bytes": 1323212,
+      "sha256": "ce48e20a261b81b193b80dbb47fd72ae8ef136708d06aa316ce2b643b55eafd7"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/amp_dataset.json",
+      "bytes": 29275,
+      "sha256": "16703feac982566dcfc74dbcfbf6fbaf933201254d4ceeb5b71ebf3baf9f3b2d"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/checkpoint_videos/model_6400/locomotion.mp4",
+      "bytes": 7426502,
+      "sha256": "cbbbc4d5f1fb66da33f98dc5531159a606cf92ded7da2a006b85287e92e01041"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/checkpoint_videos/model_6400/report.json",
+      "bytes": 6111,
+      "sha256": "86b06d77ca5d77c67247a20308a3b79317e8dcd8692dcdd1311592bcb7f6d454"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/config.json",
+      "bytes": 4019,
+      "sha256": "223f90816c4180edca35c4442d343121e13f26795db7fb135ef9780db98b11ee"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/model_6400.pt",
+      "bytes": 26704247,
+      "sha256": "e0a0396e829afd4c94319416d43d69144479bdba3668b49bc945baa700694935"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/run.json",
+      "bytes": 3349,
+      "sha256": "4981a66fa872633d926d30af0bea63877951210fe0e695c1baa2cbdf84b0c316"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/scripts/env.sh",
+      "bytes": 317,
+      "sha256": "8036a80d829e60a8306fc204df9cc9c965f8cfe92f78b9261d27ddb968e844e3"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/scripts/list_envs.py",
+      "bytes": 448,
+      "sha256": "d7dd790053da11fe1ef349c42d9f7ea628581168fdd9213d301a629c3b83ecd3"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/scripts/play.py",
+      "bytes": 10937,
+      "sha256": "66cbdbe2832e6d37f078b96ecbd4a49821bc8dae79cca637888727c9d088573a"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/scripts/prepare_amp_data.py",
+      "bytes": 6452,
+      "sha256": "ae3d890cdadd89ab64a481a951ab6e3f31c1914a2ad2bdab2099a26389d37fd4"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/scripts/train.py",
+      "bytes": 7597,
+      "sha256": "88f0ad0511ec16d1c0c119a38410d565fd2c1d49af44ab6db0c5f11a8316dd2a"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/__init__.py",
+      "bytes": 86,
+      "sha256": "2b546402a6259afc76c4de8ac38a9862c63c52ff7f5b5315739d84c8e84f1266"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/learning/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/learning/amp.py",
+      "bytes": 8422,
+      "sha256": "7f554ffae05eb5f339ef493d0c7a7762a67e89913ff870ca934ab3f6432f2259"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/learning/motion_reference.py",
+      "bytes": 3452,
+      "sha256": "884e722d6df80a47d34d68511280fc36b8e4115fdaf47c8cc22f6b757818048c"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/learning/ppo.py",
+      "bytes": 8385,
+      "sha256": "285e2873417f2eeab3597f26413fd81d330fda2c8a766b658ef57042ac6cd038"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/learning/symmetry.py",
+      "bytes": 2203,
+      "sha256": "cc33343d36b3f223a4d18b826a3c75c45e3837db74a7d4a5ba61789003efa64d"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/__init__.py",
+      "bytes": 108,
+      "sha256": "80dcb0705472b7c0afc07cac050c37417aa52c45de79cbbac3c6b83e02874f3d"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/__init__.py",
+      "bytes": 231,
+      "sha256": "0f061c6be551c578c0bf4e7b9c217d86b5ff740adce37b99d70fd997feddcabe"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/__init__.py",
+      "bytes": 243,
+      "sha256": "65cfc8e76d49aee2d982c062932a8fb19414d70093a897b78a7ae20c24418d07"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/agents/__init__.py",
+      "bytes": 191,
+      "sha256": "e72b43071221e271f69574d1d5e6116c5d71b41727973bf00560cb667d766435"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/agents/ppo_cfg.py",
+      "bytes": 2071,
+      "sha256": "cfa07e621d6ab96a5b605edfcdb0216ff1f5053142cd2dc9eb0d5eb7ba53e5b1"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/commands.py",
+      "bytes": 5818,
+      "sha256": "3d0c2ebcac076670a81c0b11f7ea82b5dad4552bb4d14c702ae6f65810130444"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/nav_skill2_env.py",
+      "bytes": 24864,
+      "sha256": "a512b3a0837a871c8eaf972917fe6aa8883d77e1ea88bcbe76d6b88da4b96146"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/nav_skill2_env_cfg.py",
+      "bytes": 1715,
+      "sha256": "ef69be19328d3e07c5eb1721ab596337798c8b03c6a0087c22b84f23d2459d34"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/parameters.py",
+      "bytes": 7539,
+      "sha256": "578eeb2dd8ac8a4185868c2bda6d8ed5194bb9a3a37a2da1153db0e5c803e626"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/randomization.py",
+      "bytes": 2267,
+      "sha256": "304fa79aa68fc82c999981cd236b9e5838efa0ca989a40df7930baa8365d2869"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/tasks/direct/nav_skill2/robot.py",
+      "bytes": 2798,
+      "sha256": "36ed49efc3d1b75d3cd8b67d4673d54d1d0c1bae803f3ec276758a01d36deb25"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "nav_skill2/outputs/train-20261022-212821-ryiwu7na/source/utils/runtime.py",
+      "bytes": 2162,
+      "sha256": "79ca4c4b98b2b152fd235bccb75279f65931f096c37c06b4bafa594cf55ac3bf"
+    },
+    {
+      "path": "push_skill/outputs/play-20261020-200038/push.mp4",
+      "bytes": 262427,
+      "sha256": "02f515d48fd246086bf5f0e38ffb74da8dd80f8606836e967e17a25f4e4ebafe"
+    },
+    {
+      "path": "push_skill/outputs/play-20261020-200038/report.json",
+      "bytes": 1402,
+      "sha256": "a8e6b6d59a946cc46e8c0830f6cd16f74546c79f8bda367ed03203bb087f340b"
+    },
+    {
+      "path": "push_skill/outputs/play-20261020-200038/startup-report.json",
+      "bytes": 897,
+      "sha256": "127a29d5ab078133e7bd59cfcbd469866d156269f834f8caccda5abcbd09cc1d"
+    }
+  ],
+  "excluded": [
+    "intermediate checkpoints",
+    "intermediate checkpoint videos",
+    "TensorBoard event files",
+    "training stdout/logs",
+    "metrics.jsonl / episodes.jsonl / traces",
+    "caches and Python environments",
+    "credentials"
+  ],
+  "limitations": [
+    "Latest Nav2 V3 model_10100 video is interrupted: 21.7s, no complete report. Included as partial recording, not success evidence.",
+    "Training weights and videos are development artifacts, not deployment acceptance."
+  ]
+}

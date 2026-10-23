@@ -1,0 +1,8 @@
+--no-cone
+/*.md
+/LICENSE
+/source/**/*.py
+/source/**/*.toml
+/source/**/*.yaml
+/scripts/**
+/docs/*.md

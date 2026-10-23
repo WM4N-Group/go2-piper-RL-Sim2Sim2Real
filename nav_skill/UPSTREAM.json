@@ -1,0 +1,40 @@
+{
+  "url": "https://github.com/zzzJie-Robot/LeggedManip_Lab",
+  "branch": "master",
+  "commit": "4e12109d1eccb1d9da2e4a35f189fabea3f13677",
+  "download": "partial clone: Python/config/scripts/Markdown; other platform assets and large demos omitted",
+  "changes": [
+    "Go2Piper USD uses shared ../asset/go2_piper via CLIMB_ROBOT_USD; asset bytes match upstream",
+    "Root train/play convenience launchers select local source and Go2Piper tasks",
+    "Training/playback scripts and all task/PPO configuration restored byte-for-byte to upstream 4e12109d1eccb1d9da2e4a35f189fabea3f13677; no automatic checkpoint videos"
+  ],
+  "asset_comparison": {
+    "go2_piper.usd": {
+      "upstream_git_blob": "1111eef79b14dda63d86cba2372162b2cc11cab6",
+      "common_git_blob": "1111eef79b14dda63d86cba2372162b2cc11cab6",
+      "identical": true
+    },
+    "configuration/go2_piper_physics.usd": {
+      "upstream_git_blob": "80a5fca62d06639fda20404c24d0676c23e2a8ce",
+      "common_git_blob": "80a5fca62d06639fda20404c24d0676c23e2a8ce",
+      "identical": true
+    },
+    "configuration/go2_piper_robot.usd": {
+      "upstream_git_blob": "dfdac234e23caf0b49d98722a1a5c7c6e40d117d",
+      "common_git_blob": "dfdac234e23caf0b49d98722a1a5c7c6e40d117d",
+      "identical": true
+    },
+    "configuration/go2_piper_sensor.usd": {
+      "upstream_git_blob": "9363fb798fc8a5d92072a22f5f4c88f1557b6ca8",
+      "common_git_blob": "9363fb798fc8a5d92072a22f5f4c88f1557b6ca8",
+      "identical": true
+    },
+    "configuration/go2_piper_base.usd": {
+      "upstream_git_blob": "1f9bc60f0e28116be9a35667700c7222dd140573",
+      "common_git_blob": "1f9bc60f0e28116be9a35667700c7222dd140573",
+      "identical": true
+    }
+  },
+  "last_network_fetch": "2026-10-22",
+  "refresh_manifest": "UPSTREAM_REFRESH_20261022.json"
+}

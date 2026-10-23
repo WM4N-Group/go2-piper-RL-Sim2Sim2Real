@@ -1,72 +1,71 @@
-# GO2-PIPER Sim-to-Real
+# GO2-PIPER 三技能项目
 
-Re-NAV 的 GO2-PIPER 底层技能训练、仿真验证与 Sim-to-Real 控制开发。世界模型组已在PIPER/Isaac开展连续任务研究，reachability组研究固定版本的技能接管资格；本仓库保留ARX5历史工具，接入必须匹配本体、策略与控制契约。
+当前工作区整理为以下七个目录（共用 `asset/`，新建 `nav_skill2/` 保留旧Nav作对照）：
 
-## 从这里开始
-
-| 文档 | 用途 |
+| 目录 | 内容与入口 |
 | --- | --- |
-| [从零入门清单](docs/PROJECT_ONBOARDING_CN.md) | 概念、代码阅读顺序、技能逻辑、运行和录像练习 |
-| [总交接](docs/AGENT_HANDOFF_CN.md) | 当前工作范围、接手检查、公共路径和文档导航 |
-| [项目计划](docs/PROJECT_PLAN_CN.md) | 技能边界、验收标准和交付要求 |
-| [CLIMB](docs/CLIMB_CRAWL_STATUS_20261001_CN.md) | 最新结果、运行状态、提速计划、源码与视频证据 |
-| [PUSH](docs/PUSH_CURRENT_HANDOFF_CN.md) | 用户认可的v212仿真版、接收清单、复现命令和已知边界 |
-| [安装与标定](docs/GO2_PIPER_MOUNTING_CN.md) | 固定安装模型、实物标定与硬件验证 |
+| `asset/` | 三技能共用的 GO2-PIPER USD 与分层文件，来源、校验见本目录说明 |
+| `climb_skill/` | 你的 Climb 训练项目，内容保持不动；训练与版本切换沿用其 README |
+| `push_skill/` | 原 v212 双权重的精简 Isaac 回放，`play.py` 看效果、录完整回合 |
+| `nav_skill/` | 指定上游原配置Go2Piper WBC，课程默认关闭，每1000轮保存权重，默认不录像 |
+| `nav_skill2/` | 新的Isaac Lab外部底层速度训练包：12维预测补零成18维、臂零位、PPO+AMP，每100轮保存录像，见本目录README |
+| `history/` | 前开发者代码、冻结技能、切换实验和已有成功对照；已确认失败的回放产物删除 |
+| `mujoco/` | 独立的Nav/Climb/Push与切换仿真项目；按本目录README配置隔离环境 |
 
-当前首要任务为**NAV/PUSH/CLIMB之间的平稳切换**，主线为NAV→CLIMB→NAV的多起点鲁棒性，保留NAV→PUSH→NAV既有开发基线。PUSH v212保持为跨组仿真基线；CLIMB整链已有同版多起点开发成功，但扩展起点仍有执行器力矩失败，尚未发布统一SDK或完成正式验收。CLIMB已跑通逐脚登台、前脚展开和稳定承重，后续到目标点由NAV负责；效率与跨仿真状态见技能页。不重训平地NAV；当前在原策略参数域内验证当前限矩下的原生行走、真实准备和退出，初始化与原生行走已有开发达标证据，实际到点和连续场景仍待验证。实机接入／标定按2026-10-19安排启动，当前尚无实机执行结果。新小组从总交接的分工、接收清单和首次核对开始。
-
-历史实验和旧待办已去重合并至[历史实验档案](docs/archive/EXPERIMENT_HISTORY_CN.md)，按原文件名索引追溯。当前成功率、候选、运行状态只在对应技能页维护，避免多个入口出现不同版本。
-
-## CLIMB 版本管理（2026-10-19）
-
-两个训练项目已合并为唯一目录 **[climb_skill](climb_skill/README.md)**，`climb_skill2` 已移除。源码已并入主仓库，完整旧历史通过随项目交付的 Git bundle 保留，当前为 V1；实际生效版本见 [VERSION.json](climb_skill/VERSION.json)。
-
-- **V1**：截图中的 AMP + 后腿参考基线恢复版，原始完整源码快照和权重已经缺失，不能声称逐字节原版。
-- **V2**：原 climb_skill 的30cm课程与前腿软限制版；V21、V22分别保留两次训练，V2默认V22。
-- **V3**：原 climb_skill2 的脚级跨沿质量课程版，统一此前混用的内部版本名，保留旧课程与修正后续训两份结果。
-
-[训练、保存与切换命令](climb_skill/README.md) · [版本配置差异](climb_skill/docs/VERSIONS_CN.md) · [当前完整参数](climb_skill/docs/CONFIG_CN.md) · [训练结果对应表](climb_skill/versions/registry.json) · [检查记录](climb_skill/validation/current.json)。
-
-进入项目并激活 go2-piper 后，`source scripts/env.sh`，再运行 `python scripts/manage.py switch V1`（或V2/V21/V22/V3）。有未保存修改或正在训练会拒绝切换。源码切换不会删除共享outputs；修改前用manage.py save保存新的标签。权重和录像均保持字节不变，本次上传最近10份checkpoint；历史run.json不改写旧路径，通过对应表定位新目录。
-
-源码、历史、最近10个模型和最近10个录像统一在 `zyh` 分支交付。模型和录像使用 Git LFS；日志、环境、缓存不上传。本地其他录像保留。清单及哈希见 [publication.json](climb_skill/versions/publication.json)。
-
-## 本机 Isaac 开发环境
-
-本机项目专用 Conda 环境为 `go2-piper`（Python 3.11、Isaac Sim 5.1）。
-正常激活后使用 `python`，无需旧启动器或手动设置 `PYTHONPATH`：
+## 环境与公共机器人
 
 ```bash
 conda activate go2-piper
 cd /mnt/miaojigui/zyh
-cd climb_skill
-source scripts/env.sh
-python scripts/train.py --headless --device cuda:0
+export CLIMB_ROBOT_USD="$PWD/asset/go2_piper/go2_piper.usd"
 ```
 
-旧的历史技能本地启动器已删除。当前 Climb 训练和录像请使用 [Climb 说明](climb_skill/README.md)，历史冻结技能使用 [原交付入口](runtime_handoff/README_CN.md)。
+本机已配置 Conda 激活钩子设置该变量；移动项目后，先设置 `GO2_PROJECT_ROOT` 再激活环境，或手动执行上面的 export。没有修改 Climb 的资产加载代码；它原本就支持 `CLIMB_ROBOT_USD`。公共 USD 的分层文件也要一起保留，不能只复制最外层文件。
 
-环境安装记录和依赖快照保存在项目外 `/mnt/miaojigui/deps/go2-piper/`。
-2026-10-14本机验证：依赖检查无冲突，NAV/PUSH/CLIMB各一个GPU环境均1/1通过功能检查；
-两段历史技能录像完整解码通过。整卡显存采样峰值18177MiB/24564MiB，包含已有约11GB占用。
-这不保证其他时刻的共享GPU余量。PUSH/CLIMB最大力矩限值比均为1.0，不作为安全验收。
-本次报告和录像：`outputs/isaac/conda-validation-20261014-183447/`（不提交Git）。
+## Push 看效果
 
-## 目录
-
-```text
-climb_skill/  CLIMB V1/V2/V3 本地Git版本、训练、权重与说明
-source/       Isaac Lab任务及训练代码
-mujoco/       MuJoCo运行时、模型和诊断
-scripts/      训练、评估、导出与来源核验
-sim2real/     历史部署和训练交接包
-runtime_handoff/ 匹配技能、控制器、模型、资产与可迁移运行入口
-docs/         五份常用文档
-docs/archive/ 去重历史证据
+```bash
+cd /mnt/miaojigui/zyh/push_skill
+python play.py --headless --device cuda:0 --video
 ```
 
-最新独立技能运行材料已随仓库交付在 [`runtime_handoff/`](runtime_handoff/README_CN.md)：包含PUSH v212与CLIMB iy的匹配源码、权重、配置、机器人资产，以及当前NAV入口和两条切换开发对照。先运行 `python3 runtime_handoff/verify_delivery.py`，再按该目录命令在独立Isaac环境回放。`sim2real/`保留九月历史冻结包；新开发不要混用不同版本模型和控制器。
+结果在 `push_skill/outputs/play-时间戳/`。默认单环境，录像跟随回合直至成功、失败或48秒超时，不在10秒截断。`--arm-speed 1` 恢复原伸臂速度；`--video-fps 10` 减少渲染；省略 `--video` 不启用虚拟摄像机。
 
-本仓库以最新开发快照交付，源版本和文件清单见 [`RELEASE_MANIFEST.json`](RELEASE_MANIFEST.json)，完整性清单为根目录 `SHA256SUMS`。技能成绩与未完成工作仍以当前交接页为准。
+## 初始姿态与后续切换
 
-本次模型与录像分别按修改时间选最近10个；不足10个取最近5个，不足5个全取。未选中的本地文件不删除。
+已核对 Climb 当前 V1 配置和 Push v212：机械臂 `joint1…joint6` 的**默认初始目标均为 `[0,0,0,0,0,0] rad`**，腿默认姿态相同：左/右髋 `+0.1/-0.1`、前大腿 `0.8`、后大腿 `1.0`、小腿 `-1.5 rad`，Climb/Push配置根高度均 `0.33 m`；Nav恢复上游初始根高度 `0.35 m`。Push 独立回放起点比原点后退8cm，并先真实承重落稳；Climb 的实际 reset、随机化和起点保持原样。因此默认目标相同不代表实际物理接管状态相同。
+
+Push 伸臂后是推箱姿态，当前完成条件没有收臂要求。Nav WBC 在训练中会随机末端命令、主动改变机械臂姿态。**本次只统一资产并核对初始目标，不实现技能切换，也未将这些运行末态说成可直接接管。** 后续需要单独实现停稳、收臂和连续接管验证。
+
+## 历史与验证边界
+
+整理前的文件都在 `history/`，其中 `skills/push/v212/` 是完整冻结来源，`outputs/push-original-entry-backoff-20261020-c/` 是此前已成功的开发对照（该历史输出仅保留在本地，不在本次上传清单中）。旧文档中的根目录命令属于旧布局，不能直接照搬。失败实验删除记录见 `history/CLEANUP.json`。
+
+新回放的精简与提速属于候选；单次录像不能代替批量验收。实机仍需遵守 `AGENTS.md` 的跨仿真验收要求。训练由你启动，本次不启动长训练。
+
+## 新Nav2训练
+
+```bash
+conda activate go2-piper
+cd /mnt/miaojigui/zyh/nav_skill2
+python train.py --headless --device cuda:0 --num-envs 2048 --iterations 15000
+```
+
+Nav2采用与Climb/Push相同的默认关节目标，机械臂保持零位，从训练开始不学习机械臂动作；18维接口的后六维恒零。V4采用Climb式真实方向运动奖励，加入软左右镜像、方向与速度条件AMP、前进0.3～1.0/转向0.2～0.6的课程和探索退火，训练前后左右/斜向移动、左右转向、减速与默认站姿；每100轮录像；本阶段不训练目标点导航。原Nav保留用于对照；新任务、课程、AMP、回放、续训与tmux命令见[Nav2说明](nav_skill2/README.md)。仅完成工程冒烟检查，正式训练由用户启动，尚未验证技能切换。
+
+## GitHub交付：2026-10-23
+
+本仓库`zyh`分支包含`asset/`、`climb_skill/`、`push_skill/`、`nav_skill/`、`nav_skill2/`、`mujoco/`与`history/`。每次训练／版本只发布最后一个checkpoint、同轮导出actor（如有）及对应录像，保留配置和源码快照。Push的腿／臂双模型、MuJoCo冻结actor是运行依赖，不按checkpoint编号互相替代。历史源码版本通过Climb的bundle保留。
+
+克隆后先下载Git LFS文件：
+
+```bash
+git clone --branch zyh https://github.com/WM4N-Group/go2-piper-RL-Sim2Sim2Real.git
+cd go2-piper-RL-Sim2Sim2Real
+git lfs install
+git lfs pull
+```
+
+权重的准确路径、对应训练目录、录像和SHA256见[发布清单](PUBLICATION.json)。Nav1最新续训权重为`nav_skill/logs/rsl_rl/go2_piper_wbc/2026-10-23_10-26-37_resume_4999/model_9998.pt`；Nav2新V4为`nav_skill2/outputs/train-20261022-212821-ryiwu7na/model_6400.pt`。旧V3的10100轮录像为停止时中断的21.7秒片段，没有完成报告，不作为完整成功证据。
+
+其他中间checkpoint、录像、训练日志、缓存和环境不上传，本地全部保留。训练源码和候选权重仅供开发复现，尚未完成统一跨仿真或真机验收。各运行的历史参数和源码快照不随当前代码改写；回放旧版本应使用匹配源码。运行环境仍需按各技能说明单独配置。

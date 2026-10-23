@@ -1,0 +1,223 @@
+{
+  "status": "complete",
+  "configuration_revision": "nav_skill2_symmetry_speed_v4",
+  "checkpoint": "/mnt/miaojigui/zyh/nav_skill2/outputs/train-20261022-212821-ryiwu7na/model_6400.pt",
+  "level": 4,
+  "startup_overrides": {},
+  "effective_startup": {
+    "reset_settle_seconds": 3.0,
+    "reset_settle_max_seconds": 10.0,
+    "reset_settle_max_tilt": 0.3,
+    "startup_action_ramp_seconds": 2.0,
+    "settle_actual_seconds": 3.0
+  },
+  "cases": [
+    {
+      "overspeed_within_fraction": 0.20967741935483872,
+      "mean_active_actual_vx_vy_wz": [
+        1.153221776600807,
+        0.039786587302918515,
+        0.03063610469520603
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "forward",
+      "command": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.2262642351128709,
+      "stop_mean_speed_yaw_posture": [
+        0.20924294650592287,
+        0.05050412906484321,
+        0.18701383892935936
+      ],
+      "max_tilt_deg": 9.72160375984414,
+      "max_arm_error": 0.04963260143995285,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.34838709677419355,
+      "mean_active_actual_vx_vy_wz": [
+        -0.520186689976723,
+        0.028261537925526124,
+        -0.02322324809501879
+      ],
+      "directional_response": 0.9997356551308786,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "backward",
+      "command": [
+        -0.45,
+        0.0,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.09389282224252334,
+      "stop_mean_speed_yaw_posture": [
+        0.01523109981696112,
+        0.007558220224290371,
+        0.2228762311766846
+      ],
+      "max_tilt_deg": 6.218359607183226,
+      "max_arm_error": 0.0395096093416214,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.08709677419354839,
+      "mean_active_actual_vx_vy_wz": [
+        0.0300306303231346,
+        0.4934914388002888,
+        0.01704124829397657
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "left",
+      "command": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.11827688768051695,
+      "stop_mean_speed_yaw_posture": [
+        0.030309279585689908,
+        0.021302746726444576,
+        0.18726994338059666
+      ],
+      "max_tilt_deg": 8.527375919318676,
+      "max_arm_error": 0.06906070560216904,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.4161290322580645,
+      "mean_active_actual_vx_vy_wz": [
+        0.011445184978478093,
+        -0.4798091529838501,
+        0.019567991498690623
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "right",
+      "command": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.09721180822751499,
+      "stop_mean_speed_yaw_posture": [
+        0.013784899849049521,
+        0.0067904908811224325,
+        0.23596224805923424
+      ],
+      "max_tilt_deg": 6.590647605631234,
+      "max_arm_error": 0.0418846569955349,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.6451612903225806,
+      "mean_active_actual_vx_vy_wz": [
+        -0.0032141619016446414,
+        0.04031001564355627,
+        0.695674237128227
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "turn_left",
+      "command": [
+        0.0,
+        0.0,
+        0.6
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.07271324545425088,
+      "stop_mean_speed_yaw_posture": [
+        0.00781654355391352,
+        0.007805533492243896,
+        0.24287522757294203
+      ],
+      "max_tilt_deg": 8.300825374738523,
+      "max_arm_error": 0.03626743331551552,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.07419354838709677,
+      "mean_active_actual_vx_vy_wz": [
+        -0.041449887777167946,
+        0.04117366618762213,
+        -0.7416066119747777
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "turn_right",
+      "command": [
+        0.0,
+        0.0,
+        -0.6
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.10045664227191377,
+      "stop_mean_speed_yaw_posture": [
+        0.027110648651917774,
+        0.003975134866189852,
+        0.21741898207351415
+      ],
+      "max_tilt_deg": 8.975508045857797,
+      "max_arm_error": 0.0457751639187336,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.06451612903225806,
+      "mean_active_actual_vx_vy_wz": [
+        0.6365776211023331,
+        -0.11916911426571107,
+        0.984306465618072
+      ],
+      "directional_response": 0.9899592549570145,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": false,
+      "name": "arc",
+      "command": [
+        0.6,
+        0.0,
+        0.6
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.2537079157572724,
+      "stop_mean_speed_yaw_posture": [
+        0.021843158150787908,
+        0.04730479739079572,
+        0.20175159880609222
+      ],
+      "max_tilt_deg": 10.127625208829194,
+      "max_arm_error": 0.05973039194941521,
+      "frames": 120
+    }
+  ],
+  "all_cases_qualified": false,
+  "unqualified_cases": [
+    "forward",
+    "backward",
+    "left",
+    "right",
+    "turn_left",
+    "turn_right",
+    "arc"
+  ],
+  "note": "Velocity development cases; completed_without_fall does not prove tracking quality or formal acceptance."
+}

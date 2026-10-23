@@ -1,7 +1,7 @@
 # GO2-PIPER 开发规则
 
-1. 开始任务先读取 `docs/AGENT_HANDOFF_CN.md`，并核对当前分支、工作树、环境和产物哈希。
-2. 项目目标与验收标准以 `docs/PROJECT_PLAN_CN.md` 为准；当前范围见 `docs/AGENT_HANDOFF_CN.md`，技能进展和下一步分别在 CLIMB/PUSH 当前交接页维护。
+1. 当前活动布局与命令先读根 README.md；Climb 保持不动，共用资产通过 CLIMB_ROBOT_USD 配置。开始任务先读取 `history/docs/AGENT_HANDOFF_CN.md`，并核对当前分支、工作树、环境和产物哈希。
+2. 项目目标与验收标准以 `history/docs/PROJECT_PLAN_CN.md` 为准；当前范围见 `history/docs/AGENT_HANDOFF_CN.md`，技能进展和下一步分别在 CLIMB/PUSH 当前交接页维护。
 3. 保留冻结策略的观测、动作、关节重排、PD、延迟和来源契约；候选在新目录和新报告中评估。
 4. PUSH 和 CLIMB 必须在 Isaac 与 MuJoCo 各两组独立 32 回合中达到至少 30/32，才可进入分级实机验证。
 5. 不要将单条录像、训练奖励、历史报告或未匹配的控制代码当作验收证据。

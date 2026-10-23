@@ -1,0 +1,21 @@
+{
+  "climb_preservation": "history/CLIMB_PRESERVATION.json",
+  "push": {
+    "report": "push_skill/outputs/play-20261020-200038/report.json",
+    "video": "push_skill/outputs/play-20261020-200038/push.mp4",
+    "success": true,
+    "simulation_seconds": 13.59999942779541,
+    "wall_seconds_including_startup": 276.946686450392,
+    "box_displacement_m": [
+      0.6011546850204468,
+      0.021045722998678684,
+      -1.2665987014770508e-07
+    ],
+    "goal_error_xy_m": 0.021077375406666675,
+    "scope": "one used development start, not formal acceptance",
+    "code_note": "after physical replay only report torque terminal inclusion/displacement fields added; no control/physics changes"
+  },
+  "nav_upstream": "4e12109d1eccb1d9da2e4a35f189fabea3f13677",
+  "nav_environment_check": "nav_skill/ENVIRONMENT_CHECK.json",
+  "checksums_verified": true
+}

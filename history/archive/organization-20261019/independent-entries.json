@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "entries": [
+    {
+      "skill": "nav",
+      "cli_exit_code": 0,
+      "command_matches_previous": true,
+      "environment_matches_previous": true,
+      "existing_output_rejected": true,
+      "physics_executed": false
+    },
+    {
+      "skill": "push",
+      "cli_exit_code": 0,
+      "command_matches_previous": true,
+      "environment_matches_previous": true,
+      "existing_output_rejected": true,
+      "physics_executed": false
+    },
+    {
+      "skill": "climb",
+      "cli_exit_code": 0,
+      "command_matches_previous": true,
+      "environment_matches_previous": true,
+      "existing_output_rejected": true,
+      "physics_executed": false
+    },
+    {
+      "skill": "nav-climb-nav",
+      "cli_exit_code": 0,
+      "command_matches_previous": true,
+      "environment_matches_previous": true,
+      "existing_output_rejected": true,
+      "physics_executed": false
+    },
+    {
+      "skill": "nav-push-nav",
+      "cli_exit_code": 0,
+      "command_matches_previous": true,
+      "environment_matches_previous": true,
+      "existing_output_rejected": true,
+      "physics_executed": false
+    }
+  ],
+  "nav_no_other_skill_reference": true,
+  "nav_bound_source_hashes_matched": 12,
+  "document_link_errors": [],
+  "tools_directory_exists": false,
+  "physics_executed": false
+}

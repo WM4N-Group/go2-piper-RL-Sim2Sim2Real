@@ -1,0 +1,14 @@
+{
+  "scope": "Untrained checkpoint, 20 control steps; verifies GPU playback and MP4 output only; no training or performance acceptance",
+  "status": "passed",
+  "video": "/tmp/nav-video-smoke-result/rl-video-step-0.mp4",
+  "video_sha256": "314953c6938d72810661250bc79c22d8641a072df43737e85983bdfb37a95db8",
+  "resolution": [
+    640,
+    480
+  ],
+  "fps": 50.0,
+  "duration": 0.4,
+  "cadence_mock_check": "passed: 0/999 skipped, 1000 saved and recorded, duplicates skipped, errors preserve checkpoint",
+  "syntax_check": "passed"
+}

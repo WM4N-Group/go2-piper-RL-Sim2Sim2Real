@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "checkpoint": "/mnt/miaojigui/zyh/nav_skill2/outputs/train-20261022-173336-m7p7euk0/model_1200.pt",
+  "error": "RuntimeError('Checkpoint video failed: see video_1200.log; model preserved')"
+}

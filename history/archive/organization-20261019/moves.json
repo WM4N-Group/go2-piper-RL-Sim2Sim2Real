@@ -1,0 +1,46 @@
+{
+  "source_commit": "d06611ce723797bb8bb1f800249029235d25a4cb",
+  "moves": [
+    [
+      "runtime_handoff/PUSH-v212",
+      "skills/push/v212"
+    ],
+    [
+      "runtime_handoff/CLIMB-iy",
+      "skills/climb/iy"
+    ],
+    [
+      "runtime_handoff/development/nav-native-entry-v039",
+      "skills/nav/entry-v039"
+    ],
+    [
+      "runtime_handoff/development/nav-native-entry-video-v038",
+      "skills/nav/video-v038"
+    ],
+    [
+      "runtime_handoff/development/transition-nav-climb-v067",
+      "integrations/nav-climb-nav/v067"
+    ],
+    [
+      "runtime_handoff/development/transition-arm-entry-v317",
+      "integrations/nav-push-nav/v317"
+    ],
+    [
+      "sim2real",
+      "archive/legacy_sim2real"
+    ],
+    [
+      "mujoco",
+      "archive/mujoco_reference"
+    ],
+    [
+      "runtime_handoff",
+      "tools/runtime"
+    ],
+    [
+      "archive/legacy_sim2real/go2-piper-low-level-policy-handoff/policies/nav/policy.pt",
+      "skills/nav/policy.pt"
+    ]
+  ],
+  "compatibility": "Old paths are symlinks; frozen payload contents unchanged."
+}

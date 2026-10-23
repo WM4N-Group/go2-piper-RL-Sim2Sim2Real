@@ -1,0 +1,74 @@
+{
+  "release_date": "2026-10-16",
+  "repository": "WM4N-Group/go2-piper-RL-Sim2Sim2Real",
+  "branch": "main",
+  "source": {
+    "repository": "WM4N-Group/GO2-ARX5-MUJOCO",
+    "branch": "feature/go2-piper-sim2real",
+    "published_head": "d22250aa00d56102e106aa179e6359f315faacf7",
+    "latest_committed_snapshot": "1ee53cc31715e8a84d8b155a55b7288d701ee0f4",
+    "tracked_files": 654,
+    "missing_source_files": [],
+    "adapted_source_files": [
+      "README.md",
+      "docs/AGENT_HANDOFF_CN.md",
+      "docs/CLIMB_CRAWL_STATUS_20261001_CN.md",
+      "docs/PUSH_CURRENT_HANDOFF_CN.md",
+      "scripts/diagnose_s38_push_self_collision.py",
+      "sim2real/go2-piper-low-level-policy-handoff/SHA256SUMS",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/climb/climb-v6-200-eval208.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/climb/climb-v6-200-eval209.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/climb/env.yaml",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/nav/manifest.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/nav/native-flat-lower16.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/nav/native-flat-reference16.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/nav/nav-goal-final500.json",
+      "sim2real/go2-piper-low-level-policy-handoff/policies/push/env.yaml",
+      "sim2real/go2-piper-low-level-policy-handoff/validation/piper-three-skills-index.json",
+      "sim2real/go2-piper-low-level-training-handoff/SHA256SUMS",
+      "sim2real/go2-piper-low-level-training-handoff/checkpoints/climb/params/env.yaml",
+      "sim2real/go2-piper-low-level-training-handoff/checkpoints/push/params/env.yaml",
+      "sim2real/go2-piper-low-level-training-handoff/evaluation/climb-v6-200-eval208.json",
+      "sim2real/go2-piper-low-level-training-handoff/evaluation/climb-v6-200-eval209.json"
+    ],
+    "scope": "All committed source files retained. Documentation and resource locations adapted for this delivery; uncommitted experiments excluded."
+  },
+  "retained_target_snapshot": "c1f48af39ea75c5e814c869b94cba90b2e015a78",
+  "runtime_inputs": {
+    "nav_policy": "skills/nav/policy.pt",
+    "push": "skills/push/v212",
+    "climb": "skills/climb/iy",
+    "amp_climb": "climb_skill",
+    "integration": "integrations",
+    "entry": [
+      "skills/nav/run.py",
+      "skills/push/run.py",
+      "skills/climb/run.py",
+      "integrations/nav-climb-nav/run.py",
+      "integrations/nav-push-nav/run.py"
+    ],
+    "verification": [
+      "skills/nav/verify.py",
+      "skills/push/verify.py",
+      "skills/climb/verify.py",
+      "integrations/nav-climb-nav/verify.py",
+      "integrations/nav-push-nav/verify.py"
+    ]
+  },
+  "excluded_generated_files": [
+    "Python/Isaac environment installations",
+    "cache",
+    "training logs",
+    "intermediate checkpoints",
+    "historical multi-GB trajectory reports"
+  ],
+  "validation_scope": "Source inventory, file hashes, static syntax/dependencies, startup plan preparation. No new physical acceptance claimed.",
+  "known_development_gaps": [
+    "Current native NAV entry does not establish whole-chain or original-default input qualification.",
+    "CLIMB iy standalone replay starts from a stage bank; standalone completion verifier is not added.",
+    "Preserved transition baselines are development comparisons; stable SDK and formal sim2sim acceptance remain incomplete."
+  ],
+  "delivery": "One current snapshot commit; source repository history is not imported.",
+  "layout_revision": "2026-10-19",
+  "layout_provenance": "archive/organization-20261019/moves.json"
+}

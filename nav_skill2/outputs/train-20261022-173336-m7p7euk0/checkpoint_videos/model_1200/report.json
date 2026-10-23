@@ -1,0 +1,212 @@
+{
+  "status": "complete",
+  "configuration_revision": "nav_skill2_motion_amp_v3",
+  "checkpoint": "/mnt/miaojigui/zyh/nav_skill2/outputs/train-20261022-173336-m7p7euk0/model_1200.pt",
+  "level": 0,
+  "startup_overrides": {},
+  "effective_startup": {
+    "reset_settle_seconds": 0.0,
+    "startup_action_ramp_seconds": 0.0
+  },
+  "cases": [
+    {
+      "overspeed_within_fraction": 0.9774193548387097,
+      "mean_active_actual_vx_vy_wz": [
+        0.28620982802202627,
+        0.008579860085662784,
+        -0.014032153702564462
+      ],
+      "directional_response": 0.9378381874292128,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": true,
+      "name": "forward",
+      "command": [
+        0.25,
+        0.0,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.08365917771072202,
+      "stop_mean_speed_yaw_posture": [
+        0.03001373547665549,
+        0.10237771265133462,
+        0.21596207537434317
+      ],
+      "max_tilt_deg": 27.511242118266196,
+      "max_arm_error": 0.10112152993679047,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 1.0,
+      "mean_active_actual_vx_vy_wz": [
+        -0.148077914527347,
+        -0.007306205387125843,
+        -0.05833438014334177
+      ],
+      "directional_response": 0.5920809339131078,
+      "good_motion_fraction": 0.9903225806451613,
+      "motion_and_stop_qualified": true,
+      "name": "backward",
+      "command": [
+        -0.25,
+        0.0,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.11544877555641106,
+      "stop_mean_speed_yaw_posture": [
+        0.017851469753724005,
+        0.033956257720487285,
+        0.2028570757670836
+      ],
+      "max_tilt_deg": 27.537239525794558,
+      "max_arm_error": 0.10043325275182724,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.0,
+      "mean_active_actual_vx_vy_wz": [
+        0.07400857566465294,
+        0.4002776086330414,
+        -0.04995238239756755
+      ],
+      "directional_response": 1.0,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": true,
+      "name": "left",
+      "command": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.22412529775950155,
+      "stop_mean_speed_yaw_posture": [
+        0.01477936763878479,
+        0.003565532402226014,
+        0.23203451735804778
+      ],
+      "max_tilt_deg": 27.53387907272291,
+      "max_arm_error": 0.10215485095977783,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.9806451612903225,
+      "mean_active_actual_vx_vy_wz": [
+        0.01586828195535007,
+        -0.2814326946773837,
+        -0.0763384900876366
+      ],
+      "directional_response": 0.9967551721680549,
+      "good_motion_fraction": 1.0,
+      "motion_and_stop_qualified": true,
+      "name": "right",
+      "command": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.11163246594600615,
+      "stop_mean_speed_yaw_posture": [
+        0.014364011063607353,
+        0.036849848512146205,
+        0.21038351140239023
+      ],
+      "max_tilt_deg": 31.783219793143815,
+      "max_arm_error": 0.11459862440824509,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.7354838709677419,
+      "mean_active_actual_vx_vy_wz": [
+        -0.003501798295145554,
+        0.026180318813590755,
+        0.4187758466739568
+      ],
+      "directional_response": 0.8219246581743186,
+      "good_motion_fraction": 0.8903225806451613,
+      "motion_and_stop_qualified": true,
+      "name": "turn_left",
+      "command": [
+        0.0,
+        0.0,
+        0.35
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.15343611401285032,
+      "stop_mean_speed_yaw_posture": [
+        0.00931416436379559,
+        0.006472002054009624,
+        0.33295234616356667
+      ],
+      "max_tilt_deg": 30.36041625694929,
+      "max_arm_error": 0.11009318381547928,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.7516129032258064,
+      "mean_active_actual_vx_vy_wz": [
+        -0.014443690162302266,
+        0.018841996122031444,
+        -0.31967947844250666
+      ],
+      "directional_response": 0.6438882942481394,
+      "good_motion_fraction": 0.6935483870967742,
+      "motion_and_stop_qualified": true,
+      "name": "turn_right",
+      "command": [
+        0.0,
+        0.0,
+        -0.35
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.15662652523342072,
+      "stop_mean_speed_yaw_posture": [
+        0.0047200250094215565,
+        0.045935945660628454,
+        0.32089574680183874
+      ],
+      "max_tilt_deg": 28.6232139906172,
+      "max_arm_error": 0.10758984088897705,
+      "frames": 120
+    },
+    {
+      "overspeed_within_fraction": 0.49032258064516127,
+      "mean_active_actual_vx_vy_wz": [
+        0.127931907977308,
+        0.08449981418107787,
+        0.6014728566811931
+      ],
+      "directional_response": 0.7573474786935314,
+      "good_motion_fraction": 0.9032258064516129,
+      "motion_and_stop_qualified": true,
+      "name": "arc",
+      "command": [
+        0.15,
+        0.0,
+        0.35
+      ],
+      "result": "completed_without_fall",
+      "seconds": 12.0,
+      "tracking_weighted_rmse": 0.1784470577256524,
+      "stop_mean_speed_yaw_posture": [
+        0.029897476725205027,
+        0.08536683354112837,
+        0.25549509504226725
+      ],
+      "max_tilt_deg": 30.414603562729585,
+      "max_arm_error": 0.11242099106311798,
+      "frames": 120
+    }
+  ],
+  "all_cases_qualified": true,
+  "unqualified_cases": [],
+  "note": "Velocity development cases; completed_without_fall does not prove tracking quality or formal acceptance."
+}

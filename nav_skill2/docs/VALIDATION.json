@@ -1,0 +1,114 @@
+{
+  "revision": "nav_skill2_symmetry_speed_v4",
+  "date": "2026-10-22",
+  "artifacts": "/mnt/miaojigui/artifacts/nav2-symmetry-v4-20261022",
+  "unit_tests": {
+    "status": "passed",
+    "count": 14,
+    "log": "unit-tests.log"
+  },
+  "legacy_compatibility": {
+    "status": "passed",
+    "seeds": 5,
+    "samples_per_seed": 1000,
+    "checks": [
+      "sample_commands exact",
+      "post-sampling RNG exact",
+      "all motion terms exact"
+    ],
+    "note": "No new fields, V3 default contract"
+  },
+  "gpu_train": {
+    "status": "complete",
+    "checkpoint": "/mnt/miaojigui/artifacts/nav2-symmetry-v4-20261022/pipeline5/model_3.pt",
+    "iteration": 3,
+    "note": "Training completed; not skill acceptance"
+  },
+  "gpu_resume": {
+    "status": "complete",
+    "checkpoint": "/mnt/miaojigui/artifacts/nav2-symmetry-v4-20261022/resume/model_4.pt",
+    "iteration": 4,
+    "note": "Training completed; not skill acceptance"
+  },
+  "cpu_export": {
+    "status": "passed",
+    "input_shape": [
+      7,
+      315
+    ],
+    "output_shape": [
+      7,
+      18
+    ],
+    "arm_exactly_zero": true,
+    "checkpoint_iteration": 4,
+    "revision": "nav_skill2_symmetry_speed_v4"
+  },
+  "startup_2048": {
+    "status": "passed",
+    "num_envs": 2048,
+    "terminal_stop_checks": true,
+    "settle_actual_seconds": 3.5,
+    "resets": 3,
+    "seconds_per_reset": 0.8,
+    "randomization": true,
+    "settle_seconds": 3.0,
+    "action_ramp_seconds": 2.0,
+    "worst_height_drop": 0.008486628532409668,
+    "max_absolute_vertical_speed": 0.020928949117660522,
+    "max_tilt_rad": 0.24863053858280182,
+    "note": "Zero-policy support/reset fixture, not trained locomotion acceptance"
+  },
+  "video": {
+    "status": "passed",
+    "report_status": "complete",
+    "cases": 7,
+    "trace_samples": 2800,
+    "per_case_samples": {
+      "forward": 400,
+      "backward": 400,
+      "left": 400,
+      "right": 400,
+      "turn_left": 400,
+      "turn_right": 400,
+      "arc": 400
+    },
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "10/1",
+          "duration": "56.000000",
+          "nb_read_frames": "560"
+        }
+      ]
+    },
+    "note": "3-iteration untrained fixture, not locomotion acceptance"
+  },
+  "preservation": {
+    "status": "passed",
+    "protected_files": 277,
+    "mismatches": []
+  },
+  "old_v3_recovery": {
+    "reason": "V4 source revision update rejected automatic V3 video at checkpoint1200; no checkpoint lost",
+    "old_run": "/mnt/miaojigui/zyh/nav_skill2/outputs/train-20261022-173336-m7p7euk0",
+    "video1200": "checkpoint_videos/model_1200/report.json",
+    "video_status": "complete",
+    "restored_run": "/mnt/miaojigui/zyh/nav_skill2/outputs/resume-v3-1200-20261022",
+    "frozen_source": "/mnt/miaojigui/artifacts/nav2-symmetry-v4-20261022/before",
+    "restored_revision": "nav_skill2_motion_amp_v3",
+    "resume_checkpoint": 1200,
+    "target_iteration": 15000
+  },
+  "unverified": [
+    "Long V4 training and gait quality",
+    "Deterministic V4 left/right consistency after training",
+    "Target-point navigation",
+    "Skill switching",
+    "MuJoCo and hardware"
+  ],
+  "note": "Engineering checks; not trained skill acceptance. Failed startup trials remain in artifacts; one genuinely static 14-degree randomized equilibrium motivated the explicit 0.30rad initialization gate, not changes to motion penalties or PD."
+}

@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "cli_preparation_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "canonical_path_preparation": [
+    {
+      "skill": "nav",
+      "prepared": true,
+      "entry": "/mnt/miaojigui/zyh/skills/nav/video-v038/probe.py",
+      "input_paths": [
+        "/mnt/miaojigui/zyh/skills/nav/video-v038/probe.py",
+        "/mnt/miaojigui/zyh/skills/nav/policy.pt",
+        "/mnt/miaojigui/zyh/skills/nav/video-v038/nav-posture-template.json"
+      ],
+      "executed": false,
+      "scope": "Independent current-limit NAV entry and 10 s exact native18 walking; not goal or chain acceptance."
+    },
+    {
+      "skill": "push",
+      "prepared": true,
+      "entry": "<new-output>/train/scripts/evaluate_residual_push.py",
+      "input_paths": [
+        "/mnt/miaojigui/zyh/skills/push/v212/model_255.pt",
+        "/mnt/miaojigui/zyh/skills/push/v212/geometry/mujoco"
+      ],
+      "executed": false,
+      "scope": "Used development3701/8 then2701/32 original reset48s diagnostic. Only21-point nominal path replaced by same first/final2 points. All speed,smoothing,arrival,actual collision,clearance,effort,contact and settle gates unchanged;not heldout or original12s acceptance."
+    },
+    {
+      "skill": "climb",
+      "prepared": true,
+      "entry": "<new-output>/train/scripts/evaluate_box_skills.py",
+      "input_paths": [
+        "/mnt/miaojigui/zyh/skills/climb/iy/stage-bank.json",
+        "/mnt/miaojigui/zyh/skills/climb/iy/stand_actor304.pt"
+      ],
+      "executed": false,
+      "scope": "280s seed27302/32 full-stage swing3s regression frozen from ix; NOT original-start or unused-seed acceptance."
+    },
+    {
+      "skill": "nav-climb-nav",
+      "prepared": true,
+      "entry": "/mnt/miaojigui/zyh/integrations/nav-climb-nav/v067/probe.py",
+      "input_paths": [
+        "/mnt/miaojigui/zyh/integrations/nav-climb-nav/v067/probe.py",
+        "/mnt/miaojigui/zyh/skills/nav/policy.pt"
+      ],
+      "executed": false,
+      "scope": "Preserved v067 development baseline. Altered NAV contract and wrist failure remain; not a stable SDK."
+    },
+    {
+      "skill": "nav-push-nav",
+      "prepared": true,
+      "entry": "/mnt/miaojigui/zyh/integrations/nav-push-nav/v317/probe.py",
+      "input_paths": [
+        "/mnt/miaojigui/zyh/integrations/nav-push-nav/v317/probe.py",
+        "/mnt/miaojigui/zyh/skills/nav/policy.pt"
+      ],
+      "executed": false,
+      "scope": "Preserved v317 continuous development baseline; not held-out, sim2sim or hardware acceptance."
+    }
+  ],
+  "physics_executed": false,
+  "new_document_links_checked": 11,
+  "broken_new_document_links": []
+}

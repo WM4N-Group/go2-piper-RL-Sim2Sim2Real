@@ -1,0 +1,138 @@
+[
+  {
+    "repo": "change-every/Extreme-Parkour-Onboard",
+    "commit": "6f136271c36e3c9ba8c8f9e4e4205f4e16e2d24c",
+    "path": "README.md",
+    "sha256": "6a6f7851743c673c0c5afb08e030c36900ccb65b08e3de65c98c87460c36c59d",
+    "status": "ok"
+  },
+  {
+    "repo": "change-every/Extreme-Parkour-Onboard",
+    "commit": "6f136271c36e3c9ba8c8f9e4e4205f4e16e2d24c",
+    "path": "legged_gym/envs/go2/go2_parkour_config.py",
+    "sha256": "1a80d7914c646caef1899f0f4d1d047831fd6e25088f71c3bfbe232cd6ee0442",
+    "status": "ok"
+  },
+  {
+    "repo": "change-every/Extreme-Parkour-Onboard",
+    "commit": "6f136271c36e3c9ba8c8f9e4e4205f4e16e2d24c",
+    "path": "legged_gym/envs/base/legged_robot_config.py",
+    "sha256": "9a6c2c07c5c406dafe249323ff2e0d0b28d5cf6cd0e9885369dac401ffdf3d5b",
+    "status": "ok"
+  },
+  {
+    "repo": "change-every/Extreme-Parkour-Onboard",
+    "commit": "6f136271c36e3c9ba8c8f9e4e4205f4e16e2d24c",
+    "path": "rsl_rl/rsl_rl/algorithms/ppo.py",
+    "sha256": "ab4c9f6df6e16466d30da0cfafa4c42b862615cdaf86ea26129be18afe6d657b",
+    "status": "ok"
+  },
+  {
+    "repo": "haozhang04/LeggedSkillDeploy",
+    "commit": "9126dad84708fc2714c6a1158897c86844d0cc1c",
+    "path": "README.md",
+    "sha256": "7aaf7f6ee33fbac6967a819f45cc60bc8a98aa41cc350670982781f497ff920b",
+    "status": "ok"
+  },
+  {
+    "repo": "haozhang04/LeggedSkillDeploy",
+    "commit": "9126dad84708fc2714c6a1158897c86844d0cc1c",
+    "path": "src/scripts/rl_sdk.py",
+    "sha256": "f597aa3201b364947d76c5849fcd66b2187ed589ae7fe776cf4fc58d0545be6c",
+    "status": "ok"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "legged_gym/envs/a1/a1_amp_config.py",
+    "sha256": "af304b582c90a85ecde4e49fa4e12f7268c385e502daf8c2e917a9a73314bc9b",
+    "status": "read_from_previously_pinned_local_audit"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "rsl_rl/algorithms/amp_discriminator.py",
+    "sha256": "140853e793cf1cfbb5cf03a20364a7a57e04e3449dd8f78123f4c34434ee7760",
+    "status": "read_from_previously_pinned_local_audit"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "doc/NET.md",
+    "sha256": "bce6022bcf2203046acb0bf1ce6339a9937c2d5a1e5bb97f07da071366e4842f",
+    "status": "read_from_previously_pinned_local_audit"
+  },
+  {
+    "repo": "change-every/Extreme-Parkour-Onboard",
+    "commit": "6f136271c36e3c9ba8c8f9e4e4205f4e16e2d24c",
+    "path": "legged_gym/envs/base/legged_robot.py",
+    "sha256": "3eada627acdc78bd4ee6a05b8c0222cfdd70afc77d17ededfeedc0b91697092a",
+    "status": "read_actual_reward_implementation"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_left_0.5mps.txt",
+    "sha256": "a6819d6226de3d2c40f625553b83f3edd5bd4696417c35d19febe4c9326a5966",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_turn_left_0.5radps.txt",
+    "sha256": "ef06673640dd05bf65d2ce68546ac8a74f8f2f79526891a5578e03da8d750267",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_forward_0.4mps.txt",
+    "sha256": "48818298b24a808554ce546f24e61c2b106171e433a96f3450d4d240c0eb9b5f",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_right_0.5mps.txt",
+    "sha256": "847381f3c597f324c1a277544d9eff9702977055d925646046c32af97fa0b9c0",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_turn_right_0.5radps.txt",
+    "sha256": "540b401bc7ea918aebe9d18a1b451aed9ec5a6586c8d00c15df8c7e902f84b8d",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_backward_0.4mps.txt",
+    "sha256": "c95930eb14fd3dcad02c7a7eda4f27f7ed0114967a8957522f654fc98d08bfc5",
+    "status": "downloaded_checked_velocity_sign_and_converted"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_forward_0.8mps.txt",
+    "sha256": "dd36349e422e71ed85ccf45387c35709cf6ae45ff651fb68ffcb9ca6a5aadb4e",
+    "status": "ok",
+    "use": "V4 direction-speed AMP"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_turn_left_0.2radps.txt",
+    "sha256": "9b665410041b1683bd5abf12b57457e3620c35caf412f6d3d325fff7307ffc93",
+    "status": "ok",
+    "use": "V4 direction-speed AMP"
+  },
+  {
+    "repo": "haozhang04/wmp_go1",
+    "commit": "65cf1afd13e4792bce7b9def6f44372ecbb3cdf0",
+    "path": "datasets/go2_motion/go2_turn_right_0.2radps.txt",
+    "sha256": "2fd00f0e966167b337d21e5a963c4fc6089c73ed396aeb1a3360c39222507c00",
+    "status": "ok",
+    "use": "V4 direction-speed AMP"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "source_xml_sha256": "e36f01b3dafa1d7d2820b200993f5e0a3a1c4bef948a5eb77141cb5686808c40",
+  "profiles_match_all_shared_usd_hashes": true,
+  "note": "XML仅作视觉/拓扑底稿；运行时以USD profile替换惯性、位姿、关节和碰撞，不加载旧策略或切换控制器。"
+}

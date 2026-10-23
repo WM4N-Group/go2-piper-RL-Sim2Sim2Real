@@ -1,0 +1,11 @@
+{
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "executable": "/mnt/miaojigui/conda/envs/go2-piper/bin/python",
+  "packages": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "0.54.4",
+    "isaaclab-rl": "0.5.2",
+    "rsl-rl-lib": "5.0.1",
+    "torch": "2.7.0+cu128"
+  }
+}
